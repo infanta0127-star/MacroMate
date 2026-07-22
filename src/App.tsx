@@ -420,20 +420,34 @@ export default function App() {
         {/* Right Panel: Editor */}
         <section className="flex-1 bg-[#07070c] p-4 lg:p-6 flex flex-col relative z-10 overflow-hidden">
           
-          <div className="flex justify-between items-end mb-4">
-            <div>
-              <h2 className="text-[#c5a059] text-sm font-bold uppercase tracking-tighter">Macro Editor</h2>
-              <p className={`text-[10px] ${macroText.split('\n').length > 15 ? 'text-red-400 font-bold' : 'text-gray-500'}`}>
-                {macroText ? macroText.split('\n').length : 0} / 15 Lines Used
-              </p>
-            </div>
-            <div className="flex space-x-2">
-              <button
-                onClick={handleClear}
-                className="px-3 py-1.5 bg-[#1a1a2e] text-[10px] border border-red-900/50 text-red-400 hover:bg-red-900/20 rounded uppercase tracking-widest transition-colors font-bold"
-              >
-                Clear All
-              </button>
+          <div className="flex justify-between items-center mb-4">
+            <div className="flex items-center gap-4">
+              <div>
+                <h2 className="text-[#c5a059] text-sm font-bold uppercase tracking-tighter">Macro Editor</h2>
+                <p className={`text-[10px] ${macroText.split('\n').length > 15 ? 'text-red-400 font-bold' : 'text-gray-500'}`}>
+                  {macroText ? macroText.split('\n').length : 0} / 15 Lines Used
+                </p>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={handleClear}
+                  className="px-3 py-1 bg-[#1a1a2e] text-xs border border-red-900/50 text-red-400 hover:bg-red-900/20 rounded transition-colors font-bold flex items-center gap-1.5"
+                >
+                  <Trash2 className="w-3.5 h-3.5" />
+                  清除
+                </button>
+                <button
+                  onClick={handleCopy}
+                  className={`px-3 py-1 rounded text-white font-bold text-xs transition-all flex items-center gap-1.5 ${
+                    copied 
+                      ? 'bg-green-600 shadow-[0_2px_8px_rgba(22,163,74,0.3)]' 
+                      : 'bg-gradient-to-b from-[#3b82f6] to-[#1d4ed8] shadow-[0_2px_8px_rgba(59,130,246,0.3)] active:translate-y-0.5'
+                  }`}
+                >
+                  {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                  複製
+                </button>
+              </div>
             </div>
           </div>
 
@@ -480,20 +494,6 @@ export default function App() {
                 <Plus className="w-4 h-4" />
               </button>
             </div>
-
-            <div className="flex-1"></div>
-
-             <button
-              onClick={handleCopy}
-              className={`px-6 py-2 rounded text-white font-bold text-xs lg:text-sm transition-all flex items-center justify-center gap-2 min-w-[120px] lg:min-w-[160px] ${
-                copied 
-                  ? 'bg-green-600 shadow-[0_4px_15px_rgba(22,163,74,0.4)]' 
-                  : 'bg-gradient-to-b from-[#3b82f6] to-[#1d4ed8] shadow-[0_4px_15px_rgba(59,130,246,0.4)] active:translate-y-0.5'
-              }`}
-            >
-              {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-              {copied ? 'COPIED!' : 'COPY MACRO'}
-            </button>
           </div>
           
           {/* Tooltip Overlay */}
