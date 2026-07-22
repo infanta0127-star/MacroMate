@@ -171,7 +171,16 @@ export default function App() {
       <header className="h-16 bg-[#161625] border-b border-[#c5a059]/30 flex items-center justify-between px-6 shadow-2xl shrink-0 z-10">
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 bg-gradient-to-br from-[#c5a059] to-[#8a6d3b] rounded flex items-center justify-center shadow-[0_0_15px_rgba(197,160,89,0.3)]">
-            <Sword className="w-6 h-6 text-[#0a0a0f]" />
+            <svg viewBox="0 0 100 100" className="w-6 h-6">
+              <path 
+                d="M 25 75 L 25 35 L 50 60 L 75 35 L 75 75" 
+                fill="none" 
+                stroke="#0a0a0f" 
+                strokeWidth="12" 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+              />
+            </svg>
           </div>
           <h1 className="text-xl font-bold tracking-widest text-[#c5a059] uppercase">FF14 巨集小幫手</h1>
         </div>
