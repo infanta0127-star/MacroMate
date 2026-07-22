@@ -262,7 +262,7 @@ export default function App() {
         <div className="absolute inset-0 pointer-events-none border-[1px] border-[#3b82f6]/5 m-2 z-0"></div>
         
         {/* Left Panel: Controls */}
-        <aside className="w-full lg:w-[340px] bg-[#0d0d18] border-r border-[#1a1a2e] flex flex-col shrink-0 overflow-y-auto custom-scrollbar z-10">
+        <aside className="w-full lg:w-[510px] bg-[#0d0d18] border-r border-[#1a1a2e] flex flex-col shrink-0 overflow-y-auto custom-scrollbar z-10">
           
           {/* Select Job */}
           {/* Select Job Custom Dropdown */}
