@@ -242,8 +242,8 @@ export default function App() {
       {/* Header */}
       <header className="h-16 bg-[#161625] border-b border-[#c5a059]/30 flex items-center justify-between px-6 shadow-2xl shrink-0 z-10">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 bg-gradient-to-br from-[#c5a059] to-[#8a6d3b] rounded flex items-center justify-center shadow-[0_0_15px_rgba(197,160,89,0.3)]">
-            <svg viewBox="0 0 100 100" className="w-6 h-6">
+          <div className="w-5 h-5 bg-gradient-to-br from-[#c5a059] to-[#8a6d3b] rounded-sm flex items-center justify-center shadow-[0_0_8px_rgba(197,160,89,0.3)]">
+            <svg viewBox="0 0 100 100" className="w-3 h-3">
               <path 
                 d="M 25 75 L 25 35 L 50 60 L 75 35 L 75 75" 
                 fill="none" 
@@ -268,14 +268,14 @@ export default function App() {
           {/* Select Job Custom Dropdown */}
           <div className="p-4 border-b border-[#1a1a2e] bg-[#121220] shrink-0 flex flex-col gap-2 relative" ref={jobDropdownRef}>
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-1.5 text-[11px] text-gray-400 font-bold uppercase tracking-wider">
+              <div className="flex items-center gap-1.5 text-[15px] text-gray-400 font-bold uppercase tracking-wider">
                 <Shield className="w-3.5 h-3.5 text-[#c5a059]" />
                 <span>選擇職業</span>
               </div>
               <button
                 type="button"
                 onClick={() => setIsJobDropdownOpen(!isJobDropdownOpen)}
-                className="flex items-center justify-between gap-2 px-3 py-1.5 bg-[#0a0a0f] border border-[#22d3ee]/80 text-[#22d3ee] rounded text-xs font-bold transition-all focus:outline-none hover:bg-[#22d3ee]/10 w-[140px] shadow-[0_0_8px_rgba(34,211,238,0.2)]"
+                className="flex items-center justify-between gap-2 px-3 py-1.5 bg-[#0a0a0f] border border-[#22d3ee]/80 text-[#22d3ee] rounded text-[15px] font-bold transition-all focus:outline-none hover:bg-[#22d3ee]/10 w-[140px] shadow-[0_0_8px_rgba(34,211,238,0.2)]"
               >
                 <span className="truncate">{jobSkillsData[selectedJob as keyof typeof jobSkillsData]?.name.replace(/（[^）]+）/g, '') || selectedJob}</span>
                 {isJobDropdownOpen ? <ChevronUp className="w-3.5 h-3.5 shrink-0" /> : <ChevronDown className="w-3.5 h-3.5 shrink-0" />}
@@ -288,7 +288,7 @@ export default function App() {
                 {JOB_GROUPS.map((group) => (
                   <div key={group.name} className="mb-2 last:mb-0">
                     {/* Group Header */}
-                    <div className="px-3 py-1 text-[10px] font-bold text-[#3b82f6] uppercase tracking-wider select-none bg-[#121220]/50">
+                    <div className="px-3 py-1 text-[15px] font-bold text-[#3b82f6] uppercase tracking-wider select-none bg-[#121220]/50">
                       {group.name}
                     </div>
                     {/* Group Jobs */}
@@ -305,7 +305,7 @@ export default function App() {
                               setSelectedJob(jobKey);
                               setIsJobDropdownOpen(false);
                             }}
-                            className={`px-5 py-1.5 text-left text-xs font-medium transition-colors w-full ${
+                            className={`px-5 py-1.5 text-left text-[15px] font-medium transition-colors w-full ${
                               isSelected
                                 ? 'bg-[#3b82f6]/20 text-white font-bold border-l-2 border-[#3b82f6]'
                                 : 'text-gray-400 hover:bg-[#1a1a2e] hover:text-gray-200'
@@ -325,7 +325,7 @@ export default function App() {
           {/* Step 1: 巨集規則設定 */}
           <div className="flex flex-col border-b border-[#1a1a2e] shrink-0">
             <div className="p-4 bg-[#121220]">
-              <h2 className="text-[10px] text-[#c5a059] uppercase tracking-widest mb-3 font-bold">1. 設定動作規則</h2>
+              <h2 className="text-[15px] text-[#c5a059] uppercase tracking-widest mb-3 font-bold">1. 設定動作規則</h2>
               
               {/* Category Tabs */}
               <div className="flex bg-[#0a0a0f] rounded border border-[#1a1a2e] p-1 mb-4">
@@ -333,7 +333,7 @@ export default function App() {
                   <button
                     key={cat.id}
                     onClick={() => handleCategoryChange(cat.id as Category)}
-                    className={`flex-1 text-[11px] py-1.5 rounded text-center transition-colors font-bold ${
+                    className={`flex-1 text-[15px] py-1.5 rounded text-center transition-colors font-bold ${
                       config.category === cat.id 
                         ? 'bg-[#252545] text-[#3b82f6] shadow-sm' 
                         : 'text-gray-500 hover:text-gray-300'
@@ -346,7 +346,7 @@ export default function App() {
 
               {/* Target Template */}
               <div className="space-y-2 mb-4">
-                <label className="text-[10px] text-gray-500 uppercase font-bold">施放對象</label>
+                <label className="text-[15px] text-gray-500 uppercase font-bold">施放對象</label>
                 <div className="grid grid-cols-2 gap-2">
                   {TEMPLATES[config.category].map(tpl => {
                     const displayName = tpl.id === 'party' 
@@ -356,7 +356,7 @@ export default function App() {
                       <button
                         key={tpl.id}
                         onClick={() => setConfig({...config, template: tpl.id})}
-                        className={`text-[11px] py-1.5 px-2 rounded border transition-colors text-center font-bold ${
+                        className={`text-[15px] py-1.5 px-2 rounded border transition-colors text-center font-bold ${
                           config.template === tpl.id
                             ? 'bg-[#3b82f6]/20 border-[#3b82f6]/50 text-white'
                             : 'bg-[#1a1a2e] border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
@@ -371,8 +371,8 @@ export default function App() {
                 {config.category === 'ally' && config.template === 'party' && (
                   <div className="mt-2 p-2 bg-[#1a1a2e] rounded border border-[#3b82f6]/30 flex flex-col gap-2">
                     <div className="flex justify-between items-center">
-                      <span className="text-[10px] text-gray-500 font-bold uppercase">隊伍成員編號</span>
-                      <span className="text-[10px] text-[#c5a059] font-mono font-bold">&lt;{config.partyNumber || 2}&gt;</span>
+                      <span className="text-[15px] text-gray-500 font-bold uppercase">隊伍成員編號</span>
+                      <span className="text-[15px] text-[#c5a059] font-mono font-bold">&lt;{config.partyNumber || 2}&gt;</span>
                     </div>
                     <div className="grid grid-cols-8 gap-1">
                       {[1, 2, 3, 4, 5, 6, 7, 8].map(num => (
@@ -380,7 +380,7 @@ export default function App() {
                           key={num}
                           type="button"
                           onClick={() => setConfig(prev => ({ ...prev, partyNumber: num }))}
-                          className={`h-7 rounded text-xs font-bold transition-all ${
+                          className={`h-7 rounded text-[15px] font-bold transition-all ${
                             (config.partyNumber || 2) === num
                               ? 'bg-[#3b82f6] text-white shadow-[0_0_10px_rgba(59,130,246,0.5)]'
                               : 'bg-[#0a0a0f] border border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10 hover:text-white'
@@ -396,7 +396,7 @@ export default function App() {
 
               {/* Options */}
               <div className="space-y-2">
-                 <label className="text-[10px] text-gray-500 uppercase font-bold">附加選項</label>
+                 <label className="text-[15px] text-gray-500 uppercase font-bold">附加選項</label>
                  <div className="flex flex-col gap-3 mt-2">
                    <button 
                      onClick={() => setConfig({...config, useMicon: !config.useMicon})}
@@ -405,7 +405,7 @@ export default function App() {
                      <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useMicon ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
                        {config.useMicon && <Check className="w-3 h-3 text-white" />}
                      </div>
-                     <span className="text-xs text-gray-300 group-hover:text-white transition-colors">顯示技能圖案 (/micon)</span>
+                     <span className="text-[15px] text-gray-300 group-hover:text-white transition-colors">顯示技能圖案 (/micon)</span>
                    </button>
 
                    <div className="flex flex-col gap-2">
@@ -416,7 +416,7 @@ export default function App() {
                        <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useChat ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
                          {config.useChat && <Check className="w-3 h-3 text-white" />}
                        </div>
-                       <span className="text-xs text-gray-300 group-hover:text-white transition-colors">發到對話框</span>
+                       <span className="text-[15px] text-gray-300 group-hover:text-white transition-colors">發到對話框</span>
                      </button>
                      
                      {config.useChat && (
@@ -424,7 +424,7 @@ export default function App() {
                          <select 
                            value={config.chatChannel}
                            onChange={e => setConfig({...config, chatChannel: e.target.value})}
-                           className="bg-[#1a1a2e] border border-[#3b82f6]/30 rounded px-2 py-1.5 text-xs text-[#e2e2e2] focus:outline-none focus:border-[#3b82f6] shrink-0"
+                           className="bg-[#1a1a2e] border border-[#3b82f6]/30 rounded px-2 py-1.5 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#3b82f6] shrink-0"
                          >
                            <option value="/a">團隊</option>
                            <option value="/p">隊伍</option>
@@ -437,7 +437,7 @@ export default function App() {
                            value={config.chatMessage}
                            onChange={e => setConfig({...config, chatMessage: e.target.value})}
                            placeholder="輸入對話..."
-                           className="flex-1 min-w-0 bg-[#07070c] border border-[#3b82f6]/30 rounded px-2 py-1.5 text-xs text-[#e2e2e2] focus:outline-none focus:border-[#c5a059]"
+                           className="flex-1 min-w-0 bg-[#07070c] border border-[#3b82f6]/30 rounded px-2 py-1.5 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#c5a059]"
                          />
                        </div>
                      )}
@@ -450,19 +450,19 @@ export default function App() {
 
           {/* Step 2: Skill Input & Library */}
           <div className="p-4 border-b border-[#1a1a2e] bg-[#121220] shrink-0">
-            <h2 className="text-[10px] text-[#c5a059] uppercase tracking-widest mb-3 font-bold">2. 選擇技能並加入</h2>
+            <h2 className="text-[15px] text-[#c5a059] uppercase tracking-widest mb-3 font-bold">2. 選擇技能並加入</h2>
             <div className="space-y-3">
               <input
                 type="text"
                 value={skillName}
                 onChange={(e) => setSkillName(e.target.value)}
                 placeholder="手動輸入 (例如：地星)"
-                className="w-full bg-[#07070c] border border-[#3b82f6]/30 rounded px-3 py-2 text-sm focus:outline-none focus:border-[#c5a059] text-[#e2e2e2] transition-colors"
+                className="w-full bg-[#07070c] border border-[#3b82f6]/30 rounded px-3 py-2 text-[15px] focus:outline-none focus:border-[#c5a059] text-[#e2e2e2] transition-colors"
               />
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => handleSkillClick(skillName)}
-                  className="px-4 py-2 bg-[#252545] hover:bg-[#3b82f6]/30 border border-[#3b82f6]/50 rounded text-xs text-white transition-colors w-full font-bold"
+                  className="px-4 py-2 bg-[#252545] hover:bg-[#3b82f6]/30 border border-[#3b82f6]/50 rounded text-[15px] text-white transition-colors w-full font-bold"
                 >
                   加入到編輯區
                 </button>
@@ -474,7 +474,7 @@ export default function App() {
                   value={skillSearch}
                   onChange={(e) => setSkillSearch(e.target.value)}
                   placeholder="搜尋職業技能..."
-                  className="w-full bg-[#1a1a2e] border border-[#3b82f6]/20 rounded pl-9 pr-3 py-1.5 text-xs focus:outline-none focus:border-[#3b82f6]/50 text-[#e2e2e2]"
+                  className="w-full bg-[#1a1a2e] border border-[#3b82f6]/20 rounded pl-9 pr-3 py-1.5 text-[15px] focus:outline-none focus:border-[#3b82f6]/50 text-[#e2e2e2]"
                 />
               </div>
             </div>
@@ -489,11 +489,11 @@ export default function App() {
                   onClick={() => handleSkillClick(skill.name)}
                   onMouseEnter={(e) => handleMouseEnter(skill, e)}
                   onMouseLeave={handleMouseLeave}
-                  className="w-full h-[76px] rounded p-1 cursor-pointer group transition-all border bg-[#1a1a2e] border-[#3b82f6]/20 hover:bg-[#3b82f6]/20 hover:border-[#3b82f6]/40"
+                  className="w-full h-[88px] rounded p-1 cursor-pointer group transition-all border bg-[#1a1a2e] border-[#3b82f6]/20 hover:bg-[#3b82f6]/20 hover:border-[#3b82f6]/40"
                 >
                   <div className="w-full h-full rounded flex flex-col items-center justify-center p-1 transition-colors bg-[#252545] text-gray-300 group-hover:text-white">
                     {skill.icon && <img src={skill.icon} alt={skill.name} className="w-6 h-6 mb-1 rounded shadow-sm" />}
-                    <span className="text-[9px] text-center leading-tight line-clamp-2 w-full">{skill.name}</span>
+                    <span className="text-[15px] text-center leading-tight line-clamp-2 w-full">{skill.name}</span>
                   </div>
                 </button>
               ))}
@@ -507,22 +507,22 @@ export default function App() {
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center gap-4">
               <div>
-                <h2 className="text-[#c5a059] text-sm font-bold uppercase tracking-tighter">Macro Editor</h2>
-                <p className={`text-[10px] ${macroText.split('\n').length > 15 ? 'text-red-400 font-bold' : 'text-gray-500'}`}>
+                <h2 className="text-[#c5a059] text-[15px] font-bold uppercase tracking-tighter">Macro Editor</h2>
+                <p className={`text-[15px] ${macroText.split('\n').length > 15 ? 'text-red-400 font-bold' : 'text-gray-500'}`}>
                   {macroText ? macroText.split('\n').length : 0} / 15 Lines Used
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <button
                   onClick={handleClear}
-                  className="px-3 py-1 bg-[#1a1a2e] text-xs border border-red-900/50 text-red-400 hover:bg-red-900/20 rounded transition-colors font-bold flex items-center gap-1.5"
+                  className="px-3 py-1 bg-[#1a1a2e] text-[15px] border border-red-900/50 text-red-400 hover:bg-red-900/20 rounded transition-colors font-bold flex items-center gap-1.5"
                 >
                   <Trash2 className="w-3.5 h-3.5" />
                   清除
                 </button>
                 <button
                   onClick={handleCopy}
-                  className={`px-3 py-1 rounded text-white font-bold text-xs transition-all flex items-center gap-1.5 ${
+                  className={`px-3 py-1 rounded text-white font-bold text-[15px] transition-all flex items-center gap-1.5 ${
                     copied 
                       ? 'bg-green-600 shadow-[0_2px_8px_rgba(22,163,74,0.3)]' 
                       : 'bg-gradient-to-b from-[#3b82f6] to-[#1d4ed8] shadow-[0_2px_8px_rgba(59,130,246,0.3)] active:translate-y-0.5'
@@ -537,9 +537,9 @@ export default function App() {
 
           <div className="flex-1 bg-[#0a0a14] border border-[#3b82f6]/20 rounded-lg flex overflow-hidden shadow-inner min-h-[300px]">
             {/* Line Numbers Gutter */}
-            <div className="w-10 bg-[#0d0d1d] border-r border-[#1a1a2e] flex flex-col items-center pt-4 text-gray-600 select-none text-xs font-mono shrink-0">
+            <div className="w-10 bg-[#0d0d1d] border-r border-[#1a1a2e] flex flex-col items-center pt-4 text-gray-600 select-none text-[15px] font-mono shrink-0">
               {Array.from({ length: Math.max(15, macroText.split('\n').length) }).map((_, i) => (
-                <div key={i} className={`h-[20px] leading-[20px] ${i >= 15 ? 'text-red-900/50' : ''}`}>{i + 1}</div>
+                <div key={i} className={`h-[22px] leading-[22px] ${i >= 15 ? 'text-red-900/50' : ''}`}>{i + 1}</div>
               ))}
             </div>
 
@@ -549,7 +549,7 @@ export default function App() {
               value={macroText}
               onChange={(e) => setMacroText(e.target.value)}
               placeholder="在此編輯您的巨集...&#10;您可以點擊左側的版型來自動生成，或是手動輸入文字。"
-              className="flex-1 w-full bg-transparent text-[#e2e2e2] p-4 resize-none focus:outline-none focus:ring-0 font-mono text-[13px] leading-[20px] whitespace-pre overflow-auto placeholder:text-gray-600"
+              className="flex-1 w-full bg-transparent text-[#e2e2e2] p-4 resize-none focus:outline-none focus:ring-0 font-mono text-[15px] leading-[22px] whitespace-pre overflow-auto placeholder:text-gray-600"
               spellCheck="false"
             />
           </div>
@@ -560,16 +560,16 @@ export default function App() {
             {/* Wait Insertion */}
             <div className="flex items-center gap-2 bg-[#1a1a2e] p-1 rounded border border-[#3b82f6]/20 shadow-inner">
               <Clock className="w-3.5 h-3.5 text-gray-400 ml-2" />
-              <span className="text-[11px] font-bold text-gray-400 uppercase tracking-wider hidden sm:inline">Wait</span>
+              <span className="text-[15px] font-bold text-gray-400 uppercase tracking-wider hidden sm:inline">Wait</span>
               <input 
                 type="number" 
                 min="1" 
                 max="60"
                 value={waitSec}
                 onChange={e => setWaitSec(Number(e.target.value))}
-                className="w-10 bg-transparent text-center text-sm text-[#e2e2e2] font-mono focus:outline-none placeholder:text-gray-600"
+                className="w-10 bg-transparent text-center text-[15px] text-[#e2e2e2] font-mono focus:outline-none placeholder:text-gray-600"
               />
-              <span className="text-[11px] text-gray-500 mr-1 hidden sm:inline">sec</span>
+              <span className="text-[15px] text-gray-500 mr-1 hidden sm:inline">sec</span>
               <button 
                 onClick={appendWait}
                 className="px-3 py-1.5 bg-[#3b82f6]/80 hover:bg-blue-400 rounded text-white transition-colors flex items-center justify-center shadow-md border border-blue-400/50"
@@ -598,9 +598,9 @@ export default function App() {
                   />
                 )}
                 <div className="flex flex-col justify-center">
-                  <div className="text-sm font-bold text-white leading-tight">{hoveredSkill.name}</div>
+                  <div className="text-[15px] font-bold text-white leading-tight">{hoveredSkill.name}</div>
                   {hoveredSkill.classification && (
-                    <span className="w-max px-1.5 py-0.5 text-[9px] font-bold bg-[#c5a059] text-[#0a0a0f] rounded mt-1">
+                    <span className="w-max px-1.5 py-0.5 text-[15px] font-bold bg-[#c5a059] text-[#0a0a0f] rounded mt-1">
                       {hoveredSkill.classification}
                     </span>
                   )}
@@ -609,7 +609,7 @@ export default function App() {
               
               <div className="border-t border-gray-700/50 my-2.5"></div>
               
-              <div className="grid grid-cols-2 gap-y-1 text-[10px] text-gray-400 font-medium">
+              <div className="grid grid-cols-2 gap-y-1 text-[15px] text-gray-400 font-medium">
                 <div>學習條件: <span className="text-gray-200">{hoveredSkill.level || '1級'}</span></div>
                 <div>消費 MP: <span className="text-gray-200">{hoveredSkill.cost || '-'}</span></div>
                 <div className="col-span-2">
@@ -622,7 +622,7 @@ export default function App() {
               
               <div className="border-t border-gray-700/50 my-2.5"></div>
               
-              <div className="text-[11px] text-gray-300 leading-normal whitespace-pre-wrap font-sans">
+              <div className="text-[15px] text-gray-300 leading-normal whitespace-pre-wrap font-sans">
                 {hoveredSkill.description || '暫無說明'}
               </div>
             </div>
