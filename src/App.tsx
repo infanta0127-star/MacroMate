@@ -218,18 +218,6 @@ export default function App() {
           </div>
           <h1 className="text-xl font-bold tracking-widest text-[#c5a059] uppercase">FF14 巨集小幫手</h1>
         </div>
-        <div className="flex items-center gap-4">
-          <select
-            value={selectedJob}
-            onChange={(e) => setSelectedJob(e.target.value)}
-            className="bg-[#252545] border border-[#3b82f6]/50 rounded text-xs px-3 py-1.5 uppercase tracking-tighter text-[#e2e2e2] focus:outline-none focus:border-[#c5a059] transition-colors"
-          >
-            {Object.entries(jobSkillsData).map(([key, job]) => (
-              <option key={key} value={key}>{job.name}</option>
-            ))}
-          </select>
-          <p className="hidden md:block text-[#e2e2e2]/50 text-xs uppercase tracking-widest">Macro Smith v2.0</p>
-        </div>
       </header>
 
       <main className="flex-1 flex flex-col lg:flex-row overflow-hidden relative">
@@ -238,6 +226,20 @@ export default function App() {
         {/* Left Panel: Controls */}
         <aside className="w-full lg:w-[340px] bg-[#0d0d18] border-r border-[#1a1a2e] flex flex-col shrink-0 overflow-y-auto custom-scrollbar z-10">
           
+          {/* Select Job */}
+          <div className="p-4 border-b border-[#1a1a2e] bg-[#121220] shrink-0 flex flex-col gap-2">
+            <label className="text-[10px] text-[#c5a059] uppercase tracking-widest font-bold">選擇職業</label>
+            <select
+              value={selectedJob}
+              onChange={(e) => setSelectedJob(e.target.value)}
+              className="w-full bg-[#1a1a2e] border border-[#3b82f6]/30 rounded text-xs px-3 py-2 uppercase tracking-tighter text-[#e2e2e2] focus:outline-none focus:border-[#c5a059] transition-colors font-bold"
+            >
+              {Object.entries(jobSkillsData).map(([key, job]) => (
+                <option key={key} value={key}>{job.name}</option>
+              ))}
+            </select>
+          </div>
+
           {/* Step 1: 巨集規則設定 */}
           <div className="flex flex-col border-b border-[#1a1a2e] shrink-0">
             <div className="p-4 bg-[#121220]">
