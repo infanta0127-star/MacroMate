@@ -240,8 +240,8 @@ export default function App() {
     <div className="h-screen bg-[#0a0a0f] text-[#e2e2e2] font-sans flex flex-col overflow-hidden selection:bg-[#3b82f6]/30">
       
       {/* Header */}
-      <header className="bg-[#161625] border-b border-[#c5a059]/30 flex flex-col md:flex-row md:items-center justify-between px-6 py-3 gap-4 shadow-2xl shrink-0 z-10">
-        <div className="flex items-center space-x-3 shrink-0">
+      <header className="h-16 bg-[#161625] border-b border-[#c5a059]/30 flex items-center justify-between px-6 shadow-2xl shrink-0 z-10">
+        <div className="flex items-center space-x-3">
           <div className="w-5 h-5 bg-gradient-to-br from-[#c5a059] to-[#8a6d3b] rounded-sm flex items-center justify-center shadow-[0_0_8px_rgba(197,160,89,0.3)]">
             <svg viewBox="0 0 100 100" className="w-3 h-3">
               <path 
@@ -255,124 +255,6 @@ export default function App() {
             </svg>
           </div>
           <h1 className="text-xl font-bold tracking-widest text-[#c5a059] uppercase">FF14 巨集小幫手</h1>
-        </div>
-
-        {/* Action Rules Header Bar */}
-        <div className="flex flex-wrap items-center gap-6 text-[15px]">
-          {/* Category Tabs */}
-          <div className="flex bg-[#0a0a0f] rounded border border-[#1a1a2e] p-1">
-            {CATEGORIES.map(cat => (
-              <button
-                key={cat.id}
-                onClick={() => handleCategoryChange(cat.id as Category)}
-                className={`text-[15px] px-3 py-1 rounded text-center transition-colors font-bold ${
-                  config.category === cat.id 
-                    ? 'bg-[#252545] text-[#3b82f6] shadow-sm' 
-                    : 'text-gray-500 hover:text-gray-300'
-                }`}
-              >
-                {cat.name}
-              </button>
-            ))}
-          </div>
-
-          {/* Target Templates */}
-          <div className="flex items-center gap-2">
-            <span className="text-gray-500 font-bold uppercase whitespace-nowrap">對象:</span>
-            <div className="flex gap-1.5">
-              {TEMPLATES[config.category].map(tpl => {
-                const displayName = tpl.id === 'party' 
-                  ? `隊伍成員 (<${config.partyNumber || 2}>)`
-                  : tpl.name;
-                const isSelected = config.template === tpl.id;
-                return (
-                  <div key={tpl.id} className="relative">
-                    <button
-                      onClick={() => setConfig({...config, template: tpl.id})}
-                      className={`text-[15px] py-1 px-3 rounded border transition-colors text-center font-bold ${
-                        isSelected
-                          ? 'bg-[#3b82f6]/20 border-[#3b82f6]/50 text-white'
-                          : 'bg-[#1a1a2e] border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
-                      }`}
-                    >
-                      {displayName}
-                    </button>
-                    
-                    {/* Floating Party Number Selector */}
-                    {tpl.id === 'party' && isSelected && (
-                      <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 bg-[#121220] border border-[#3b82f6]/50 rounded p-1.5 flex gap-1 z-50 shadow-2xl">
-                        {[1, 2, 3, 4, 5, 6, 7, 8].map(num => (
-                          <button
-                            key={num}
-                            type="button"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setConfig(prev => ({ ...prev, partyNumber: num }));
-                            }}
-                            className={`w-6 h-6 rounded text-[15px] font-bold transition-all ${
-                              (config.partyNumber || 2) === num
-                                ? 'bg-[#3b82f6] text-white'
-                                : 'bg-[#0a0a0f] border border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
-                            }`}
-                          >
-                            {num}
-                          </button>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Options */}
-          <div className="flex items-center gap-4">
-            <button 
-              onClick={() => setConfig({...config, useMicon: !config.useMicon})}
-              className="flex items-center gap-2 group w-max"
-            >
-              <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useMicon ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
-                {config.useMicon && <Check className="w-3 h-3 text-white" />}
-              </div>
-              <span className="text-gray-300 group-hover:text-white transition-colors">顯示技能圖案 (/micon)</span>
-            </button>
-
-            <div className="flex items-center gap-2 relative">
-              <button 
-                onClick={() => setConfig({...config, useChat: !config.useChat})}
-                className="flex items-center gap-2 group w-max"
-              >
-                <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useChat ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
-                  {config.useChat && <Check className="w-3 h-3 text-white" />}
-                </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors">發到對話框</span>
-              </button>
-              
-              {config.useChat && (
-                <div className="absolute top-[calc(100%+4px)] right-0 bg-[#121220] border border-[#3b82f6]/50 rounded p-2 flex gap-2 z-50 shadow-2xl w-[280px]">
-                  <select 
-                    value={config.chatChannel}
-                    onChange={e => setConfig({...config, chatChannel: e.target.value})}
-                    className="bg-[#1a1a2e] border border-[#3b82f6]/30 rounded px-2 py-1 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#3b82f6] shrink-0"
-                  >
-                    <option value="/a">團隊</option>
-                    <option value="/p">隊伍</option>
-                    <option value="/echo">默語</option>
-                    <option value="/s">一般</option>
-                    <option value="">自訂</option>
-                  </select>
-                  <input 
-                    type="text"
-                    value={config.chatMessage}
-                    onChange={e => setConfig({...config, chatMessage: e.target.value})}
-                    placeholder="輸入對話..."
-                    className="flex-1 min-w-0 bg-[#07070c] border border-[#3b82f6]/30 rounded px-2 py-1 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#c5a059]"
-                  />
-                </div>
-              )}
-            </div>
-          </div>
         </div>
       </header>
 
@@ -505,6 +387,124 @@ export default function App() {
 
         {/* Right Panel: Editor */}
         <section className="flex-1 bg-[#07070c] p-4 lg:p-6 flex flex-col relative z-10 overflow-hidden">
+          
+          {/* Action Rules Bar */}
+          <div className="p-4 mb-4 bg-[#121220] border border-[#c5a059]/20 rounded-lg flex flex-wrap items-center gap-6 text-[15px] shrink-0">
+            {/* Category Tabs */}
+            <div className="flex bg-[#0a0a0f] rounded border border-[#1a1a2e] p-1">
+              {CATEGORIES.map(cat => (
+                <button
+                  key={cat.id}
+                  onClick={() => handleCategoryChange(cat.id as Category)}
+                  className={`text-[15px] px-3 py-1 rounded text-center transition-colors font-bold ${
+                    config.category === cat.id 
+                      ? 'bg-[#252545] text-[#3b82f6] shadow-sm' 
+                      : 'text-gray-500 hover:text-gray-300'
+                  }`}
+                >
+                  {cat.name}
+                </button>
+              ))}
+            </div>
+
+            {/* Target Templates */}
+            <div className="flex items-center gap-2">
+              <span className="text-gray-500 font-bold uppercase whitespace-nowrap">對象:</span>
+              <div className="flex gap-1.5">
+                {TEMPLATES[config.category].map(tpl => {
+                  const displayName = tpl.id === 'party' 
+                    ? `隊伍成員 (<${config.partyNumber || 2}>)`
+                    : tpl.name;
+                  const isSelected = config.template === tpl.id;
+                  return (
+                    <div key={tpl.id} className="relative">
+                      <button
+                        onClick={() => setConfig({...config, template: tpl.id})}
+                        className={`text-[15px] py-1 px-3 rounded border transition-colors text-center font-bold ${
+                          isSelected
+                            ? 'bg-[#3b82f6]/20 border-[#3b82f6]/50 text-white'
+                            : 'bg-[#1a1a2e] border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
+                        }`}
+                      >
+                        {displayName}
+                      </button>
+                      
+                      {/* Floating Party Number Selector */}
+                      {tpl.id === 'party' && isSelected && (
+                        <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 bg-[#121220] border border-[#3b82f6]/50 rounded p-1.5 flex gap-1 z-50 shadow-2xl">
+                          {[1, 2, 3, 4, 5, 6, 7, 8].map(num => (
+                            <button
+                              key={num}
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setConfig(prev => ({ ...prev, partyNumber: num }));
+                              }}
+                              className={`w-6 h-6 rounded text-[15px] font-bold transition-all ${
+                                (config.partyNumber || 2) === num
+                                  ? 'bg-[#3b82f6] text-white'
+                                  : 'bg-[#0a0a0f] border border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
+                              }`}
+                            >
+                              {num}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Options */}
+            <div className="flex items-center gap-4">
+              <button 
+                onClick={() => setConfig({...config, useMicon: !config.useMicon})}
+                className="flex items-center gap-2 group w-max"
+              >
+                <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useMicon ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
+                  {config.useMicon && <Check className="w-3 h-3 text-white" />}
+                </div>
+                <span className="text-gray-300 group-hover:text-white transition-colors">顯示技能圖案 (/micon)</span>
+              </button>
+
+              <div className="flex items-center gap-2 relative">
+                <button 
+                  onClick={() => setConfig({...config, useChat: !config.useChat})}
+                  className="flex items-center gap-2 group w-max"
+                >
+                  <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useChat ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
+                    {config.useChat && <Check className="w-3 h-3 text-white" />}
+                  </div>
+                  <span className="text-gray-300 group-hover:text-white transition-colors">發到對話框</span>
+                </button>
+                
+                {config.useChat && (
+                  <div className="absolute top-[calc(100%+4px)] right-0 bg-[#121220] border border-[#3b82f6]/50 rounded p-2 flex gap-2 z-50 shadow-2xl w-[280px]">
+                    <select 
+                      value={config.chatChannel}
+                      onChange={e => setConfig({...config, chatChannel: e.target.value})}
+                      className="bg-[#1a1a2e] border border-[#3b82f6]/30 rounded px-2 py-1 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#3b82f6] shrink-0"
+                    >
+                      <option value="/a">團隊</option>
+                      <option value="/p">隊伍</option>
+                      <option value="/echo">默語</option>
+                      <option value="/s">一般</option>
+                      <option value="">自訂</option>
+                    </select>
+                    <input 
+                      type="text"
+                      value={config.chatMessage}
+                      onChange={e => setConfig({...config, chatMessage: e.target.value})}
+                      placeholder="輸入對話..."
+                      className="flex-1 min-w-0 bg-[#07070c] border border-[#3b82f6]/30 rounded px-2 py-1 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#c5a059]"
+                    />
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
           
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center gap-4">
