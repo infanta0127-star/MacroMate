@@ -1,0 +1,5251 @@
+{
+  "paladin": {
+    "name": "騎士（劍術士）",
+    "skills": [
+      {
+        "name": "先鋒劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/01.png"
+      },
+      {
+        "name": "戰逃反應",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/02.png"
+      },
+      {
+        "name": "暴亂劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/03.png"
+      },
+      {
+        "name": "日全蝕",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/04.png"
+      },
+      {
+        "name": "盾牌猛擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/05.png"
+      },
+      {
+        "name": "鋼鐵信念",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/06.png"
+      },
+      {
+        "name": "解除鋼鐵信念",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/07.png"
+      },
+      {
+        "name": "投盾",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/08.png"
+      },
+      {
+        "name": "戰女神之怒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/09.png"
+      },
+      {
+        "name": "深奧之靈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/10.png"
+      },
+      {
+        "name": "盾陣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/11.png"
+      },
+      {
+        "name": "預警",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/12.png"
+      },
+      {
+        "name": "日珥斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/13.png"
+      },
+      {
+        "name": "保護",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/14.png"
+      },
+      {
+        "name": "厄運流轉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/15.png"
+      },
+      {
+        "name": "神聖領域",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/16.png"
+      },
+      {
+        "name": "壁壘",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/17.png"
+      },
+      {
+        "name": "瀝血劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/18.png"
+      },
+      {
+        "name": "聖光幕簾",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/19.png"
+      },
+      {
+        "name": "深仁厚澤",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/20.png"
+      },
+      {
+        "name": "王權劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/21.png"
+      },
+      {
+        "name": "干預",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/22.png"
+      },
+      {
+        "name": "聖靈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/23.png"
+      },
+      {
+        "name": "調停",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/24.png"
+      },
+      {
+        "name": "安魂祈禱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/25.png"
+      },
+      {
+        "name": "武裝戍衛",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/26.png"
+      },
+      {
+        "name": "聖環",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/27.png"
+      },
+      {
+        "name": "贖罪劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/28.png"
+      },
+      {
+        "name": "祈告劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/29.png"
+      },
+      {
+        "name": "葬送劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/30.png"
+      },
+      {
+        "name": "悔罪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/31.png"
+      },
+      {
+        "name": "聖盾陣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/32.png"
+      },
+      {
+        "name": "償贖劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/33.png"
+      },
+      {
+        "name": "信念之劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/34.png"
+      },
+      {
+        "name": "真理之劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/35.png"
+      },
+      {
+        "name": "英勇之劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/36.png"
+      },
+      {
+        "name": "極致防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/37.png"
+      },
+      {
+        "name": "絕對統治",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/38.png"
+      },
+      {
+        "name": "榮耀之劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/39.png"
+      },
+      {
+        "name": "鐵壁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/40.png"
+      },
+      {
+        "name": "下踢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/41.png"
+      },
+      {
+        "name": "挑釁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/42.png"
+      },
+      {
+        "name": "插言",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/43.png"
+      },
+      {
+        "name": "雪仇",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/44.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/45.png"
+      },
+      {
+        "name": "退避",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/46.png"
+      },
+      {
+        "name": "強盾猛擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/72.png"
+      },
+      {
+        "name": "衛護",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/77.png"
+      },
+      {
+        "name": "列陣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/85.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/common/icon/05.png"
+      },
+      {
+        "name": "暴怒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/91.png"
+      },
+      {
+        "name": "全力揮打",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/93.png"
+      },
+      {
+        "name": "劍術士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/icon_distant.png"
+      },
+      {
+        "name": "騎士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/icon_distant.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/../images/icon_distant.png"
+      }
+    ]
+  },
+  "warrior": {
+    "name": "戰士（斧術士）",
+    "skills": [
+      {
+        "name": "重劈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/01.png"
+      },
+      {
+        "name": "凶殘裂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/02.png"
+      },
+      {
+        "name": "狂暴",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/03.png"
+      },
+      {
+        "name": "超壓斧",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/04.png"
+      },
+      {
+        "name": "守護",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/05.png"
+      },
+      {
+        "name": "解除守護",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/06.png"
+      },
+      {
+        "name": "飛斧",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/07.png"
+      },
+      {
+        "name": "暴風斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/08.png"
+      },
+      {
+        "name": "戰慄",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/09.png"
+      },
+      {
+        "name": "原初之魂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/10.png"
+      },
+      {
+        "name": "復仇",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/11.png"
+      },
+      {
+        "name": "秘銀暴風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/12.png"
+      },
+      {
+        "name": "死鬥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/13.png"
+      },
+      {
+        "name": "鋼鐵旋風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/14.png"
+      },
+      {
+        "name": "暴風碎",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/15.png"
+      },
+      {
+        "name": "戰嚎",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/16.png"
+      },
+      {
+        "name": "裂石飛環",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/17.png"
+      },
+      {
+        "name": "原初的直覺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/18.png"
+      },
+      {
+        "name": "泰然自若",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/19.png"
+      },
+      {
+        "name": "地毀人亡",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/20.png"
+      },
+      {
+        "name": "猛攻",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/21.png"
+      },
+      {
+        "name": "動亂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/22.png"
+      },
+      {
+        "name": "擺脫",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/23.png"
+      },
+      {
+        "name": "原初的解放",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/24.png"
+      },
+      {
+        "name": "混沌旋風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/25.png"
+      },
+      {
+        "name": "原初的勇猛",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/26.png"
+      },
+      {
+        "name": "狂魂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/27.png"
+      },
+      {
+        "name": "原初的血氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/28.png"
+      },
+      {
+        "name": "群山隆起",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/29.png"
+      },
+      {
+        "name": "蠻荒崩裂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/30.png"
+      },
+      {
+        "name": "戮罪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/31.png"
+      },
+      {
+        "name": "原初的怒震",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/32.png"
+      },
+      {
+        "name": "盡毀",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/33.png"
+      },
+      {
+        "name": "鐵壁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/34.png"
+      },
+      {
+        "name": "下踢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/35.png"
+      },
+      {
+        "name": "挑釁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/36.png"
+      },
+      {
+        "name": "插言",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/37.png"
+      },
+      {
+        "name": "雪仇",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/38.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/39.png"
+      },
+      {
+        "name": "退避",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/40.png"
+      },
+      {
+        "name": "獻身",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/68.png"
+      },
+      {
+        "name": "原初的怒號",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/75.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/common/icon/05.png"
+      },
+      {
+        "name": "暴怒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/81.png"
+      },
+      {
+        "name": "全力揮打",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/83.png"
+      },
+      {
+        "name": "斧術士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/icon_distant.png"
+      },
+      {
+        "name": "戰士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/icon_distant.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/../images/icon_distant.png"
+      }
+    ]
+  },
+  "darkknight": {
+    "name": "暗黑騎士",
+    "skills": [
+      {
+        "name": "重斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/01.png"
+      },
+      {
+        "name": "吸收斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/02.png"
+      },
+      {
+        "name": "釋放",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/03.png"
+      },
+      {
+        "name": "深惡痛絕",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/04.png"
+      },
+      {
+        "name": "深惡痛絕解除",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/05.png"
+      },
+      {
+        "name": "傷殘",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/06.png"
+      },
+      {
+        "name": "噬魂斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/07.png"
+      },
+      {
+        "name": "暗黑の波動",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/08.png"
+      },
+      {
+        "name": "嗜血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/09.png"
+      },
+      {
+        "name": "暗影牆",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/10.png"
+      },
+      {
+        "name": "剛魂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/11.png"
+      },
+      {
+        "name": "暗黑の剣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/12.png"
+      },
+      {
+        "name": "棄明投暗",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/13.png"
+      },
+      {
+        "name": "行屍走肉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/14.png"
+      },
+      {
+        "name": "腐穢大地",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/15.png"
+      },
+      {
+        "name": "暗影步",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/16.png"
+      },
+      {
+        "name": "吸血深淵",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/17.png"
+      },
+      {
+        "name": "精雕怒斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/18.png"
+      },
+      {
+        "name": "血濺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/19.png"
+      },
+      {
+        "name": "寂滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/20.png"
+      },
+      {
+        "name": "暗黑佈道",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/21.png"
+      },
+      {
+        "name": "血亂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/22.png"
+      },
+      {
+        "name": "至黑之夜",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/23.png"
+      },
+      {
+        "name": "暗影波動",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/24.png"
+      },
+      {
+        "name": "暗影鋒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/25.png"
+      },
+      {
+        "name": "影身具現",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/26.png"
+      },
+      {
+        "name": "獻奉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/27.png"
+      },
+      {
+        "name": "腐穢黑暗",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/28.png"
+      },
+      {
+        "name": "暗影使者",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/29.png"
+      },
+      {
+        "name": "暗影衛",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/30.png"
+      },
+      {
+        "name": "血紅亂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/31.png"
+      },
+      {
+        "name": "報應",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/32.png"
+      },
+      {
+        "name": "戮山",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/33.png"
+      },
+      {
+        "name": "刺穿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/34.png"
+      },
+      {
+        "name": "掠影的蔑視",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/35.png"
+      },
+      {
+        "name": "鐵壁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/36.png"
+      },
+      {
+        "name": "下踢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/37.png"
+      },
+      {
+        "name": "挑釁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/38.png"
+      },
+      {
+        "name": "插言",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/39.png"
+      },
+      {
+        "name": "雪仇",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/40.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/41.png"
+      },
+      {
+        "name": "退避",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/42.png"
+      },
+      {
+        "name": "跳斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/63.png"
+      },
+      {
+        "name": "夜昏",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/71.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/../images/common/icon/05.png"
+      },
+      {
+        "name": "暴怒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/77.png"
+      },
+      {
+        "name": "全力揮打",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/79.png"
+      },
+      {
+        "name": "暗黑騎士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/../images/icon_distant.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/../images/icon_distant.png"
+      }
+    ]
+  },
+  "gunbreaker": {
+    "name": "絕槍戰士",
+    "skills": [
+      {
+        "name": "利刃斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/01.png"
+      },
+      {
+        "name": "無情",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/02.png"
+      },
+      {
+        "name": "殘暴彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/03.png"
+      },
+      {
+        "name": "偽裝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/04.png"
+      },
+      {
+        "name": "惡魔切",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/05.png"
+      },
+      {
+        "name": "王家之盾",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/06.png"
+      },
+      {
+        "name": "王家之盾解除",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/07.png"
+      },
+      {
+        "name": "雷電彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/08.png"
+      },
+      {
+        "name": "危險帶",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/09.png"
+      },
+      {
+        "name": "迅連斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/10.png"
+      },
+      {
+        "name": "爆發擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/11.png"
+      },
+      {
+        "name": "星雲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/12.png"
+      },
+      {
+        "name": "惡魔殺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/13.png"
+      },
+      {
+        "name": "極光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/14.png"
+      },
+      {
+        "name": "超火流星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/15.png"
+      },
+      {
+        "name": "音速破",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/16.png"
+      },
+      {
+        "name": "彈道",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/17.png"
+      },
+      {
+        "name": "烈牙",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/18.png"
+      },
+      {
+        "name": "猛獸爪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/19.png"
+      },
+      {
+        "name": "凶禽爪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/20.png"
+      },
+      {
+        "name": "弓形衝波",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/21.png"
+      },
+      {
+        "name": "光之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/22.png"
+      },
+      {
+        "name": "石之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/23.png"
+      },
+      {
+        "name": "續劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/24.png"
+      },
+      {
+        "name": "撕喉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/25.png"
+      },
+      {
+        "name": "裂膛",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/26.png"
+      },
+      {
+        "name": "穿目",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/27.png"
+      },
+      {
+        "name": "命運之環",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/28.png"
+      },
+      {
+        "name": "血壤",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/29.png"
+      },
+      {
+        "name": "爆破領域",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/30.png"
+      },
+      {
+        "name": "剛玉之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/31.png"
+      },
+      {
+        "name": "超高速",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/32.png"
+      },
+      {
+        "name": "倍攻",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/33.png"
+      },
+      {
+        "name": "大星雲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/34.png"
+      },
+      {
+        "name": "命運之印",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/35.png"
+      },
+      {
+        "name": "崛起之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/36.png"
+      },
+      {
+        "name": "支配之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/37.png"
+      },
+      {
+        "name": "終結之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/38.png"
+      },
+      {
+        "name": "鐵壁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/39.png"
+      },
+      {
+        "name": "下踢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/40.png"
+      },
+      {
+        "name": "挑釁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/41.png"
+      },
+      {
+        "name": "插言",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/42.png"
+      },
+      {
+        "name": "雪仇",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/43.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/44.png"
+      },
+      {
+        "name": "退避",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/45.png"
+      },
+      {
+        "name": "粗分斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/69.png"
+      },
+      {
+        "name": "連続剣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/79.png"
+      },
+      {
+        "name": "終結擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/80.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝��",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/../images/common/icon/05.png"
+      },
+      {
+        "name": "ランページ",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/86.png"
+      },
+      {
+        "name": "フルスイング",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/88.png"
+      },
+      {
+        "name": "絕槍戰士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/../images/icon_distant.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/../images/icon_distant.png"
+      }
+    ]
+  },
+  "whitemage": {
+    "name": "白魔道士（幻術士）",
+    "skills": [
+      {
+        "name": "巨岩",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/01.png"
+      },
+      {
+        "name": "療傷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/02.png"
+      },
+      {
+        "name": "勁風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/03.png"
+      },
+      {
+        "name": "醫治",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/04.png"
+      },
+      {
+        "name": "復活",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/05.png"
+      },
+      {
+        "name": "中巨岩",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/06.png"
+      },
+      {
+        "name": "中療傷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/07.png"
+      },
+      {
+        "name": "神速魔",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/08.png"
+      },
+      {
+        "name": "再生",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/09.png"
+      },
+      {
+        "name": "大療傷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/10.png"
+      },
+      {
+        "name": "乙太變移",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/11.png"
+      },
+      {
+        "name": "神聖",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/12.png"
+      },
+      {
+        "name": "中勁風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/13.png"
+      },
+      {
+        "name": "醫濟",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/14.png"
+      },
+      {
+        "name": "天賜祝福",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/15.png"
+      },
+      {
+        "name": "安慰之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/16.png"
+      },
+      {
+        "name": "庇護所",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/17.png"
+      },
+      {
+        "name": "大巨岩",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/18.png"
+      },
+      {
+        "name": "法令",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/19.png"
+      },
+      {
+        "name": "無中生有",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/20.png"
+      },
+      {
+        "name": "神名",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/21.png"
+      },
+      {
+        "name": "超巨岩",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/22.png"
+      },
+      {
+        "name": "神祝禱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/23.png"
+      },
+      {
+        "name": "全大赦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/24.png"
+      },
+      {
+        "name": "天輝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/25.png"
+      },
+      {
+        "name": "閃耀",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/26.png"
+      },
+      {
+        "name": "苦難之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/27.png"
+      },
+      {
+        "name": "狂喜之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/28.png"
+      },
+      {
+        "name": "節制",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/29.png"
+      },
+      {
+        "name": "閃灼",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/30.png"
+      },
+      {
+        "name": "豪聖",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/31.png"
+      },
+      {
+        "name": "水流幕",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/32.png"
+      },
+      {
+        "name": "禮儀之鈴",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/33.png"
+      },
+      {
+        "name": "閃颯",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/34.png"
+      },
+      {
+        "name": "醫養",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/35.png"
+      },
+      {
+        "name": "神愛撫",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/36.png"
+      },
+      {
+        "name": "沉靜",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/37.png"
+      },
+      {
+        "name": "復原",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/38.png"
+      },
+      {
+        "name": "醒夢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/39.png"
+      },
+      {
+        "name": "即刻詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/40.png"
+      },
+      {
+        "name": "沉穩詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/41.png"
+      },
+      {
+        "name": "營救",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/42.png"
+      },
+      {
+        "name": "自然的奇蹟",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/69.png"
+      },
+      {
+        "name": "熾天強襲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/70.png"
+      },
+      {
+        "name": "滌罪之心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/73.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/../images/common/icon/05.png"
+      },
+      {
+        "name": "療癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/79.png"
+      },
+      {
+        "name": "堅石膚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/80.png"
+      },
+      {
+        "name": "潰破",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/81.png"
+      },
+      {
+        "name": "幻術士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/../images/icon_distant.png"
+      },
+      {
+        "name": "白魔道士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/../images/icon_distant.png"
+      },
+      {
+        "name": "治療職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/../images/icon_distant.png"
+      }
+    ]
+  },
+  "scholar": {
+    "name": "學者（巴術士）",
+    "skills": [
+      {
+        "name": "毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/01.png"
+      },
+      {
+        "name": "毒化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/02.png"
+      },
+      {
+        "name": "醫術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/03.png"
+      },
+      {
+        "name": "朝日召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/04.png"
+      },
+      {
+        "name": "復生",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/05.png"
+      },
+      {
+        "name": "仙光的低語",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/06.png"
+      },
+      {
+        "name": "中度毒化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/07.png"
+      },
+      {
+        "name": "鼓舞激勵之策",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/08.png"
+      },
+      {
+        "name": "士氣高揚之策",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/09.png"
+      },
+      {
+        "name": "毀壞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/10.png"
+      },
+      {
+        "name": "異想的幻光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/11.png"
+      },
+      {
+        "name": "乙太超流",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/12.png"
+      },
+      {
+        "name": "吸取能量",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/13.png"
+      },
+      {
+        "name": "生命活性法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/14.png"
+      },
+      {
+        "name": "破陣法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/15.png"
+      },
+      {
+        "name": "野戰治療陣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/16.png"
+      },
+      {
+        "name": "不屈不撓之策",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/17.png"
+      },
+      {
+        "name": "氣炎法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/18.png"
+      },
+      {
+        "name": "展開戰術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/19.png"
+      },
+      {
+        "name": "應急戰術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/20.png"
+      },
+      {
+        "name": "轉化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/21.png"
+      },
+      {
+        "name": "深謀遠慮之策",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/22.png"
+      },
+      {
+        "name": "魔炎法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/23.png"
+      },
+      {
+        "name": "連環計",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/24.png"
+      },
+      {
+        "name": "乙太契約",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/25.png"
+      },
+      {
+        "name": "融光解除",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/26.png"
+      },
+      {
+        "name": "蠱毒法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/27.png"
+      },
+      {
+        "name": "死炎法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/28.png"
+      },
+      {
+        "name": "秘策",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/29.png"
+      },
+      {
+        "name": "異想的祥光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/30.png"
+      },
+      {
+        "name": "熾天召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/31.png"
+      },
+      {
+        "name": "慰藉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/32.png"
+      },
+      {
+        "name": "極炎法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/33.png"
+      },
+      {
+        "name": "裂陣法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/34.png"
+      },
+      {
+        "name": "生命回生法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/35.png"
+      },
+      {
+        "name": "疾風怒濤之計",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/36.png"
+      },
+      {
+        "name": "埋伏之毒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/37.png"
+      },
+      {
+        "name": "意氣軒昂之策",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/38.png"
+      },
+      {
+        "name": "熾天附體",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/39.png"
+      },
+      {
+        "name": "顯靈之章",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/40.png"
+      },
+      {
+        "name": "降臨之章",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/41.png"
+      },
+      {
+        "name": "沉靜",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/57.png"
+      },
+      {
+        "name": "復原",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/58.png"
+      },
+      {
+        "name": "醒夢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/59.png"
+      },
+      {
+        "name": "即刻詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/60.png"
+      },
+      {
+        "name": "沉穩詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/61.png"
+      },
+      {
+        "name": "營救",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/62.png"
+      },
+      {
+        "name": "熾天的光環",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/87.png"
+      },
+      {
+        "name": "熾天的幕簾",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/89.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/../images/common/icon/05.png"
+      },
+      {
+        "name": "療癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/96.png"
+      },
+      {
+        "name": "堅石膚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/97.png"
+      },
+      {
+        "name": "潰破",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/98.png"
+      },
+      {
+        "name": "學者",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/../images/icon_distant.png"
+      },
+      {
+        "name": "巴術士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/../images/icon_distant.png"
+      },
+      {
+        "name": "治療職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/../images/icon_distant.png"
+      }
+    ]
+  },
+  "astrologian": {
+    "name": "占星術師",
+    "skills": [
+      {
+        "name": "凶星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/01.png"
+      },
+      {
+        "name": "吉星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/02.png"
+      },
+      {
+        "name": "燒灼",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/03.png"
+      },
+      {
+        "name": "光速",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/04.png"
+      },
+      {
+        "name": "陽星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/05.png"
+      },
+      {
+        "name": "生辰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/06.png"
+      },
+      {
+        "name": "先天稟賦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/07.png"
+      },
+      {
+        "name": "福星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/08.png"
+      },
+      {
+        "name": "星極抽卡",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/09.png"
+      },
+      {
+        "name": "靈極抽卡",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/10.png"
+      },
+      {
+        "name": "出卡I",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/11.png"
+      },
+      {
+        "name": "出卡II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/12.png"
+      },
+      {
+        "name": "出卡III",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/13.png"
+      },
+      {
+        "name": "吉星相位",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/14.png"
+      },
+      {
+        "name": "陽星相位",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/15.png"
+      },
+      {
+        "name": "重力",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/16.png"
+      },
+      {
+        "name": "熾灼",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/17.png"
+      },
+      {
+        "name": "星位合圖",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/18.png"
+      },
+      {
+        "name": "占卜",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/19.png"
+      },
+      {
+        "name": "災星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/20.png"
+      },
+      {
+        "name": "命運之輪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/21.png"
+      },
+      {
+        "name": "天星衝日",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/22.png"
+      },
+      {
+        "name": "地星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/23.png"
+      },
+      {
+        "name": "星體爆轟",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/24.png"
+      },
+      {
+        "name": "禍星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/25.png"
+      },
+      {
+        "name": "小奧秘卡",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/26.png"
+      },
+      {
+        "name": "焚灼",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/27.png"
+      },
+      {
+        "name": "煞星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/28.png"
+      },
+      {
+        "name": "天星交錯",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/29.png"
+      },
+      {
+        "name": "天宮圖",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/30.png"
+      },
+      {
+        "name": "中間學派",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/32.png"
+      },
+      {
+        "name": "落陷凶星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/33.png"
+      },
+      {
+        "name": "中重力",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/34.png"
+      },
+      {
+        "name": "擢升",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/35.png"
+      },
+      {
+        "name": "大宇宙",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/36.png"
+      },
+      {
+        "name": "小宇宙",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/37.png"
+      },
+      {
+        "name": "神諭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/38.png"
+      },
+      {
+        "name": "陽星合相",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/39.png"
+      },
+      {
+        "name": "太陽星座",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/40.png"
+      },
+      {
+        "name": "太陽神之衡",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/41.png"
+      },
+      {
+        "name": "放浪神之箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/42.png"
+      },
+      {
+        "name": "建築神之塔",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/43.png"
+      },
+      {
+        "name": "戰爭神之槍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/44.png"
+      },
+      {
+        "name": "世界樹之幹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/45.png"
+      },
+      {
+        "name": "河流神之瓶",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/46.png"
+      },
+      {
+        "name": "王冠之領主",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/47.png"
+      },
+      {
+        "name": "王冠之貴婦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/48.png"
+      },
+      {
+        "name": "沉靜",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/49.png"
+      },
+      {
+        "name": "復原",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/50.png"
+      },
+      {
+        "name": "醒夢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/51.png"
+      },
+      {
+        "name": "即刻詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/52.png"
+      },
+      {
+        "name": "沉穩詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/53.png"
+      },
+      {
+        "name": "營救",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/54.png"
+      },
+      {
+        "name": "雙重詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/79.png"
+      },
+      {
+        "name": "本輪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/82.png"
+      },
+      {
+        "name": "逆行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/85.png"
+      },
+      {
+        "name": "星河漫天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/88.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/../images/common/icon/05.png"
+      },
+      {
+        "name": "療癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/94.png"
+      },
+      {
+        "name": "堅石膚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/95.png"
+      },
+      {
+        "name": "潰破",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/96.png"
+      },
+      {
+        "name": "占星術師",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/../images/icon_distant.png"
+      },
+      {
+        "name": "治療職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/../images/icon_distant.png"
+      }
+    ]
+  },
+  "sage": {
+    "name": "賢者",
+    "skills": [
+      {
+        "name": "注藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/01.png"
+      },
+      {
+        "name": "診斷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/02.png"
+      },
+      {
+        "name": "心關",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/03.png"
+      },
+      {
+        "name": "預後",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/04.png"
+      },
+      {
+        "name": "復甦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/05.png"
+      },
+      {
+        "name": "自生",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/06.png"
+      },
+      {
+        "name": "發炎",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/07.png"
+      },
+      {
+        "name": "均衡",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/08.png"
+      },
+      {
+        "name": "均衡診斷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/09.png"
+      },
+      {
+        "name": "均衡預後",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/10.png"
+      },
+      {
+        "name": "均衡注藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/11.png"
+      },
+      {
+        "name": "拯救",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/12.png"
+      },
+      {
+        "name": "神翼",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/13.png"
+      },
+      {
+        "name": "靈橡清汁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/14.png"
+      },
+      {
+        "name": "失衡",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/15.png"
+      },
+      {
+        "name": "堅角清汁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/16.png"
+      },
+      {
+        "name": "寄生清汁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/17.png"
+      },
+      {
+        "name": "活化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/18.png"
+      },
+      {
+        "name": "消化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/19.png"
+      },
+      {
+        "name": "自生II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/20.png"
+      },
+      {
+        "name": "白牛清汁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/21.png"
+      },
+      {
+        "name": "箭毒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/22.png"
+      },
+      {
+        "name": "輸血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/23.png"
+      },
+      {
+        "name": "注藥II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/24.png"
+      },
+      {
+        "name": "發炎II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/25.png"
+      },
+      {
+        "name": "均衡注藥II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/26.png"
+      },
+      {
+        "name": "根素",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/27.png"
+      },
+      {
+        "name": "整體論",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/28.png"
+      },
+      {
+        "name": "泛輸血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/29.png"
+      },
+      {
+        "name": "注藥III",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/30.png"
+      },
+      {
+        "name": "發炎III",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/31.png"
+      },
+      {
+        "name": "均衡注藥III",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/32.png"
+      },
+      {
+        "name": "失衡II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/33.png"
+      },
+      {
+        "name": "均衡・失衡",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/34.png"
+      },
+      {
+        "name": "箭毒II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/35.png"
+      },
+      {
+        "name": "混合",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/36.png"
+      },
+      {
+        "name": "魂靈風息",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/37.png"
+      },
+      {
+        "name": "心神風息",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/38.png"
+      },
+      {
+        "name": "均衡預後II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/39.png"
+      },
+      {
+        "name": "智慧之愛",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/40.png"
+      },
+      {
+        "name": "沉靜",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/41.png"
+      },
+      {
+        "name": "復原",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/42.png"
+      },
+      {
+        "name": "醒夢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/43.png"
+      },
+      {
+        "name": "即刻詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/44.png"
+      },
+      {
+        "name": "沉穩詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/45.png"
+      },
+      {
+        "name": "營救",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/46.png"
+      },
+      {
+        "name": "中庸之道",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/74.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/../images/common/icon/05.png"
+      },
+      {
+        "name": "療癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/80.png"
+      },
+      {
+        "name": "堅石膚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/81.png"
+      },
+      {
+        "name": "潰破",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/82.png"
+      },
+      {
+        "name": "賢者",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/../images/icon_distant.png"
+      },
+      {
+        "name": "治療職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/../images/icon_distant.png"
+      }
+    ]
+  },
+  "monk": {
+    "name": "武僧（格鬥士）",
+    "skills": [
+      {
+        "name": "連撃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/01.png"
+      },
+      {
+        "name": "正拳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/02.png"
+      },
+      {
+        "name": "崩拳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/03.png"
+      },
+      {
+        "name": "鐵山鬥氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/04.png"
+      },
+      {
+        "name": "鐵山靠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/05.png"
+      },
+      {
+        "name": "雙掌打",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/06.png"
+      },
+      {
+        "name": "破壞神衝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/07.png"
+      },
+      {
+        "name": "破碎拳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/08.png"
+      },
+      {
+        "name": "地烈勁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/09.png"
+      },
+      {
+        "name": "輕身步法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/10.png"
+      },
+      {
+        "name": "空鳴鬥氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/11.png"
+      },
+      {
+        "name": "空鳴拳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/12.png"
+      },
+      {
+        "name": "真言",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/13.png"
+      },
+      {
+        "name": "四面腳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/14.png"
+      },
+      {
+        "name": "雙龍腳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/15.png"
+      },
+      {
+        "name": "震腳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/16.png"
+      },
+      {
+        "name": "演武",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/17.png"
+      },
+      {
+        "name": "陰陽鬥氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/04.png"
+      },
+      {
+        "name": "陰陽鬥氣斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/18.png"
+      },
+      {
+        "name": "必殺技",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/19.png"
+      },
+      {
+        "name": "鬥魂旋風腳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/20.png"
+      },
+      {
+        "name": "蒼氣砲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/21.png"
+      },
+      {
+        "name": "翻天腳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/22.png"
+      },
+      {
+        "name": "爆裂腳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/23.png"
+      },
+      {
+        "name": "金剛極意",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/24.png"
+      },
+      {
+        "name": "金剛周天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/25.png"
+      },
+      {
+        "name": "紅蓮極意",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/26.png"
+      },
+      {
+        "name": "義結金蘭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/27.png"
+      },
+      {
+        "name": "疾風極意",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/28.png"
+      },
+      {
+        "name": "萬象鬥氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/11.png"
+      },
+      {
+        "name": "萬象鬥氣圈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/29.png"
+      },
+      {
+        "name": "六合星導腳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/30.png"
+      },
+      {
+        "name": "破壞神腳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/31.png"
+      },
+      {
+        "name": "鳳凰舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/32.png"
+      },
+      {
+        "name": "夢幻鬥舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/33.png"
+      },
+      {
+        "name": "猿舞連擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/34.png"
+      },
+      {
+        "name": "龍顎正拳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/35.png"
+      },
+      {
+        "name": "虎襲崩拳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/36.png"
+      },
+      {
+        "name": "真空波",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/37.png"
+      },
+      {
+        "name": "絕空拳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/38.png"
+      },
+      {
+        "name": "乾坤鬥氣彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/39.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/40.png"
+      },
+      {
+        "name": "掃腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/41.png"
+      },
+      {
+        "name": "浴血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/42.png"
+      },
+      {
+        "name": "牽制",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/43.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/44.png"
+      },
+      {
+        "name": "真北",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/45.png"
+      },
+      {
+        "name": "鬥氣彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/74.png"
+      },
+      {
+        "name": "金剛轉輪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/80.png"
+      },
+      {
+        "name": "隕石衝擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/81.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/common/icon/05.png"
+      },
+      {
+        "name": "敏捷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/88.png"
+      },
+      {
+        "name": "猛擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/89.png"
+      },
+      {
+        "name": "格鬥士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/icon_distant.png"
+      },
+      {
+        "name": "武僧",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/guideicon_dps1.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/../images/icon_distant.png"
+      }
+    ]
+  },
+  "dragoon": {
+    "name": "龍騎士（槍術士）",
+    "skills": [
+      {
+        "name": "精準刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/01.png"
+      },
+      {
+        "name": "貫通刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/02.png"
+      },
+      {
+        "name": "龍劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/03.png"
+      },
+      {
+        "name": "貫穿尖",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/04.png"
+      },
+      {
+        "name": "開膛槍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/05.png"
+      },
+      {
+        "name": "直刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/06.png"
+      },
+      {
+        "name": "猛槍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/07.png"
+      },
+      {
+        "name": "跳躍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/08.png"
+      },
+      {
+        "name": "迴避跳躍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/09.png"
+      },
+      {
+        "name": "死天槍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/10.png"
+      },
+      {
+        "name": "龍翼滑翔",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/11.png"
+      },
+      {
+        "name": "櫻花怒放",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/12.png"
+      },
+      {
+        "name": "龍炎衝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/13.png"
+      },
+      {
+        "name": "戰鬥連禱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/14.png"
+      },
+      {
+        "name": "龍牙龍爪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/15.png"
+      },
+      {
+        "name": "龍尾大迴旋",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/16.png"
+      },
+      {
+        "name": "武神槍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/17.png"
+      },
+      {
+        "name": "音速刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/18.png"
+      },
+      {
+        "name": "雲蒸龍變",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/19.png"
+      },
+      {
+        "name": "幻象衝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/20.png"
+      },
+      {
+        "name": "死者之岸",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/21.png"
+      },
+      {
+        "name": "山境酷刑",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/22.png"
+      },
+      {
+        "name": "高跳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/23.png"
+      },
+      {
+        "name": "龍眼雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/24.png"
+      },
+      {
+        "name": "墜星衝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/25.png"
+      },
+      {
+        "name": "龍眼蒼天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/26.png"
+      },
+      {
+        "name": "蒼天刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/27.png"
+      },
+      {
+        "name": "櫻花繚亂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/28.png"
+      },
+      {
+        "name": "天龍點睛",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/29.png"
+      },
+      {
+        "name": "龍炎昇",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/30.png"
+      },
+      {
+        "name": "前衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/31.png"
+      },
+      {
+        "name": "螺旋擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/32.png"
+      },
+      {
+        "name": "渡星衝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/33.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/34.png"
+      },
+      {
+        "name": "掃腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/35.png"
+      },
+      {
+        "name": "浴血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/36.png"
+      },
+      {
+        "name": "牽制",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/37.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/38.png"
+      },
+      {
+        "name": "真北",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/39.png"
+      },
+      {
+        "name": "衝天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/68.png"
+      },
+      {
+        "name": "蒼天破碎",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/69.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/common/icon/05.png"
+      },
+      {
+        "name": "敏捷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/76.png"
+      },
+      {
+        "name": "猛擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/77.png"
+      },
+      {
+        "name": "槍術士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/icon_distant.png"
+      },
+      {
+        "name": "龍騎士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/guideicon_dps1.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/../images/icon_distant.png"
+      }
+    ]
+  },
+  "ninja": {
+    "name": "忍者（雙劍士）",
+    "skills": [
+      {
+        "name": "雙刃旋",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/01.png"
+      },
+      {
+        "name": "残影",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/02.png"
+      },
+      {
+        "name": "絕風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/03.png"
+      },
+      {
+        "name": "隱遁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/04.png"
+      },
+      {
+        "name": "飛刀",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/05.png"
+      },
+      {
+        "name": "奪取",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/06.png"
+      },
+      {
+        "name": "攻其不備",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/07.png"
+      },
+      {
+        "name": "旋風刃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/08.png"
+      },
+      {
+        "name": "天之印",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/09.png"
+      },
+      {
+        "name": "忍術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/10.png"
+      },
+      {
+        "name": "地之印",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/11.png"
+      },
+      {
+        "name": "血雨飛花",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/12.png"
+      },
+      {
+        "name": "斷絕",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/13.png"
+      },
+      {
+        "name": "縮地",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/14.png"
+      },
+      {
+        "name": "人之印",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/15.png"
+      },
+      {
+        "name": "活殺自在",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/16.png"
+      },
+      {
+        "name": "八卦無刃殺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/17.png"
+      },
+      {
+        "name": "強甲破點突",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/18.png"
+      },
+      {
+        "name": "夢幻三段",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/19.png"
+      },
+      {
+        "name": "通靈之術・大蝦蟆",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/20.png"
+      },
+      {
+        "name": "介毒之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/21.png"
+      },
+      {
+        "name": "六道輪迴",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/22.png"
+      },
+      {
+        "name": "天地人",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/23.png"
+      },
+      {
+        "name": "命水",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/24.png"
+      },
+      {
+        "name": "分身術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/25.png"
+      },
+      {
+        "name": "殘影鐮鼬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/26.png"
+      },
+      {
+        "name": "幻影野槌",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/27.png"
+      },
+      {
+        "name": "月影雷獸爪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/28.png"
+      },
+      {
+        "name": "月影雷獸牙",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/29.png"
+      },
+      {
+        "name": "百雷銃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/30.png"
+      },
+      {
+        "name": "通靈之術・蝦蟆仙",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/31.png"
+      },
+      {
+        "name": "是生滅法",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/32.png"
+      },
+      {
+        "name": "天理人道",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/33.png"
+      },
+      {
+        "name": "風魔手裏劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/34.png"
+      },
+      {
+        "name": "火遁之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/35.png"
+      },
+      {
+        "name": "雷遁之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/36.png"
+      },
+      {
+        "name": "冰遁之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/37.png"
+      },
+      {
+        "name": "風遁之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/38.png"
+      },
+      {
+        "name": "土遁之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/39.png"
+      },
+      {
+        "name": "水遁之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/40.png"
+      },
+      {
+        "name": "劫火滅卻之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/41.png"
+      },
+      {
+        "name": "冰晶亂流之術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/42.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/43.png"
+      },
+      {
+        "name": "掃腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/44.png"
+      },
+      {
+        "name": "浴血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/45.png"
+      },
+      {
+        "name": "牽制",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/46.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/47.png"
+      },
+      {
+        "name": "真北",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/48.png"
+      },
+      {
+        "name": "三印自在",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/75.png"
+      },
+      {
+        "name": "星遁天誅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/88.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/common/icon/05.png"
+      },
+      {
+        "name": "敏捷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/95.png"
+      },
+      {
+        "name": "猛擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/96.png"
+      },
+      {
+        "name": "雙劍士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/icon_distant.png"
+      },
+      {
+        "name": "忍者",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/guideicon_dps1.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/../images/icon_distant.png"
+      }
+    ]
+  },
+  "samurai": {
+    "name": "武士",
+    "skills": [
+      {
+        "name": "刃風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/01.png"
+      },
+      {
+        "name": "陣風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/02.png"
+      },
+      {
+        "name": "心眼",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/03.png"
+      },
+      {
+        "name": "燕飛",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/04.png"
+      },
+      {
+        "name": "士風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/05.png"
+      },
+      {
+        "name": "風雅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/06.png"
+      },
+      {
+        "name": "月光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/07.png"
+      },
+      {
+        "name": "居合術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/08.png"
+      },
+      {
+        "name": "滿月",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/09.png"
+      },
+      {
+        "name": "花車",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/10.png"
+      },
+      {
+        "name": "櫻花",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/11.png"
+      },
+      {
+        "name": "雪風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/12.png"
+      },
+      {
+        "name": "明鏡止水",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/13.png"
+      },
+      {
+        "name": "必殺劍・震天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/14.png"
+      },
+      {
+        "name": "必殺劍・曉天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/15.png"
+      },
+      {
+        "name": "必殺劍・夜天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/16.png"
+      },
+      {
+        "name": "默想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/17.png"
+      },
+      {
+        "name": "必殺劍・九天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/18.png"
+      },
+      {
+        "name": "葉隠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/19.png"
+      },
+      {
+        "name": "意氣衝天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/20.png"
+      },
+      {
+        "name": "必殺劍・紅蓮",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/21.png"
+      },
+      {
+        "name": "必殺劍・閃影",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/22.png"
+      },
+      {
+        "name": "燕回返",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/23.png"
+      },
+      {
+        "name": "照破",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/24.png"
+      },
+      {
+        "name": "天眼通",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/25.png"
+      },
+      {
+        "name": "風光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/26.png"
+      },
+      {
+        "name": "奧義斬浪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/27.png"
+      },
+      {
+        "name": "回返斬浪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/28.png"
+      },
+      {
+        "name": "曉風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/29.png"
+      },
+      {
+        "name": "殘心",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/30.png"
+      },
+      {
+        "name": "彼岸花",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/31.png"
+      },
+      {
+        "name": "天下五劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/32.png"
+      },
+      {
+        "name": "紛亂雪月花",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/33.png"
+      },
+      {
+        "name": "回返五劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/34.png"
+      },
+      {
+        "name": "回返雪月花",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/35.png"
+      },
+      {
+        "name": "天道五剣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/36.png"
+      },
+      {
+        "name": "天道雪月花",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/37.png"
+      },
+      {
+        "name": "天道回返雪月花",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/39.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/40.png"
+      },
+      {
+        "name": "掃腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/41.png"
+      },
+      {
+        "name": "牽制",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/43.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/44.png"
+      },
+      {
+        "name": "真北",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/45.png"
+      },
+      {
+        "name": "必殺劍・早天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/67.png"
+      },
+      {
+        "name": "必殺劍・地天",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/68.png"
+      },
+      {
+        "name": "峰打ち",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/69.png"
+      },
+      {
+        "name": "氷雪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/71.png"
+      },
+      {
+        "name": "斬鐵劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/78.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/common/icon/05.png"
+      },
+      {
+        "name": "浴血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/84.png"
+      },
+      {
+        "name": "敏捷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/85.png"
+      },
+      {
+        "name": "猛擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/86.png"
+      },
+      {
+        "name": "武士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/guideicon_dps1.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/../images/icon_distant.png"
+      }
+    ]
+  },
+  "reaper": {
+    "name": "奪魂者",
+    "skills": [
+      {
+        "name": "切割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/01.png"
+      },
+      {
+        "name": "增盈切割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/02.png"
+      },
+      {
+        "name": "死亡之影",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/03.png"
+      },
+      {
+        "name": "勾刃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/04.png"
+      },
+      {
+        "name": "地獄入境",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/05.png"
+      },
+      {
+        "name": "地獄出境",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/06.png"
+      },
+      {
+        "name": "旋轉切割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/07.png"
+      },
+      {
+        "name": "地獄切割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/08.png"
+      },
+      {
+        "name": "死亡之渦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/09.png"
+      },
+      {
+        "name": "神秘紋",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/10.png"
+      },
+      {
+        "name": "惡夢切割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/11.png"
+      },
+      {
+        "name": "隱匿揮割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/12.png"
+      },
+      {
+        "name": "束縛揮割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/13.png"
+      },
+      {
+        "name": "靈魂切片",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/14.png"
+      },
+      {
+        "name": "靈魂鐮刀",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/15.png"
+      },
+      {
+        "name": "絞決",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/16.png"
+      },
+      {
+        "name": "縊殺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/17.png"
+      },
+      {
+        "name": "斷首",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/18.png"
+      },
+      {
+        "name": "絞決爪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/19.png"
+      },
+      {
+        "name": "縊殺爪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/20.png"
+      },
+      {
+        "name": "神秘環",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/21.png"
+      },
+      {
+        "name": "回退",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/22.png"
+      },
+      {
+        "name": "暴食",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/23.png"
+      },
+      {
+        "name": "夜遊魂衣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/24.png"
+      },
+      {
+        "name": "虛無收割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/25.png"
+      },
+      {
+        "name": "交錯收割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/26.png"
+      },
+      {
+        "name": "陰冷收割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/27.png"
+      },
+      {
+        "name": "播魂種",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/28.png"
+      },
+      {
+        "name": "收穫月",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/29.png"
+      },
+      {
+        "name": "夜遊魂切割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/30.png"
+      },
+      {
+        "name": "夜遊魂收割",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/31.png"
+      },
+      {
+        "name": "大豐收",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/32.png"
+      },
+      {
+        "name": "團契",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/33.png"
+      },
+      {
+        "name": "祭牲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/34.png"
+      },
+      {
+        "name": "絞決處刑",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/35.png"
+      },
+      {
+        "name": "縊殺處刑",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/36.png"
+      },
+      {
+        "name": "斷首處刑",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/37.png"
+      },
+      {
+        "name": "完人",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/38.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/39.png"
+      },
+      {
+        "name": "掃腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/40.png"
+      },
+      {
+        "name": "牽制",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/42.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/43.png"
+      },
+      {
+        "name": "真北",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/44.png"
+      },
+      {
+        "name": "斬首令",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/67.png"
+      },
+      {
+        "name": "命運既定",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/74.png"
+      },
+      {
+        "name": "暗夜遊魂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/78.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/common/icon/05.png"
+      },
+      {
+        "name": "浴血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/79.png"
+      },
+      {
+        "name": "敏捷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/80.png"
+      },
+      {
+        "name": "猛擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/81.png"
+      },
+      {
+        "name": "奪魂者",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/guideicon_dps1.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/../images/icon_distant.png"
+      }
+    ]
+  },
+  "viper": {
+    "name": "毒蛇劍士",
+    "skills": [
+      {
+        "name": "壹之牙【咬創】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/01.png"
+      },
+      {
+        "name": "貳之牙【猛襲】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/02.png"
+      },
+      {
+        "name": "壹之牙【穿裂】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/03.png"
+      },
+      {
+        "name": "飛蛇之牙",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/04.png"
+      },
+      {
+        "name": "貳之牙【疾速】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/05.png"
+      },
+      {
+        "name": "壹之大牙【咬創】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/06.png"
+      },
+      {
+        "name": "參之牙【側擊】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/07.png"
+      },
+      {
+        "name": "參之牙【側裂】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/08.png"
+      },
+      {
+        "name": "參之牙【背擊】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/09.png"
+      },
+      {
+        "name": "參之牙【背裂】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/10.png"
+      },
+      {
+        "name": "壹之大牙【穿裂】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/11.png"
+      },
+      {
+        "name": "蛇行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/12.png"
+      },
+      {
+        "name": "貳之大牙【猛襲】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/13.png"
+      },
+      {
+        "name": "貳之大牙【疾速】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/14.png"
+      },
+      {
+        "name": "參之大牙【亂擊】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/15.png"
+      },
+      {
+        "name": "參之大牙【亂裂】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/16.png"
+      },
+      {
+        "name": "蛇尾術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/17.png"
+      },
+      {
+        "name": "蛇尾撃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/18.png"
+      },
+      {
+        "name": "蛇尾閃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/19.png"
+      },
+      {
+        "name": "壹之蛇【強碎】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/20.png"
+      },
+      {
+        "name": "貳之蛇【猛襲】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/21.png"
+      },
+      {
+        "name": "貳之蛇【疾速】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/22.png"
+      },
+      {
+        "name": "壹之大蛇【強碎】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/23.png"
+      },
+      {
+        "name": "貳之大蛇【猛襲】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/24.png"
+      },
+      {
+        "name": "貳之大蛇【疾速】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/25.png"
+      },
+      {
+        "name": "雙牙連術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/26.png"
+      },
+      {
+        "name": "雙牙亂術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/27.png"
+      },
+      {
+        "name": "雙牙連擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/28.png"
+      },
+      {
+        "name": "雙牙亂擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/29.png"
+      },
+      {
+        "name": "雙牙連閃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/30.png"
+      },
+      {
+        "name": "雙牙亂閃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/31.png"
+      },
+      {
+        "name": "飛蛇之尾",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/32.png"
+      },
+      {
+        "name": "蛇靈氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/33.png"
+      },
+      {
+        "name": "祖靈降臨",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/34.png"
+      },
+      {
+        "name": "祖靈之牙【壹】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/35.png"
+      },
+      {
+        "name": "祖靈之牙【貳】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/36.png"
+      },
+      {
+        "name": "祖靈之牙【參】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/37.png"
+      },
+      {
+        "name": "祖靈之牙【肆】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/38.png"
+      },
+      {
+        "name": "飛蛇連尾擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/39.png"
+      },
+      {
+        "name": "飛蛇亂尾擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/40.png"
+      },
+      {
+        "name": "祖靈大蛇牙",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/41.png"
+      },
+      {
+        "name": "祖靈之蛇【壹】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/42.png"
+      },
+      {
+        "name": "祖靈之蛇【貳】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/43.png"
+      },
+      {
+        "name": "祖靈之蛇【參】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/44.png"
+      },
+      {
+        "name": "祖靈之蛇【肆】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/45.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/46.png"
+      },
+      {
+        "name": "掃腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/47.png"
+      },
+      {
+        "name": "浴血",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/48.png"
+      },
+      {
+        "name": "牽制",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/49.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/50.png"
+      },
+      {
+        "name": "真北",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/51.png"
+      },
+      {
+        "name": "參之牙【咬擊】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/69.png"
+      },
+      {
+        "name": "壹之牙【切割】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/70.png"
+      },
+      {
+        "name": "參之牙【嚙碎】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/72.png"
+      },
+      {
+        "name": "壹之蛇【血宴】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/73.png"
+      },
+      {
+        "name": "追擊之牙",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/75.png"
+      },
+      {
+        "name": "蛇鱗術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/77.png"
+      },
+      {
+        "name": "飛蛇之魂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/78.png"
+      },
+      {
+        "name": "祖靈之牙���壹】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/79.png"
+      },
+      {
+        "name": "貳之蛇【血宴】",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/83.png"
+      },
+      {
+        "name": "蛇鱗擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/94.png"
+      },
+      {
+        "name": "吞天巨蛇",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/95.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/common/icon/05.png"
+      },
+      {
+        "name": "敏捷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/102.png"
+      },
+      {
+        "name": "猛擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/images/icon/103.png"
+      },
+      {
+        "name": "毒蛇劍士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/guideicon_dps1.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/viper/../images/icon_distant.png"
+      }
+    ]
+  },
+  "bard": {
+    "name": "吟遊詩人（弓術士）",
+    "skills": [
+      {
+        "name": "強力射擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/01.png"
+      },
+      {
+        "name": "直線射擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/02.png"
+      },
+      {
+        "name": "猛者強擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/03.png"
+      },
+      {
+        "name": "毒咬箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/04.png"
+      },
+      {
+        "name": "失血箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/05.png"
+      },
+      {
+        "name": "後躍射擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/06.png"
+      },
+      {
+        "name": "連珠箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/07.png"
+      },
+      {
+        "name": "廣域群射",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/08.png"
+      },
+      {
+        "name": "風蝕箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/09.png"
+      },
+      {
+        "name": "賢者的敘事謠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/10.png"
+      },
+      {
+        "name": "光陰神的禮讚凱歌",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/11.png"
+      },
+      {
+        "name": "紛亂箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/12.png"
+      },
+      {
+        "name": "軍神的讚美歌",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/13.png"
+      },
+      {
+        "name": "死亡箭雨",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/14.png"
+      },
+      {
+        "name": "戰鬥之聲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/15.png"
+      },
+      {
+        "name": "放浪神的小步舞曲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/16.png"
+      },
+      {
+        "name": "完美音調",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/17.png"
+      },
+      {
+        "name": "九天連箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/18.png"
+      },
+      {
+        "name": "伶牙俐齒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/19.png"
+      },
+      {
+        "name": "側風誘導箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/20.png"
+      },
+      {
+        "name": "行吟",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/21.png"
+      },
+      {
+        "name": "烈毒咬箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/22.png"
+      },
+      {
+        "name": "狂風蝕箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/23.png"
+      },
+      {
+        "name": "大地神的抒情戀歌",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/24.png"
+      },
+      {
+        "name": "輝煌箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/25.png"
+      },
+      {
+        "name": "影噬箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/26.png"
+      },
+      {
+        "name": "魔法爆裂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/27.png"
+      },
+      {
+        "name": "絕峰箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/28.png"
+      },
+      {
+        "name": "百首龍牙箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/29.png"
+      },
+      {
+        "name": "爆破箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/30.png"
+      },
+      {
+        "name": "光明神的最終樂章",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/31.png"
+      },
+      {
+        "name": "碎心箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/32.png"
+      },
+      {
+        "name": "共鳴箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/33.png"
+      },
+      {
+        "name": "光明神的返場餘音",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/34.png"
+      },
+      {
+        "name": "傷腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/35.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/36.png"
+      },
+      {
+        "name": "傷足",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/37.png"
+      },
+      {
+        "name": "速行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/38.png"
+      },
+      {
+        "name": "傷頭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/39.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/40.png"
+      },
+      {
+        "name": "強勁射擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/64.png"
+      },
+      {
+        "name": "和弦箭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/66.png"
+      },
+      {
+        "name": "默者的夜曲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/67.png"
+      },
+      {
+        "name": "英雄的返場餘音",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/72.png"
+      },
+      {
+        "name": "英雄的幻想曲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/73.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/common/icon/05.png"
+      },
+      {
+        "name": "速度之星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/79.png"
+      },
+      {
+        "name": "勇氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/80.png"
+      },
+      {
+        "name": "銳眼追擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/81.png"
+      },
+      {
+        "name": "弓術士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/icon_distant.png"
+      },
+      {
+        "name": "吟遊詩人",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/../images/guideicon_dps1.png"
+      }
+    ]
+  },
+  "machinist": {
+    "name": "機工士",
+    "skills": [
+      {
+        "name": "分裂彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/01.png"
+      },
+      {
+        "name": "獨頭彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/02.png"
+      },
+      {
+        "name": "熱彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/03.png"
+      },
+      {
+        "name": "整備",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/04.png"
+      },
+      {
+        "name": "虹吸彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/05.png"
+      },
+      {
+        "name": "散射",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/06.png"
+      },
+      {
+        "name": "狙擊彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/07.png"
+      },
+      {
+        "name": "超荷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/08.png"
+      },
+      {
+        "name": "高熱衝擊波",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/09.png"
+      },
+      {
+        "name": "車型浮游砲塔",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/10.png"
+      },
+      {
+        "name": "超檔車型砲塔",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/11.png"
+      },
+      {
+        "name": "超負荷車型砲塔",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/12.png"
+      },
+      {
+        "name": "野火",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/13.png"
+      },
+      {
+        "name": "起爆",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/14.png"
+      },
+      {
+        "name": "跳彈射擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/15.png"
+      },
+      {
+        "name": "自動連弩",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/16.png"
+      },
+      {
+        "name": "熱分裂彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/17.png"
+      },
+      {
+        "name": "策動",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/18.png"
+      },
+      {
+        "name": "鑽頭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/19.png"
+      },
+      {
+        "name": "熱獨頭彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/20.png"
+      },
+      {
+        "name": "武裝解除",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/21.png"
+      },
+      {
+        "name": "熱狙擊彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/22.png"
+      },
+      {
+        "name": "槍管加熱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/23.png"
+      },
+      {
+        "name": "烈焰彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/24.png"
+      },
+      {
+        "name": "火焰噴射器",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/25.png"
+      },
+      {
+        "name": "毒化衝擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/26.png"
+      },
+      {
+        "name": "空氣錨",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/27.png"
+      },
+      {
+        "name": "后型自走人偶",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/28.png"
+      },
+      {
+        "name": "超檔后型人偶",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/29.png"
+      },
+      {
+        "name": "鐵臂拳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/30.png"
+      },
+      {
+        "name": "滾輪衝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/31.png"
+      },
+      {
+        "name": "打樁槍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/32.png"
+      },
+      {
+        "name": "霰彈槍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/33.png"
+      },
+      {
+        "name": "王室對撞機",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/34.png"
+      },
+      {
+        "name": "迴轉飛鋸",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/35.png"
+      },
+      {
+        "name": "雙將",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/36.png"
+      },
+      {
+        "name": "將死",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/37.png"
+      },
+      {
+        "name": "掘地飛輪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/38.png"
+      },
+      {
+        "name": "全金屬爆發",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/39.png"
+      },
+      {
+        "name": "傷腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/40.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/41.png"
+      },
+      {
+        "name": "傷足",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/42.png"
+      },
+      {
+        "name": "速行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/43.png"
+      },
+      {
+        "name": "傷頭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/44.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/45.png"
+      },
+      {
+        "name": "蓄力衝擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/68.png"
+      },
+      {
+        "name": "象型浮游砲塔",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/73.png"
+      },
+      {
+        "name": "分析",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/74.png"
+      },
+      {
+        "name": "乙太砲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/80.png"
+      },
+      {
+        "name": "魔彈射手",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/81.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/common/icon/05.png"
+      },
+      {
+        "name": "速度之星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/87.png"
+      },
+      {
+        "name": "勇氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/88.png"
+      },
+      {
+        "name": "銳眼追擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/89.png"
+      },
+      {
+        "name": "機工士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/../images/guideicon_dps1.png"
+      }
+    ]
+  },
+  "dancer": {
+    "name": "舞者",
+    "skills": [
+      {
+        "name": "瀑瀉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/01.png"
+      },
+      {
+        "name": "噴泉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/02.png"
+      },
+      {
+        "name": "風車",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/03.png"
+      },
+      {
+        "name": "標準舞步",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/04.png"
+      },
+      {
+        "name": "標準舞步結束",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/05.png"
+      },
+      {
+        "name": "逆瀑瀉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/06.png"
+      },
+      {
+        "name": "落刃雨",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/07.png"
+      },
+      {
+        "name": "扇舞・序",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/08.png"
+      },
+      {
+        "name": "升風車",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/09.png"
+      },
+      {
+        "name": "墜噴泉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/10.png"
+      },
+      {
+        "name": "落血雨",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/11.png"
+      },
+      {
+        "name": "扇舞・破",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/12.png"
+      },
+      {
+        "name": "前衝步",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/13.png"
+      },
+      {
+        "name": "治療之華爾滋",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/14.png"
+      },
+      {
+        "name": "防守之桑巴",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/15.png"
+      },
+      {
+        "name": "閉式舞姿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/16.png"
+      },
+      {
+        "name": "解除閉式舞姿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/17.png"
+      },
+      {
+        "name": "進攻之探戈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/18.png"
+      },
+      {
+        "name": "扇舞・急",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/19.png"
+      },
+      {
+        "name": "技巧舞步",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/20.png"
+      },
+      {
+        "name": "技巧舞步結束",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/21.png"
+      },
+      {
+        "name": "百花爭艷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/22.png"
+      },
+      {
+        "name": "劍舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/23.png"
+      },
+      {
+        "name": "即興表演",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/24.png"
+      },
+      {
+        "name": "即興表演結束",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/25.png"
+      },
+      {
+        "name": "提拉納",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/26.png"
+      },
+      {
+        "name": "扇舞・終",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/27.png"
+      },
+      {
+        "name": "流星舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/28.png"
+      },
+      {
+        "name": "落幕舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/29.png"
+      },
+      {
+        "name": "結束動作",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/30.png"
+      },
+      {
+        "name": "拂曉舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/31.png"
+      },
+      {
+        "name": "薔薇曲腳步",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/32.png"
+      },
+      {
+        "name": "小鳥交疊跳",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/33.png"
+      },
+      {
+        "name": "綠葉小踢腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/34.png"
+      },
+      {
+        "name": "金冠趾尖轉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/35.png"
+      },
+      {
+        "name": "傷腿",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/36.png"
+      },
+      {
+        "name": "內丹",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/37.png"
+      },
+      {
+        "name": "傷足",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/38.png"
+      },
+      {
+        "name": "速行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/39.png"
+      },
+      {
+        "name": "傷頭",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/40.png"
+      },
+      {
+        "name": "親疏自行",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/41.png"
+      },
+      {
+        "name": "刃舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/62.png"
+      },
+      {
+        "name": "扇舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/63.png"
+      },
+      {
+        "name": "刃舞・終",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/71.png"
+      },
+      {
+        "name": "行列舞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/72.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/common/icon/05.png"
+      },
+      {
+        "name": "速度之星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/78.png"
+      },
+      {
+        "name": "勇氣",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/79.png"
+      },
+      {
+        "name": "銳眼追擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/80.png"
+      },
+      {
+        "name": "舞者",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程物理職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/icon_distant.png"
+      },
+      {
+        "name": "近戰職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/guideicon_dps2.png"
+      },
+      {
+        "name": "防護職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/../images/guideicon_dps1.png"
+      }
+    ]
+  },
+  "blackmage": {
+    "name": "黑魔道士（咒術士）",
+    "skills": [
+      {
+        "name": "暴雪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/01.png"
+      },
+      {
+        "name": "火焰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/02.png"
+      },
+      {
+        "name": "星靈移位",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/03.png"
+      },
+      {
+        "name": "雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/04.png"
+      },
+      {
+        "name": "中暴雪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/05.png"
+      },
+      {
+        "name": "崩潰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/06.png"
+      },
+      {
+        "name": "中火焰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/07.png"
+      },
+      {
+        "name": "中雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/08.png"
+      },
+      {
+        "name": "魔法護盾",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/09.png"
+      },
+      {
+        "name": "魔泉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/10.png"
+      },
+      {
+        "name": "大火焰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/11.png"
+      },
+      {
+        "name": "大暴雪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/12.png"
+      },
+      {
+        "name": "靈極魂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/13.png"
+      },
+      {
+        "name": "冰寒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/14.png"
+      },
+      {
+        "name": "大雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/15.png"
+      },
+      {
+        "name": "乙太步",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/16.png"
+      },
+      {
+        "name": "火光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/17.png"
+      },
+      {
+        "name": "黑魔紋",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/18.png"
+      },
+      {
+        "name": "超暴雪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/19.png"
+      },
+      {
+        "name": "超火焰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/20.png"
+      },
+      {
+        "name": "魔紋步",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/21.png"
+      },
+      {
+        "name": "超雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/22.png"
+      },
+      {
+        "name": "三連詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/23.png"
+      },
+      {
+        "name": "穢濁",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/24.png"
+      },
+      {
+        "name": "絕望",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/25.png"
+      },
+      {
+        "name": "異言",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/26.png"
+      },
+      {
+        "name": "高階中火焰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/27.png"
+      },
+      {
+        "name": "高階中暴雪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/28.png"
+      },
+      {
+        "name": "詳述",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/29.png"
+      },
+      {
+        "name": "悖論",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/30.png"
+      },
+      {
+        "name": "高階雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/31.png"
+      },
+      {
+        "name": "高階中雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/32.png"
+      },
+      {
+        "name": "魔紋重置",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/33.png"
+      },
+      {
+        "name": "耀星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/34.png"
+      },
+      {
+        "name": "昏亂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/35.png"
+      },
+      {
+        "name": "催眠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/36.png"
+      },
+      {
+        "name": "醒夢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/37.png"
+      },
+      {
+        "name": "即刻詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/38.png"
+      },
+      {
+        "name": "沉穩詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/39.png"
+      },
+      {
+        "name": "爆發技",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/67.png"
+      },
+      {
+        "name": "昏沉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/70.png"
+      },
+      {
+        "name": "元素天賦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/72.png"
+      },
+      {
+        "name": "烈火環",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/81.png"
+      },
+      {
+        "name": "寒冰環",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/82.png"
+      },
+      {
+        "name": "霜星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/84.png"
+      },
+      {
+        "name": "靈魂共鳴",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/85.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/common/icon/05.png"
+      },
+      {
+        "name": "隕星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/91.png"
+      },
+      {
+        "name": "幻影彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/92.png"
+      },
+      {
+        "name": "武裝削弱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/93.png"
+      },
+      {
+        "name": "咒術士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/icon_distant.png"
+      },
+      {
+        "name": "黑魔道士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程魔法職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/icon_distant.png"
+      },
+      {
+        "name": "治療職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/../images/guideicon_dps3.png"
+      }
+    ]
+  },
+  "summoner": {
+    "name": "召喚士（巴術士）",
+    "skills": [
+      {
+        "name": "毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/01.png"
+      },
+      {
+        "name": "卡邦庫爾召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/02.png"
+      },
+      {
+        "name": "守護之光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/03.png"
+      },
+      {
+        "name": "醫術",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/04.png"
+      },
+      {
+        "name": "乙太蓄能",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/05.png"
+      },
+      {
+        "name": "紅寶石召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/06.png"
+      },
+      {
+        "name": "寶石耀",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/07.png"
+      },
+      {
+        "name": "紅寶石毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/01.png"
+      },
+      {
+        "name": "潰爛爆發",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/09.png"
+      },
+      {
+        "name": "吸取能量",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/10.png"
+      },
+      {
+        "name": "復生",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/11.png"
+      },
+      {
+        "name": "黃寶石召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/12.png"
+      },
+      {
+        "name": "黃寶石毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/01.png"
+      },
+      {
+        "name": "綠寶石召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/14.png"
+      },
+      {
+        "name": "綠寶石毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/01.png"
+      },
+      {
+        "name": "迸裂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/16.png"
+      },
+      {
+        "name": "寶石輝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/17.png"
+      },
+      {
+        "name": "紅寶石迸裂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/16.png"
+      },
+      {
+        "name": "黃寶石迸裂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/16.png"
+      },
+      {
+        "name": "綠寶石迸裂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/16.png"
+      },
+      {
+        "name": "毀壞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/21.png"
+      },
+      {
+        "name": "火神召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/22.png"
+      },
+      {
+        "name": "紅寶石毀壞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/21.png"
+      },
+      {
+        "name": "黃寶石毀壞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/21.png"
+      },
+      {
+        "name": "綠寶石毀壞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/21.png"
+      },
+      {
+        "name": "土神召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/26.png"
+      },
+      {
+        "name": "痛苦火光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/27.png"
+      },
+      {
+        "name": "風神召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/28.png"
+      },
+      {
+        "name": "能量抽取",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/29.png"
+      },
+      {
+        "name": "大毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/30.png"
+      },
+      {
+        "name": "紅寶石大毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/30.png"
+      },
+      {
+        "name": "黃寶石大毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/30.png"
+      },
+      {
+        "name": "綠寶石大毀滅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/30.png"
+      },
+      {
+        "name": "龍神附體",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/34.png"
+      },
+      {
+        "name": "星極脈衝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/35.png"
+      },
+      {
+        "name": "星極火光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/36.png"
+      },
+      {
+        "name": "星極超流",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/37.png"
+      },
+      {
+        "name": "死星火光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/38.png"
+      },
+      {
+        "name": "毀絕",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/39.png"
+      },
+      {
+        "name": "灼熱之光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/40.png"
+      },
+      {
+        "name": "龍神召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/41.png"
+      },
+      {
+        "name": "真龍波",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/42.png"
+      },
+      {
+        "name": "龍神迸發",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/43.png"
+      },
+      {
+        "name": "死亡輪迴",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/44.png"
+      },
+      {
+        "name": "紅寶石之儀",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/45.png"
+      },
+      {
+        "name": "黃寶石之儀",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/46.png"
+      },
+      {
+        "name": "綠寶石之儀",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/47.png"
+      },
+      {
+        "name": "三重災禍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/48.png"
+      },
+      {
+        "name": "紅寶石災禍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/48.png"
+      },
+      {
+        "name": "黃寶石災禍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/48.png"
+      },
+      {
+        "name": "綠寶石災禍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/48.png"
+      },
+      {
+        "name": "鳳凰召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/52.png"
+      },
+      {
+        "name": "靈泉之炎",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/53.png"
+      },
+      {
+        "name": "煉獄之炎",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/54.png"
+      },
+      {
+        "name": "蘇生之炎",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/55.png"
+      },
+      {
+        "name": "鳳凰迸發",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/56.png"
+      },
+      {
+        "name": "不死鳥之翼",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/57.png"
+      },
+      {
+        "name": "赤焰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/58.png"
+      },
+      {
+        "name": "天啟",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/59.png"
+      },
+      {
+        "name": "紅寶石災變",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/60.png"
+      },
+      {
+        "name": "黃寶石災變",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/61.png"
+      },
+      {
+        "name": "綠寶石災變",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/62.png"
+      },
+      {
+        "name": "深紅旋風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/63.png"
+      },
+      {
+        "name": "深紅強襲",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/64.png"
+      },
+      {
+        "name": "山崩",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/65.png"
+      },
+      {
+        "name": "螺旋氣流",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/66.png"
+      },
+      {
+        "name": "火神召喚II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/67.png"
+      },
+      {
+        "name": "土神召喚II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/68.png"
+      },
+      {
+        "name": "風神召喚II",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/69.png"
+      },
+      {
+        "name": "壞死爆發",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/70.png"
+      },
+      {
+        "name": "灼熱之閃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/71.png"
+      },
+      {
+        "name": "日光普照",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/72.png"
+      },
+      {
+        "name": "烈日龍神召喚",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/73.png"
+      },
+      {
+        "name": "靈極脈衝",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/74.png"
+      },
+      {
+        "name": "靈極火光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/75.png"
+      },
+      {
+        "name": "烈日火光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/76.png"
+      },
+      {
+        "name": "烈日龍神迸發",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/77.png"
+      },
+      {
+        "name": "光芒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/78.png"
+      },
+      {
+        "name": "眾生離絕",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/79.png"
+      },
+      {
+        "name": "昏亂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/87.png"
+      },
+      {
+        "name": "催眠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/88.png"
+      },
+      {
+        "name": "醒夢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/89.png"
+      },
+      {
+        "name": "即刻詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/90.png"
+      },
+      {
+        "name": "沉穩詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/91.png"
+      },
+      {
+        "name": "百萬火光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/134.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/common/icon/05.png"
+      },
+      {
+        "name": "隕星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/142.png"
+      },
+      {
+        "name": "幻影彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/143.png"
+      },
+      {
+        "name": "武裝削弱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/144.png"
+      },
+      {
+        "name": "巴術士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/icon_distant.png"
+      },
+      {
+        "name": "召喚士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程魔法職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/icon_distant.png"
+      },
+      {
+        "name": "治療職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/../images/guideicon_dps3.png"
+      }
+    ]
+  },
+  "redmage": {
+    "name": "赤魔道士",
+    "skills": [
+      {
+        "name": "回刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/01.png"
+      },
+      {
+        "name": "搖盪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/02.png"
+      },
+      {
+        "name": "赤雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/03.png"
+      },
+      {
+        "name": "短兵相接",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/04.png"
+      },
+      {
+        "name": "赤勁風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/05.png"
+      },
+      {
+        "name": "散碎",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/06.png"
+      },
+      {
+        "name": "赤中雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/07.png"
+      },
+      {
+        "name": "赤中勁風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/08.png"
+      },
+      {
+        "name": "赤火焰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/09.png"
+      },
+      {
+        "name": "赤巨岩",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/10.png"
+      },
+      {
+        "name": "交擊斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/11.png"
+      },
+      {
+        "name": "移轉",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/12.png"
+      },
+      {
+        "name": "交劍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/13.png"
+      },
+      {
+        "name": "飛刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/14.png"
+      },
+      {
+        "name": "連攻",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/15.png"
+      },
+      {
+        "name": "促進",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/16.png"
+      },
+      {
+        "name": "劃圓斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/17.png"
+      },
+      {
+        "name": "赤療傷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/18.png"
+      },
+      {
+        "name": "六分反擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/19.png"
+      },
+      {
+        "name": "鼓勵",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/20.png"
+      },
+      {
+        "name": "魔元化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/21.png"
+      },
+      {
+        "name": "震盪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/22.png"
+      },
+      {
+        "name": "赤復活",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/23.png"
+      },
+      {
+        "name": "衝擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/24.png"
+      },
+      {
+        "name": "赤火光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/25.png"
+      },
+      {
+        "name": "赤神聖",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/26.png"
+      },
+      {
+        "name": "續斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/27.png"
+      },
+      {
+        "name": "焦熱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/28.png"
+      },
+      {
+        "name": "赤大雷電",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/29.png"
+      },
+      {
+        "name": "赤大勁風",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/30.png"
+      },
+      {
+        "name": "激盪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/31.png"
+      },
+      {
+        "name": "抗死",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/32.png"
+      },
+      {
+        "name": "決斷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/33.png"
+      },
+      {
+        "name": "荊棘環繞",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/34.png"
+      },
+      {
+        "name": "顯貴衝擊",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/35.png"
+      },
+      {
+        "name": "光芒四射",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/36.png"
+      },
+      {
+        "name": "魔回刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/37.png"
+      },
+      {
+        "name": "魔交擊斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/38.png"
+      },
+      {
+        "name": "魔連攻",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/39.png"
+      },
+      {
+        "name": "魔劃圓斬•一段",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/40.png"
+      },
+      {
+        "name": "魔劃圓斬•二段",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/41.png"
+      },
+      {
+        "name": "魔劃圓斬•三段",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/42.png"
+      },
+      {
+        "name": "魔續斬",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/43.png"
+      },
+      {
+        "name": "昏亂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/44.png"
+      },
+      {
+        "name": "催眠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/45.png"
+      },
+      {
+        "name": "醒夢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/46.png"
+      },
+      {
+        "name": "即刻詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/47.png"
+      },
+      {
+        "name": "沉穩詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/48.png"
+      },
+      {
+        "name": "劍身強部",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/74.png"
+      },
+      {
+        "name": "南天十字",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/81.png"
+      },
+      {
+        "name": "軍���聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/../images/common/icon/05.png"
+      },
+      {
+        "name": "隕星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/87.png"
+      },
+      {
+        "name": "幻影彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/88.png"
+      },
+      {
+        "name": "武裝削弱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/89.png"
+      },
+      {
+        "name": "赤魔道士",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程魔法職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/../images/icon_distant.png"
+      },
+      {
+        "name": "治療職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/../images/guideicon_dps3.png"
+      }
+    ]
+  },
+  "pictomancer": {
+    "name": "繪靈法師",
+    "skills": [
+      {
+        "name": "火焰之紅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/01.png"
+      },
+      {
+        "name": "勁風之綠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/02.png"
+      },
+      {
+        "name": "坦培拉塗層",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/03.png"
+      },
+      {
+        "name": "水花之藍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/04.png"
+      },
+      {
+        "name": "速塗",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/05.png"
+      },
+      {
+        "name": "中火焰之紅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/06.png"
+      },
+      {
+        "name": "動物彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/07.png"
+      },
+      {
+        "name": "動物構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/08.png"
+      },
+      {
+        "name": "莫古利激流",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/09.png"
+      },
+      {
+        "name": "絨球彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/10.png"
+      },
+      {
+        "name": "翅膀彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/11.png"
+      },
+      {
+        "name": "絨球構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/12.png"
+      },
+      {
+        "name": "翅膀構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/13.png"
+      },
+      {
+        "name": "中勁風之綠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/14.png"
+      },
+      {
+        "name": "中水花之藍",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/15.png"
+      },
+      {
+        "name": "武器彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/16.png"
+      },
+      {
+        "name": "武器構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/17.png"
+      },
+      {
+        "name": "重錘敲章",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/18.png"
+      },
+      {
+        "name": "重錘彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/19.png"
+      },
+      {
+        "name": "重錘構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/20.png"
+      },
+      {
+        "name": "暴雪之藍青",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/21.png"
+      },
+      {
+        "name": "中暴雪之藍青",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/22.png"
+      },
+      {
+        "name": "減色混合",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/23.png"
+      },
+      {
+        "name": "巨岩之純黃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/24.png"
+      },
+      {
+        "name": "雷電之品紅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/25.png"
+      },
+      {
+        "name": "中巨岩之純黃",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/26.png"
+      },
+      {
+        "name": "中雷電之品紅",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/27.png"
+      },
+      {
+        "name": "風景彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/28.png"
+      },
+      {
+        "name": "風景構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/29.png"
+      },
+      {
+        "name": "星空彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/30.png"
+      },
+      {
+        "name": "星空構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/31.png"
+      },
+      {
+        "name": "神聖之白",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/32.png"
+      },
+      {
+        "name": "重錘掠刷",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/33.png"
+      },
+      {
+        "name": "重錘拋光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/34.png"
+      },
+      {
+        "name": "油性坦培拉塗層",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/35.png"
+      },
+      {
+        "name": "隕星之黑",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/36.png"
+      },
+      {
+        "name": "彩虹點滴",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/37.png"
+      },
+      {
+        "name": "獸爪彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/38.png"
+      },
+      {
+        "name": "尖牙彩繪",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/39.png"
+      },
+      {
+        "name": "獸爪構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/40.png"
+      },
+      {
+        "name": "尖牙構想",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/41.png"
+      },
+      {
+        "name": "馬蒂恩懲罰",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/42.png"
+      },
+      {
+        "name": "天星棱光",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/43.png"
+      },
+      {
+        "name": "昏亂",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/65.png"
+      },
+      {
+        "name": "催眠",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/66.png"
+      },
+      {
+        "name": "醒夢",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/46.png"
+      },
+      {
+        "name": "即刻詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/47.png"
+      },
+      {
+        "name": "沉穩詠唱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/48.png"
+      },
+      {
+        "name": "胖胖之牆",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/92.png"
+      },
+      {
+        "name": "軍用聖靈藥",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/../images/common/icon/01.png"
+      },
+      {
+        "name": "自癒",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/../images/common/icon/02.png"
+      },
+      {
+        "name": "淨化",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/../images/common/icon/03.png"
+      },
+      {
+        "name": "防禦",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/../images/common/icon/04.png"
+      },
+      {
+        "name": "衝刺",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/../images/common/icon/05.png"
+      },
+      {
+        "name": "隕星",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/98.png"
+      },
+      {
+        "name": "幻影彈",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/99.png"
+      },
+      {
+        "name": "武裝削弱",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/images/icon/100.png"
+      },
+      {
+        "name": "繪靈法師",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/../images/icon_distant.png"
+      },
+      {
+        "name": "遠程魔法職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/../images/icon_distant.png"
+      },
+      {
+        "name": "治療職業",
+        "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/pictomancer/../images/guideicon_dps3.png"
+      }
+    ]
+  }
+}

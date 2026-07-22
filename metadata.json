@@ -1,0 +1,6 @@
+{
+  "name": "FF14 巨集組裝工具",
+  "description": "Final Fantasy XIV 專用巨集快速組裝與編輯器",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
