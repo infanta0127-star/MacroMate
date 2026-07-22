@@ -173,7 +173,7 @@ export default function App() {
           <div className="w-10 h-10 bg-gradient-to-br from-[#c5a059] to-[#8a6d3b] rounded flex items-center justify-center shadow-[0_0_15px_rgba(197,160,89,0.3)]">
             <Sword className="w-6 h-6 text-[#0a0a0f]" />
           </div>
-          <h1 className="text-xl font-bold tracking-widest text-[#c5a059] uppercase">FF14 巨集組裝工具</h1>
+          <h1 className="text-xl font-bold tracking-widest text-[#c5a059] uppercase">FF14 巨集小幫手</h1>
         </div>
         <div className="flex items-center gap-4">
           <select
