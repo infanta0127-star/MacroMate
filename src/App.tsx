@@ -9,8 +9,8 @@ const QUICK_SKILLS = [
 type Category = 'ground' | 'self' | 'ally' | 'enemy';
 
 const CATEGORIES = [
-  { id: 'ground', name: '指定地板' },
   { id: 'self', name: '自身範圍' },
+  { id: 'ground', name: '指定地板' },
   { id: 'ally', name: '指定友方' },
   { id: 'enemy', name: '指定敵方' }
 ];
@@ -63,7 +63,7 @@ const JOB_GROUPS = [
 ];
 
 export default function App() {
-  const [skillName, setSkillName] = useState("地星");
+  const [skillName, setSkillName] = useState("");
   const [selectedJob, setSelectedJob] = useState("astrologian");
   const [skillSearch, setSkillSearch] = useState("");
   const [macroText, setMacroText] = useState("");
@@ -112,8 +112,8 @@ export default function App() {
   }, []);
 
   const [config, setConfig] = useState({
-    category: 'ground' as Category,
-    template: 'gtoff',
+    category: 'self' as Category,
+    template: 'none',
     useMicon: true,
     useChat: false,
     chatChannel: '/p',
@@ -240,8 +240,8 @@ export default function App() {
     <div className="h-screen bg-[#0a0a0f] text-[#e2e2e2] font-sans flex flex-col overflow-hidden selection:bg-[#3b82f6]/30">
       
       {/* Header */}
-      <header className="h-16 bg-[#161625] border-b border-[#c5a059]/30 flex items-center justify-between px-6 shadow-2xl shrink-0 z-10">
-        <div className="flex items-center space-x-3">
+      <header className="bg-[#161625] border-b border-[#c5a059]/30 flex flex-col md:flex-row md:items-center justify-between px-6 py-3 gap-4 shadow-2xl shrink-0 z-10">
+        <div className="flex items-center space-x-3 shrink-0">
           <div className="w-5 h-5 bg-gradient-to-br from-[#c5a059] to-[#8a6d3b] rounded-sm flex items-center justify-center shadow-[0_0_8px_rgba(197,160,89,0.3)]">
             <svg viewBox="0 0 100 100" className="w-3 h-3">
               <path 
@@ -255,6 +255,124 @@ export default function App() {
             </svg>
           </div>
           <h1 className="text-xl font-bold tracking-widest text-[#c5a059] uppercase">FF14 巨集小幫手</h1>
+        </div>
+
+        {/* Action Rules Header Bar */}
+        <div className="flex flex-wrap items-center gap-6 text-[15px]">
+          {/* Category Tabs */}
+          <div className="flex bg-[#0a0a0f] rounded border border-[#1a1a2e] p-1">
+            {CATEGORIES.map(cat => (
+              <button
+                key={cat.id}
+                onClick={() => handleCategoryChange(cat.id as Category)}
+                className={`text-[15px] px-3 py-1 rounded text-center transition-colors font-bold ${
+                  config.category === cat.id 
+                    ? 'bg-[#252545] text-[#3b82f6] shadow-sm' 
+                    : 'text-gray-500 hover:text-gray-300'
+                }`}
+              >
+                {cat.name}
+              </button>
+            ))}
+          </div>
+
+          {/* Target Templates */}
+          <div className="flex items-center gap-2">
+            <span className="text-gray-500 font-bold uppercase whitespace-nowrap">對象:</span>
+            <div className="flex gap-1.5">
+              {TEMPLATES[config.category].map(tpl => {
+                const displayName = tpl.id === 'party' 
+                  ? `隊伍成員 (<${config.partyNumber || 2}>)`
+                  : tpl.name;
+                const isSelected = config.template === tpl.id;
+                return (
+                  <div key={tpl.id} className="relative">
+                    <button
+                      onClick={() => setConfig({...config, template: tpl.id})}
+                      className={`text-[15px] py-1 px-3 rounded border transition-colors text-center font-bold ${
+                        isSelected
+                          ? 'bg-[#3b82f6]/20 border-[#3b82f6]/50 text-white'
+                          : 'bg-[#1a1a2e] border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
+                      }`}
+                    >
+                      {displayName}
+                    </button>
+                    
+                    {/* Floating Party Number Selector */}
+                    {tpl.id === 'party' && isSelected && (
+                      <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 bg-[#121220] border border-[#3b82f6]/50 rounded p-1.5 flex gap-1 z-50 shadow-2xl">
+                        {[1, 2, 3, 4, 5, 6, 7, 8].map(num => (
+                          <button
+                            key={num}
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setConfig(prev => ({ ...prev, partyNumber: num }));
+                            }}
+                            className={`w-6 h-6 rounded text-[15px] font-bold transition-all ${
+                              (config.partyNumber || 2) === num
+                                ? 'bg-[#3b82f6] text-white'
+                                : 'bg-[#0a0a0f] border border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
+                            }`}
+                          >
+                            {num}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Options */}
+          <div className="flex items-center gap-4">
+            <button 
+              onClick={() => setConfig({...config, useMicon: !config.useMicon})}
+              className="flex items-center gap-2 group w-max"
+            >
+              <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useMicon ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
+                {config.useMicon && <Check className="w-3 h-3 text-white" />}
+              </div>
+              <span className="text-gray-300 group-hover:text-white transition-colors">顯示技能圖案 (/micon)</span>
+            </button>
+
+            <div className="flex items-center gap-2 relative">
+              <button 
+                onClick={() => setConfig({...config, useChat: !config.useChat})}
+                className="flex items-center gap-2 group w-max"
+              >
+                <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useChat ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
+                  {config.useChat && <Check className="w-3 h-3 text-white" />}
+                </div>
+                <span className="text-gray-300 group-hover:text-white transition-colors">發到對話框</span>
+              </button>
+              
+              {config.useChat && (
+                <div className="absolute top-[calc(100%+4px)] right-0 bg-[#121220] border border-[#3b82f6]/50 rounded p-2 flex gap-2 z-50 shadow-2xl w-[280px]">
+                  <select 
+                    value={config.chatChannel}
+                    onChange={e => setConfig({...config, chatChannel: e.target.value})}
+                    className="bg-[#1a1a2e] border border-[#3b82f6]/30 rounded px-2 py-1 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#3b82f6] shrink-0"
+                  >
+                    <option value="/a">團隊</option>
+                    <option value="/p">隊伍</option>
+                    <option value="/echo">默語</option>
+                    <option value="/s">一般</option>
+                    <option value="">自訂</option>
+                  </select>
+                  <input 
+                    type="text"
+                    value={config.chatMessage}
+                    onChange={e => setConfig({...config, chatMessage: e.target.value})}
+                    placeholder="輸入對話..."
+                    className="flex-1 min-w-0 bg-[#07070c] border border-[#3b82f6]/30 rounded px-2 py-1 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#c5a059]"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
         </div>
       </header>
 
@@ -322,151 +440,31 @@ export default function App() {
             )}
           </div>
 
-          {/* Step 1: 巨集規則設定 */}
-          <div className="flex flex-col border-b border-[#1a1a2e] shrink-0">
-            <div className="p-4 bg-[#121220]">
-              <h2 className="text-[15px] text-[#c5a059] uppercase tracking-widest mb-3 font-bold">1. 設定動作規則</h2>
-              
-              {/* Category Tabs */}
-              <div className="flex bg-[#0a0a0f] rounded border border-[#1a1a2e] p-1 mb-4">
-                {CATEGORIES.map(cat => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleCategoryChange(cat.id as Category)}
-                    className={`flex-1 text-[15px] py-1.5 rounded text-center transition-colors font-bold ${
-                      config.category === cat.id 
-                        ? 'bg-[#252545] text-[#3b82f6] shadow-sm' 
-                        : 'text-gray-500 hover:text-gray-300'
-                    }`}
-                  >
-                    {cat.name}
-                  </button>
-                ))}
-              </div>
-
-              {/* Target Template */}
-              <div className="space-y-2 mb-4">
-                <label className="text-[15px] text-gray-500 uppercase font-bold">施放對象</label>
-                <div className="grid grid-cols-2 gap-2">
-                  {TEMPLATES[config.category].map(tpl => {
-                    const displayName = tpl.id === 'party' 
-                      ? `隊伍成員 (<${config.partyNumber || 2}>)`
-                      : tpl.name;
-                    return (
-                      <button
-                        key={tpl.id}
-                        onClick={() => setConfig({...config, template: tpl.id})}
-                        className={`text-[15px] py-1.5 px-2 rounded border transition-colors text-center font-bold ${
-                          config.template === tpl.id
-                            ? 'bg-[#3b82f6]/20 border-[#3b82f6]/50 text-white'
-                            : 'bg-[#1a1a2e] border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
-                        }`}
-                      >
-                        {displayName}
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {config.category === 'ally' && config.template === 'party' && (
-                  <div className="mt-2 p-2 bg-[#1a1a2e] rounded border border-[#3b82f6]/30 flex flex-col gap-2">
-                    <div className="flex justify-between items-center">
-                      <span className="text-[15px] text-gray-500 font-bold uppercase">隊伍成員編號</span>
-                      <span className="text-[15px] text-[#c5a059] font-mono font-bold">&lt;{config.partyNumber || 2}&gt;</span>
-                    </div>
-                    <div className="grid grid-cols-8 gap-1">
-                      {[1, 2, 3, 4, 5, 6, 7, 8].map(num => (
-                        <button
-                          key={num}
-                          type="button"
-                          onClick={() => setConfig(prev => ({ ...prev, partyNumber: num }))}
-                          className={`h-7 rounded text-[15px] font-bold transition-all ${
-                            (config.partyNumber || 2) === num
-                              ? 'bg-[#3b82f6] text-white shadow-[0_0_10px_rgba(59,130,246,0.5)]'
-                              : 'bg-[#0a0a0f] border border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10 hover:text-white'
-                          }`}
-                        >
-                          {num}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              {/* Options */}
-              <div className="space-y-2">
-                 <label className="text-[15px] text-gray-500 uppercase font-bold">附加選項</label>
-                 <div className="flex flex-col gap-3 mt-2">
-                   <button 
-                     onClick={() => setConfig({...config, useMicon: !config.useMicon})}
-                     className="flex items-center gap-2 group w-max"
-                   >
-                     <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useMicon ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
-                       {config.useMicon && <Check className="w-3 h-3 text-white" />}
-                     </div>
-                     <span className="text-[15px] text-gray-300 group-hover:text-white transition-colors">顯示技能圖案 (/micon)</span>
-                   </button>
-
-                   <div className="flex flex-col gap-2">
-                     <button 
-                       onClick={() => setConfig({...config, useChat: !config.useChat})}
-                       className="flex items-center gap-2 group w-max"
-                     >
-                       <div className={`w-4 h-4 rounded flex items-center justify-center transition-colors border ${config.useChat ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
-                         {config.useChat && <Check className="w-3 h-3 text-white" />}
-                       </div>
-                       <span className="text-[15px] text-gray-300 group-hover:text-white transition-colors">發到對話框</span>
-                     </button>
-                     
-                     {config.useChat && (
-                       <div className="flex gap-2 pl-6 mt-1">
-                         <select 
-                           value={config.chatChannel}
-                           onChange={e => setConfig({...config, chatChannel: e.target.value})}
-                           className="bg-[#1a1a2e] border border-[#3b82f6]/30 rounded px-2 py-1.5 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#3b82f6] shrink-0"
-                         >
-                           <option value="/a">團隊</option>
-                           <option value="/p">隊伍</option>
-                           <option value="/echo">默語</option>
-                           <option value="/s">一般</option>
-                           <option value="">自訂</option>
-                         </select>
-                         <input 
-                           type="text"
-                           value={config.chatMessage}
-                           onChange={e => setConfig({...config, chatMessage: e.target.value})}
-                           placeholder="輸入對話..."
-                           className="flex-1 min-w-0 bg-[#07070c] border border-[#3b82f6]/30 rounded px-2 py-1.5 text-[15px] text-[#e2e2e2] focus:outline-none focus:border-[#c5a059]"
-                         />
-                       </div>
-                     )}
-                   </div>
-                 </div>
-              </div>
-
-            </div>
-          </div>
-
           {/* Step 2: Skill Input & Library */}
           <div className="p-4 border-b border-[#1a1a2e] bg-[#121220] shrink-0">
-            <h2 className="text-[15px] text-[#c5a059] uppercase tracking-widest mb-3 font-bold">2. 選擇技能並加入</h2>
+            <h2 className="text-[15px] text-[#c5a059] uppercase tracking-widest mb-3 font-bold">選擇技能並加入</h2>
             <div className="space-y-3">
-              <input
-                type="text"
-                value={skillName}
-                onChange={(e) => setSkillName(e.target.value)}
-                placeholder="手動輸入 (例如：地星)"
-                className="w-full bg-[#07070c] border border-[#3b82f6]/30 rounded px-3 py-2 text-[15px] focus:outline-none focus:border-[#c5a059] text-[#e2e2e2] transition-colors"
-              />
-              <div className="flex items-center gap-2">
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={skillName}
+                  onChange={(e) => setSkillName(e.target.value)}
+                  placeholder="手動輸入 (例如：地星)"
+                  className="flex-1 min-w-0 bg-[#07070c] border border-[#3b82f6]/30 rounded px-3 py-2 text-[15px] focus:outline-none focus:border-[#c5a059] text-[#e2e2e2] transition-colors"
+                />
                 <button
-                  onClick={() => handleSkillClick(skillName)}
-                  className="px-4 py-2 bg-[#252545] hover:bg-[#3b82f6]/30 border border-[#3b82f6]/50 rounded text-[15px] text-white transition-colors w-full font-bold"
+                  onClick={() => {
+                    if (skillName.trim()) {
+                      handleSkillClick(skillName.trim());
+                    }
+                  }}
+                  className="px-4 py-2 bg-[#252545] hover:bg-[#3b82f6]/30 border border-[#3b82f6]/50 rounded text-[15px] text-white transition-colors font-bold shrink-0 flex items-center justify-center"
+                  title="加到編輯區"
                 >
-                  加入到編輯區
+                  <Plus className="w-4 h-4" />
                 </button>
               </div>
+              
               <div className="relative mt-2">
                 <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
                 <input
@@ -476,6 +474,10 @@ export default function App() {
                   placeholder="搜尋職業技能..."
                   className="w-full bg-[#1a1a2e] border border-[#3b82f6]/20 rounded pl-9 pr-3 py-1.5 text-[15px] focus:outline-none focus:border-[#3b82f6]/50 text-[#e2e2e2]"
                 />
+              </div>
+              
+              <div className="text-[15px] text-gray-500/80 mt-2 font-medium">
+                點擊技能即可新增巨集內容
               </div>
             </div>
           </div>
