@@ -48,6 +48,31 @@ export default function App() {
   const [waitSec, setWaitSec] = useState(1);
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
 
+  const [hoveredSkill, setHoveredSkill] = useState<any>(null);
+  const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
+
+  const handleMouseEnter = (skill: any, e: React.MouseEvent) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    
+    let left = rect.right + 12;
+    if (left + 288 > window.innerWidth) {
+      left = rect.left - 288 - 12;
+    }
+    
+    let top = rect.top;
+    if (top + 260 > window.innerHeight) {
+      top = window.innerHeight - 260 - 12;
+    }
+    if (top < 12) top = 12;
+    
+    setTooltipPos({ top, left });
+    setHoveredSkill(skill);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredSkill(null);
+  };
+
   const [config, setConfig] = useState({
     category: 'ground' as Category,
     template: 'gtoff',
@@ -378,10 +403,11 @@ export default function App() {
                 <button
                   key={skill.name}
                   onClick={() => handleSkillClick(skill.name)}
-                  className={`aspect-square rounded p-1 cursor-pointer group transition-all border bg-[#1a1a2e] border-[#3b82f6]/20 hover:bg-[#3b82f6]/20 hover:border-[#3b82f6]/40`}
-                  title={skill.name}
+                  onMouseEnter={(e) => handleMouseEnter(skill, e)}
+                  onMouseLeave={handleMouseLeave}
+                  className="w-full h-[76px] rounded p-1 cursor-pointer group transition-all border bg-[#1a1a2e] border-[#3b82f6]/20 hover:bg-[#3b82f6]/20 hover:border-[#3b82f6]/40"
                 >
-                  <div className={`w-full h-full rounded flex flex-col items-center justify-center p-1 transition-colors bg-[#252545] text-gray-300 group-hover:text-white`}>
+                  <div className="w-full h-full rounded flex flex-col items-center justify-center p-1 transition-colors bg-[#252545] text-gray-300 group-hover:text-white">
                     {skill.icon && <img src={skill.icon} alt={skill.name} className="w-6 h-6 mb-1 rounded shadow-sm" />}
                     <span className="text-[9px] text-center leading-tight line-clamp-2 w-full">{skill.name}</span>
                   </div>
@@ -470,6 +496,53 @@ export default function App() {
             </button>
           </div>
           
+          {/* Tooltip Overlay */}
+          {hoveredSkill && (
+            <div
+              className="fixed z-50 w-72 bg-[#121220]/95 border border-[#3b82f6]/40 rounded-lg p-3 shadow-[0_10px_30px_rgba(0,0,0,0.8)] backdrop-blur-sm pointer-events-none text-left"
+              style={{
+                top: `${tooltipPos.top}px`,
+                left: `${tooltipPos.left}px`,
+              }}
+            >
+              <div className="flex gap-3">
+                {hoveredSkill.icon && (
+                  <img
+                    src={hoveredSkill.icon}
+                    alt={hoveredSkill.name}
+                    className="w-10 h-10 rounded border border-[#c5a059]/50 shadow-sm"
+                  />
+                )}
+                <div className="flex flex-col justify-center">
+                  <div className="text-sm font-bold text-white leading-tight">{hoveredSkill.name}</div>
+                  {hoveredSkill.classification && (
+                    <span className="w-max px-1.5 py-0.5 text-[9px] font-bold bg-[#c5a059] text-[#0a0a0f] rounded mt-1">
+                      {hoveredSkill.classification}
+                    </span>
+                  )}
+                </div>
+              </div>
+              
+              <div className="border-t border-gray-700/50 my-2.5"></div>
+              
+              <div className="grid grid-cols-2 gap-y-1 text-[10px] text-gray-400 font-medium">
+                <div>學習條件: <span className="text-gray-200">{hoveredSkill.level || '1級'}</span></div>
+                <div>消費 MP: <span className="text-gray-200">{hoveredSkill.cost || '-'}</span></div>
+                <div className="col-span-2">
+                  詠唱 / 冷卻: <span className="text-gray-200">{hoveredSkill.cast || '即時'} / {hoveredSkill.recast || '-'}</span>
+                </div>
+                <div className="col-span-2">
+                  距離 / 範圍: <span className="text-gray-200">{hoveredSkill.distantRange || '0m / 0m'}</span>
+                </div>
+              </div>
+              
+              <div className="border-t border-gray-700/50 my-2.5"></div>
+              
+              <div className="text-[11px] text-gray-300 leading-normal whitespace-pre-wrap font-sans">
+                {hoveredSkill.description || '暫無說明'}
+              </div>
+            </div>
+          )}
         </section>
       </main>
     </div>
