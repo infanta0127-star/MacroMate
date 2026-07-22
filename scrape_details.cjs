@@ -46,7 +46,12 @@ async function run() {
         // Extract name
         const nameMatch = trContent.match(/<td class="skill">[\s\S]*?<p><strong>([\s\S]*?)<\/strong><\/p>/);
         if (!nameMatch) continue;
-        const name = nameMatch[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+        let rawName = nameMatch[1];
+        // Remove job_mission text and br tags completely
+        rawName = rawName.replace(/<span class="job_mission">[\s\S]*?<\/span>/g, '');
+        rawName = rawName.replace(/<span class="job_closed">[\s\S]*?<\/span>/g, '');
+        rawName = rawName.replace(/<br\s*\/?>/gi, '');
+        const name = rawName.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
         if (name.includes('等級') || name.includes('class=')) continue;
         
         // Extract icon

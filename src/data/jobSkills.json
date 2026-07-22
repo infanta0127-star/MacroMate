@@ -80,7 +80,7 @@
         "description": "解除鋼鐵信念狀態。"
       },
       {
-        "name": "投盾透過職業任務獲得",
+        "name": "投盾",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/08.png",
         "classification": "戰技",
         "level": "15級",
@@ -102,7 +102,7 @@
         "description": "對目標發動物理攻擊\n威力：100\n連擊條件：暴亂劍\n連擊中威力：330"
       },
       {
-        "name": "深奧之靈透過特職任務獲得",
+        "name": "深奧之靈",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/10.png",
         "classification": "能力",
         "level": "30級",
@@ -113,7 +113,7 @@
         "description": "對目標發動物理攻擊\n威力：270\n追加效果：恢復自身MP"
       },
       {
-        "name": "盾陣透過特職任務獲得",
+        "name": "盾陣",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/11.png",
         "classification": "能力",
         "level": "35級",
@@ -135,7 +135,7 @@
         "description": "一定時間內，將自身所受的傷害減輕30%\n持續時間：15秒"
       },
       {
-        "name": "日珥斬透過特職任務獲得",
+        "name": "日珥斬",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/13.png",
         "classification": "戰技",
         "level": "40級",
@@ -146,7 +146,7 @@
         "description": "對自身周圍的敵人發動範圍物理攻擊\n威力：100\n連擊條件：日全蝕\n連擊中威力：220\n追加效果：提升仇恨\n連擊成功：恢復自身MP\n連擊成功：神聖魔法效果提高\n持續時間：30秒\n神聖魔法效果提高效果：下次發動聖靈或聖環不需要詠唱時間，同時威力提高"
       },
       {
-        "name": "保護透過特職任務獲得",
+        "name": "保護",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/14.png",
         "classification": "能力",
         "level": "45級",
@@ -168,7 +168,7 @@
         "description": "對自身周圍的敵人發動範圍物理攻擊\n威力：140\n追加效果：持續傷害\n威力：30\n持續時間：15秒"
       },
       {
-        "name": "神聖領域透過特職任務獲得",
+        "name": "神聖領域",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/16.png",
         "classification": "能力",
         "level": "50級",
@@ -190,7 +190,7 @@
         "description": "一定時間內，受到攻擊必定發動格擋\n持續時間：10秒"
       },
       {
-        "name": "瀝血劍透過特職任務獲得",
+        "name": "瀝血劍",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/18.png",
         "classification": "戰技",
         "level": "54級",
@@ -201,7 +201,7 @@
         "description": "對目標發動物理攻擊\n威力：700\n發動條件：瀝血劍預備狀態中"
       },
       {
-        "name": "聖光幕簾透過特職任務獲得",
+        "name": "聖光幕簾",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/19.png",
         "classification": "能力",
         "level": "56級",
@@ -212,7 +212,7 @@
         "description": "為自身與周圍隊員附加能夠抵禦一定傷害的防護罩\n防護罩效果：抵消相當於騎士自身最大HP10%的傷害量\n持續時間：30秒\n追加效果：恢復目標的HP\n恢復力：400"
       },
       {
-        "name": "深仁厚澤透過特職任務獲得",
+        "name": "深仁厚澤",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/20.png",
         "classification": "魔法",
         "level": "58級",
@@ -223,7 +223,7 @@
         "description": "恢復目標的HP\n恢復力：1000\n追加效果：對小隊隊員發動該技能時，自身恢復目標所恢復HP的一半"
       },
       {
-        "name": "王權劍透過特職任務獲得",
+        "name": "王權劍",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/21.png",
         "classification": "戰技",
         "level": "60級",
@@ -278,7 +278,7 @@
         "description": "對目標發動無屬性魔法攻擊\n威力：320\n追加效果：為自身附加4階安魂祈禱狀態\n持續時間：30秒\n安魂祈禱效果：詠唱魔法不需要詠唱時間\n同時聖靈和聖環、悔罪及其後續連擊技能威力提高\n追加效果：悔罪預備\n持續時間：30秒"
       },
       {
-        "name": "武裝戍衛透過特職任務獲得",
+        "name": "武裝戍衛",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/paladin/images/icon/26.png",
         "classification": "能力",
         "level": "70級",
@@ -503,7 +503,7 @@
         "description": "解除守護狀態"
       },
       {
-        "name": "飛斧透過職業任務獲得",
+        "name": "飛斧",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/07.png",
         "classification": "戰技",
         "level": "15級",
@@ -525,7 +525,7 @@
         "description": "對目標發動物理攻擊\n威力：220\n連擊條件：凶殘裂\n連擊中威力：500\n連擊成功：恢復自身HP\n恢復力：250\n連擊成功：獲得20點獸魂"
       },
       {
-        "name": "戰慄透過職業任務獲得",
+        "name": "戰慄",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/09.png",
         "classification": "能���",
         "level": "30級",
@@ -536,7 +536,7 @@
         "description": "一定時間內，自身的最大HP提高20%\n同時，自身所受的HP恢復效果提高20%\n發動時恢復最大HP的20%\n持續時間：10秒"
       },
       {
-        "name": "原初之魂透過特職任務獲得",
+        "name": "原初之魂",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/10.png",
         "classification": "戰技",
         "level": "35級",
@@ -558,7 +558,7 @@
         "description": "一定時間內，令自身所受到的傷害減輕30%，同時受到物理攻擊時會給予對方反擊傷害\n威力：55\n持續時間：15秒"
       },
       {
-        "name": "秘銀暴風透過特職任務獲得",
+        "name": "秘銀暴風",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/12.png",
         "classification": "戰技",
         "level": "40級",
@@ -580,7 +580,7 @@
         "description": "效果中除特定攻擊之外其他所有對自身發動的攻擊均無法令HP減少到1以下\n當目標為敵人時，禁止目標移動\n持續時間：10秒"
       },
       {
-        "name": "鋼鐵旋風透過特職任務獲得",
+        "name": "鋼鐵旋風",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/14.png",
         "classification": "戰技",
         "level": "45級",
@@ -602,7 +602,7 @@
         "description": "對目標發動物理攻擊\n威力：220\n連擊條件：凶殘裂\n連擊中威力：500\n連擊成功：戰場風暴\n持續時間：30秒\n戰場風暴效果：自身發動攻擊造成的傷害提高10%\n若自身已經附加戰場風暴狀態，則持續時間延長30秒\n最多可延長至60秒\n連擊成功：獲得10點獸魂"
       },
       {
-        "name": "戰嚎透過特職任務獲得",
+        "name": "戰嚎",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/16.png",
         "classification": "能力",
         "level": "50級",
@@ -613,7 +613,7 @@
         "description": "獲得50點獸魂\n追加效果：原初的混沌\n持續時間：30秒\n原初的混沌效果：在50點以上時，地毀人亡變為混沌旋風，裂石飛環變為狂魂,地毀人亡變為混沌旋風\n累積次數：2\n發動條件：自身處於戰鬥狀態"
       },
       {
-        "name": "裂石飛環透過特職任務獲得",
+        "name": "裂石飛環",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/17.png",
         "classification": "戰技",
         "level": "54級",
@@ -624,7 +624,7 @@
         "description": "對目標發動物理攻擊\n威力：580\n該技能在原初的混沌狀態中，且獸魂在50點以上時變為狂魂\n發動條件：獸魂50點"
       },
       {
-        "name": "原初的直覺透過特職任務獲得",
+        "name": "原初的直覺",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/18.png",
         "classification": "能力",
         "level": "56級",
@@ -635,7 +635,7 @@
         "description": "一定時間內，自身所受的傷害減輕10%\n持續時間：6秒\n追加效果：自身發動的戰技命中時恢復HP\n恢復力：400\n與原初的勇猛共用冷卻時間"
       },
       {
-        "name": "泰然自若透過特職任務獲得",
+        "name": "泰然自若",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/19.png",
         "classification": "能力",
         "level": "58級",
@@ -646,7 +646,7 @@
         "description": "恢復自身HP\n恢復力：1200\n追加效果：持續恢復自身的HP\n恢復力：200\n持續時間：15秒"
       },
       {
-        "name": "地毀人亡透過特職任務獲得",
+        "name": "地毀人亡",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/20.png",
         "classification": "戰技",
         "level": "60級",
@@ -690,7 +690,7 @@
         "description": "為自身與周圍隊員附加能夠抵禦一定傷害的防護罩\n該防護罩能夠抵消相當於目標最大HP15%的傷害量\n另外，若自身處於戰慄、戮罪、原初的血氣狀態，發動該技能會解除這些狀態\n每解除一個狀態，防護罩的效果量上升2%\n持續時間：30秒\n追加效果：令目標HP持續恢復\n恢復力：100\n持續時間：15秒\n追加效果：恢復自身及周圍隊員的HP\n恢復力：300"
       },
       {
-        "name": "原初的解放透過特職任務獲得",
+        "name": "原初的解放",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/warrior/images/icon/24.png",
         "classification": "能力",
         "level": "70級",
@@ -882,7 +882,7 @@
         "description": "對目標發動物理攻擊\n威力：260\n連擊條件：吸收斬\n連擊時威力：480\n連擊成功：恢復自身HP\n恢復力：300\n連擊成功：獲得20點暗血"
       },
       {
-        "name": "暗黑波動透過特職任務獲得",
+        "name": "暗黑波動",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/08.png",
         "classification": "能力",
         "level": "30級",
@@ -893,7 +893,7 @@
         "description": "向目標方向發出無屬性直線範圍魔法攻擊\n威力：100\n追加效果：暗黑\n持續時間：30秒\n暗黑效果：攻擊傷害提高10%\n若自身已經附加暗黑狀態，則持續時間延長30秒\n最多可延長至60秒\n與暗黑鋒共用冷卻時間"
       },
       {
-        "name": "嗜血透過特職任務獲得",
+        "name": "嗜血",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/09.png",
         "classification": "能力",
         "level": "35級",
@@ -926,7 +926,7 @@
         "description": "對自身周圍敵人發動無屬性範圍魔法攻擊\n威力：120\n連擊條件：釋放\n追加效果：提升仇恨\n連擊中威力：160\n連擊成功：恢復自身MP\n連擊成功：獲得20點暗血"
       },
       {
-        "name": "暗黑鋒透過特職任務獲得",
+        "name": "暗黑鋒",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/12.png",
         "classification": "能力",
         "level": "40級",
@@ -948,7 +948,7 @@
         "description": "一定時間內，令自身所受到的物理傷害減輕10%、魔法傷害減輕20%\n持續時間：10秒"
       },
       {
-        "name": "行屍走肉透過特職任務獲得",
+        "name": "行屍走肉",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/14.png",
         "classification": "能力",
         "level": "50級",
@@ -959,7 +959,7 @@
         "description": "對自身附加行屍走肉狀態\n持續時間：10秒\n效果中受到致命傷也不會陷入無法戰鬥狀態，代價是自身HP降為1且該狀態變為死而不僵狀態\n持續時間：10秒\n死而不僵效果：所有對自身發動的攻擊均無法令HP減少到1以下\n另外，自身發動戰技和魔法攻擊命中後恢復自身HP\n恢復力：1500\n效果中得到相當於自身最大HP100%的恢復量後，該效果變為出死入生\n死而不僵變為出死入生時，出死入生會繼承死而不僵狀態的剩餘持續時間\n如恢復量不足以解除狀態直到持續時間結束，自身將陷入無法戰鬥狀態\n出死入生效果：所有對自身發動的攻擊均無法令HP減少到1以下\n以上三種狀態均對部分攻擊無效"
       },
       {
-        "name": "腐穢大地透過特職任務獲得",
+        "name": "腐穢大地",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/15.png",
         "classification": "能力",
         "level": "52級",
@@ -970,7 +970,7 @@
         "description": "以自身腳下為中心產生腐穢區域\n所有進入該區域的目標都會受到無屬性傷害\n威力：50\n持續時間：15秒"
       },
       {
-        "name": "暗影步透過特職任務獲得",
+        "name": "暗影步",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/16.png",
         "classification": "能力",
         "level": "54級",
@@ -981,7 +981,7 @@
         "description": "指定一名敵人為目標，自身快速移動到目標身邊\n追加效果：提升仇恨\n累積次數：2\n束縛狀態下無法發動"
       },
       {
-        "name": "吸血深淵透過特職任務獲得",
+        "name": "吸血深淵",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/17.png",
         "classification": "能力",
         "level": "56級",
@@ -992,7 +992,7 @@
         "description": "以目標為中心發動無屬性範圍魔法攻擊\n威力：240\n追加效果：恢復自身HP\n恢復力：500\n追加效果：恢復自身MP\n與精雕怒斬共用冷卻時間"
       },
       {
-        "name": "精雕怒斬透過特職任務獲得",
+        "name": "精雕怒斬",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/18.png",
         "classification": "能力",
         "level": "60級",
@@ -1047,7 +1047,7 @@
         "description": "為自身附加3階血亂和嗜血狀態\n持續時間：15秒\n血亂效果：血濺變為血紅亂，寂滅變為刺穿\n不需要消耗暗血就可以發動血濺和寂滅，命中時恢復自身MP\n嗜血效果：自身的戰技及魔法命中時恢復MP，同時獲得10點暗血\n當範圍攻擊命中複數敵人時，效果只發動1次"
       },
       {
-        "name": "至黑之夜透過特職任務獲得",
+        "name": "至黑之夜",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/darkknight/images/icon/23.png",
         "classification": "能力",
         "level": "70級",
@@ -1121,7 +1121,7 @@
         "recast": "120秒",
         "cost": "-",
         "distantRange": "0m / 0m",
-        "description": "一定時間內，將自身所受的傷害減輕40%\n持續時間：15秒\n追加效果：影衛\n持續時間：20秒\n影衛效果：HP低於50%���或持續時間結束後自動恢復\n恢復力：1200"
+        "description": "一定時間內，將自身所受的傷害減輕40%\n持續時間：15秒\n追加效果：影衛\n持續時間：20秒\n影衛效果：HP低於50%時或持續時間結束後自動恢復\n恢復力：1200"
       },
       {
         "name": "血紅亂",
@@ -1280,7 +1280,7 @@
         "recast": "30秒",
         "cost": "-",
         "distantRange": "3m / 0m",
-        "description": "對目標發動物理攻擊\n威��：250"
+        "description": "對目標發動物理攻擊\n威力：250"
       },
       {
         "name": "迅連斬",
@@ -1434,10 +1434,10 @@
         "recast": "25秒",
         "cost": "-",
         "distantRange": "30m / 0m",
-        "description": "令自身或一名隊員受到的傷害減輕15%\n持續時間：7秒\n追加效果：對���員使用時，若自身附加了殘暴彈狀態，則目標隊員也會附加該狀態 \n持續時間：30秒"
+        "description": "令自身或一名隊員受到的傷害減輕15%\n持續時間：7秒\n追加效果：對隊員使用時，若自身附加了殘暴彈狀態，則目標隊員也會附加該狀態 \n持續時間：30秒"
       },
       {
-        "name": "續劍透過特職任務獲得",
+        "name": "續劍",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/gunbreaker/images/icon/24.png",
         "classification": "能力",
         "level": "70級",
@@ -1467,7 +1467,7 @@
         "recast": "1秒",
         "cost": "-",
         "distantRange": "5m / 0m",
-        "description": "對目標發動物理攻擊\n威力：280\n發動條件：裂膛預備狀態中\n※該技能無法設置到快速鍵\n滿足發動條件後，續劍變為裂膛"
+        "description": "對目標發動物理攻擊\n威力：280\n發動條件：裂膛預備狀態���\n※該技能無法設置到快速鍵\n滿足發動條件後，續劍變為裂膛"
       },
       {
         "name": "穿目",
@@ -1522,7 +1522,7 @@
         "recast": "25秒",
         "cost": "-",
         "distantRange": "30m / 0m",
-        "description": "令自身或一名隊員受到的傷害減輕15% \n持續時間：8秒\n追加效果：對隊員使用時，若自身附加了殘暴彈狀態，則目標隊員也會附加該狀態 \n持續時間：30秒\n追加效果：為目標附加剛玉之清狀態 \n持續時間：4秒\n剛玉之清效果：令目標受到的傷害減輕15%\n追加效果：剛玉之淨\n持續時間：20秒\n剛玉之淨效果： HP 低於50%時或持續時間結束後自動恢復\n恢復力：900"
+        "description": "令自身或一名隊員受到的傷害減輕15% \n持續時間：8秒\n追加效果：對隊員使用時，若自身附加了殘暴彈狀態，則目標隊員也會附加該狀態 \n持續時間：30秒\n追加效果：為目標附加剛玉之清狀態 \n持續時間：4秒\n剛玉之清效果：令目標受到的傷害減輕15%\n追加效果：剛玉之淨\n持續時間：20秒\n剛玉之淨效果： HP 低於50%時或持續時間結束後���動恢復\n恢復力：900"
       },
       {
         "name": "超高速",
@@ -1544,7 +1544,7 @@
         "recast": "60秒",
         "cost": "-",
         "distantRange": "0m / 5m",
-        "description": "對自身周圍的敵人發動範圍���理攻擊\n威力：1200\n攻擊複數敵人時，對第一個之外的敵人威力降低15%\n發動條件：晶壤\n該戰技有單獨計算的冷卻時間"
+        "description": "對自��周圍的敵人發動範圍物理攻擊\n威力：1200\n攻擊複數敵人時，對第一個之外的敵人威力降低15%\n發動條件：晶壤\n該戰技有單獨計算的冷卻時間"
       },
       {
         "name": "大星雲",
@@ -1577,7 +1577,7 @@
         "recast": "2.5秒",
         "cost": "-",
         "distantRange": "3m / 5m",
-        "description": "對目標及其周圍的敵人發動範圍物理攻擊\n威力：1000\n攻擊複數敵人時，對���標之外的敵人威力降低60%\n發動條件：心有靈獅狀態中"
+        "description": "對目標及其周圍的敵人發動範圍物理攻擊\n威力：1000\n攻擊複數敵人時，對目標之外的敵人威力降低60%\n發動條件：心有靈獅狀態中"
       },
       {
         "name": "支配之心",
@@ -1673,7 +1673,7 @@
         "description": "對目標發動土屬性魔法攻擊\n威力：190"
       },
       {
-        "name": "中療傷透過職業任務獲得",
+        "name": "中療傷",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/07.png",
         "classification": "魔法",
         "level": "30級",
@@ -1684,7 +1684,7 @@
         "description": "恢復目標的HP\n恢復力：800"
       },
       {
-        "name": "神速詠唱透過特職任務獲得",
+        "name": "神速詠唱",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/08.png",
         "classification": "能力",
         "level": "30級",
@@ -1695,7 +1695,7 @@
         "description": "一定時間內，自身的自動攻擊間隔、魔法的詠唱及冷卻時間縮短20%\n持續時間：15秒\n追加效果：3階閃颯預備\n持續時間：30秒"
       },
       {
-        "name": "再生透過特職任務獲得",
+        "name": "再生",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/09.png",
         "classification": "魔法",
         "level": "35級",
@@ -1706,7 +1706,7 @@
         "description": "令目標HP持續恢復\n恢復力：250\n持續時間：18秒"
       },
       {
-        "name": "大療傷透過特職任務獲得",
+        "name": "大療傷",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/10.png",
         "classification": "魔法",
         "level": "40級",
@@ -1728,7 +1728,7 @@
         "description": "迅速移動到自身前方15米處\n束縛狀態下無法發動"
       },
       {
-        "name": "神聖透過特職任務獲得",
+        "name": "神聖",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/12.png",
         "classification": "魔法",
         "level": "45級",
@@ -1761,7 +1761,7 @@
         "description": "恢復自身及周圍隊員的HP\n恢復力：250\n追加效果：目標HP持續恢復\n恢復力：150\n持續時間：15秒"
       },
       {
-        "name": "天賜祝福透過特職任務獲得",
+        "name": "天賜祝福",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/15.png",
         "classification": "能力",
         "level": "50級",
@@ -1783,7 +1783,7 @@
         "description": "恢復目標的HP\n恢復力：800\n追加效果：血百合開放\n發動條件：治療百合"
       },
       {
-        "name": "庇護所透過特職任務獲得",
+        "name": "庇護所",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/17.png",
         "classification": "能力",
         "level": "52級",
@@ -1794,7 +1794,7 @@
         "description": "以指定地點為中心產生治療區域\n效果時間內，持續恢復進入該區域的自身及隊員的HP\n恢復力：100\n持續時間：24秒\n追加效果：區域內的自身和隊員所受的HP恢復效果提高10%"
       },
       {
-        "name": "大巨岩透過特職任務獲得",
+        "name": "大巨岩",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/18.png",
         "classification": "魔法",
         "level": "54級",
@@ -1805,7 +1805,7 @@
         "description": "對目標發動土屬性魔法攻擊\n威力：220"
       },
       {
-        "name": "法令透過特職任務獲得",
+        "name": "法令",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/19.png",
         "classification": "能力",
         "level": "56級",
@@ -1816,7 +1816,7 @@
         "description": "對周圍的敵人發動無屬性範圍魔法攻擊\n威力：400\n追加效果：恢復自身及周圍隊員的HP\n恢復力：400\n追加效果：恢復自身最大MP的5%"
       },
       {
-        "name": "無中生有透過特職任務獲得",
+        "name": "無中生有",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/20.png",
         "classification": "能力",
         "level": "58級",
@@ -1827,11 +1827,11 @@
         "description": "下一次發動技能消耗的MP降低100%\n持續時間：12秒\n累積次數：2"
       },
       {
-        "name": "神名透過特職任務獲得",
+        "name": "神名",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/21.png",
         "classification": "能力",
         "level": "60級",
-        "cast": "即時",
+        "cast": "即���",
         "recast": "60秒",
         "cost": "-",
         "distantRange": "30m / 0m",
@@ -1860,7 +1860,7 @@
         "description": "為自身或一名隊員附加能夠抵禦一定傷害的防護罩\n該防護罩能夠抵消相當於500恢復力的傷害量\n持續時間：15秒\n累積次數：2"
       },
       {
-        "name": "全大赦透過特職任務獲得",
+        "name": "全大赦",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/whitemage/images/icon/24.png",
         "classification": "能力",
         "level": "70級",
@@ -2085,7 +2085,7 @@
         "description": "對目標附加無屬性持續傷害狀態\n威力：40\n持續時間：30秒"
       },
       {
-        "name": "鼓舞激勵之策透過特職任務獲得",
+        "name": "鼓舞激勵之策",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/08.png",
         "classification": "魔法",
         "level": "30級",
@@ -2096,7 +2096,7 @@
         "description": "恢復目標的HP \n恢復力：300\n追加效果：為目標附加能夠抵禦一定傷害的防護罩鼓舞\n鼓舞效果：抵消相當於治療量180%的傷害\n持續時間：30秒\n無法與賢者的部分護盾效果共存\n追加效果（暴擊時）：為目標附加能夠抵禦一定傷害的防護罩激勵\n激勵效果：抵消相當於治療量180%的傷害\n持續時間：30秒"
       },
       {
-        "name": "士氣高揚之策透過特職任務獲得",
+        "name": "士氣高揚之策",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/09.png",
         "classification": "魔法",
         "level": "35級",
@@ -2151,7 +2151,7 @@
         "description": "對目標發動無屬性魔法攻擊\n威力：100\n追加效果：恢復傷害量一定比例的HP\n追加效果：獲得10點異想乙太\n發動條件：乙太超流"
       },
       {
-        "name": "生命活性法透過特職任務獲得",
+        "name": "生命活性法",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/14.png",
         "classification": "能力",
         "level": "45級",
@@ -2173,7 +2173,7 @@
         "description": "對周圍的敵人發動無屬性範圍魔法攻擊\n威力：165"
       },
       {
-        "name": "野戰治療陣透過特職任務獲得",
+        "name": "野戰治療陣",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/16.png",
         "classification": "能力",
         "level": "50級",
@@ -2184,7 +2184,7 @@
         "description": "以指定地點為中心產生減輕傷害的防護區域\n區域內的隊員所受到的傷害會減輕10%，同時持續恢復隊員HP\n恢復力：100\n持續時間：15秒\n追加效果：獲得10點異想乙太\n發動條件：乙太超流"
       },
       {
-        "name": "不屈不撓之策透過特職任務獲得",
+        "name": "不屈不撓之策",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/17.png",
         "classification": "能力",
         "level": "52級",
@@ -2195,7 +2195,7 @@
         "description": "恢復自身及周圍隊員的HP\n恢復力：400\n追加效果：獲得10點異想乙太\n發動條件：乙太超流"
       },
       {
-        "name": "氣炎法透過特職任務獲得",
+        "name": "氣炎法",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/18.png",
         "classification": "魔法",
         "level": "54級",
@@ -2206,7 +2206,7 @@
         "description": "對目標發動無屬性魔法攻擊\n威力：220"
       },
       {
-        "name": "展開戰術透過特職任務獲得",
+        "name": "展開戰術",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/19.png",
         "classification": "能力",
         "level": "56級",
@@ -2217,7 +2217,7 @@
         "description": "指定自身或一名隊員為目標，令目標所帶的鼓舞狀態向周圍隊員身上擴散\n持續時間：擴散時狀態的剩餘持續時間\n自身沒有對目標附加鼓舞狀態時無效"
       },
       {
-        "name": "應急戰術透過特職任務獲得",
+        "name": "應急戰術",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/20.png",
         "classification": "能力",
         "level": "58級",
@@ -2228,7 +2228,7 @@
         "description": "效果時間內自身發動1次帶有鼓舞及激勵狀態的治療魔法時，將鼓舞及激勵效果轉化為同等數值的HP恢復效果\n持續時間：15秒"
       },
       {
-        "name": "轉化透過特職任務獲得",
+        "name": "轉化",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/21.png",
         "classification": "能力",
         "level": "60級",
@@ -2272,7 +2272,7 @@
         "description": "一定時間內，目標被暴擊率提高10%\n持續時間：20秒\n追加效果：埋伏之毒預備\n持續時間：30秒"
       },
       {
-        "name": "乙太契約透過特職任務獲得",
+        "name": "乙太契約",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/scholar/images/icon/25.png",
         "classification": "能力",
         "level": "70級",
@@ -2618,7 +2618,7 @@
         "description": "恢復目標的HP\n恢復力：250\n追加效果：令目標HP持續恢復\n恢復力：250\n持續時間：15秒"
       },
       {
-        "name": "陽星相位透過特職任務獲得",
+        "name": "陽星相位",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/15.png",
         "classification": "魔法",
         "level": "40級",
@@ -2629,7 +2629,7 @@
         "description": "恢復自身及周圍隊員的HP\n恢復力：250\n追加效果：令目標HP持續恢復\n恢復力：150\n持續時間：15秒"
       },
       {
-        "name": "重力透過特職任務獲得",
+        "name": "重力",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/16.png",
         "classification": "魔法",
         "level": "45級",
@@ -2651,7 +2651,7 @@
         "description": "對目標附加無屬性持續傷害狀態\n威力：60\n持續時間：30秒"
       },
       {
-        "name": "星位合圖透過特職任務獲得",
+        "name": "星位合圖",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/18.png",
         "classification": "能力",
         "level": "50級",
@@ -2673,7 +2673,7 @@
         "description": "令自身與周圍隊員發動攻擊造成的傷害提高6%\n持續時間：20秒\n追加效果：神諭預備\n持續時間：30秒"
       },
       {
-        "name": "災星透過特職任務獲得",
+        "name": "災星",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/20.png",
         "classification": "魔法",
         "level": "54級",
@@ -2684,7 +2684,7 @@
         "description": "對目標發動無屬性魔法攻擊\n威力：160"
       },
       {
-        "name": "命運之輪透過特職任務獲得",
+        "name": "命運之輪",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/21.png",
         "classification": "能力",
         "level": "58級",
@@ -2695,7 +2695,7 @@
         "description": "以自身為中心產生覆蓋範圍8米的命運之輪\n持續時間：18秒\n使用時自身及周圍30米內的隊員所受到的傷害減輕10%\n持續時間：5秒\n同時，範圍內的自身及隊員還會附加HP持續恢復的效果\n恢復力：100\n持續時間：15秒\n在進入命運之輪範圍後將持續獲得以上效果\n效果時間內發動技能或進行移動、轉身都會使命運之輪立即消失\n發動之後會停止自動攻擊"
       },
       {
-        "name": "天星衝日透過特職任務獲得",
+        "name": "天星衝日",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/astrologian/images/icon/22.png",
         "classification": "能力",
         "level": "60級",
@@ -2890,7 +2890,7 @@
         "recast": "1秒",
         "cost": "-",
         "distantRange": "0m / 30m",
-        "description": "一定時間內，令自身和周圍隊員所受到的傷害減輕10%\n持續時間：15秒\n發動條件：太陽星座預備狀態中"
+        "description": "一定時間內，令自身和周圍隊員所受到的傷害減輕10%\n��續時間：15秒\n發動條件：太陽星座預備狀態中"
       }
     ]
   },
@@ -3206,7 +3206,7 @@
         "description": "恢復自身及周圍隊員的HP\n恢復力：300\n追加效果：為目標附加能夠抵禦一定傷害的防護罩\n該防護罩能夠抵消相當於治療量100%的傷害\n持續時間：30秒\n追加效果：自身及周圍隊員所受傷害減輕10%\n持續時間：20秒"
       },
       {
-        "name": "泛輸血透過特職任務獲得",
+        "name": "泛輸血",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/sage/images/icon/29.png",
         "classification": "能力",
         "level": "80級",
@@ -3387,7 +3387,7 @@
         "description": "對自身附加鬥氣狀態，最多可以累積5階\n持續時間：永久\n自身處於非戰鬥狀態時直接獲得5階鬥氣\n發動條件：鬥氣不足5階\n該能力類技能有單獨計算的冷卻時間，同時也會受到戰技類技能的冷卻時間的影響\n另外，該能力類技能發動後，戰技與魔法也會進入冷卻時間"
       },
       {
-        "name": "鐵山靠透過職業任務獲得",
+        "name": "鐵山靠",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/05.png",
         "classification": "能力",
         "level": "15級",
@@ -3431,7 +3431,7 @@
         "description": "對目標發動物理攻擊\n威力：360\n背面攻擊威力：420\n追加效果：2階猛虎功力\n猛虎功力效果：虎襲崩拳的威力提升150\n追加效果：魔猿身形\n持續時間：30秒\n發動條件：猛虎身形狀態中"
       },
       {
-        "name": "地烈勁透過特職任務獲得",
+        "name": "地烈勁",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/09.png",
         "classification": "戰技",
         "level": "30級",
@@ -3442,7 +3442,7 @@
         "description": "對自身周圍的敵人發動範圍物理攻擊\n威力：150\n追加效果：魔猿身形 \n持續時間：30秒\n發動條件：猛虎身形狀態中"
       },
       {
-        "name": "輕身步法透過特職任務獲得",
+        "name": "輕身步法",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/10.png",
         "classification": "能力",
         "level": "35級",
@@ -3464,7 +3464,7 @@
         "description": "對自身附加鬥氣狀態，最多可以累積5階\n持續時間：永久\n自身處於非戰鬥狀態時直接獲得5階鬥氣\n發動條件：鬥氣不足5階\n該能力類技能有單獨計算的冷卻時間，同時也會受到戰技類技能的冷卻時間的影響\n另外，該能力類技能發動後，戰技與魔法也會進入冷卻時間"
       },
       {
-        "name": "空鳴拳透過特職任務獲得",
+        "name": "空鳴拳",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/12.png",
         "classification": "能力",
         "level": "40級",
@@ -3486,7 +3486,7 @@
         "description": "一定時間內，自身與周圍隊員所受的HP恢復效果提高10% \n持續時間：15秒"
       },
       {
-        "name": "四面腳透過特職任務獲得",
+        "name": "四面腳",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/14.png",
         "classification": "戰技",
         "level": "45級",
@@ -3508,7 +3508,7 @@
         "description": "對目標發動物理攻擊\n威力：320\n魔猿身形狀態中追加效果：魔猿功力\n魔猿功力效果：猿舞連擊的威力提升200\n追加效果：盜龍身形\n持續時間：30秒"
       },
       {
-        "name": "震腳透過特職任務獲得",
+        "name": "震腳",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/16.png",
         "classification": "能力",
         "level": "50級",
@@ -3519,7 +3519,7 @@
         "description": "對自身附加3階的震腳狀態\n持續時間：20秒\n震腳效果：可以無視身形要求發動戰技\n追加效果：自身發動魔猿身形、盜龍身形、猛虎身形的戰技時，獲得對應的脈輪\n魔猿身形的戰技：猛虎脈輪\n盜龍身形的戰技：魔猿脈輪\n猛虎身形的戰技：盜龍脈輪\n累積次數：2\n發動條件：自身處於戰鬥狀態且沒有附加任何脈輪"
       },
       {
-        "name": "演武透過特職任務獲得",
+        "name": "演武",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/17.png",
         "classification": "戰技",
         "level": "52級",
@@ -3541,7 +3541,7 @@
         "description": "對自身附加鬥氣狀態，最多可以累積5階\n持續時間：永久\n自身處於非戰鬥狀態時直接獲得5階鬥氣\n發動條件：鬥氣不足5階\n該能力類技能有單獨計算的冷卻時間，同時也會受到戰技類技能的冷卻時間的影響\n另外，該能力類技能發動後，戰技與魔法也會進入冷卻時間"
       },
       {
-        "name": "陰陽鬥氣斬透過特職任務獲得",
+        "name": "陰陽鬥氣斬",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/18.png",
         "classification": "能力",
         "level": "54級",
@@ -3552,7 +3552,7 @@
         "description": "對目標發動物理攻擊\n威力：400\n發動條件：自身處於戰鬥狀態且鬥氣5階"
       },
       {
-        "name": "必殺技透過特職任務獲得",
+        "name": "必殺技",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/19.png",
         "classification": "戰技",
         "level": "60級",
@@ -3640,7 +3640,7 @@
         "description": "一定時間內，自身發動攻擊造成的傷害提高15%\n持續時間：20秒\n追加效果：乾坤鬥氣彈預備\n持續時間：20秒"
       },
       {
-        "name": "義結金蘭透過特職任務獲得",
+        "name": "義結金蘭",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/monk/images/icon/27.png",
         "classification": "能力",
         "level": "70級",
@@ -3832,7 +3832,7 @@
         "description": "效果時間內，自身發動的1次戰技必定打出暴擊，並且恢復自身HP\n受暴擊發動率提高效果影響時，攻擊造成的傷害提高\n該效果不適用於持續傷害等狀態\n持續時間：5秒\n累積次數：2"
       },
       {
-        "name": "貫穿尖透過職業任務獲得",
+        "name": "貫穿尖",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/04.png",
         "classification": "戰技",
         "level": "15級",
@@ -3865,7 +3865,7 @@
         "description": "對目標發動物理攻擊\n威力：100\n連擊條件：貫通刺\n連擊時威力：380"
       },
       {
-        "name": "猛槍透過職業任務獲得",
+        "name": "猛槍",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/07.png",
         "classification": "能力",
         "level": "30級",
@@ -3876,7 +3876,7 @@
         "description": "一定時間內，自身發動攻擊造成的傷害提高10%\n効果時間：20秒"
       },
       {
-        "name": "跳躍透過特職任務獲得",
+        "name": "跳躍",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/08.png",
         "classification": "能力",
         "level": "30級",
@@ -3887,7 +3887,7 @@
         "description": "跳起接近目標並發動物理攻擊\n威力：320\n攻擊之後回到原位\n追加效果：幻象衝預備\n持續時間：15秒"
       },
       {
-        "name": "迴避跳躍透過特職任務獲得",
+        "name": "迴避跳躍",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/09.png",
         "classification": "能力",
         "level": "35級",
@@ -3898,7 +3898,7 @@
         "description": "向身後跳出15米距離\n追加效果：貫穿尖效果提高。\n持續時間：15秒\n束縛狀態下無法發動"
       },
       {
-        "name": "死天槍透過特職任務獲得",
+        "name": "死天槍",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/10.png",
         "classification": "戰技",
         "level": "40級",
@@ -3909,7 +3909,7 @@
         "description": "向目標所在方向發出直線範圍物理攻擊\n威力：110"
       },
       {
-        "name": "龍翼滑翔透過特職任務獲得",
+        "name": "龍翼滑翔",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/11.png",
         "classification": "能力",
         "level": "45級",
@@ -3931,7 +3931,7 @@
         "description": "對目標��動物理攻擊\n威力：100\n背面攻擊威力：140\n連擊條件：開膛槍\n連擊中威力：220\n連擊中背面攻擊威力：260\n連擊成功：持續傷害\n威力：40\n持續時間：24秒"
       },
       {
-        "name": "龍炎衝透過特職任務獲得",
+        "name": "龍炎衝",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/13.png",
         "classification": "能力",
         "level": "50級",
@@ -3942,7 +3942,7 @@
         "description": "跳起接近目標並發動火屬性範圍攻擊\n威力：500\n攻擊複數敵人時，對目標之外的敵人威力降低50%\n追加效果：「龍炎昇預備」\n持續時間：30秒\n束縛狀態下無法發動"
       },
       {
-        "name": "戰鬥連禱透過特職任務獲得",
+        "name": "戰鬥連禱",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/14.png",
         "classification": "能力",
         "level": "52級",
@@ -3953,7 +3953,7 @@
         "description": "一定時間內，自身與周圍隊員的暴擊發動率提高10%\n持續時間：20秒"
       },
       {
-        "name": "龍牙龍爪透過特職任務獲得",
+        "name": "龍牙龍爪",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/15.png",
         "classification": "戰技",
         "level": "56級",
@@ -3964,7 +3964,7 @@
         "description": "對目標發動物理攻擊\n威力：140\n側面攻擊威力：180\n連擊條件：蒼天刺\n連擊中威力：300\n連擊中側面攻擊威力：340"
       },
       {
-        "name": "龍尾大迴旋透過特職任務獲得",
+        "name": "龍尾大迴旋",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/16.png",
         "classification": "戰技",
         "level": "58級",
@@ -3975,7 +3975,7 @@
         "description": "對目標發動物理攻擊\n威力：140\n背面攻擊威力：180\n連擊條件：櫻花繚亂\n擊中威力：300\n連擊中背面攻擊威力：340"
       },
       {
-        "name": "武神槍透過特職任務獲得",
+        "name": "武神槍",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/17.png",
         "classification": "能力",
         "level": "60級",
@@ -4019,7 +4019,7 @@
         "description": "對目標發動物理攻擊\n威力：380\n發動條件：發動跳躍、高跳後對自身附加的幻象衝預備狀態中"
       },
       {
-        "name": "死者之岸透過特職任務獲得",
+        "name": "死者之岸",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dragoon/images/icon/21.png",
         "classification": "能力",
         "level": "70級",
@@ -4200,7 +4200,7 @@
         "description": "隱藏自己的身形，大多數敵人都無法發現自己\n不過移動速度會降低50%\n對比自身等級高出10級的怪物以及部分特殊怪物無效\n發動衝刺以外的技能或再次發動本技能會取消該狀態\n持續時間：永久\n追加效果：發動後若處於非戰鬥狀態則重置忍術的冷卻時間\n另外，發動後會解除自身施放的土遁之術\n發動條件：自身處於非戰鬥狀態"
       },
       {
-        "name": "飛刀 透過職業任務獲得",
+        "name": "飛刀",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/05.png",
         "classification": "戰技",
         "level": "15級",
@@ -4211,7 +4211,7 @@
         "description": "對目標發動遠距離物理攻擊\n威力：200\n追加效果：獲得5點忍氣"
       },
       {
-        "name": "奪取透過職業任務獲得",
+        "name": "奪取",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/06.png",
         "classification": "能力",
         "level": "15級",
@@ -4244,7 +4244,7 @@
         "description": "對目標發動物理攻擊\n威力：220\n背面攻擊威力：280\n連擊條件：絕風\n連擊中威力：400\n連擊中背面攻擊威力：460\n風纏狀態下威力提升100\n連擊成功：獲得15點忍氣"
       },
       {
-        "name": "天之印 透過特職任務獲得",
+        "name": "天之印",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/09.png",
         "classification": "能力",
         "level": "30級",
@@ -4266,7 +4266,7 @@
         "description": "發動忍術，忍術的具體效果隨之前結印的順序有所不同\n在結印狀態下發動其他技能會導致忍術失敗\n此能力類技能發動時會受到公共冷卻時間的影響\n此能力類技能發動後會產生公共冷卻時間\n此外發動隱遁後若處於非戰鬥狀態則重置2次忍術的冷卻時間"
       },
       {
-        "name": "地之印 透過特職任務獲得",
+        "name": "地之印",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/11.png",
         "classification": "能力",
         "level": "35級",
@@ -4299,7 +4299,7 @@
         "description": "對目標發動物理攻擊\n威力：200"
       },
       {
-        "name": "縮地 透過特職任務獲得",
+        "name": "縮地",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/14.png",
         "classification": "能力",
         "level": "40級",
@@ -4310,7 +4310,7 @@
         "description": "迅速移動到指定地點\n累積次數：2\n束縛狀態下無法發動"
       },
       {
-        "name": "人之印 透過特職任務獲得",
+        "name": "人之印",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/15.png",
         "classification": "能力",
         "level": "45級",
@@ -4321,7 +4321,7 @@
         "description": "結成人之印手勢\n持續時間：6秒\n累積次數：2\n此能力類技能有單獨計算的冷卻時間\n此能力類技能發動時會受到公共冷卻時間的影響\n此能力類技能發動後會產生公共冷卻時間"
       },
       {
-        "name": "活殺自在 透過特職任務獲得",
+        "name": "活殺自在",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/16.png",
         "classification": "能力",
         "level": "50級",
@@ -4332,7 +4332,7 @@
         "description": "一定時間內，可以無視天之印、地之印、人之印的累積次數發動1次忍術\n在效果中發動的忍術威力提高30%\n持續時間：15秒"
       },
       {
-        "name": "八卦無刃殺 透過特職任務獲得",
+        "name": "八卦無刃殺",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/17.png",
         "classification": "戰技",
         "level": "52級",
@@ -4343,7 +4343,7 @@
         "description": "對自身周圍的敵人發動範圍物理攻擊\n威力：100\n連擊條件：血雨飛花\n連擊中威力：120\n連擊成功：獲得5點忍氣"
       },
       {
-        "name": "強甲破點突 透過特職任務獲得",
+        "name": "強甲破點突",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/18.png",
         "classification": "戰技",
         "level": "54級",
@@ -4354,7 +4354,7 @@
         "description": "對目標發動物理攻擊\n威力：240\n側面攻擊威力：300\n連擊條件：絕風\n連擊中威力：440\n連擊中側面攻擊威力：500\n連擊成功：2階風纏\n最大等階：5階\n風纏效果：旋風刃的威力提升100\n連擊成功：獲得15點忍氣"
       },
       {
-        "name": "夢幻三段 透過特職任務獲得",
+        "name": "夢幻三段",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/19.png",
         "classification": "能力",
         "level": "56級",
@@ -4398,7 +4398,7 @@
         "description": "對目標發動無屬性魔法攻擊\n威力：400\n命水狀態中威力：550\n發動條件：忍氣50點\n與通靈之術・大蝦蟆共用冷卻時間"
       },
       {
-        "name": "天地人 透過特職任務獲得",
+        "name": "天地人",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/ninja/images/icon/23.png",
         "classification": "能力",
         "level": "70級",
@@ -4700,7 +4700,7 @@
         "description": "對目標發動物理攻擊\n威力：100\n追加效果：後跳10米距離\n追加效果：燕飛效果提高\n持續時間：15秒\n發動條件：劍氣10點\n束縛狀態下無法發動"
       },
       {
-        "name": "默想透過特職任務獲得",
+        "name": "默想",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/17.png",
         "classification": "能力",
         "level": "60級",
@@ -4744,7 +4744,7 @@
         "description": "獲得50點劍氣\n追加效果：奧義斬浪預備\n持續時間：30秒\n追加效果：殘心預備\n持續時間：30秒\n發動條件：自身處於戰鬥狀態"
       },
       {
-        "name": "必殺劍・紅蓮透過特職任務獲得",
+        "name": "必殺劍・紅蓮",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/samurai/images/icon/21.png",
         "classification": "能力",
         "level": "70級",
@@ -5112,7 +5112,7 @@
         "description": "召喚化身對目標及其周圍的敵人發動無屬性範圍魔法攻擊\n威力：520\n攻擊複數敵人時，對目標之外的敵人威力降低25%\n追加效果：為自身附加2階處刑人\n持續時間：30秒\n無法與妖異之鐮效果共存\n發動條件：靈魂50點"
       },
       {
-        "name": "夜遊魂衣透過特職任務獲得",
+        "name": "夜遊魂衣",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/reaper/images/icon/24.png",
         "classification": "能力",
         "level": "80級",
@@ -5142,7 +5142,7 @@
         "recast": "1.5秒",
         "cost": "-",
         "distantRange": "3m / 0m",
-        "description": "對目標發動物理攻擊\n威力：540\n交錯收割效果提高中威力：600\n追加效果：虛無收割效果提高\n持續時間：30秒\n��加效果：虛無魂\n發動條件：夜遊魂鐮刀\n該戰技有單獨計算的冷卻時間，發動後其他戰技與魔法會進入與該戰技相同的冷卻時間\n※該技能無法設置到快速鍵\n滿足發動條件後，縊殺變為交錯收割"
+        "description": "對目標發動物理攻擊\n威力：540\n交錯收割效果提高中威力：600\n追加效果：虛無收割效果提高\n持續時間：30秒\n追加效果：虛無魂\n發動條件：夜遊魂鐮刀\n該戰技有單獨計算的冷卻時間，發動後其他戰技與魔法會進入與該戰技相同的冷卻時間\n※該技能無法設置到快速鍵\n滿足發動條件後，縊殺變為交錯收割"
       },
       {
         "name": "陰冷收割",
@@ -5219,7 +5219,7 @@
         "recast": "2.5秒",
         "cost": "-",
         "distantRange": "25m / 5m",
-        "description": "對目標及其周圍的敵人發動無屬性範圍魔法攻擊\n威力：1100\n攻擊複數敵人時，對目標之外的敵人威力降低40%\n追加效果：補完狀態中發動，為自身附加完人預備狀態\n持續時間：30秒\n發動後夜遊魂狀態消失\n發動條件：夜遊魂鐮刀1階以上"
+        "description": "對目標及其周圍的敵人發動無屬性範圍魔法攻擊\n威力：1100\n攻擊複數敵人時，對目標之外的敵人威力降低40%\n追加效果：補完狀態中發動，為自身附加完人預備狀��\n持續時間：30秒\n發動後夜遊魂狀態消失\n發動條件：夜遊魂鐮刀1階以上"
       },
       {
         "name": "祭牲",
@@ -5837,7 +5837,7 @@
         "description": "對目標發動物理攻擊\n威力：130\n累積次數：3\n與死亡箭雨共用冷卻時間"
       },
       {
-        "name": "後躍射擊透過職業任務獲得",
+        "name": "後躍射擊",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/06.png",
         "classification": "能力",
         "level": "15級",
@@ -5870,7 +5870,7 @@
         "description": "對目標及其周圍敵人發動範圍物理攻擊\n威力：140\n紛亂箭狀態中威力：220\n發動條件：鷹眼或紛亂箭狀態中"
       },
       {
-        "name": "風蝕箭透過職業任務獲得",
+        "name": "風蝕箭",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/09.png",
         "classification": "戰技",
         "level": "30級",
@@ -5881,7 +5881,7 @@
         "description": "對目標發動風屬性物理攻擊\n威力：60\n追加效果：風屬性持續傷害\n威力：20\n持續時間：45秒"
       },
       {
-        "name": "賢者的敘事謠透過特職任務獲得",
+        "name": "賢者的敘事謠",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/10.png",
         "classification": "能力",
         "level": "30級",
@@ -5892,7 +5892,7 @@
         "description": "彈唱賢者的敘事謠，令自身及周圍50米內的隊員攻擊傷害提高1%\n持續時間：45秒\n追加效果（發動機率80%）：詩心\n該追加效果在賢者的敘事謠狀態下持續發動\n詩心效果：碎心箭及死亡箭雨的冷卻時間縮短7.5秒\n追加效果：賢者的尾聲\n發動條件：自身處於戰鬥狀態"
       },
       {
-        "name": "光陰神的禮讚凱歌透過特職任務獲得",
+        "name": "光陰神的禮讚凱歌",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/11.png",
         "classification": "能力",
         "level": "35級",
@@ -5914,7 +5914,7 @@
         "description": "對自身附加紛亂箭狀態\n持續時間：10秒\n紛亂箭效果：可以發動輝煌箭及影噬箭\n發動輝煌箭時造成3次傷害\n發動影噬箭時威力提升280\n追加效果：共鳴箭預備\n持續時間：30秒"
       },
       {
-        "name": "軍神的讚美歌透過特職任務獲得",
+        "name": "軍神的讚美歌",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/13.png",
         "classification": "能力",
         "level": "40級",
@@ -5925,7 +5925,7 @@
         "description": "彈唱軍神的讚美歌，令自身及周圍50米內的隊員直擊發動率提高3%\n持續時間：45秒\n追加效果（發動機率80%）：詩心\n該追加效果在軍神的讚美歌狀態下持續發動\n詩心效果：每階可令自身的自動攻擊間隔、戰技與魔法的詠唱及冷卻時間縮短4%\n最大等階：4階\n追加效果：軍神的尾聲\n發動條件：自身處於戰鬥狀態"
       },
       {
-        "name": "死亡箭雨透過特職任務獲得",
+        "name": "死亡箭雨",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/14.png",
         "classification": "能力",
         "level": "45級",
@@ -5936,7 +5936,7 @@
         "description": "對目標及其周圍敵人發動範圍物理攻擊\n威力：100\n累積次數：3\n與碎心箭共用冷卻時間"
       },
       {
-        "name": "戰鬥之聲透過特職任務獲得",
+        "name": "戰鬥之聲",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/15.png",
         "classification": "能力",
         "level": "50級",
@@ -5947,7 +5947,7 @@
         "description": "一定時間內，自身及周圍隊員的直擊發動率提高20%\n持續時間：20秒"
       },
       {
-        "name": "放浪神的小步舞曲透過特職任務獲得",
+        "name": "放浪神的小步舞曲",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/16.png",
         "classification": "能力",
         "level": "52級",
@@ -5969,7 +5969,7 @@
         "description": "對目標及其周圍敵人發動範圍物理攻擊\n根據自身附加的詩心等階給與相應傷害\n詩心1階時\n威力：100\n詩心2階時\n威力：220\n詩心3階時\n威力：360\n攻擊複數敵人時，對目標之外的敵人威力降低55%\n發動條件：放浪神的小步舞曲狀態中且詩心1階以上"
       },
       {
-        "name": "九天連箭透過特職任務獲得",
+        "name": "九天連箭",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/18.png",
         "classification": "能力",
         "level": "54級",
@@ -5980,7 +5980,7 @@
         "description": "對目標發動物理攻擊\n威力：260"
       },
       {
-        "name": "伶牙俐齒透過特職任務獲得",
+        "name": "伶牙俐齒",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/19.png",
         "classification": "戰技",
         "level": "56級",
@@ -5991,7 +5991,7 @@
         "description": "對目標發動物理攻擊\n威力：100\n追加效果：重置自身對目標施加的烈毒咬箭和狂風蝕箭的持續時間\n自身沒有對目標施加上述持續傷害狀態時無效\n追加效果（發動機率35%）：鷹眼 \n持續時間：30秒"
       },
       {
-        "name": "側風誘導箭透過特職任務獲得",
+        "name": "側風誘導箭",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/20.png",
         "classification": "能力",
         "level": "60級",
@@ -6046,7 +6046,7 @@
         "description": "一定時間內，自身與周圍隊員所受的HP恢復效果提高15%\n持續時間：15秒"
       },
       {
-        "name": "輝煌箭透過特職任務獲得",
+        "name": "輝煌箭",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/bard/images/icon/25.png",
         "classification": "戰技",
         "level": "70級",
@@ -6238,7 +6238,7 @@
         "description": "對目標發動物理攻擊\n威力：100\n連擊條件：獨頭彈或熱獨頭彈\n連擊中威力：270\n連擊成功：獲得5點槍管熱度\n連擊成功：獲得10點電能"
       },
       {
-        "name": "超荷透過特職任務獲得",
+        "name": "超荷",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/08.png",
         "classification": "能力",
         "level": "30級",
@@ -6249,7 +6249,7 @@
         "description": "為自身附加5階過熱狀態\n持續時間：10秒\n過熱效果：效果時間內，自身發動的單體戰技威力提高20\n僅對機工士特職技能有效\n同時，可以發動烈焰彈和自動連弩\n發動條件：槍管熱度50點"
       },
       {
-        "name": "高熱衝擊波透過特職任務獲得",
+        "name": "高熱衝擊波",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/09.png",
         "classification": "戰技",
         "level": "35級",
@@ -6260,7 +6260,7 @@
         "description": "對目標發動物理攻擊\n威力：200\n追加效果：虹吸彈和跳彈射擊的冷卻時間縮短15秒\n發動條件：過熱狀態\n該戰技有單獨計算的冷卻時間，發動後其他戰技與魔法會進入與該戰技相同的冷卻時間"
       },
       {
-        "name": "車型浮游砲塔透過特職任務獲得",
+        "name": "車型浮游砲塔",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/10.png",
         "classification": "能力",
         "level": "40級",
@@ -6315,7 +6315,7 @@
         "description": "令敵人附加的野火狀態結束，對敵人造成傷害\n發動條件：野火狀態中\n滿足發動條件後，野火變為起爆\n※該技能無法設置到快速鍵"
       },
       {
-        "name": "跳彈射擊透過特職任務獲得",
+        "name": "跳彈射擊",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/15.png",
         "classification": "能力",
         "level": "50級",
@@ -6326,7 +6326,7 @@
         "description": "對目標及其周圍的敵人發動範圍物理攻擊\n威力：130\n攻擊複數敵人時，對目標之外的敵人威力降低40%\n累積次數：3"
       },
       {
-        "name": "自動連弩透過特職任務獲得",
+        "name": "自動連弩",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/16.png",
         "classification": "戰技",
         "level": "52級",
@@ -6337,7 +6337,7 @@
         "description": "向目標所在方向發出扇形範圍物理攻擊\n威力：160\n發動條件：過熱狀態\n該戰技有單獨計算的冷卻時間，發動後其他戰技與魔法會進入與該戰技相同的冷卻時間"
       },
       {
-        "name": "熱分裂彈透過特職任務獲得",
+        "name": "熱分裂彈",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/17.png",
         "classification": "戰技",
         "level": "54級",
@@ -6348,7 +6348,7 @@
         "description": "對目標發動物理攻擊\n威力：220\n追加效果：獲得5點槍管熱度"
       },
       {
-        "name": "策動透過特職任務獲得",
+        "name": "策動",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/18.png",
         "classification": "能力",
         "level": "56級",
@@ -6359,7 +6359,7 @@
         "description": "一定時間內，令自身和周圍隊員所受到的傷害減輕15%\n持續時間：15秒\n無法與吟遊詩人的行吟、舞者的防守之桑巴效果共存"
       },
       {
-        "name": "鑽頭透過特職任務獲得",
+        "name": "鑽頭",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/19.png",
         "classification": "戰技",
         "level": "58級",
@@ -6370,7 +6370,7 @@
         "description": "對目標發動物理攻擊\n威力：600\n累積次數：2\n該戰技不僅有單獨計算的冷卻時間，還會與毒化衝擊共用冷卻時間"
       },
       {
-        "name": "熱獨頭彈透過特職任務獲得",
+        "name": "熱獨頭彈",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/20.png",
         "classification": "戰技",
         "level": "60級",
@@ -6425,7 +6425,7 @@
         "description": "對目標發動物理攻擊\n威力：240\n追加效果：雙將和將死的冷卻時間縮短15秒\n發動條件：過熱狀態中\n該戰技有單獨計算的冷卻時間，發動後其他戰技與魔法會進入與該戰技相同的冷卻時間"
       },
       {
-        "name": "火焰噴射器透過特職任務獲得",
+        "name": "火焰噴射器",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/machinist/images/icon/25.png",
         "classification": "能力",
         "level": "70級",
@@ -6804,7 +6804,7 @@
         "description": "對目標及其周圍敵人發動範圍物理攻擊\n威力：220\n攻擊複數敵人時，對目標之外的敵人威力降低60%\n發動條件：扇舞・急預備狀態中"
       },
       {
-        "name": "技巧舞步透過特職任務獲得",
+        "name": "技巧舞步",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/dancer/images/icon/20.png",
         "classification": "戰技",
         "level": "70級",
@@ -6996,7 +6996,7 @@
         "description": "對目標及其周圍的敵人發動冰屬性範圍魔法攻擊\n威力：80\n追加效果：靈極冰最大等階\n在處於星極火狀態時會同時解除該狀態\n持續時間：永久"
       },
       {
-        "name": "崩潰透過職業任務獲得",
+        "name": "崩潰",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/06.png",
         "classification": "魔法",
         "level": "15級",
@@ -7029,7 +7029,7 @@
         "description": "對目標及其周圍敵人發動雷屬性範圍魔法攻擊\n威力：60\n追加效果：雷屬性持續傷害\n威力：30\n持續時間：18秒\n自身對目標附加的雷系魔法持續傷害效果同時只能存在一種\n發動條件：雲砧狀態中\n未處於星極火或靈極狀態時附加其中任意一種狀態，以及星極火與靈極冰狀態相互轉換時可獲得雲砧\n持續時間：永久"
       },
       {
-        "name": "魔法護盾透過職業任務獲得",
+        "name": "魔法護盾",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/09.png",
         "classification": "能力",
         "level": "30級",
@@ -7040,7 +7040,7 @@
         "description": "為自身張開一個防護罩，在一定時間內能抵消相當於最大HP30%的傷害量\n抵消的傷害量超過上限時防護罩自動消失\n持續時間：20秒"
       },
       {
-        "name": "魔泉透過特職任務獲得",
+        "name": "魔泉",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/10.png",
         "classification": "能力",
         "level": "30級",
@@ -7062,7 +7062,7 @@
         "description": "對目標發動火屬性魔法攻擊\n威力：290\n追加效果：星極火最大等階\n持續時間：永久\n在處於靈極冰狀態時會同時解除該狀態"
       },
       {
-        "name": "大暴雪透過特職任務獲得",
+        "name": "大暴雪",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/12.png",
         "classification": "魔法",
         "level": "35級",
@@ -7084,7 +7084,7 @@
         "description": "為自身附加靈極冰狀態及1階靈極心\n靈極心效果：抵消星極火狀態中發動火系魔法增加的MP消耗\n另外，發動火光時會消耗全部的靈極心將MP消耗降為2/3\n追加效果：自身MP不滿時，會根據靈極冰等階恢復相應的MP\n1/2/3階時的恢復量：2500/5000/10000\n自身處於非戰鬥狀態時，為自身附加最大等階的靈極冰和靈極心，如果自身MP不滿，則恢復10000點MP\n發動條件：靈極冰狀態中"
       },
       {
-        "name": "冰寒透過特職任務獲得",
+        "name": "冰寒",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/14.png",
         "classification": "魔法",
         "level": "40級",
@@ -7095,7 +7095,7 @@
         "description": "對目標及其周圍的敵人發動冰屬性範圍魔法攻擊\n威力：120\n追加效果：3階靈極心\n靈極心效果：抵消星極火狀態中發動火系魔法增加的MP消耗\n另外，發動火光時會消耗全部的靈極心將MP消耗降為2/3\n發動條件：靈極冰狀態中"
       },
       {
-        "name": "大雷電透過特職任務獲得",
+        "name": "大雷電",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/15.png",
         "classification": "魔法",
         "level": "45級",
@@ -7117,7 +7117,7 @@
         "description": "指定一名隊員為目標，自身快速移動到目標身邊\n束縛狀態下無法發動"
       },
       {
-        "name": "黑魔紋透過特職任務獲得",
+        "name": "黑魔紋",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/18.png",
         "classification": "能力",
         "level": "52級",
@@ -7128,7 +7128,7 @@
         "description": "在自身腳下產生黑魔紋\n黑魔紋效果：自身的自動攻擊間隔、魔法的詠唱及冷卻時間縮短15%\n持續時間：20秒\n累積次數：2\n發動條件：非黑魔紋狀態中"
       },
       {
-        "name": "超暴雪透過特職任務獲得",
+        "name": "超暴雪",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/19.png",
         "classification": "魔法",
         "level": "58級",
@@ -7139,7 +7139,7 @@
         "description": "對目標發動冰屬性魔法攻擊\n威力：300\n追加效果：3階靈極心\n靈極心效果：抵消星極火狀態中發動火系魔法增加的MP消耗\n另外，發動火光時會消耗全部的靈極心將MP消耗降為2/3\n發動條件：「靈極冰」效果中"
       },
       {
-        "name": "超火焰透過特職任務獲得",
+        "name": "超火焰",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/20.png",
         "classification": "魔法",
         "level": "60級",
@@ -7183,7 +7183,7 @@
         "description": "效果時間內，前3次詠唱的魔法沒有任何詠唱時間\n持續時間：15秒\n累積次數：2"
       },
       {
-        "name": "穢濁透過特職任務獲得",
+        "name": "穢濁",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/blackmage/images/icon/24.png",
         "classification": "魔法",
         "level": "70級",
@@ -7430,7 +7430,7 @@
         "description": "令無法戰鬥的目標以衰弱狀態重新振作起來"
       },
       {
-        "name": "黃寶石召喚透過職業任務獲得",
+        "name": "黃寶石召喚",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/12.png",
         "classification": "魔法",
         "level": "15級",
@@ -7529,7 +7529,7 @@
         "description": "對目標及其周圍的敵人發動風屬性魔法攻擊\n威力：70\n發動條件：風屬性乙太\n※該技能無法設置到快速鍵"
       },
       {
-        "name": "毀壞透過職業任務獲得",
+        "name": "毀壞",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/summoner/images/icon/21.png",
         "classification": "魔法",
         "level": "30級",
@@ -8304,7 +8304,7 @@
         "description": ""
       },
       {
-        "name": "魔元化透過特職任務獲得",
+        "name": "魔元化",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/21.png",
         "classification": "能力",
         "level": "60級",
@@ -8359,7 +8359,7 @@
         "description": "對目標及其周圍敵人發動火屬性範圍魔法攻擊\n威力：650\n攻擊複數敵人時，對目標之外的敵人威力降低60%\n追加效果：獲得11點黑魔元\n追加效果（發動機率20%）：赤火焰預備\n持續時間：30秒\n發動時白魔元高於黑魔元則100%發動追加效果\n發動條件：魔元集3階\n※該技能無法設置到快速鍵\n滿足發動條件後，赤大雷電和赤中雷電變為赤火光"
       },
       {
-        "name": "赤神聖透過特職任務獲得",
+        "name": "赤神聖",
         "icon": "https://www.ffxiv.com.tw/web/intro/guide/battle/redmage/images/icon/26.png",
         "classification": "魔法",
         "level": "70級",
@@ -8900,7 +8900,7 @@
         "recast": "120秒",
         "cost": "-",
         "distantRange": "0m / 30m",
-        "description": "將星空彩繪變為實體展開藝術空間，自身與周圍隊員發動攻擊造成的傷害提高5%\n持續時間：20秒\n追加效果：減色混合預備\n持續時間：30秒\n追加效果：5階繪靈幻景\n持續時間：30秒\n繪靈幻景效果：處於藝術空間內，可令自身的調色魔法與天星棱光的詠唱及冷卻時間縮短25%\n發動此效果時會消耗1階繪靈幻景\n追加效果：消耗全部繪靈幻景後，為自身附加彩虹點滴效果提高狀態\n持續時間：30秒\n彩虹點滴效果提高效果：發動彩虹點滴不需要詠唱時間，同時冷卻時間縮短\n追加效果：天星棱光預備\n持續時間：20秒\n發動條件：自身處於戰鬥狀態且風景畫布上畫有星空彩繪\n※該技能無法設置到快速鍵\n滿足��動條件後，風景構想變為星空構想"
+        "description": "將星空彩繪變為實體展開藝術空間，自身與周圍隊員發動攻擊造成的傷害提高5%\n持續時間：20秒\n追加效果：減色混合預備\n持續時間：30秒\n追加效果：5階繪靈幻景\n持續時間：30秒\n繪靈幻景效果：處於藝術空間內，可令自身的調色魔法與天星棱光的詠唱及冷卻時間縮短25%\n發動此效果時會消耗1階繪靈幻景\n追加效果：消耗全部繪靈幻景後，為自身附加彩虹點滴效果提高狀態\n持續時間：30秒\n彩虹點滴效果提高效果：發動彩虹點滴不需要詠唱時間，同時冷卻時間縮短\n追加效果：天星棱光預備\n持續時間：20秒\n發動條件：自身處於戰鬥狀態且風景畫布上畫有星空彩繪\n※該技能無法設置到快速鍵\n滿足��動條件後，風景構想���為星空構想"
       },
       {
         "name": "神聖之白",
@@ -8977,7 +8977,7 @@
         "recast": "1.5秒",
         "cost": "-",
         "distantRange": "0m / 0m",
-        "description": "繪畫獸爪\n非戰鬥狀態下發動該技能不需要詠唱時間\n發動條件：動物畫布上沒有彩繪\n該魔法有單獨計��的冷卻時間，發動後���他戰技與魔法會進入與該魔法相同的冷卻時間\n※該技能無法設置到快速鍵\n滿足發動條件後，動物彩繪變為獸爪彩繪"
+        "description": "繪畫獸爪\n非戰鬥狀態下發動該技能不需要詠唱時間\n發動條件：動物畫布上沒有彩繪\n該魔法有單獨計��的冷卻時間，發動後其他戰技與魔法會進入與該魔法相同的冷卻時間\n※該技能無法設置到快速鍵\n滿足發動條件後，動物彩繪變為獸爪彩繪"
       },
       {
         "name": "尖牙彩繪",
