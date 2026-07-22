@@ -28,7 +28,8 @@ const TEMPLATES = {
     { id: 't', name: '當前目標 (<t>)', action: '<t>' },
     { id: 'mo', name: '游標指向 (<mo>)', action: '<mo>' },
     { id: 'tt', name: '目標的目標 (<tt>)', action: '<tt>' },
-    { id: 'f', name: '焦點目標 (<f>)', action: '<f>' }
+    { id: 'f', name: '焦點目標 (<f>)', action: '<f>' },
+    { id: 'party', name: '隊伍成員', action: '' }
   ],
   enemy: [
     { id: 't', name: '當前目標 (<t>)', action: '<t>' },
@@ -53,7 +54,8 @@ export default function App() {
     useMicon: true,
     useChat: false,
     chatChannel: '/p',
-    chatMessage: '已對 <t> 使用！'
+    chatMessage: '已對 <t> 使用！',
+    partyNumber: 2
   });
 
   const handleCategoryChange = (cat: Category) => {
@@ -86,10 +88,17 @@ export default function App() {
     if (config.useMicon) lines.push(`/micon "${skill}"`);
     lines.push(`/merror off`);
     
-    const tpl = TEMPLATES[config.category].find(t => t.id === config.template);
+    let action = '';
+    if (config.category === 'ally' && config.template === 'party') {
+      action = `<${config.partyNumber || 2}>`;
+    } else {
+      const tpl = TEMPLATES[config.category].find(t => t.id === config.template);
+      action = tpl?.action || '';
+    }
+
     let actionStr = `/ac "${skill}"`;
-    if (tpl && tpl.action) {
-      actionStr += ` ${tpl.action}`;
+    if (action) {
+      actionStr += ` ${action}`;
     }
     
     if (config.category === 'ally' || config.category === 'enemy') {
@@ -230,20 +239,50 @@ export default function App() {
               <div className="space-y-2 mb-4">
                 <label className="text-[10px] text-gray-500 uppercase font-bold">施放對象</label>
                 <div className="grid grid-cols-2 gap-2">
-                  {TEMPLATES[config.category].map(tpl => (
-                    <button
-                      key={tpl.id}
-                      onClick={() => setConfig({...config, template: tpl.id})}
-                      className={`text-[11px] py-1.5 px-2 rounded border transition-colors text-center font-bold ${
-                        config.template === tpl.id
-                          ? 'bg-[#3b82f6]/20 border-[#3b82f6]/50 text-white'
-                          : 'bg-[#1a1a2e] border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
-                      }`}
-                    >
-                      {tpl.name}
-                    </button>
-                  ))}
+                  {TEMPLATES[config.category].map(tpl => {
+                    const displayName = tpl.id === 'party' 
+                      ? `隊伍成員 (<${config.partyNumber || 2}>)`
+                      : tpl.name;
+                    return (
+                      <button
+                        key={tpl.id}
+                        onClick={() => setConfig({...config, template: tpl.id})}
+                        className={`text-[11px] py-1.5 px-2 rounded border transition-colors text-center font-bold ${
+                          config.template === tpl.id
+                            ? 'bg-[#3b82f6]/20 border-[#3b82f6]/50 text-white'
+                            : 'bg-[#1a1a2e] border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10'
+                        }`}
+                      >
+                        {displayName}
+                      </button>
+                    );
+                  })}
                 </div>
+
+                {config.category === 'ally' && config.template === 'party' && (
+                  <div className="mt-2 p-2 bg-[#1a1a2e] rounded border border-[#3b82f6]/30 flex flex-col gap-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-[10px] text-gray-500 font-bold uppercase">隊伍成員編號</span>
+                      <span className="text-[10px] text-[#c5a059] font-mono font-bold">&lt;{config.partyNumber || 2}&gt;</span>
+                    </div>
+                    <div className="grid grid-cols-8 gap-1">
+                      {[1, 2, 3, 4, 5, 6, 7, 8].map(num => (
+                        <button
+                          key={num}
+                          type="button"
+                          onClick={() => setConfig(prev => ({ ...prev, partyNumber: num }))}
+                          className={`h-7 rounded text-xs font-bold transition-all ${
+                            (config.partyNumber || 2) === num
+                              ? 'bg-[#3b82f6] text-white shadow-[0_0_10px_rgba(59,130,246,0.5)]'
+                              : 'bg-[#0a0a0f] border border-[#3b82f6]/20 text-gray-400 hover:bg-[#3b82f6]/10 hover:text-white'
+                          }`}
+                        >
+                          {num}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Options */}
