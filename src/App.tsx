@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { Copy, Trash2, Plus, MousePointer2, Target, Sword, Volume2, Clock, Check, Search } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { Copy, Trash2, Plus, MousePointer2, Target, Sword, Volume2, Clock, Check, Search, Shield, ChevronDown, ChevronUp } from 'lucide-react';
 import jobSkillsData from './data/jobSkills.json';
 
 const QUICK_SKILLS = [
@@ -39,6 +39,29 @@ const TEMPLATES = {
   ]
 };
 
+const JOB_GROUPS = [
+  {
+    name: "防護職業",
+    jobs: ["paladin", "warrior", "darkknight", "gunbreaker"]
+  },
+  {
+    name: "治療職業",
+    jobs: ["whitemage", "scholar", "astrologian", "sage"]
+  },
+  {
+    name: "近戰職業",
+    jobs: ["monk", "dragoon", "ninja", "samurai", "reaper", "viper"]
+  },
+  {
+    name: "遠程物理職業",
+    jobs: ["bard", "machinist", "dancer"]
+  },
+  {
+    name: "遠程魔法職業",
+    jobs: ["blackmage", "summoner", "redmage", "pictomancer", "bluemage"]
+  }
+];
+
 export default function App() {
   const [skillName, setSkillName] = useState("地星");
   const [selectedJob, setSelectedJob] = useState("astrologian");
@@ -72,6 +95,21 @@ export default function App() {
   const handleMouseLeave = () => {
     setHoveredSkill(null);
   };
+
+  const [isJobDropdownOpen, setIsJobDropdownOpen] = useState(false);
+  const jobDropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (jobDropdownRef.current && !jobDropdownRef.current.contains(event.target as Node)) {
+        setIsJobDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const [config, setConfig] = useState({
     category: 'ground' as Category,
@@ -227,17 +265,61 @@ export default function App() {
         <aside className="w-full lg:w-[340px] bg-[#0d0d18] border-r border-[#1a1a2e] flex flex-col shrink-0 overflow-y-auto custom-scrollbar z-10">
           
           {/* Select Job */}
-          <div className="p-4 border-b border-[#1a1a2e] bg-[#121220] shrink-0 flex flex-col gap-2">
-            <label className="text-[10px] text-[#c5a059] uppercase tracking-widest font-bold">選擇職業</label>
-            <select
-              value={selectedJob}
-              onChange={(e) => setSelectedJob(e.target.value)}
-              className="w-full bg-[#1a1a2e] border border-[#3b82f6]/30 rounded text-xs px-3 py-2 uppercase tracking-tighter text-[#e2e2e2] focus:outline-none focus:border-[#c5a059] transition-colors font-bold"
-            >
-              {Object.entries(jobSkillsData).map(([key, job]) => (
-                <option key={key} value={key}>{job.name}</option>
-              ))}
-            </select>
+          {/* Select Job Custom Dropdown */}
+          <div className="p-4 border-b border-[#1a1a2e] bg-[#121220] shrink-0 flex flex-col gap-2 relative" ref={jobDropdownRef}>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-1.5 text-[11px] text-gray-400 font-bold uppercase tracking-wider">
+                <Shield className="w-3.5 h-3.5 text-[#c5a059]" />
+                <span>選擇職業</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => setIsJobDropdownOpen(!isJobDropdownOpen)}
+                className="flex items-center justify-between gap-2 px-3 py-1.5 bg-[#0a0a0f] border border-[#22d3ee]/80 text-[#22d3ee] rounded text-xs font-bold transition-all focus:outline-none hover:bg-[#22d3ee]/10 w-[140px] shadow-[0_0_8px_rgba(34,211,238,0.2)]"
+              >
+                <span className="truncate">{jobSkillsData[selectedJob as keyof typeof jobSkillsData]?.name.replace(/（[^）]+）/g, '') || selectedJob}</span>
+                {isJobDropdownOpen ? <ChevronUp className="w-3.5 h-3.5 shrink-0" /> : <ChevronDown className="w-3.5 h-3.5 shrink-0" />}
+              </button>
+            </div>
+
+            {/* Dropdown Options List */}
+            {isJobDropdownOpen && (
+              <div className="absolute top-[calc(100%-8px)] right-4 w-[200px] max-h-[300px] overflow-y-auto bg-[#0d0d18] border border-[#22d3ee]/30 rounded-md shadow-2xl z-50 py-1.5 custom-scrollbar animate-in fade-in slide-in-from-top-2 duration-150">
+                {JOB_GROUPS.map((group) => (
+                  <div key={group.name} className="mb-2 last:mb-0">
+                    {/* Group Header */}
+                    <div className="px-3 py-1 text-[10px] font-bold text-[#3b82f6] uppercase tracking-wider select-none bg-[#121220]/50">
+                      {group.name}
+                    </div>
+                    {/* Group Jobs */}
+                    <div className="flex flex-col">
+                      {group.jobs.map((jobKey) => {
+                        const job = jobSkillsData[jobKey as keyof typeof jobSkillsData];
+                        if (!job) return null;
+                        const isSelected = selectedJob === jobKey;
+                        return (
+                          <button
+                            key={jobKey}
+                            type="button"
+                            onClick={() => {
+                              setSelectedJob(jobKey);
+                              setIsJobDropdownOpen(false);
+                            }}
+                            className={`px-5 py-1.5 text-left text-xs font-medium transition-colors w-full ${
+                              isSelected
+                                ? 'bg-[#3b82f6]/20 text-white font-bold border-l-2 border-[#3b82f6]'
+                                : 'text-gray-400 hover:bg-[#1a1a2e] hover:text-gray-200'
+                            }`}
+                          >
+                            {job.name}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Step 1: 巨集規則設定 */}
