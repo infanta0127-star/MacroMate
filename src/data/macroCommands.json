@@ -7,7 +7,7 @@
     "categoryName": "聊天與頻道",
     "name": "/say 聊天與頻道指令",
     "syntax": "/say [message]",
-    "description": "Sends a message to all PCs within a small radius. The message will not be displayed if a PC has deselected [Say] in the chat filter. Typing /say or /s without a message switches the default chat mode to [Say].",
+    "description": "向小半徑內的所有 PC 發送訊息。如果PC在聊天過濾器中取消選擇[說]，則不會顯示該訊息。不帶訊息地鍵入 /say 或 /s 將預設聊天模式切換為 [Say]。",
     "examples": [],
     "tips": ""
   },
@@ -19,7 +19,7 @@
     "categoryName": "聊天與頻道",
     "name": "/yell 聊天與頻道指令",
     "syntax": "/yell [message]",
-    "description": "Sends a message to all PCs within a large radius. The message will not be displayed if a PC has deselected [Yell] in the chat filter. Typing /yell or /y without a message switches the default chat mode to [Yell].",
+    "description": "向大半徑內的所有 PC 發送訊息。如果PC在聊天過濾器中取消選擇[大喊]，則不會顯示該訊息。不含訊息輸入 /yell 或 /y 會將預設聊天模式切換為 [Yell]。",
     "examples": [],
     "tips": ""
   },
@@ -31,7 +31,7 @@
     "categoryName": "聊天與頻道",
     "name": "/shout 聊天與頻道指令",
     "syntax": "/shout [message]",
-    "description": "Sends a message to all PCs in the same area. The message will not be displayed if a PC has deselected [Shout] in the chat filter.",
+    "description": "向同一區域中的所有 PC 發送訊息。如果PC在聊天過濾器中取消選擇[喊叫]，則不會顯示該訊息。",
     "examples": [],
     "tips": ""
   },
@@ -43,7 +43,7 @@
     "categoryName": "聊天與頻道",
     "name": "/tell 聊天與頻道指令",
     "syntax": "/tell [PC name]@[World name] [message]",
-    "description": "Sends a message to a specific PC on a specified World. When specifying a World other than your own, the message can only be sent to PCs that are on your friend list or recruiting party members via the Party Finder. This message cannot be seen by other PCs, and will not be displayed if [Tell] is deselected in the chat filter. Typing /tell or /t [PC name]@[World name] without a message switches the default chat mode to [Tell].\n>>Example:\n/tell [PC name]@Bahamut Hello\n(Sends the message \"Hello\" to\n[PC name] on the World\nBahamut.)",
+    "description": "向指定世界上的特定 PC 發送訊息。當指定您自己以外的世界時，該訊息只能發送到您的好友清單中的電腦或透過派對查找器招募派對成員的電腦。此訊息無法被其他電腦看到，如果在聊天過濾器中取消選擇[告訴]，則不會顯示該訊息。鍵入 /tell 或 /t [PC 名稱]@[世界名稱] 且不顯示任何訊息，會將預設聊天模式切換為 [Tell]。 >>範例：/tell [電腦名稱]@Bahamut Hello（傳送訊息「Hello」給世界巴哈姆特上的[電腦名稱]。）",
     "examples": [],
     "tips": ""
   },
@@ -55,7 +55,7 @@
     "categoryName": "聊天與頻道",
     "name": "/reply 聊天與頻道指令",
     "syntax": "/r [message]",
-    "description": "Sends a message to the last player from whom you received a /tell.",
+    "description": "向您收到 /tell 的最後一位玩家發送訊息。",
     "examples": [],
     "tips": ""
   },
@@ -67,7 +67,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cleartellhistory 聊天與頻道指令",
     "syntax": "/cleartellhistory",
-    "description": "Deletes all record of previous /tell messages.",
+    "description": "刪除之前 /tell 訊息的所有記錄。",
     "examples": [],
     "tips": ""
   },
@@ -108,7 +108,7 @@
     "categoryName": "聊天與頻道",
     "name": "/freecompany 聊天與頻道指令",
     "syntax": "/freecompany [message]",
-    "description": "Sends a message to all members of your free company, regardless of their location. Typing /freecompany or /fc without a message switches the default chat mode to [Free Company].",
+    "description": "向您的免費公司的所有成員發送訊息，無論他們身在何處。鍵入 /freecompany 或 /fc（不顯示任何訊息）會將預設聊天模式切換為 [Free Company]。",
     "examples": [],
     "tips": ""
   },
@@ -120,7 +120,7 @@
     "categoryName": "聊天與頻道",
     "name": "/pvpteam 聊天與頻道指令",
     "syntax": "/pvpteam [message]",
-    "description": "Sends a message to all members of your PvP team, regardless of their location. Typing /pvpteam or /pt without a message switches the default chat mode to [PvP Team].\n>>Examples:\n/pvpteam Hello\n(Sends the message \"Hello\"\nto your PvP team.)",
+    "description": "向 PvP 團隊的所有成員發送訊息，無論他們身在何處。不含訊息輸入 /pvpteam 或 /pt 會將預設聊天模式切換為 [PvP Team]。 >>範例：/pvpteam Hello（傳送訊息「Hello」給您的 PvP 團隊。）",
     "examples": [],
     "tips": ""
   },
@@ -132,7 +132,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell 聊天與頻道指令",
     "syntax": "/cwlinkshell [message]",
-    "description": "Sends a message to all members of your active cross-world linkshell, regardless of their location. Typing /cwlinkshell or /cwl without a message switches the default chat mode to your active cross-world linkshell channel.",
+    "description": "向活躍的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不帶訊息地鍵入 /cwlinkshell 或 /cwl 會將預設聊天模式切換到活動的跨世界 Linkshell 頻道。",
     "examples": [],
     "tips": ""
   },
@@ -144,7 +144,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell1 聊天與頻道指令",
     "syntax": "/cwlinkshell1 [message]",
-    "description": "Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 1, regardless of their location. Typing /cwlinkshell1 or /cwl1 without a message switches the default chat mode to [Cross-world Linkshell 1].",
+    "description": "向您在跨世界 Linkshell 插槽 1 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不帶任何訊息輸入 /cwlinkshell1 或 /cwl1 會將預設聊天模式切換為 [Cross-world Linkshell 1]。",
     "examples": [],
     "tips": ""
   },
@@ -156,7 +156,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell2 聊天與頻道指令",
     "syntax": "/cwlinkshell2 [message]",
-    "description": "Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 2, regardless of their location. Typing /cwlinkshell2 or /cwl2 without a message switches the default chat mode to [Cross-world Linkshell 2].",
+    "description": "向您在跨世界 Linkshell 插槽 2 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell2 或 /cwl2 會將預設聊天模式切換為 [Cross-world Linkshell 2]。",
     "examples": [],
     "tips": ""
   },
@@ -168,7 +168,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell3 聊天與頻道指令",
     "syntax": "/cwlinkshell3 [message]",
-    "description": "Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 3, regardless of their location. Typing /cwlinkshell3 or /cwl3 without a message switches the default chat mode to [Cross-world Linkshell 3].",
+    "description": "向您在跨世界 Linkshell 插槽 3 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不帶任何訊息輸入 /cwlinkshell3 或 /cwl3 會將預設聊天模式切換為 [Cross-world Linkshell 3]。",
     "examples": [],
     "tips": ""
   },
@@ -180,7 +180,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell4 聊天與頻道指令",
     "syntax": "/cwlinkshell4 [message]",
-    "description": "Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 4, regardless of their location. Typing /cwlinkshell4 or /cwl4 without a message switches the default chat mode to [Cross-world Linkshell 4].",
+    "description": "向您在跨世界 Linkshell 插槽 4 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell4 或 /cwl4 會將預設聊天模式切換為 [Cross-world Linkshell 4]。",
     "examples": [],
     "tips": ""
   },
@@ -192,7 +192,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell5 聊天與頻道指令",
     "syntax": "/cwlinkshell5 [message]",
-    "description": "Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 5, regardless of their location. Typing /cwlinkshell5 or /cwl5 without a message switches the default chat mode to [Cross-world Linkshell 5].",
+    "description": "向您在跨世界 Linkshell 插槽 5 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell5 或 /cwl5 會將預設聊天模式切換為 [Cross-world Linkshell 5]。",
     "examples": [],
     "tips": ""
   },
@@ -204,7 +204,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell6 聊天與頻道指令",
     "syntax": "/cwlinkshell6 [message]",
-    "description": "Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 6, regardless of their location. Typing /cwlinkshell6 or /cwl6 without a message switches the default chat mode to [Cross-world Linkshell 6].",
+    "description": "向您在跨世界 Linkshell 插槽 6 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell6 或 /cwl6 會將預設聊天模式切換為 [Cross-world Linkshell 6]。",
     "examples": [],
     "tips": ""
   },
@@ -216,7 +216,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell7 聊天與頻道指令",
     "syntax": "/cwlinkshell7 [message]",
-    "description": "Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 7, regardless of their location. Typing /cwlinkshell7 or /cwl7 without a message switches the default chat mode to [Cross-world Linkshell 7].",
+    "description": "向您在跨世界 Linkshell 插槽 7 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell7 或 /cwl7 會將預設聊天模式切換為 [Cross-world Linkshell 7]。",
     "examples": [],
     "tips": ""
   },
@@ -228,7 +228,7 @@
     "categoryName": "聊天與頻道",
     "name": "/cwlinkshell8 聊天與頻道指令",
     "syntax": "/cwlinkshell8 [message]",
-    "description": "Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 8, regardless of their location. Typing /cwlinkshell8 or /cwl8 without a message switches the default chat mode to [Cross-world Linkshell 8].",
+    "description": "向您在跨世界 Linkshell 插槽 8 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell8 或 /cwl8 會將預設聊天模式切換為 [Cross-world Linkshell 8]。",
     "examples": [],
     "tips": ""
   },
@@ -240,7 +240,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell 聊天與頻道指令",
     "syntax": "/linkshell [message]",
-    "description": "Sends a message to all members of your active linkshell, regardless of their location. Typing /linkshell or /l without a message switches the default chat mode to [Linkshell].",
+    "description": "向活動 Linkshell 的所有成員發送訊息，無論他們位於何處。不帶訊息地鍵入 /linkshell 或 /l 將預設聊天模式切換為 [Linkshell]。",
     "examples": [],
     "tips": ""
   },
@@ -252,7 +252,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell1 聊天與頻道指令",
     "syntax": "/linkshell1 [message]",
-    "description": "Sends a message to all members of the linkshell you have registered in linkshell slot 1, regardless of their location.",
+    "description": "向您在 Linkshell 插槽 1 中註冊的 Linkshell 的所有成員發送訊息，無論他們位於何處。",
     "examples": [],
     "tips": ""
   },
@@ -264,7 +264,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell2 聊天與頻道指令",
     "syntax": "/linkshell2 [message]",
-    "description": "Sends a message to all members of the linkshell you have registered in linkshell slot 2, regardless of their location.",
+    "description": "向您在 Linkshell 插槽 2 中註冊的 Linkshell 的所有成員發送訊息，無論他們位於何處。",
     "examples": [],
     "tips": ""
   },
@@ -276,7 +276,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell3 聊天與頻道指令",
     "syntax": "/linkshell3 [message]",
-    "description": "Sends a message to all members of the linkshell you have registered in linkshell slot 3, regardless of their location.",
+    "description": "向您在 Linkshell 插槽 3 中註冊的 Linkshell 的所有成員發送訊息，無論他們位於何處。",
     "examples": [],
     "tips": ""
   },
@@ -288,7 +288,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell4 聊天與頻道指令",
     "syntax": "/linkshell4 [message]",
-    "description": "Sends a message to all members of the linkshell you have registered in linkshell slot 4, regardless of their location.",
+    "description": "向您在 Linkshell 插槽 4 中註冊的 Linkshell 的所有成員發送訊息，無論他們位於何處。",
     "examples": [],
     "tips": ""
   },
@@ -300,7 +300,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell5 聊天與頻道指令",
     "syntax": "/linkshell5 [message]",
-    "description": "Sends a message to all members of the linkshell you have registered in linkshell slot 5, regardless of their location.",
+    "description": "向您在 Linkshell 插槽 5 中註冊的 Linkshell 的所有成員發送訊息，無論他們位於何處。",
     "examples": [],
     "tips": ""
   },
@@ -312,7 +312,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell6 聊天與頻道指令",
     "syntax": "/linkshell6 [message]",
-    "description": "Sends a message to all members of the linkshell you have registered in linkshell slot 6, regardless of their location.",
+    "description": "向您在 Linkshell 插槽 6 中註冊的 Linkshell 的所有成員發送訊息，無論他們位於何處。",
     "examples": [],
     "tips": ""
   },
@@ -324,7 +324,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell7 聊天與頻道指令",
     "syntax": "/linkshell7 [message]",
-    "description": "Sends a message to all members of the linkshell you have registered in linkshell slot 7, regardless of their location.",
+    "description": "向您在 Linkshell 插槽 7 中註冊的 Linkshell 的所有成員發送訊息，無論他們位於何處。",
     "examples": [],
     "tips": ""
   },
@@ -336,7 +336,7 @@
     "categoryName": "聊天與頻道",
     "name": "/linkshell8 聊天與頻道指令",
     "syntax": "/linkshell8 [message]",
-    "description": "Sends a message to all members of the linkshell you have registered in linkshell slot 8, regardless of their location.",
+    "description": "向您在 Linkshell 插槽 8 中註冊的 Linkshell 的所有成員發送訊息，無論他們位於何處。",
     "examples": [],
     "tips": ""
   },
@@ -348,7 +348,7 @@
     "categoryName": "聊天與頻道",
     "name": "/novice 聊天與頻道指令",
     "syntax": "/novice [message]",
-    "description": "Sends a message to the [Novice Network]. The message will not be displayed if a PC has deselected [Novice Network] in the chat filter. Typing /novice or /n without a message switches the default chat mode to [Novice Network].\n>>Examples:\n/novice Hello\n(Sends the message \"Hello\"\nto the Novice Network.)",
+    "description": "向【新手網路】發送訊息。如果PC在聊天過濾器中取消選擇[新手網路]，則不會顯示該訊息。不帶訊息地鍵入 /novice 或 /n 將預設聊天模式切換為 [Novice Network]。 >>範例：/novice Hello（傳送訊息「Hello」給新手網路。）",
     "examples": [],
     "tips": ""
   },
@@ -375,7 +375,7 @@
     "categoryName": "聊天與頻道",
     "name": "/clearlog 聊天與頻道指令",
     "syntax": "/clearlog",
-    "description": "Delete all past messages from your entire chat log.",
+    "description": "從整個聊天記錄中刪除所有過去的訊息。",
     "examples": [],
     "tips": ""
   },
@@ -387,7 +387,7 @@
     "categoryName": "聊天與頻道",
     "name": "/quickchat 聊天與頻道指令",
     "syntax": "/quickchat [quick chat message]",
-    "description": "Sends a Quick Chat message. Can only be used during the Feast.\n>>Example:\n/quickchat Charge <t>\n(Sends the Quick Chat message\n\"Charge\" using a specified\ntarget.)",
+    "description": "發送快速聊天訊息。只能在節日期間使用。 >>範例：/quickchat Charge <t>（使用指定目標發送快速聊天訊息「Charge」。）",
     "examples": [],
     "tips": ""
   },
@@ -399,7 +399,7 @@
     "categoryName": "聊天與頻道",
     "name": "/em 聊天與頻道指令",
     "syntax": "/em [message]",
-    "description": "Sends a message to all players nearby which has the same form as typical emotes.",
+    "description": "向附近的所有玩家發送一條訊息，其形式與典型表情相同。",
     "examples": [],
     "tips": ""
   },
@@ -411,7 +411,7 @@
     "categoryName": "隊伍與社交",
     "name": "/join 隊伍與社交指令",
     "syntax": "/join",
-    "description": "Accepts a party invite.",
+    "description": "接受聚會邀請。",
     "examples": [],
     "tips": ""
   },
@@ -423,7 +423,7 @@
     "categoryName": "隊伍與社交",
     "name": "/decline 隊伍與社交指令",
     "syntax": "/decline",
-    "description": "Declines a party invite.",
+    "description": "拒絕聚會邀請。",
     "examples": [],
     "tips": ""
   },
@@ -435,7 +435,7 @@
     "categoryName": "隊伍與社交",
     "name": "/invite 隊伍與社交指令",
     "syntax": "/invite [placeholder]",
-    "description": "Invites the specified PC to your party. Invites current target when no PC is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "邀請指定的電腦加入您的隊伍。未指定 PC 時邀請目前目標。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -447,7 +447,7 @@
     "categoryName": "隊伍與社交",
     "name": "/kick 隊伍與社交指令",
     "syntax": "/kick [placeholder]",
-    "description": "Kicks the specified PC from your party. Kicks current target when no PC is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "將指定的電腦踢出你的隊伍。未指定 PC 時踢目前目標。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -459,7 +459,7 @@
     "categoryName": "隊伍與社交",
     "name": "/leader 隊伍與社交指令",
     "syntax": "/leader [placeholder]",
-    "description": "Promotes the specified PC to party leader. Promotes current target when no PC is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "將指定 PC 提升為隊伍領袖。未指定 PC 時提升目前目標。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -471,7 +471,7 @@
     "categoryName": "隊伍與社交",
     "name": "/leave 隊伍與社交指令",
     "syntax": "/leave",
-    "description": "Leave your current party.",
+    "description": "離開當前的聚會。",
     "examples": [],
     "tips": ""
   },
@@ -483,7 +483,7 @@
     "categoryName": "隊伍與社交",
     "name": "/partycmd 隊伍與社交指令",
     "syntax": "/partycmd [subcommand]",
-    "description": "Executes various party commands. Can only be used to display the Party menu or add party members when participating in a cross-world party.\n>>Subcommands:\njoin\nAccept a party invite.\ndecline\nDecline a party invite.\nadd [placeholder]\nInvite a PC to your party.\nleave\nLeave your current party.\nkick [placeholder]\nOust a PC from your party.\nbreakup\nDissolve your current party.\nOpens and closes the Party menu when no subcommand is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "執行各種黨的命令。只能用於參加跨世界隊伍時顯示隊伍選單或新增隊伍成員。 >>子指令： join 接受聚會邀請。拒絕 拒絕聚會邀請。新增 [佔位符] 邀請一台電腦加入您的聚會。離開 離開當前的聚會。 kick [佔位符] 從你的隊伍中驅逐一台電腦。分手 解散當前的政黨。當未指定子命令時開啟和關閉派對選單。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -495,7 +495,7 @@
     "categoryName": "隊伍與社交",
     "name": "/partysort 隊伍與社交指令",
     "syntax": "/partysort",
-    "description": "Sort the party list in the specified order.",
+    "description": "依指定順序對政黨清單進行排序。",
     "examples": [],
     "tips": ""
   },
@@ -507,7 +507,7 @@
     "categoryName": "隊伍與社交",
     "name": "/recordready 隊伍與社交指令",
     "syntax": "/recordready [subcommand]",
-    "description": "Opens and closes the Duty Recorder interface.\n>>Subcommands:\n[countdowntime]\nInitiate a record ready check\nto begin recording a duty.\nWhen all party members\nconsent to the recording,\na countdown will start at\nthe specified time.\nSubsequent uses of this\ncommand during the same\nduty will function as both a\nready check and countdown.\nOpens the Duty Recorder interface when no subcommand is specified.",
+    "description": "開啟和關閉值班記錄器介面。 >> 子指令： [countdowntime] 啟動記錄就緒檢查以開始記錄任務。當所有隊員同意錄音後，將在指定時間開始倒數。在同一任務期間隨後使用該命令將起到就緒檢查和倒數計時的作用。未指定子命令時開啟值班記錄器介面。",
     "examples": [],
     "tips": ""
   },
@@ -519,7 +519,7 @@
     "categoryName": "隊伍與社交",
     "name": "/readycheck 隊伍與社交指令",
     "syntax": "/readycheck",
-    "description": "Initiate ready check.",
+    "description": "啟動準備檢查。",
     "examples": [],
     "tips": ""
   },
@@ -531,7 +531,7 @@
     "categoryName": "隊伍與社交",
     "name": "/ready 隊伍與社交指令",
     "syntax": "/ready",
-    "description": "Indicate that you are ready when a ready check has been initiated.",
+    "description": "當準備檢查啟動時，表示您已準備好。",
     "examples": [],
     "tips": ""
   },
@@ -543,7 +543,7 @@
     "categoryName": "隊伍與社交",
     "name": "/hold 隊伍與社交指令",
     "syntax": "/hold",
-    "description": "Indicate that you are not ready when a ready check has been initiated.",
+    "description": "當準備檢查啟動時，表示您尚未準備好。",
     "examples": [],
     "tips": ""
   },
@@ -555,7 +555,7 @@
     "categoryName": "隊伍與社交",
     "name": "/countdown 隊伍與社交指令",
     "syntax": "/cd [subcommand]",
-    "description": "Starts a countdown for the specified duration. Duration must be an integer between 5 and 30 inclusive. Opens and closes the countdown interface when no duration is specified.\n>>Subcommands:\n[countdown time]\nInitiates a countdown starting\nat the specified time. Changes\nmade via text commands will\nnot be saved in the\ncountdown interface. Also,\nnotifications will not be\ndisplayed in the log window.\nOpens the countdown interface when no subcommand is specified.\n>>Example:\n/countdown 10\nInitiates a countdown starting\nat ten seconds.",
+    "description": "開始指定持續時間的倒數計時。持續時間必須是 5 到 30 之間的整數（含 5 和 30）。未指定持續時間時開啟和關閉倒數計時介面。 >> 子指令： [倒數時間] 從指定時間開始倒數。透過文字命令所做的更改不會保存在倒數計時器中。此外，通知不會顯示在日誌視窗中。未指定子指令時開啟倒數介面。 >>範例：/countdown 10 從十秒開始倒數。",
     "examples": [],
     "tips": ""
   },
@@ -567,7 +567,7 @@
     "categoryName": "隊伍與社交",
     "name": "/friendlist 隊伍與社交指令",
     "syntax": "/friendlist [subcommand]",
-    "description": "Executes various friend list commands.\n>>Subcommands:\nadd [placeholder]\nSend a PC a friend request.\naccept [placeholder]\nAccept a friend request from\na PC.\ndeny [placeholder]\nDeny a friend request from a\nPC.\nremove [placeholder]\nRemove a PC from your\nfriend list.\nOpens and closes friend list when no subcommand is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "執行各種好友清單指令。 >>子指令：add [佔位符] 傳送好友請求給 PC。接受 [佔位符] 接受來自 PC 的好友請求。拒絕 [佔位符] 拒絕來自 PC 的好友請求。刪除 [佔位符] 從您的好友清單中刪除一台電腦。未指定子命令時開啟和關閉好友清單。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -579,7 +579,7 @@
     "categoryName": "隊伍與社交",
     "name": "/blacklist 隊伍與社交指令",
     "syntax": "/blacklist [subcommand]",
-    "description": "Executes various blacklist commands.\n>>Subcommands:\nadd [placeholder]\nAdd a PC to your blacklist.\nremove [placeholder]\nRemove a PC from your\nblacklist.\nOpens and closes blacklist when no subcommand is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "執行各種黑名單指令。 >>子指令：add [佔位符] 將 PC 加入黑名單。刪除[佔位符] 從黑名單中刪除電腦。未指定子指令時開啟和關閉黑名單。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -591,7 +591,7 @@
     "categoryName": "目標選擇",
     "name": "/check 目標選擇指令",
     "syntax": "/check [placeholder]",
-    "description": "Examines the specified PC. Examines current target when no PC is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "檢查指定的 PC。未指定 PC 時檢查目前目標。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -603,7 +603,7 @@
     "categoryName": "目標選擇",
     "name": "/trade 目標選擇指令",
     "syntax": "/trade [placeholder]",
-    "description": "Initiates a trade with the specified PC. Initiates a trade with your current target when no PC is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "與指定的 PC 發起交易。在未指定 PC 的情況下啟動與目前目標的交易。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -615,7 +615,7 @@
     "categoryName": "目標選擇",
     "name": "/automove 目標選擇指令",
     "syntax": "/automove [subcommand]",
-    "description": "Begin moving in the current direction you are facing.\n>>Subcommands:\non     Initiate automove.\noff     Cancel automove.\nToggle between on and off when no subcommand is specified.",
+    "description": "開始朝您目前面臨的方向移動。 >>子指令： on 啟動自動移動。 off 取消自動移動。當未指定子命令時在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -627,7 +627,7 @@
     "categoryName": "目標選擇",
     "name": "/follow 目標選擇指令",
     "syntax": "/follow",
-    "description": "Automatically follow a specified PC. Follow current target when no PC is specified.",
+    "description": "自動跟隨指定PC。未指定 PC 時，請遵循目前目標。",
     "examples": [],
     "tips": ""
   },
@@ -639,7 +639,7 @@
     "categoryName": "目標選擇",
     "name": "/meldrequest 目標選擇指令",
     "syntax": "/meldrequest [placeholder]",
-    "description": "Sends a materia meld request to the specified PC. Sends request to current target when no PC is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "向指定的 PC 發送材質融合請求。當未指定 PC 時，向目前目標發送請求。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -668,7 +668,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/blueaction 快捷列與熱鍵指令",
     "syntax": "/blueaction \"blue mage action\" [placeholder]",
-    "description": "Uses the specified blue magic action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed on the specified target. If no target is specified, then you will enter ground targeting mode.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>, gtoff\nA full list of placeholders\n>>Example:\n/blueaction \"Water Cannon\" <t>\n(Executes Water Cannon on\nthe specified target.)",
+    "description": "對指定目標使用指定的藍色魔法動作。未指定時使用目前目標。不需要為某些操作指定目標。這不能用於您尚未學會的動作，或受其他因素限制時。如果動作使用地面目標，則動作將在指定目標上執行。如果未指定目標，則您將進入地面瞄準模式。 >>常見佔位符：<t>、<target>、<1>-<8>、gtoff 佔位符的完整清單>>範例：/blueaction \"Water Cannon\" <t>（對指定目標執行水砲。）",
     "examples": [],
     "tips": ""
   },
@@ -680,7 +680,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/pvpaction 快捷列與熱鍵指令",
     "syntax": "/pvpaction \"action name\" [placeholder]",
-    "description": "Uses the specified pvp action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with pvp actions you have not yet learned or when restricted by other factors. If the action uses ground targeting, then the action will be executed on the specified target. If no target is specified, then you will enter ground targeting mode.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>, gtoff\nA full list of placeholders\n>>Example:\n/pvpaction \"Storm's Path\" <t>\n(Executes Storm's Path\non current target.)",
+    "description": "對指定目標使用指定的 pvp 動作。未指定時使用目前目標。不需要為某些操作指定目標。這不能用於當您尚未學會的 PVP 動作或受其他因素限制時。如果該動作使用地面目標，則該動作將在指定目標上執行。如果未指定目標，則您將進入地面瞄準模式。 >>常見佔位符：<t>、<target>、<1>-<8>、gtoff 佔位符的完整清單>>範例：/pvpaction \"Storm's Path\" <t>（在目前目標上執行 Storm's Path。）",
     "examples": [],
     "tips": ""
   },
@@ -692,7 +692,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/generalaction 快捷列與熱鍵指令",
     "syntax": "/gaction \"action name\" [placeholder]",
-    "description": "Uses the specified general action on the specified target. The target name can be omitted when the target is yourself.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>, gtoff\nA full list of placeholders\n>>Examples:\n/gaction \"Mount Roulette\"\n(Executes the Mount Roulette.)\n/gaction \"Duty Action I\" <t>\n(Executes a duty-specific action\non the specified target.)",
+    "description": "對指定目標使用指定的常規操作。當目標是你自己時，目標名稱可以省略。 >> 常用佔位符： <t>、<target>、<1>-<8>、gtoff 佔位符的完整清單 >> 範例： /gaction \"Mount Roulette\" （執行 Mount Roulette。） /gaction \"Duty Action I\" <t> （對指定目標執行特定於職責的操作。）",
     "examples": [],
     "tips": ""
   },
@@ -704,7 +704,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/companionaction 快捷列與熱鍵指令",
     "syntax": "/cac \"companion action name\"",
-    "description": "Uses a companion action. The target of companion actions cannot be specified. This cannot be used with companion actions you have not yet learned, or when restricted by other factors.\n>>Example:\n/cac \"free stance\"\n(Companion will enter\nfree stance.)",
+    "description": "使用伴隨動作。無法指定伴隨操作的目標。這不能與您尚未學會的同伴動作一起使用，或當受到其他因素限制時。 >>範例：/cac「自由姿態」（同伴將進入自由姿態。）",
     "examples": [],
     "tips": ""
   },
@@ -716,7 +716,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/petaction 快捷列與熱鍵指令",
     "syntax": "/pac \"pet action name\" [placeholder]",
-    "description": "Uses a pet action on the specified target. Uses current target when not specified. Target does not need to be specified for certain pet actions. This cannot be used with pet actions you have not yet learned, or when restricted by other factors.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders\n>>Example:\n/pac \"Crimson Cyclone\" <t>\n(Executes Crimson Cyclone\non current target.)",
+    "description": "對指定目標使用寵物動作。未指定時使用目前目標。某些寵物動作不需要指定目標。這不能用於您尚未學會的寵物動作，或受到其他因素限制時。 >>常見佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表>>範例：/pac \"Crimson Cyclone\" <t>（在目前目標上執行 Crimson Cyclone。）",
     "examples": [],
     "tips": ""
   },
@@ -728,7 +728,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/mount 快捷列與熱鍵指令",
     "syntax": "/mount \"mount name\"",
-    "description": "Summon or dismiss the specified mount. Mount name is not necessary when dismissing.\n>>Example:\n/mount \"Company Chocobo\"\n(Summons or dismisses your\ncompany chocobo.)",
+    "description": "召喚或解散指定的坐騎。關閉時不需要安裝名稱。 >>範例：/mount \"Company Chocobo\" （召喚或解散你的公司陸行鳥。）",
     "examples": [],
     "tips": ""
   },
@@ -740,7 +740,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/minion 快捷列與熱鍵指令",
     "syntax": "/minion \"minion name\"",
-    "description": "Summon or dismiss the specified minion. Minion name is not necessary when dismissing.\n>>Example:\n/minion \"wayward hatchling\"\n(Summons or dismisses the\nwayward hatchling minion.)",
+    "description": "召喚或解散指定的隨從。解散時不需要僕從名稱。 >>範例：/minion「任性的幼體」（召喚或解散任性的幼體小兵。）",
     "examples": [],
     "tips": ""
   },
@@ -752,7 +752,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/fashion 快捷列與熱鍵指令",
     "syntax": "/fashion [accessory]",
-    "description": "Equip a specified fashion accessory.\n>>Example:\n/fashion \"parasol\"\n(Equip the parasol accessory.)",
+    "description": "裝備指定的時尚配件。 >>範例：/fashion「遮陽傘」（裝備遮陽傘配件。）",
     "examples": [],
     "tips": ""
   },
@@ -764,7 +764,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/recast 快捷列與熱鍵指令",
     "syntax": "/recast \"action name\"",
-    "description": "Displays time remaining until the specified action can be used again.",
+    "description": "顯示可以再次使用指定操作之前的剩餘時間。",
     "examples": [],
     "tips": ""
   },
@@ -776,7 +776,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/additionalaction 快捷列與熱鍵指令",
     "syntax": "/aaction \"action name\" [subcommand]",
-    "description": "Set the specified action as an additional action for your current gatherer or crafter class. This command cannot be used with Disciples of War or Magic.\n>>Subcommands:\non 　Set additional action.\noff 　Remove additional action.\nclear　Remove all additional actions.\nToggle between on and off when no subcommand is specified.\n>>Examples:\n/aaction \"Triangulate\"\n(Sets Triangulate as an additional action.)\n/aaction clear\n(Removes all role actions.)",
+    "description": "將指定的操作設定為目前採集者或工匠類別的附加操作。此命令不能與戰爭或魔法門徒一起使用。 >>子指令： on 　設定附加動作。 off 去除附加動作。清除：刪除所有附加操作。當未指定子命令時在開啟和關閉之間切換。 >> 範例： /aaction \"Triangulate\" （將三角測量設為附加操作。）/aaction clear （刪除所有角色操作。）",
     "examples": [],
     "tips": ""
   },
@@ -788,7 +788,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/bluespellbook 快捷列與熱鍵指令",
     "syntax": "/bluespellbook [subcommand]",
-    "description": "Open and register active actions in the Blue Magic Spellbook.\n>>Subcommands:\nset \"blue mage action\" on\nRemoves the specified blue\nmage action from the list\nof active actions in the\ncurrent set.\nset \"blue mage action\" off\nRemoves the specified blue\nmage action from the list of\nactive actions in the current\nset.\npreset [active set 1-5]\nLoad the specified set of\nactive actions.\nclear\nRemove all active actions\nfrom the current active\naction set.\nOpens the Blue Magic Spellbook when no subcommand is specified.\n>>Examples:\n/bluespellbook set \"Water Cannon\"\n(Sets the blue mage action\nWater Cannon as an active\naction in the current set.\n/bluespellbook preset 2\n(Loads active set 2.)",
+    "description": "在 Blue Magic Spellbook 中開啟並註冊活動操作。 >> 子指令: set \"blue mage action\" on 從目前集中的活動操作清單中刪除指定的藍色法師操作。 set \"blue mage action\" off 從目前集中的活動操作清單中刪除指定的藍色法師動作。預設 [活動集 1-5] 載入指定的活動操作集。清除 從目前活動操作集中刪除所有活動操作。當未指定子指令時開啟 Blue Magic Spellbook。 >>示例：/bluespellbook set“水炮”（将蓝色法师动作水炮设置为当前集合中的主动动作。/bluespellbook预设2（加载主动集合2。）",
     "examples": [],
     "tips": ""
   },
@@ -800,7 +800,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/addpvpaction 快捷列與熱鍵指令",
     "syntax": "/apa \"action name 1\" \"action name 2\"",
-    "description": "Set the specified actions as additional PvP actions. This command requires that you specify two actions.\n>>Example:\n/addpvpaction \"Weapon Throw\" \"Full Swing\"\n(Sets Weapon Throw and\nFull Swing as additional\nPvP actions.)",
+    "description": "將指定的操作設定為附加 PvP 操作。此命令要求您指定兩個操作。 >>範例：/addpvpaction「武器投擲」「全力揮動」（將武器投擲和全力揮動設定為附加 PvP 動作。）",
     "examples": [],
     "tips": ""
   },
@@ -812,7 +812,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/hotbar 快捷列與熱鍵指令",
     "syntax": "/hotbar [subcommand]",
-    "description": "Edit and configure hotbar settings. Only available in PvE areas.\n>>Subcommands\naction \"action name\" [#1] [#2]\nSet the specified action to slot [#2] in hotbar page [#1]. If \"current\" is entered for [#1], then the action will be set in the page displayed in hotbar 1. If [#2] is omitted, the action will be set to the lowest-numbered slot available. If both [#1] and [#2] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered hotbar available. This applies to all of the following subcommands.\nblueaction \"blue mage action name\" [#1] [#2]\nSet the specified blue mage action to slot [#2] in hotbar [#1].\ngeneral \"general action name\" [#1] [#2]\nSet the specified general action to slot [#2] in hotbar [#1].\nitem \"item name\" [#1] [#2]\nSet the specified item to slot [#2] in hotbar [#1].\nemote \"emote name\" [#1] [#2]\nSet the specified emote to slot [#2] in hotbar [#1].\ncompanion \"companion action name\" [#1] [#2]\nSet the specified companion action to slot [#2] in hotbar [#1].\npet \"action name\" [#1] [#2]\nSet the specified pet action to slot [#2] in hotbar [#1].\nminion \"minion name\" [#1] [#2]\nSet the specified minion to slot [#2] in hotbar [#1].\nmount \"mount name\" [#1] [#2]\nSet the specified mount to slot [#2] in hotbar [#1].\nenemysign \"enemy sign name\" [#1] [#2]\nSet the specified enemy sign to slot [#2] in hotbar [#1].\nwaymark \"waymark name\" [#1] [#2]\nSet the specified waymark to slot [#2] in hotbar [#1].\nchange [number]\nReplace current hotbar with hotbar [number].  If \"next\" or \"prev\" is entered in [number], then you can scroll through the pages of hotbar 1.\ncopy [class 1] [#1] [class 2] [#2]\nCopy the contents of [class 1] hotbar [#1] to the [class 2] hotbar [#2].\nThe subcommand \"current\" can be used to specify your current class.\nThe subcommand \"share\" can be used instead of a class to specify your shared hotbar.\nClass names can be used if a single word, or class abbreviations (ex. WHM for White Mages) can be used instead.\ndisplay [number] on\nDisplay hotbar [number].\ndisplay [number] off\nHide hotbar [number].\ndisplay [number]\nToggle on/off hotbar [number].\nshare [number] on\nMake hotbar [number] shared.\nshare [number] off\nUnshare hotbar [number] and assign it to your current class/job.\nshare [number]\nToggle between on/off.\nremove [#1] [#2]\nRemove the action assigned to slot [#2] on hotbar [#1].\nReplace [#2] with \"all\" to remove all actions from hotbar [#1].\n>>Examples:\n/hotbar action \"Mount\nRoulette\" 1 1\n(Places Mount Roulette in\nslot [#1] on hotbar [#1].)\n/hotbar change 2\n(Replaces hotbar [#1] with\nhotbar [#2].)",
+    "description": "編輯和配置熱欄設定。僅適用於 PvE 區域。 >> 子指令 action \"動作名稱\" [#1] [#2] 將指定動作設定到快速列頁面 [#1] 中的插槽 [#2]。如果為 [#1] 輸入“目前”，則操作將在熱鍵欄 1 中顯示的頁面中設定。如果省略 [#2]，則操作將設定為可用的編號最小的插槽。如果 [#1] 和 [#2] 都被省略，則該操作將設定為可用的最小編號熱欄上可用的最小編號插槽。這適用於以下所有子命令。 blueaction \"藍色魔法師動作名稱\" [#1] [#2] 將指定的藍色魔法師動作設定到快速欄[#1]中的插槽[#2]。 General \"通用操作名稱\" [#1] [#2] 將指定的通用操作設定到熱欄 [#1] 中的插槽 [#2]。 item \"專案名稱\" [#1] [#2] 將指定項目設定到快速列 [#1] 中的插槽 [#2]。 emote \"表情名稱\" [#1] [#2] 將指定表情設定到快速列 [#1] 中的插槽 [#2]。 companion \"伴隨動作名稱\" [#1] [#2] 將指定的伴隨動作設定到熱鍵欄 [#1] 中的插槽 [#2]。 pet \"動作名稱\" [#1] [#2] 將指定的寵物動作設定到快速列[#1]中的插槽[#2]。 minion \"minion name\" [#1] [#2] 將指定的 minion 設定到快速欄 [#1] 中的插槽 [#2]。 mount \"掛載名稱\" [#1] [#2] 將指定掛載設定到快速欄 [#1] 中的插槽 [#2]。 enemysign \"敵方標誌名稱\" [#1] [#2] 將指定的敵方標誌設定到快速列 [#1] 中的插槽 [#2]。 waymark \"路標名稱\" [#1] [#2] 將指定路標設定到快速欄 [#1] 中的插槽 [#2]。變更 [編號] 將目前快速列替換為快速列 [編號]。  如果在[number]中輸入“next”或“prev”，則可以捲動瀏覽快速欄1的頁面。 複製[class 1] [#1] [class 2] [#2] 將[class 1]快速欄[#1]的內容複製到[class 2]快速欄[#2]。子命令“current”可用於指定目前類別。可以使用子命令“share”而不是類別來指定共享熱欄。如果可以使用單字或類別縮寫（例如白魔法師的 WHM），則可以使用類別名稱。在顯示熱欄 [number] 上顯示 [number]。顯示 [number] 關閉 隱藏快捷欄 [number]。顯示 [number] 開啟/關閉熱欄 [number]。共享 [number] 上 共享熱欄 [number]。 share [number] off 取消共享快捷欄 [number] 並將其指派給您目前的班級/工作。共用 [number] 在開/關之間切換。刪除 [#1] [#2] 刪除指派給熱鍵欄 [#1] 上插槽 [#2] 的動作。將 [#2] 替換為「all」以刪除快速列 [#1] 中的所有操作。 >> 範例： /hotbar 操作 \"Mount Roulette\" 1 1（將 Mount Roulette 放置在熱鍵 [#1] 上的插槽 [#1] 中。）/hotbar 更改 2（將熱鍵 [#1] 替換為熱鍵 [#2]。）",
     "examples": [],
     "tips": ""
   },
@@ -824,7 +824,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/pvphotbar 快捷列與熱鍵指令",
     "syntax": "/pvphotbar [subcommand]",
-    "description": "Edit and configure hotbar settings. This command can only be used with the PvP hotbar.\n>>Subcommands\naction \"action name\" [#1] [#2]\nSet the specified PvP action to slot [#2] in hotbar page [#1]. If \"current\" is entered for [#1], then the action will be set in the page displayed in hotbar 1. If [#2] is omitted, the action will be set to the lowest-numbered slot available. If both [#1] and [#2] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered hotbar available. This applies to all of the following subcommands.\ngeneral \"general action name\" [#1] [#2]\nSet the specified general action to slot [#2] in hotbar [#1].\nitem \"item name\" [#1] [#2]\nSet the specified item to slot [#2] in hotbar [#1].\nemote \"emote name\" [#1] [#2]\nSet the specified emote to slot [#2] in hotbar [#1].\ncompanion \"companion action name\" [#1] [#2]\nSet the specified companion action to slot [#2] in hotbar [#1].\npet \"action name\" [#1] [#2]\nSet the specified pet action to slot [#2] in hotbar [#1].\nminion \"minion name\" [#1] [#2]\nSet the specified minion to slot [#2] in hotbar [#1].\nmount \"mount name\" [#1] [#2]\nSet the specified mount to slot [#2] in hotbar [#1].\nenemysign \"enemy sign name\" [#1] [#2]\nSet the specified enemy sign to slot [#2] in hotbar [#1].\nwaymark \"waymark name\" [#1] [#2]\nSet the specified waymark to slot [#2] in hotbar [#1].\nchange [number]\nReplace current hotbar with hotbar [number].  If \"next\" or \"prev\" is entered in [number], then you can scroll through the pages of hotbar 1.\ncopy [class 1] [#1] [class 2] [#2]\nCopy the contents of [class 1] hotbar [#1] to the [class 2] hotbar [#2].\nThe subcommand \"current\" can be used to specify your current class.\nThe subcommand \"share\" can be used instead of a class to specify your shared hotbar.\ndisplay [number] on\nDisplay hotbar [number].\ndisplay [number] off\nHide hotbar [number].\ndisplay [number]\nToggle on/off hotbar [number].\nshare [number] on\nMake hotbar [number] shared.\nshare [number] off\nUnshare hotbar [number] and assign it to your current class/job.\nshare [number]\nToggle between on/off.\nremove [#1] [#2]\nRemove the action assigned to slot [#2] on hotbar [#1].\nReplace [#2] with \"all\" to remove all actions from hotbar [#1].\n>>Examples:\n/pvphotbar action \"Purify\" 1 1\n(Places Purify in slot [#1]\non hotbar [#1].)\n/pvphotbar change 2\n(Replaces PvP hotbar [#1]\nwith PvP hotbar [#2].)",
+    "description": "編輯和配置熱欄設定。此指令只能與 PvP 熱鍵欄一起使用。 >> 子指令 action \"動作名稱\" [#1] [#2] 將指定的 PvP 動作設定到快速列頁面 [#1] 中的插槽 [#2]。如果為 [#1] 輸入“目前”，則操作將在熱鍵欄 1 中顯示的頁面中設定。如果省略 [#2]，則操作將設定為可用的編號最小的插槽。如果 [#1] 和 [#2] 都被省略，則該操作將設定為可用的最小編號熱欄上可用的最小編號插槽。這適用於以下所有子命令。 General \"通用操作名稱\" [#1] [#2] 將指定的通用操作設定到熱欄 [#1] 中的插槽 [#2]。 item \"專案名稱\" [#1] [#2] 將指定項目設定到快速列 [#1] 中的插槽 [#2]。 emote \"表情名稱\" [#1] [#2] 將指定表情設定到快速列 [#1] 中的插槽 [#2]。 companion \"伴隨動作名稱\" [#1] [#2] 將指定的伴隨動作設定到熱鍵欄 [#1] 中的插槽 [#2]。 pet \"動作名稱\" [#1] [#2] 將指定的寵物動作設定到快速列[#1]中的插槽[#2]。 minion \"minion name\" [#1] [#2] 將指定的 minion 設定到快速欄 [#1] 中的插槽 [#2]。 mount \"掛載名稱\" [#1] [#2] 將指定掛載設定到快速欄 [#1] 中的插槽 [#2]。 enemysign \"敵方標誌名稱\" [#1] [#2] 將指定的敵方標誌設定到快速列 [#1] 中的插槽 [#2]。 waymark \"路標名稱\" [#1] [#2] 將指定路標設定到快速欄 [#1] 中的插槽 [#2]。變更 [編號] 將目前快速列替換為快速列 [編號]。  如果在[number]中輸入“next”或“prev”，則可以捲動瀏覽快速欄1的頁面。 複製[class 1] [#1] [class 2] [#2] 將[class 1]快速欄[#1]的內容複製到[class 2]快速欄[#2]。子命令“current”可用於指定目前類別。可以使用子命令“share”而不是類別來指定共享熱欄。在顯示熱欄 [number] 上顯示 [number]。顯示 [number] 關閉 隱藏快捷欄 [number]。顯示 [number] 開啟/關閉熱欄 [number]。共享 [number] 上 共享熱欄 [number]。 share [number] off 取消共享快捷欄 [number] 並將其指派給您目前的班級/工作。共用 [number] 在開/關之間切換。刪除 [#1] [#2] 刪除指派給熱鍵欄 [#1] 上插槽 [#2] 的動作。將 [#2] 替換為「all」以刪除快速列 [#1] 中的所有操作。 >>示例： /pvphotbar 操作“Purify”1 1（将 Purify 放置在热键 [#1] 上的插槽 [#1] 中。） /pvphotbar 更改 2（将 PvP 热键 [#1] 替换为 PvP 热键 [#2]。）",
     "examples": [],
     "tips": ""
   },
@@ -836,7 +836,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/crosshotbar 快捷列與熱鍵指令",
     "syntax": "/crosshotbar [subcommand]",
-    "description": "Edit and configure cross hotbar settings. Only available in PvE areas.\n>>Subcommands\nset \"action name\" [number] [slot name]\nSet the specified action to [slot name] in cross hotbar [number]. If \"current\" is entered for [number], the action will be set in the currently displayed hotbar. If [slot name] is omitted, the action will be set to the lowest-numbered slot available. If both [number] and [slot name] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered cross hotbar available. This applies to all of the following subcommands.\nblueaction \"blue mage action name\" [number] [slot name]\nSet the specified blue mage action to [slot name] in cross hotbar [number].\ngeneral \"general action name\" [number] [slot name]\nSet the specified general action to [slot name] in cross hotbar [number].\nitem \"item name\" [number] [slot name]\nSet the specified item to [slot name] in cross hotbar [number].\nemote \"emote name\" [number] [slot name]\nSet the specified emote to [slot name] in cross hotbar [number].\ncompanion \"companion action name\" [number] [slot name]\nSet the specified companion action to [slot name] in cross hotbar [number].\npet \"action name\" [number] [slot name]\nSet the specified pet action to [slot name] in cross hotbar [number].\nminion \"minion name\" [number] [slot name]\nSet the specified minion to [slot name] in cross hotbar [number].\nmount \"mount name\" [number] [slot name]\nSet the specified mount to [slot name] in cross hotbar [number].\nenemysign \"enemy sign name\" [number] [slot name]\nSet the specified enemy sign to [slot name] in cross hotbar [number].\nwaymark \"waymark name\" [number] [slot name]\nSet the specified waymark to [slot name] in cross hotbar [number].\nchange [number]\nReplace current cross hotbar with cross hotbar [number]. Enter \"prev\" or \"next\" for [number] to scroll through the cross hotbars.\ncopy [class 1] [number 1] [class 2] [number 2]\nCopy the contents of [class 1] cross hotbar [number 1] to the [class 2] cross hotbar [number 2].\nThe subcommand \"current\" can be used to specify your current class.\nThe subcommand \"share\" can be used instead of a class to specify your shared hotbar.\nshare [number] on\nMake cross hotbar [number] shared.\nshare [number] off\nUnshare cross hotbar [number] and assign it to your current class/job.\nshare [number]\nToggle between on/off.\nremove [number] [slot name]\nRemove the action assigned to [slot name] on cross hotbar [number]. Replace [slot name] with \"all\" to remove all actions from cross hotbar [number].\n>>Slot Names:\nLDL (LD1)\nRDL (RD1)\nLDU (LD2)\nRDU (RD2)\nLDR (LD3)\nRDR (RD3)\nLDD (LD4)\nRDD (RD4)\nLAL (LA1)\nRAL (RA1)\nLAU (LA2)\nRAU (RA2)\nLAR (LA3)\nRAR (RA3)\nLAD (LA4)\nRAD (RA4)\nThe first letter (L/R) means L2/LT or R2/RT\nThe second letter (D/A) means D-pad or Face buttons\nThe third letter/number means which of the four D-pad directions/face buttons to select (Left, Up, Right, Down / 1,2,3,4)",
+    "description": "編輯和配置跨熱欄設定。僅適用於 PvE 區域。 >> 子指令 set \"action name\" [number] [slot name] 將指定的動作設定為交叉快速列 [number] 中的 [slot name]。如果為[數字]輸入“目前”，則操作將在目前顯示的快速欄中設定。如果省略[插槽名稱]，則操作將設定為可用的編號最小的插槽。如果 [number] 和 [slot name] 都被省略，則該操作將設定為可用的最小編號交叉熱欄上可用的最小編號插槽。這適用於以下所有子命令。 blueaction \"藍色魔法師動作名稱\" [編號] [插槽名稱] 將指定的藍色魔法師動作設定到交叉快速欄 [編號] 中的 [插槽名稱]。 General \"通用操作名稱\" [編號] [插槽名稱] 將指定的通用操作設定為交叉快速欄 [編號] 中的 [插槽名稱]。 item \"專案名稱\" [編號] [插槽名稱] 將指定項目設定為交叉快速欄 [編號] 中的 [插槽名稱]。 emote \"表情名稱\" [數字] [插槽名稱] 將指定表情設定為交叉快速欄 [數字] 中的 [插槽名稱]。 companion \"伴隨動作名稱\" [編號] [插槽名稱] 將指定的伴隨動作設定為交叉快速欄 [編號] 中的 [插槽名稱]。 pet \"動作名稱\" [編號] [插槽名稱] 將指定的寵物動作設定為交叉快速欄[編號]中的[插槽名稱]。 minion \"minion name\" [number] [slot name] 將指定的 minion 設定為交叉快速列 [number] 中的 [slot name]。 mount \"掛載名稱\" [編號] [插槽名稱] 將指定掛載設定到交叉快速欄 [編號] 中的 [插槽名稱]。敵人標誌「敵人標誌名稱」[數字][插槽名稱]將指定的敵人標誌設定到交叉快速欄[數字]中的[插槽名稱]。 waymark \"路標名稱\" [編號] [插槽名稱] 將指定的路標設定為交叉快速欄 [編號] 中的 [插槽名稱]。變更 [數字] 將目前的交叉熱欄替換為交叉熱欄 [數字]。輸入“上一個”或“下一個”作為[數字]以滾動交叉熱欄。 copy [class 1] [number 1] [class 2] [number 2] 將 [class 1] 交叉快速欄 [number 1] 的內容複製到 [class 2] 交叉快速欄 [number 2]。子命令“current”可用於指定目前類別。可以使用子命令“share”而不是類別來指定共享熱欄。共享 [number] 上 共享跨熱欄 [number]。 share [number] off 取消共享跨熱欄 [number] 並將其指派給您目前的班級/工作。共用 [number] 在開/關之間切換。刪除 [編號] [插槽名稱] 刪除指派給交叉熱欄 [編號] 上的 [插槽名稱] 的動作。將 [插槽名稱] 替換為“全部”，以刪除跨熱欄 [編號] 中的所有操作。 >> 插槽名稱： LDL (LD1) RDL (RD1) LDU (LD2) RDU (RD2) LDR (LD3) RDR (RD3) LDD (LD4) RDD (RD4) LAL (LA1) RAL (RA1) LAU (LA2) RAU (RA2) LAR (LA3) RAR (RRA3) LAU (LA2) RAU (RA2) LAR (LA3) RAR (RADRA3) LADRAD（RRA2）或R2/RT 第二個字母 (D/A) 表示方向鍵或正面按鈕 第三個字母/數字表示要選擇四個方向鍵/正面按鈕中的哪一個（左、上、右、下 / 1、2、3、4）",
     "examples": [],
     "tips": ""
   },
@@ -848,7 +848,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/pvpcrosshotbar 快捷列與熱鍵指令",
     "syntax": "/pvpcrosshotbar [subcommand]",
-    "description": "Edit and configure cross hotbar settings. This command can only be used with the PvP cross hotbar.\n>>Subcommands\nset \"action name\" [number] [slot name]\nSet the specified PvP action to [slot name] in cross hotbar [number]. If \"current\" is entered for [number], the action will be set in the currently displayed cross hotbar. If [slot name] is omitted, the action will be set to the lowest-numbered slot available. If both [number] and [slot name] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered cross hotbar available. This applies to all of the following subcommands.\ngeneral \"general action name\" [number] [slot name]\nSet the specified general action to [slot name] in cross hotbar [number].\nitem \"item name\" [number] [slot name]\nSet the specified item to [slot name] in cross hotbar [number].\nemote \"emote name\" [number] [slot name]\nSet the specified emote to [slot name] in cross hotbar [number].\ncompanion \"companion action name\" [number] [slot name]\nSet the specified companion action to [slot name] in cross hotbar [number].\npet \"action name\" [number] [slot name]\nSet the specified pet action to [slot name] in cross hotbar [number].\nminion \"minion name\" [number] [slot name]\nSet the specified minion to [slot name] in cross hotbar [number].\nmount \"mount name\" [number] [slot name]\nSet the specified mount to [slot name] in cross hotbar [number].\nenemysign \"enemy sign name\" [number] [slot name]\nSet the specified enemy sign to [slot name] in cross hotbar [number].\nwaymark \"waymark name\" [number] [slot name]\nSet the specified waymark to [slot name] in cross hotbar [number].\nchange [number]\nReplace current cross hotbar with cross hotbar [number]. Enter \"prev\" or \"next\" for [number] to scroll through the cross hotbars.\ncopy [class 1] [number 1] [class 2] [number 2]\nCopy the contents of [class 1] cross hotbar [number 1] to the [class 2] cross hotbar [number 2].\nThe subcommand \"current\" can be used to specify your current class.\nThe subcommand \"share\" can be used instead of a class to specify your shared cross hotbar.\ndisplay [number] on\nDisplay cross hotbar [number].\ndisplay [number] off\nHide cross hotbar [number].\ndisplay [number]\nToggle on/off cross hotbar [number].\nshare [number] on\nMake cross hotbar [number] shared.\nshare [number] off\nUnshare cross hotbar [number] and assign it to your current class/job.\nshare [number]\nToggle between on/off.\nremove [number] [slot name]\nRemove the action assigned to [slot name] on cross hotbar [number]. Replace [slot name] with \"all\" to remove all actions from cross hotbar [number].\n>>Slot Names:\nLDL (LD1)\nRDL (RD1)\nLDU (LD2)\nRDU (RD2)\nLDR (LD3)\nRDR (RD3)\nLDD (LD4)\nRDD (RD4)\nLAL (LA1)\nRAL (RA1)\nLAU (LA2)\nRAU (RA2)\nLAR (LA3)\nRAR (RA3)\nLAD (LA4)\nRAD (RA4)\nThe first letter (L/R) means L2/LT or R2/RT\nThe second letter (D/A) means D-pad or Face buttons\nThe third letter/number means which of the four D-pad directions/face buttons to select (Left, Up, Right, Down / 1,2,3,4)",
+    "description": "編輯和配置跨熱欄設定。此指令只能與 PvP 交叉熱欄一起使用。 >> 子指令 set \"action name\" [number] [slot name] 將指定的 PvP 動作設定為交叉熱欄 [number] 中的 [slot name]。如果為[數字]輸入“目前”，則操作將在目前顯示的交叉熱欄中設定。如果省略[插槽名稱]，則操作將設定為可用的編號最小的插槽。如果 [number] 和 [slot name] 都被省略，則該操作將設定為可用的最小編號交叉熱欄上可用的最小編號插槽。這適用於以下所有子命令。 General \"通用操作名稱\" [編號] [插槽名稱] 將指定的通用操作設定為交叉快速欄 [編號] 中的 [插槽名稱]。 item \"專案名稱\" [編號] [插槽名稱] 將指定項目設定為交叉快速欄 [編號] 中的 [插槽名稱]。 emote \"表情名稱\" [數字] [插槽名稱] 將指定表情設定為交叉快速欄 [數字] 中的 [插槽名稱]。 companion \"伴隨動作名稱\" [編號] [插槽名稱] 將指定的伴隨動作設定為交叉快速欄 [編號] 中的 [插槽名稱]。 pet \"動作名稱\" [編號] [插槽名稱] 將指定的寵物動作設定為交叉快速欄[編號]中的[插槽名稱]。 minion \"minion name\" [number] [slot name] 將指定的 minion 設定為交叉快速列 [number] 中的 [slot name]。 mount \"掛載名稱\" [編號] [插槽名稱] 將指定掛載設定到交叉快速欄 [編號] 中的 [插槽名稱]。敵人標誌「敵人標誌名稱」[數字][插槽名稱]將指定的敵人標誌設定到交叉快速欄[數字]中的[插槽名稱]。 waymark \"路標名稱\" [編號] [插槽名稱] 將指定的路標設定為交叉快速欄 [編號] 中的 [插槽名稱]。變更 [數字] 將目前的交叉熱欄替換為交叉熱欄 [數字]。輸入“上一個”或“下一個”作為[數字]以滾動交叉熱欄。 copy [class 1] [number 1] [class 2] [number 2] 將 [class 1] 交叉快速欄 [number 1] 的內容複製到 [class 2] 交叉快速欄 [number 2]。子命令“current”可用於指定目前類別。可以使用子命令“share”而不是類別來指定共享的交叉熱欄。在顯示交叉熱欄 [number] 上顯示 [number]。顯示 [number] 關閉 隱藏交叉熱欄 [number]。顯示 [number] 開啟/關閉交叉熱欄 [number]。共享 [number] 上 共享跨熱欄 [number]。 share [number] off 取消共享跨熱欄 [number] 並將其指派給您目前的班級/工作。共用 [number] 在開/關之間切換。刪除 [編號] [插槽名稱] 刪除指派給交叉熱欄 [編號] 上的 [插槽名稱] 的動作。將 [插槽名稱] 替換為“全部”，以刪除跨熱欄 [編號] 中的所有操作。 >> 插槽名稱： LDL (LD1) RDL (RD1) LDU (LD2) RDU (RD2) LDR (LD3) RDR (RD3) LDD (LD4) RDD (RD4) LAL (LA1) RAL (RA1) LAU (LA2) RAU (RA2) LAR (LA3) RAR (RRA3) LAU (LA2) RAU (RA2) LAR (LA3) RAR (RADRA3) LADRAD（RRA2）或R2/RT 第二個字母 (D/A) 表示方向鍵或正面按鈕 第三個字母/數字表示要選擇四個方向鍵/正面按鈕中的哪一個（左、上、右、下 / 1、2、3、4）",
     "examples": [],
     "tips": ""
   },
@@ -860,7 +860,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/crosshotbardisplay 快捷列與熱鍵指令",
     "syntax": "/chotbardisplay [subcommand]",
-    "description": "Toggle on/off the display of the cross hotbar.\n>>Subcommands:\non 　　Display cross hotbar.\noff 　　Hide cross hotbar.\nToggle between on and off when no subcommand is specified.",
+    "description": "開啟/關閉十字熱欄的顯示。 >>子指令：上：顯示十字快捷欄。關閉 隱藏十字快捷欄。當未指定子命令時在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -872,7 +872,7 @@
     "categoryName": "快捷列與熱鍵",
     "name": "/crosshotbartype 快捷列與熱鍵指令",
     "syntax": "/chotbartype [subcommand]",
-    "description": "Changes the cross hotbar control type.\n>>Subcommands:\nhold       Enable Hold type.\ntoggle       Enable Toggle type.\nmix       Enable Mixed type.",
+    "description": "變更交叉熱欄控制項類型。 >>子指令：hold 啟用保持類型。切換 啟用切換類型。 mix 啟用混音類型。",
     "examples": [],
     "tips": ""
   },
@@ -884,7 +884,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/battlemode 戰鬥與技能指令",
     "syntax": "/battlemode [subcommand]",
-    "description": "Toggle between active and passive mode.\n>>Subcommands:\non     Switch to active mode.\noff     Switch to passive mode.\nToggle between active and passive mode when no subcommand is specified.",
+    "description": "在主动和被动模式之间切换。 >>子指令： on 切換到活動模式。 off 切換到被動模式。当未指定子命令时，在主动模式和被动模式之间切换。",
     "examples": [],
     "tips": ""
   },
@@ -896,7 +896,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/target 戰鬥與技能指令",
     "syntax": "/target [placeholder]",
-    "description": "Targets the specified PC. Target must be within a certain radius for this command to function.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders\n>>Example:\n/target <2>\n(Targets second player\nin player list.)",
+    "description": "以指定的 PC 為目標。目標必須位於特定半徑內才能使該命令發揮作用。 >>常見佔位符：<t>、<target>、<1>-<8>佔位符的完整清單>>範例：/target <2>（針對玩家清單中的第二個玩家。）",
     "examples": [],
     "tips": ""
   },
@@ -908,7 +908,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/targetpc 戰鬥與技能指令",
     "syntax": "/targetpc",
-    "description": "Targets the closest PC within a certain radius.",
+    "description": "以一定半徑內最近的 PC 為目標。",
     "examples": [],
     "tips": ""
   },
@@ -920,7 +920,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/targetnpc 戰鬥與技能指令",
     "syntax": "/targetnpc",
-    "description": "Targets the closest NPC within a certain radius.",
+    "description": "以一定半徑內最近的 NPC 為目標。",
     "examples": [],
     "tips": ""
   },
@@ -932,7 +932,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/targetenemy 戰鬥與技能指令",
     "syntax": "/targetenemy",
-    "description": "Targets the closest enemy within a certain radius.",
+    "description": "瞄準一定半徑內最近的敵人。",
     "examples": [],
     "tips": ""
   },
@@ -944,7 +944,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/battletarget 戰鬥與技能指令",
     "syntax": "/battletarget",
-    "description": "Targets the closest enemy within a certain radius that is attacking you.",
+    "description": "瞄準一定半徑內最近的正在攻擊你的敵人。",
     "examples": [],
     "tips": ""
   },
@@ -956,7 +956,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/assist 戰鬥與技能指令",
     "syntax": "/assist [placeholder]",
-    "description": "Targets the target of another PC. Assists current target when none is specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "以另一台 PC 為目標。未指定時協助目前目標。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -968,7 +968,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/facetarget 戰鬥與技能指令",
     "syntax": "/facetarget",
-    "description": "Immediately turns your PC in the direction of your current target.",
+    "description": "立即將你的電腦轉向目前目標的方向。",
     "examples": [],
     "tips": ""
   },
@@ -980,7 +980,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/nexttarget 戰鬥與技能指令",
     "syntax": "/nexttarget",
-    "description": "Toggle clockwise through on-screen enemies.",
+    "description": "順時針切換螢幕上的敵人。",
     "examples": [],
     "tips": ""
   },
@@ -992,7 +992,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/previoustarget 戰鬥與技能指令",
     "syntax": "/previoustarget",
-    "description": "Toggle counterclockwise through on-screen enemies.",
+    "description": "逆時針切換螢幕上的敵人。",
     "examples": [],
     "tips": ""
   },
@@ -1004,7 +1004,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/targetlasttarget 戰鬥與技能指令",
     "syntax": "/targetlasttarget",
-    "description": "Re-target your last target.",
+    "description": "重新定位你的最後一個目標。",
     "examples": [],
     "tips": ""
   },
@@ -1016,7 +1016,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/targetlastenemy 戰鬥與技能指令",
     "syntax": "/targetlastenemy",
-    "description": "Re-target the last enemy you targeted.",
+    "description": "重新瞄準你最後瞄準的敵人。",
     "examples": [],
     "tips": ""
   },
@@ -1028,7 +1028,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/lockon 戰鬥與技能指令",
     "syntax": "/lockon [subcommand]",
-    "description": "Lock on/off current target.\n>>Subcommands:\non      Enable lock-on.\noff     Disable lock-on.\nToggle between on/off when no subcommand is specified.",
+    "description": "鎖定/關閉目前目標。 >>子指令： on 啟用鎖定。 off 禁用鎖定。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1040,7 +1040,7 @@
     "categoryName": "戰鬥與技能",
     "name": "/focustarget 戰鬥與技能指令",
     "syntax": "/focustarget [placeholder]",
-    "description": "Makes the specified PC your focus target. Makes current target your focus target when none specified.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders\n>>Example:\n/focustarget <t>\n(Makes current target\nyour focus target.)",
+    "description": "讓指定的 PC 成為您的焦點目標。如果未指定，則將目前目標設為焦點目標。 >>常見佔位符：<t>、<target>、<1>-<8>佔位符的完整清單>>範例：/focustarget <t>（使目前目標成為焦點目標。）",
     "examples": [],
     "tips": ""
   },
@@ -1097,7 +1097,7 @@
     "categoryName": "Other",
     "name": "/? Other指令",
     "syntax": "/? [text command]",
-    "description": "Gives a detailed explanation of the specified text command.",
+    "description": "給出指定文字命令的詳細解釋。",
     "examples": [],
     "tips": ""
   },
@@ -1109,7 +1109,7 @@
     "categoryName": "Other",
     "name": "/title Other指令",
     "syntax": "/title [subcommand]",
-    "description": "Change your currently selected title.\n>>Subcommands:\nset \"title\"\nChange your current title to \"title.\"\nclear\nDisplay no title.\nA random title will be set when none is specified.\n>>Example:\n/title set \"The Heart of the Party\"　(Set title as \"The Heart of the Party.\")",
+    "description": "更改您目前選擇的標題。 >>子指令：set \"title\" 將目前標題改為「title」。清除 不顯示標題。如果未指定標題，則會設定隨機標題。 >>範例：/標題設定「黨的心」（設定標題為「黨的心」。）",
     "examples": [],
     "tips": ""
   },
@@ -1121,7 +1121,7 @@
     "categoryName": "Other",
     "name": "/gearset Other指令",
     "syntax": "/gearset [subcommand]",
-    "description": "Execute gear set functions.\n>>Subcommands:\nchange [number 1] [number 2]\nEquip gear in slot [number].\nA gear set name can be\nspecified in place of a slot\nnumber. If glamour plates\nare available, a plate\nnumber can also be\nspecified.\nview [number]\nList gear in slot [number].\nA gear set name can be\nspecified in place of a slot\nnumber.\nsave [number]\nSave current gear to slot\n[number]. A gear set name\ncan be specified in place\nof a slot number.\ndelete [number]\nDelete slot [number]. A\ngear set name can be\nspecified in place of a slot\nnumber.\nFirst letter matching can be used when specifying gear sets by name.\nGear sets will be searched in order from lowest slot number to highest.\nGear set list will be displayed when no subcommand is specified.\n>>Example:\n/gearset change 1 1\n(Equip gear in slot 1 and\ncast glamour from plate 1.)\n/gearset change warrior\n(Equip gear slot whose\nname begins with warrior.)",
+    "description": "執行齒輪組功能。 >>子指令：change [number 1] [number 2] 在插槽[number]中裝備裝備。可以指定齒輪組名稱來代替槽號。如果有可用的魅力車牌，也可以指定車牌號碼。查看 [編號] 列出插槽 [編號] 中的裝備。可以指定齒輪組名稱來代替槽號。 save [number] 將目前檔位儲存到插槽 [number]。可以指定齒輪組名稱來代替槽號。刪除 [編號] 刪除插槽 [編號]。可以指定齒輪組名稱來代替槽號。按名稱指定齒輪組時，可以使用首字母來匹配。齒輪組將按照從最低插槽編號到最高插槽編號的順序進行搜尋。當未指定子命令時，將顯示齒輪組清單。 >>範例：/齒輪組更改 1 1（在插槽 1 中裝備齒輪並從板 1 中施放魅力。）/齒輪組更改戰士（裝備名稱以戰士開頭的齒輪插槽。）",
     "examples": [],
     "tips": ""
   },
@@ -1133,7 +1133,7 @@
     "categoryName": "Other",
     "name": "/itemsort Other指令",
     "syntax": "/itemsort [subcommand]",
-    "description": "Sorts your inventory based on the conditions given. This command does not affect the Sort function.\n>>Subcommands:\ncondition [Category]\n[Condition] [Order]\nSets the items to be sorted\nalong with sorting order.\nexecute [Category]\nSorts the specified items\nbased on the conditions\ngiven.\nclear [Category]\nClears sort conditions for the\nspecified item category.\n>>Categories:\ninventory, retainer, armoury,\nmh, oh, head, body, hands,\nwaist, legs, feet, neck, ears,\nwrists, rings, soul\n>>Conditions:\nid, spiritbond, category, lv, ilv,\nstack, hq, materia, pdamage,\nmdamage, delay, autoattack,\nblockrate, blockstrength,\ndefense, mdefense,\nstr, dex, vit, int, mnd,\ncraftsmanship, control,\ngathering, perception, tab\n>>Order:\nasc, des\nDefaults to ascending if order is not specified. Cannot be used if one of the conditions is \"tab\".\n>>Examples:\n/isort condition mh lv asc\n(Sets main arms to be sorted\nby ascending equipping level.)\n/itemsort condition mh ilv des\n(Sets main arms to be sorted\nby descending item level.)\n/itemsort execute mh\n(Sorts main arms based on\nthe above conditions.)",
+    "description": "根據給定的條件對庫存進行排序。該指令不影響排序功能。 >>子指令：condition [類別] [條件] [順序] 設定要排序的項目以及排序順序。 execute [Category] ​​根據給定的條件對指定的項目進行排序。 clear [類別] 清除指定項目類別的排序條件。 >>類別：庫存，保持器，軍械庫，mh，oh，頭，身體，手，腰，腿，腳，脖子，耳朵，手腕，戒指，靈魂>>條件：id，spiritbond，類別，lv，ilv，堆棧，hq，材料，pdamage，md amage，延遲，自動攻擊，blockrate，blockstrength，防禦，mdefense，str，dex，vit，int，mnd，製程、控制、擷取、感知、選項卡>>順序：asc、des如果未指定順序，則預設為升序。如果條件之一是「tab」則無法使用。 >> 範例： /isort condition mh lv asc （設定主兵種依照裝備等級升序排列。）/itemsort condition mh ilv des（設定主兵種依照物品等級降序排列。）/itemsortexecute mh （依照上述條件對主兵種進行排序。）",
     "examples": [],
     "tips": ""
   },
@@ -1145,7 +1145,7 @@
     "categoryName": "Other",
     "name": "/itemsearch Other指令",
     "syntax": "/isearch [item name]",
-    "description": "Conducts a complete search of your inventory for all items you own, including equipped gear, items held or equipped by retainers, and items stored in your Armoury Chest, saddlebag, armoire, and glamour dresser. Command cannot be used in a macro.\n>>Example:\n/itemsearch \"Potion\"\n(Searches your inventory for\nitems containing the word\nPotion.)",
+    "description": "對您的庫存進行全面搜索，尋找您擁有的所有物品，包括裝備好的裝備、固定器持有或裝備的物品，以及存放在軍械庫箱、馬鞍包、衣櫥和魅力梳妝台中的物品。命令不能在巨集中使用。 >>範例：/itemsearch「Potion」（在您的庫存中搜尋包含單字 Potion 的物品。）",
     "examples": [],
     "tips": ""
   },
@@ -1157,7 +1157,7 @@
     "categoryName": "Other",
     "name": "/levelsync Other指令",
     "syntax": "/levelsync [subcommand]",
-    "description": "Sync your level when the option is available, such as during FATEs.\n>>Subcommands:\non      Start level sync.\noff     End level sync.\nToggle between on and off when no subcommand is specified.",
+    "description": "當該選項可用時同步您的關卡，例如在 FATE 期間。 >>子命令：啟動等級同步。關閉 結束電平同步。當未指定子命令時在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1169,7 +1169,7 @@
     "categoryName": "Other",
     "name": "/visor Other指令",
     "syntax": "/visor",
-    "description": "Open/close helm visor. This function can also be used to toggle on/off helms that light up.\nNo system message is displayed with this emote.",
+    "description": "開啟/關閉頭盔遮陽板。此功能還可用於開啟/關閉發光的頭盔。此表情不會顯示任何系統訊息。",
     "examples": [],
     "tips": ""
   },
@@ -1181,7 +1181,7 @@
     "categoryName": "Other",
     "name": "/legacymark Other指令",
     "syntax": "/legacymark [subcommand]",
-    "description": "Show or hide the Mark of the Twelve─a brand appearing on the back of the neck of all who survived the Calamity.\n>>Subcommands:\non       Show mark.\noff      Hide mark.\nToggle between shown and hidden when no subcommand is specified.",
+    "description": "顯示或隱藏十二人印記－這個印記出現在所有在災難中倖存下來的人的後頸。 >>子指令：在顯示標記上。關閉隱藏標記。當未指定子命令時，在顯示和隱藏之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1193,7 +1193,7 @@
     "categoryName": "Other",
     "name": "/facecamera Other指令",
     "syntax": "/facecamera",
-    "description": "Gaze continuously at the camera. Execute command again to cancel.",
+    "description": "持續注視相機。再次執行指令即可取消。",
     "examples": [],
     "tips": ""
   },
@@ -1205,7 +1205,7 @@
     "categoryName": "Other",
     "name": "/grouppose Other指令",
     "syntax": "/gpose",
-    "description": "Pose as a group.\n>>Controls\nOpen the Camera Settings interface\n, R, NUM*, Mouse Wheel\nToggle group view on camera\n, Spacebar\nToggle camera lighting\n, X\nToggle all character motions\n, 1 Key\nToggle target character motions\n, 2 Key\nChange focus of camera\n, Tab, Shift+Tab\nAdjust frame composition\n, W, A, S, D, Q, E\nReset frame composition\n, Z",
+    "description": "集體擺出姿勢。 >>控制 開啟攝影機設定介面，R、NUM*、滑鼠滾輪切換攝影機群組視圖、空白鍵切換攝影機燈光、X 切換所有角色動作、1 鍵切換目標角色動作、2 鍵改變攝影機焦點、Tab、Shift+Tab 調整構圖、W、A、S、D、Q、E 重設構圖、Z",
     "examples": [],
     "tips": ""
   },
@@ -1217,7 +1217,7 @@
     "categoryName": "Other",
     "name": "/idlingcamera Other指令",
     "syntax": "/icam [placeholder]",
-    "description": "Activate the idling camera. Target does not need to be specified. If a target is specified, the camera will switch between camera angles focusing on that target. If the specified target cannot be focused on, then a random subject will be chosen.\n>>Controls\nOpen the Camera Settings interface\n, R, NUM*, Wheel Button\nPause/unpause camera\n, NUM0, left-click\nSkip scene\n, Tab, Shift+Tab\nAdjust frame composition\n, W, A, S, D, Q, E\nReset frame composition\n, Z\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "啟動閒置相機。不需要指定目標。如果指定了目標，攝影機將在聚焦於該目標的攝影機角度之間切換。如果指定的目標無法對焦，則會隨機選擇一個物件。 >>控制 開啟相機設定介面，R，NUM*，滾輪按鈕 暫停/取消暫停相機，NUM0，左鍵點選 跳過場景，Tab，Shift+Tab 調整構圖，W，A，S，D，Q，E 重設構圖，Z >>常用佔位符：<t>，<target>，<1>-<8>佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -1229,7 +1229,7 @@
     "categoryName": "Other",
     "name": "/petglamour Other指令",
     "syntax": "/petglamour \"egi name\" \"glamour\"",
-    "description": "Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.\n>>Summon Name:\nCarbuncle\nGaruda-Egi\nTitan-Egi\nIfrit-Egi\n>>Glamour:\nCarbuncle\nEmerald Carbuncle\nTopaz Carbuncle\nRuby Carbuncle\nGaruda-Egi\nTitan-Egi\nIfrit-Egi\nThe glamour will be removed when no glamour is specified.\n>>Examples:\n/petglamour \"Garuda-Egi\" \"Ruby Carbuncle\"\n(Garuda-Egi will appear glamoured as Ruby Carbuncle.)\n/petglamour \"Garuda-Egi\"　(Remove the glamour from Garuda-Egi.)",
+    "description": "改變選定召喚物的外觀。你必須重新召喚神盾才能使魅力生效。命令不適用於 PvP 實例。 >>召喚名稱：Carbuncle Garuda-Egi Titan-Egi Ifrit-Egi >>魅力：Carbuncle Emerald Carbuncle Topaz Carbuncle Ruby Carbuncle Garuda-Egi Titan-Egi Ifrit-Egi 當沒有指定魅力時，魅力將被移除。 >>範例: /petglamour \"Garuda-Egi\" \"Ruby Carbuncle\" (Garuda-Egi 將以 Ruby Carbuncle 的形式出現。) /petglamour \"Garuda-Egi\" 　（移除 Garuda-Egi 的魅力。）",
     "examples": [],
     "tips": ""
   },
@@ -1241,7 +1241,7 @@
     "categoryName": "Other",
     "name": "/petsize Other指令",
     "syntax": "/petsize [summon] [size]",
-    "description": "Alter the size of select summons. Command not applicable in PvP instances. These settings will not apply to other players.\n>>Egi Name:\nDemi-Bahamut\nDemi-Phoenix\nRuby Ifrit\nTopaz Titan\nEmerald Garuda\nall\n>>Size:\nlarge\nSet Demi-Bahamut size to large.\nmedium\nSet Demi-Bahamut size to medium.\nsmall\nSet Demi-Bahamut size to small.\nToggles between small, medium, and large when no size is specified.\nReturns an error when attempting to toggle using \"all.\"\n>>Example:\n/petsize \"Ruby Ifrit\" \"small\"\n(Set Ruby Ifrit's size to small.)",
+    "description": "改變選擇召喚的大小。命令不適用於 PvP 實例。這些設定不會應用於其他玩家。 >>Egi 名稱：半巴哈姆特 半鳳凰 紅寶石 Ifrit 托帕石 泰坦翡翠 Garuda 所有 >>尺寸：大 將 半巴哈姆特尺寸設置為大。中 將《半巴哈姆特》尺寸設定為中。小 將《半巴哈姆特》尺寸設定為小。未指定尺寸時，在小、中和大之間切換。嘗試使用“all”進行切換時傳回錯誤。 >>範例：/petsize \"Ruby Ifrit\" \"small\" （將 Ruby Ifrit 的大小設為小。）",
     "examples": [],
     "tips": ""
   },
@@ -1253,7 +1253,7 @@
     "categoryName": "Other",
     "name": "/alarm Other指令",
     "syntax": "/alarm \"name\" [clock type] [repeat] [time] [reminder]",
-    "description": "Set an alarm for a specified time using local, server, or Eorzea time.\n>>Clock Type:\nlt\nSet the alarm using local time.\nst\nSet the alarm using server time.\net\nSet the alarm using Eorzea time.\n>>Repeat:\nUse \"repeat\" or \"rp\" to set an hourly alarm.\n>>Time:\nTimes must be set using the 24-hour clock.\nTime values: 0000-2400\nThe hour must be omitted when using the repeat subcommand.\n>>Reminder:\nA notification can be given up to 60 minutes prior to the alarm.\nTime values: 0-60\nThe repeat and reminder subcommands can be omitted.\nThe \"clear\" subcommand can be used to delete all alarms.\nOpens the alarm interface when no subcommands are specified.\n>>Examples:\n/alarm Raid lt 2000 10\n(Sets the \"Raid\" alarm for\n20:00 local time, with a\nnotification given 10\nminutes prior.)\n/alarm Party lt rp 30\n(Sets the \"Party\" alarm as\nan hourly alarm, 30 minutes\npast the hour in local time.)",
+    "description": "使用本地時間、伺服器時間或艾歐澤亞時間設定指定時間的鬧鐘。 >>時鐘類型：使用當地時間設定鬧鐘。 st 使用伺服器時間設定鬧鐘。 et 使用艾歐澤亞時間設定鬧鐘。 >>重複：使用「重複」或「rp」設定每小時鬧鐘。 >>時間：必須使用 24 小時制設定時間。時間值：0000-2400 使用repeat 子指令時必須省略小時。 >>提醒：最多可在警報發生前 60 分鐘發出通知。時間值：0-60 重複和提醒子指令可以省略。 “clear”子指令可用於刪除所有警報。未指定子命令時開啟警報介面。 >> 範例：/alarm Raid lt 2000 10（將「Raid」警報設定為當地時間 20:00，並在 10 分鐘前發出通知。）/alarm Party lt rp 30（將「Party」警報設定為每小時警報，當地時間整點整點後 30 分鐘。",
     "examples": [],
     "tips": ""
   },
@@ -1280,7 +1280,7 @@
     "categoryName": "Other",
     "name": "/hudreset Other指令",
     "syntax": "/hudreset",
-    "description": "Reverts the current HUD layout, size, and transparency to the default settings.",
+    "description": "將目前 HUD 佈局、大小和透明度恢復為預設值。",
     "examples": [],
     "tips": ""
   },
@@ -1292,7 +1292,7 @@
     "categoryName": "Other",
     "name": "/uireset Other指令",
     "syntax": "/uireset",
-    "description": "Reverts all HUD layouts to the default setting, and returns all windows to their default positions, sizes, and transparencies.",
+    "description": "將所有 HUD 佈局恢復為預設設置，並將所有視窗恢復為其預設位置、大小和透明度。",
     "examples": [],
     "tips": ""
   },
@@ -1304,7 +1304,7 @@
     "categoryName": "Other",
     "name": "/uiscale Other指令",
     "syntax": "/uiscale [subcommand]",
-    "description": "Resize current HUD elements and windows.\n>>Subcommands:\n[number]       Resize all HUD elements and windows to the percentage equivalent to the number specified. Percentages available: 60, 80, 90, 100, 110, 120, 140.\nreset       Reset all HUD elements to default size.\n>>Examples:\n/uiscale 140\n(All HUD elements become\n40 percent larger than their\ndefault size.)\n/uiscale reset\n(Restores all HUD elements\nto their default size.)",
+    "description": "調整目前 HUD 元素和視窗的大小。 >>子指令：[數字] 將所有 HUD 元素和視窗的大小調整為與指定數字相當的百分比。可用百分比：60、80、90、100、110、120、140。 重設 將所有 HUD 元素重設為預設大小。 >>範例：/uiscale 140（所有 HUD 元素比其預設大小大 40%。）/uiscale reset（將所有 HUD 元素恢復為其預設大小。）",
     "examples": [],
     "tips": ""
   },
@@ -1316,7 +1316,7 @@
     "categoryName": "Other",
     "name": "/jobhudmode Other指令",
     "syntax": "/jobhudmode [subcommand]",
-    "description": "Toggle job gauges between normal and simple mode.\n>>Subcommands:\n1\nToggle first job gauge between normal and simple mode.\n2\nToggle second job gauge between normal and simple mode.\nToggles all active job gauges when no subcommand is specified.",
+    "description": "在正常模式和簡單模式之間切換作業量表。 >>子指令： 1 在正常模式和簡單模式之間切換第一個作業量表。 2 在正常模式和簡單模式之間切換第二個作業量表。當未指定子指令時，切換所有活動的作業儀表。",
     "examples": [],
     "tips": ""
   },
@@ -1328,7 +1328,7 @@
     "categoryName": "Other",
     "name": "/search Other指令",
     "syntax": "/search [condition]",
-    "description": "Executes a player search based on the conditions given. Multiple conditions should be separated with a space. Conducts default search if no conditions are specified.\n>>Conditions:\n【PC Name】\nforename \"PC name\"\nSearch for a specific first\nname.\nsurname \"PC name\"\nSearch for a specific last\nname.\n【Online Status】\nleader, away, busy, duty,\nevent, lookingforparty, recruit,\nlookingtomeld, newadventurer,\nmentor, tradementor,\npvementor, pvpmentor,\nroleplay, returner\n【Class & Job】\nGLA, PGL, MRD, LNC, ARC, ROG,\nCNJ, THM, ACN, CRP, BSM, ARM,\nGSM, LTW, WVR, ALC, CUL, MIN,\nBTN, FSH, PLD, MNK, WAR, DRG,\nBRD, WHM, BLM, SMN, SCH,\nNIN, DRK, MCH, AST, SAM, RDM,\nBLU, GNB, DNC\nSearches all jobs and classes if none specified.\n【Level】\n[number]\nSearch for that level only.\n[number 1]-[number 2]\nSearch for players with\nlevels between number 1\nand number 2.\nSearches all levels if none are specified.\n【Grand Company】\n\"Maelstrom\",\n\"Immortal Flames\",\n\"Order of the Twin Adder\"\n【Location】\n\"Limsa Lominsa\", \"Gridania\",\n\"Ul'dah\", \"Ishgard\",\n\"The Black Shroud\", \"Thanalan\",\n\"La Noscea\", \"Mor Dhona\",\n\"Coerthas\", \"Dravania\",\n\"Abalathia's Spine\", \"Kugane\",\n\"Gyr Abania\", \"Othard\",\n\"The Crystarium\", \"Eulmore\",\n\"Norvrandt\"\nSearches all locations if none are specified.\n【Language】\nJA, EN, FR, DE\nSearches current language if none is specified.\n>>Example:\n/sea GLA 20-30 \"La Noscea\"\n(Searches for all gladiators in\nLa Noscea between levels 20\nand 30.)",
+    "description": "根據給定的條件執行玩家搜尋。多個條件應以空格分隔。如果不指定條件則進行預設搜尋。 >>條件： 【電腦名稱】 forename “電腦名稱” 搜尋特定的名字。姓氏“電腦名稱” 搜尋特定姓氏。 【線上狀態】領導者、離開、忙碌、職責、活動、尋找派對、招募、尋找融合、新冒險家、導師、交易者、pvementor、pvpmentor、角色扮演、回歸者【班級和工作】GLA、PGL、MRD、LNC、ARC、ROG、CNJ、THM、ACN、CRP、BSM、ARM、C FSH、PLD、MNK、WAR、DRG、BRD、WHM、BLM、SMN、SCH、NIN、DRK、MCH、AST、SAM、RDM、BLU、GNB、DNC 搜尋所有作業和類別（如果未指定）。 【等級】 [編號] 僅搜尋該等級。 [number 1]-[number 2] 搜尋等級在 1 到 2 之間的玩家。如果未指定級別，則搜尋所有級別。 【大連】「大連」、「不朽之火」、「雙蛇騎士團」【地點】「利姆薩·羅敏薩」、「格里達尼亞」、「烏爾達赫」、「伊修加德」、「黑色裹屍布」、「薩納蘭」、「拉諾西亞」、「摩多納」、「阿庫爾薩」、「阿庫爾薩」、「巴蘇尼亞」、「巴蘇尼亞」、「德拉瓦薩」、「巴蘇尼亞」」、「巴蘇尼亞」、「巴蘇薩」、「阿庫爾薩」、「巴蘇尼亞」、「巴蘇尼亞」、「巴薩赫」、「巴蘇尼亞」」、「巴蘇尼亞」、「巴蘇薩」、「巴蘇尼亞」」、「巴蘇尼亞」、「巴蘇薩」、「巴蘇尼亞」」、「巴蘇尼亞」、「巴蘇尼亞」、「巴蘇尼亞」」、「巴蘇尼亞」、「巴蘇尼亞」、「巴薩尼亞」、「巴莎」」、「巴蘇尼亞」、「巴薩尼亞」、」 Abania”、“Othard”、“The Crystarium”、“Eulmore”、“Norvrandt” 如果未指定，則搜尋所有位置。 【語言】 JA、EN、FR、DE 如果未指定，則搜尋目前語言。 >>範例：/sea GLA 20-30「La Noscea」（搜尋拉諾西亞 20 到 30 級之間的所有角鬥士。）",
     "examples": [],
     "tips": ""
   },
@@ -1340,7 +1340,7 @@
     "categoryName": "Other",
     "name": "/lookingforparty Other指令",
     "syntax": "/lfp [subcommand] [class]",
-    "description": "Set your online status to Looking for Party/Online.\n>>Subcommands:\non\nSet your status to Looking for\nParty.\noff\nSet your status to Online.\nToggle between Looking for Party and Online when no subcommand is specified.\n>>Classes/Jobs:\nGLA, PGL, MRD, LNC, ARC, ROG\nCNJ, THM, ACN, CRP, BSM, ARM\nGSM, LTW, WVR, ALC, CUL, MIN\nBTN, FSH, PLD, MNK, WAR, DRG\nBRD, WHM, BLM, SMN, SCH\nNIN, DRK, MCH, AST, SAM, RDM\nBLU, GNB, DNC\nMultiple classes/jobs─or none at all─may be specified.",
+    "description": "將您的線上狀態設定為尋找聚會/線上。 >> 子指令： on 將您的狀態設定為「尋找聚會」。 off 將您的狀態設定為線上。當未指定子命令時，在「尋找聚會」和「線上」之間切換。 >>課程/工作：GLA、PGL、MRD、LNC、ARC、ROG CNJ、THM、ACN、CRP、BSM、ARM GSM、LTW、WVR、ALC、CUL、MIN BTN、FSH、PLD、MNK、WAR、DRG BRD、WHM、BLM、SMN、SCH NIN、DRK、MCH、ELUX、BLU、SCH NIN、多個可以指定類別/工作（或完全不指定）。",
     "examples": [],
     "tips": ""
   },
@@ -1352,7 +1352,7 @@
     "categoryName": "Other",
     "name": "/lookingtomeld Other指令",
     "syntax": "/lookingtomeld [subcommand]",
-    "description": "Set your online status to Looking to Meld Materia/Online.\n>>Subcommands:\non\nSet your status to Looking to\nMeld Materia.\noff\nSet your status to Online.\nToggle between Looking to Meld Materia and Online when no subcommand is specified.",
+    "description": "將您的線上狀態設定為「尋找融合材料/線上」。 >>子指令： on 將您的狀態設定為「正在尋找融合材料」。 off 將您的狀態設定為線上。當未指定子命令時，在「查看融合材料」和「線上」之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1364,7 +1364,7 @@
     "categoryName": "Other",
     "name": "/searchcomment Other指令",
     "syntax": "/searchcomment [comment]",
-    "description": "Change your search comment.",
+    "description": "更改您的搜尋評論。",
     "examples": [],
     "tips": ""
   },
@@ -1376,7 +1376,7 @@
     "categoryName": "Other",
     "name": "/busy Other指令",
     "syntax": "/busy [subcommand]",
-    "description": "Set your online status to Busy/Online.\n>>Subcommands:\non     Set your status to Busy.\noff     Set your status to Online.\nToggle between Busy and Online when no subcommand is specified.",
+    "description": "將您的線上狀態設定為忙碌/線上。 >> 子指令： on 將您的狀態設定為忙碌。 off 將您的狀態設定為線上。當未指定子命令時，在“忙碌”和“在線”之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1388,7 +1388,7 @@
     "categoryName": "Other",
     "name": "/away Other指令",
     "syntax": "/away [subcommand]",
-    "description": "Set your online status to Away/Online.\n>>Subcommands:\non      Set your status to Away.\noff      Set your status to Online.\nToggle between Away and Online when no subcommand is specified.",
+    "description": "將您的線上狀態設定為離開/線上。 >> 子指令： on 將您的狀態設定為離開。 off 將您的狀態設定為線上。當未指定子命令時，在離開和在線之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1400,7 +1400,7 @@
     "categoryName": "Other",
     "name": "/roleplaying Other指令",
     "syntax": "/roleplaying [subcommand]",
-    "description": "Set your online status to Role-playing.\n>>Subcommands:\non     Set your status to Role-playing.\noff     Set your status to Online.\nToggle between Role-playing and Online when no subcommand is specified.",
+    "description": "將您的線上狀態設為角色扮演。 >>子指令： on 將您的狀態設定為角色扮演。 off 將您的狀態設定為線上。當未指定子命令時，在角色扮演和線上之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1412,7 +1412,7 @@
     "categoryName": "Other",
     "name": "/dice Other指令",
     "syntax": "/dice [chat mode]",
-    "description": "Displays a random number between 0 and 999 in the specified chat channel. Displays in the current chat mode when no chat mode is specified.\n>>Chat Modes:\nParty\nparty, p\nAlliance\nalliance, al\nFree Company\nfreecompany, fc\nPvP Team\npvpteam, pt\nLinkshell\nlinkshell1-8, l1-8\nCross-world Linkshell\ncwlinkshell1-8, cwl1-8\n>>Examples:\n/dice\n(Displays a random number\nin the current chat mode.)\n/dice cwl\n(Displays a random number\nin the Cross-world Linkshell 1\nchannel.)",
+    "description": "在指定的聊天频道中显示 0 到 999 之间的随机数。未指定聊天模式时，以当前聊天模式显示。 >>聊天模式: Party party、p Alliance league、al Free Company freecompany、fc PvP Team pvpteam、pt Linkshell linkshell1-8、l1-8 Cross-world Linkshell cwlinkshell1-8、cwl1-8 >>示例： /dice (在當前聊天模式中顯示隨機數 1/dices。",
     "examples": [],
     "tips": ""
   },
@@ -1424,7 +1424,7 @@
     "categoryName": "Other",
     "name": "/random Other指令",
     "syntax": "/random",
-    "description": "Displays within a /say radius a random number between 0 and 999.\nSubcommands:\n[upper limit]\nSet an upper limit to display a random number between 1 and the specified number. Displays a random number between 0 and 999 when no upper limit is specified.\nUpper limit range: 2-999\nExamples:\n/random\n(Displays a random number\nwithin a /say radius.)\n/random 16\n(Displays a random number\nbetween 1 and 16 within a\n/say radius.)",
+    "description": "在 /say 半徑內顯示 0 到 999 之間的隨機數。 子指令： [upper limit] 設定顯示 1 到指定數字之間的隨機數的上限。當未指定上限時，顯示 0 到 999 之間的隨機數。上限範圍：2-999 範例： /random （顯示 /say 半徑內的隨機數。）/random 16 （顯示 /say 半徑內 1 到 16 之間的隨機數。）",
     "examples": [],
     "tips": ""
   },
@@ -1436,7 +1436,7 @@
     "categoryName": "Other",
     "name": "/playtime Other指令",
     "syntax": "/playtime",
-    "description": "Displays your cumulative FINAL FANTASY XIV play time for the currently logged in character.",
+    "description": "顯示目前登入角色的累積《最終幻想 XIV》遊戲時間。",
     "examples": [],
     "tips": ""
   },
@@ -1448,7 +1448,7 @@
     "categoryName": "Other",
     "name": "/logout Other指令",
     "syntax": "/logout",
-    "description": "Begins the logout process.",
+    "description": "開始註銷過程。",
     "examples": [],
     "tips": ""
   },
@@ -1460,7 +1460,7 @@
     "categoryName": "Other",
     "name": "/shutdown Other指令",
     "syntax": "/shutdown",
-    "description": "Log out and close the game.",
+    "description": "登出並關閉遊戲。",
     "examples": [],
     "tips": ""
   },
@@ -1472,7 +1472,7 @@
     "categoryName": "Other",
     "name": "/nastatus Other指令",
     "syntax": "/nastatus [subcommand]",
-    "description": "Toggle the New Adventurer status on/off.\n>>Subcommands:\non\nTurns on New Adventurer status.\noff\nTurns off New Adventurer status.\nToggle the New Adventurer status on/off if no subcommand is specified.",
+    "description": "開啟/關閉新冒險家狀態。 >>子指令： on 開啟新冒險家狀態。 off 關閉新冒險家狀態。如果未指定子命令，則開啟/關閉新冒險家狀態。",
     "examples": [],
     "tips": ""
   },
@@ -1484,7 +1484,7 @@
     "categoryName": "Other",
     "name": "/returnerstatusoff Other指令",
     "syntax": "/returnerstatusoff",
-    "description": "Remove the Returner status.",
+    "description": "移除退貨者狀態。",
     "examples": [],
     "tips": ""
   },
@@ -1496,7 +1496,7 @@
     "categoryName": "Other",
     "name": "/novicenetworkinvitation Other指令",
     "syntax": "/novicenetworkinvitation [subcommand]",
-    "description": "Allow or automatically deny invitations to the Novice Network.\n>>Subcommands:\non\nAllow players to invite you to the Novice Network.\noff\nAutomatically refuse invitations to the Novice Network.\nToggles between on and off when no subcommand is specified.",
+    "description": "允許或自動拒絕新手網路的邀請。 >>子指令：on 允許玩家邀請您加入新手網路。關 自動拒絕新手網路邀請。當未指定子命令時，在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1508,7 +1508,7 @@
     "categoryName": "Other",
     "name": "/novicenetworkleave Other指令",
     "syntax": "/novicenetworkleave",
-    "description": "Leave the Novice Network.",
+    "description": "離開新手網路。",
     "examples": [],
     "tips": ""
   },
@@ -1520,7 +1520,7 @@
     "categoryName": "Other",
     "name": "/novicenetwork Other指令",
     "syntax": "/nnetwork [subcommand]",
-    "description": "Toggle auto-join settings for the Novice Network on and off.\n>>Subcommands:\non\nTurn on auto-join and  connect to the Novice Network.\noff\nTurn off auto-join and leave the Novice Network.\nToggle auto-join on and off if no subcommand is specified.",
+    "description": "開啟和關閉新手網路的自動加入設定。 >>子指令： on 開啟自動加入並連線到新手網路。 off 關閉自動加入並離開新手網路。如果未指定子命令，則開啟和關閉自動連線。",
     "examples": [],
     "tips": ""
   },
@@ -1532,7 +1532,7 @@
     "categoryName": "Other",
     "name": "/duelswitch Other指令",
     "syntax": "/duelswitch [subcommand]",
-    "description": "Allow or automatically deny challenges to duel from other players.\n>>Subcommands:\non\nAutomatically refuse all challenges to duel.\noff\nAllow players to challenge you to duel.\nToggles between on and off when no subcommand is specified.",
+    "description": "允許或自動拒絕其他玩家對決的挑戰。 >>子指令：on 自動拒絕所有決鬥挑戰。關 允許玩家挑戰你決鬥。當未指定子命令時，在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1544,7 +1544,7 @@
     "categoryName": "Other",
     "name": "/magiaright Other指令",
     "syntax": "/magiaright",
-    "description": "Spins your magia board clockwise.",
+    "description": "順時針旋轉你的魔法板。",
     "examples": [],
     "tips": ""
   },
@@ -1556,7 +1556,7 @@
     "categoryName": "Other",
     "name": "/magialeft Other指令",
     "syntax": "/magialeft",
-    "description": "Spins your magia board counterclockwise.",
+    "description": "逆時針旋轉你的魔法板。",
     "examples": [],
     "tips": ""
   },
@@ -1568,7 +1568,7 @@
     "categoryName": "Other",
     "name": "/magiaattack Other指令",
     "syntax": "/magiaattack [placeholder]",
-    "description": "Spin the magia board to match the elemental weakness of the specified target. If no target is specified, matches based on current target.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "旋轉魔法板以符合指定目標的元素弱點。如果未指定目標，則根據目前目標進行比對。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -1580,7 +1580,7 @@
     "categoryName": "Other",
     "name": "/magiadefense Other指令",
     "syntax": "/magiadefense [placeholder]",
-    "description": "Spin the magia board to match the elemental affinity of the specified target. If no target is specified, matches based on current target.\n>>Common Placeholders:\n<t>, <target>, <1>-<8>\nA full list of placeholders",
+    "description": "旋轉魔法板以符合指定目標的元素親和力。如果未指定目標，則根據目前目標進行比對。 >> 常用佔位符：<t>、<target>、<1>-<8> 佔位符的完整列表",
     "examples": [],
     "tips": ""
   },
@@ -1592,7 +1592,7 @@
     "categoryName": "Other",
     "name": "/magiaauto Other指令",
     "syntax": "/magiaauto [subcommand]",
-    "description": "Set the magia board to automatically spin based on your current target.\n>>Subcommands:\nattack (atk)\nAutomatically spin the magia\nboard to match the elemental\nweakness of current target.\ndefense (def)\nAutomatically spin the magia\nboard to match the elemental\naffinity of current target.\noff\nDisable automatic spinning.\nToggle between attack, defense, and off when no subcommand is specified.",
+    "description": "將魔法板設定為根據您目前的目標自動旋轉。 >>子指令：attack (atk) 自動旋轉魔法盤以符合目前目標的元素弱點。防禦 (def) 自動旋轉魔法板以符合目前目標的元素親和力。 off 停用自動旋轉。當未指定子命令時，在攻擊、防禦和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1604,7 +1604,7 @@
     "categoryName": "Other",
     "name": "/ridepillion Other指令",
     "syntax": "/ridepillion [placeholder] [subcommand]",
-    "description": "Ride pillion on a selected party member's mount.\n>>Subcommands:\n[seat number]\nSelect your desired seat on the mount.\nAvailable options: 1-7\n>>Common Placeholders:\n<t>,<target>,<1>-<8>\nIf the desired seat is already selected, you will be placed in the next available seat. Seat 1 will be selected if unspecified.\n>>Example:\n/ridepillion <2> 1\n(Ride in seat 1 of party member 2.)",
+    "description": "騎上指定黨員的坐騎。 >>子指令： [座位編號] 在安裝座上選擇所需的座位。可用選項：1-7 >>常用佔位符：<t>、<目標>、<1>-<8> 如果已選擇所需座位，您將被安排到下一個可用座位。如果未指定，將選擇座位 1。 >>範例：/ridepillion <2> 1（乘坐隊伍成員 2 的座位 1。）",
     "examples": [],
     "tips": ""
   },
@@ -1616,7 +1616,7 @@
     "categoryName": "Other",
     "name": "/patchnote Other指令",
     "syntax": "/patchnote",
-    "description": "Opens the Patch Notes page on the official site.\nLaunches using your default browser.",
+    "description": "開啟官方網站上的補丁說明頁面。使用您的預設瀏覽器啟動。",
     "examples": [],
     "tips": ""
   },
@@ -1695,7 +1695,7 @@
     "categoryName": "巨集控制",
     "name": "/macrocancel 巨集控制指令",
     "syntax": "/macrocancel",
-    "description": "Cancel the currently executed macro. Cannot be used in a macro.",
+    "description": "取消目前執行的巨集。不能在巨集中使用。",
     "examples": [],
     "tips": ""
   },
@@ -1707,7 +1707,7 @@
     "categoryName": "系統與設定",
     "name": "/autolockon 系統與設定指令",
     "syntax": "/autolockon [subcommand]",
-    "description": "Automatically lock on target when initiating auto-attack.\n>>Subcommands:\non    Enable auto-lock on.\noff    Disable auto-lock on.\nToggle between on/off when no subcommand is specified.",
+    "description": "發動自動攻擊時自動鎖定目標。 >> 子指令： on 啟用自動鎖定 on。 off 停用自動鎖定。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1719,7 +1719,7 @@
     "categoryName": "系統與設定",
     "name": "/autofacetarget 系統與設定指令",
     "syntax": "/autofacetarget [subcommand]",
-    "description": "Automatically face target when using action.\n>>Subcommands:\non        Enable auto-face.\noff        Disable auto-face.\nToggle between on/off when no subcommand is specified.",
+    "description": "使用動作時自動面向目標。 >>子指令： on 啟用自動臉部。 off 停用自動臉部辨識。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1731,7 +1731,7 @@
     "categoryName": "系統與設定",
     "name": "/targetring 系統與設定指令",
     "syntax": "/targetring [subcommand]",
-    "description": "Hide/display target ring.\n>>Subcommands:\non       Display target ring.\noff       Hide target ring.\nToggle between on/off when no subcommand is specified.",
+    "description": "隱藏/顯示目標環。 >>子指令： on 顯示目標環。關閉 隱藏目標環。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1743,7 +1743,7 @@
     "categoryName": "系統與設定",
     "name": "/targetline 系統與設定指令",
     "syntax": "/targetline [subcommand]",
-    "description": "Hide/display target lines.\n>>Subcommands:\non       Display target lines.\noff       Hide target lines.\nToggle between on/off when no subcommand is specified.",
+    "description": "隱藏/顯示目標線。 >>子指令：顯示目標行。 off 隱藏目標行。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1755,7 +1755,7 @@
     "categoryName": "系統與設定",
     "name": "/aggroline 系統與設定指令",
     "syntax": "/aggroline [subcommand]",
-    "description": "Hide/display aggro lines.\n>>Subcommands:\non       Display aggro lines.\noff       Hide aggro lines.\nToggle between on/off when no subcommand is specified.",
+    "description": "隱藏/顯示仇恨線。 >>子指令： on 顯示仇恨線。關閉 隱藏仇恨線。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1767,7 +1767,7 @@
     "categoryName": "系統與設定",
     "name": "/autotarget 系統與設定指令",
     "syntax": "/autotarget [subcommand]",
-    "description": "Enable auto-target when no target specified.\n>>Subcommands:\non       Enable auto-target.\noff       Disable auto-target.\nToggle between on/off when no subcommand is specified.",
+    "description": "未指定目標時啟用自動定位。 >>子指令：on 啟用自動定位。 off 停用自動定位。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1779,7 +1779,7 @@
     "categoryName": "系統與設定",
     "name": "/displayhead 系統與設定指令",
     "syntax": "/displayhead [subcommand]",
-    "description": "Hide/display headgear.\n>>Subcommands:\non       Display headgear.\noff       Hide headgear.\nToggle between on/off when no subcommand is specified.",
+    "description": "隱藏/顯示頭飾。 >>子指令：顯示頭盔。關閉 隱藏頭飾。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1791,7 +1791,7 @@
     "categoryName": "系統與設定",
     "name": "/displayarms 系統與設定指令",
     "syntax": "/displayarms [subcommand]",
-    "description": "Hide/display main and off hand weapons when sheathed.\n>>Subcommands:\non       Display arms.\noff       Hide arms.\nToggle between on/off when no subcommand is specified.",
+    "description": "收起時隱藏/顯示主武器和副手武器。 >>子命令：显示武器。關閉 隱藏手臂。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1803,7 +1803,7 @@
     "categoryName": "系統與設定",
     "name": "/autosheathe 系統與設定指令",
     "syntax": "/autosheathe [subcommand]",
-    "description": "Auto-sheathe weapon when not in battle.\n>>Subcommands:\non       Enable auto-sheathe.\noff       Disable auto-sheathe.\nToggle between on/off when no subcommand is specified.",
+    "description": "不在戰鬥時自動收起武器。 >>子指令：on 啟用自動護套。 off 禁用自動護套。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1815,7 +1815,7 @@
     "categoryName": "系統與設定",
     "name": "/targetself 系統與設定指令",
     "syntax": "/targetself [subcommand]",
-    "description": "Enable/disable clicking on self.\n>>Subcommands:\non       Enable clicking on self.\noff       Disable clicking on self.\nToggle between on/off when no subcommand is specified.",
+    "description": "啟用/停用按一下自身。 >>子指令：on 啟用自我點擊。 off 禁止點選自身。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1827,7 +1827,7 @@
     "categoryName": "系統與設定",
     "name": "/rclickpc 系統與設定指令",
     "syntax": "/rclickpc [subcommand]",
-    "description": "→Sets right-click selection to allow or ignore PC targets.\n>>Subcommands:\non\nDisables right-click selection for PCs.\noff\nEnables right-click selection for PCs.\nToggles between on and off when no subcommand is specified.",
+    "description": "→設定右鍵選擇以允許或忽略 PC 目標。 >> 子指令： on 停用 PC 的右鍵選擇。 off 啟用 PC 的右鍵選擇。當未指定子命令時，在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1839,7 +1839,7 @@
     "categoryName": "系統與設定",
     "name": "/rclickbattlenpc 系統與設定指令",
     "syntax": "/rclickbattlenpc [subcommand]",
-    "description": "→Sets right-click selection to allow or ignore battle NPC targets.\n>>Subcommands:\non\nDisables right-click selection for battle NPCs.\noff\nEnables right-click selection for battle NPCs.\nToggles between on and off when no subcommand is specified.",
+    "description": "→設定右鍵選擇允許或忽略戰鬥NPC目標。 >>子指令：on 停用戰鬥 NPC 的右鍵選擇。 off 啟用戰鬥 NPC 的右鍵選擇。當未指定子命令時，在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1851,7 +1851,7 @@
     "categoryName": "系統與設定",
     "name": "/rclickminion 系統與設定指令",
     "syntax": "/rclickminion [subcommand]",
-    "description": "→Sets right-click selection to allow or ignore minion targets.\n>>Subcommands:\non\nDisables right-click selection for minions.\noff\nEnables right-click selection for minions.\nToggles between on and off when no subcommand is specified.",
+    "description": "→設定右鍵選擇以允許或忽略小兵目標。 >>子指令：on 停用小兵的右鍵選擇。 off 啟用小兵的右鍵選擇。當未指定子命令時，在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1863,7 +1863,7 @@
     "categoryName": "系統與設定",
     "name": "/groundclick 系統與設定指令",
     "syntax": "/groundclick [subcommand]",
-    "description": "Enable clicking on field to remove target.\n>>Subcommands:\non       Enable ground clicking.\noff       Disable ground clicking.\nToggle between on/off when no subcommand is specified.",
+    "description": "啟用點擊欄位以刪除目標。 >>子指令：on 啟用地面點擊。 off 禁用地面點擊。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1875,7 +1875,7 @@
     "categoryName": "系統與設定",
     "name": "/chatlog 系統與設定指令",
     "syntax": "/chatlog [subcommand]",
-    "description": "Configure log window settings.\n>>Subcommands:\nname [number 0-3]\nChange the way names are\ndisplayed in your log window.\n0 Full Name\n1 Last Name Initialed\n2 First Name Initialed\n3 Initials Only\nfontsize [tab number] [number]\nAdjust [tab number] log\nwindow font size to\n[number].\ntime [tab number] on\nAdd time stamps to all\nmessages on [tab number]\nlog window.\ntime [tab number] off\nRemove time stamps from all\nmessages on [tab number]\nlog window.\ntime [tab number]\nToggle time stamps on/off\nfor all messages on\n[tab number] log window.\ntime 12\nSet time display to 12-hour\nformat.\ntime 24\nSet time display to 24-hour\nformat.\ntime local\nSet time stamp clock to local\ntime.\ntime server\nSet time stamp clock to server\ntime.\ncall on\nPlay sound upon receiving\n/tell.\ncall off\nPlay no sound upon receiving\n/tell.\ncall [chat channel]\nToggle /tell sound on/off for\nthe specified chat channel.\nemote Emote\nt Tell\np Party\nfc Free Company\nal Alliance\nl1-8 Linkshell 1-8\nnew Novice Network\npvpteam PvP Team\ncwl Cross-world Linkshell",
+    "description": "配置日誌視窗設定。 >>子指令：name [數字0-3] 變更名稱在日誌視窗中的顯示方式。 0 全名 1 姓氏縮寫 2 名字縮寫 3 僅首字母字體大小 [選項卡編號] [數字] 將[選項卡編號] 日誌視窗字體大小調整為 [數字]。 time [tab number] on 為 [tab number] 日誌視窗上的所有訊息新增時間戳記。 time [tab number] off 從 [tab number] 日誌視窗上的所有訊息中刪除時間戳記。 time [選項卡編號] 開啟/關閉 [選項卡編號] 日誌視窗上所有訊息的時間戳記。時間 12 將時間顯示設定為 12 小時格式。 time 24 將時間顯示設定為 24 小時格式。 time local 將時間戳時鐘設定為當地時間。時間伺服器 將時間戳時鐘設定為伺服器時間。呼叫 收到/告知後播放聲音。取消 接收/告知時不播放任何聲音。 call [聊天頻道] 開啟/關閉指定聊天頻道的/tell 聲音。 emote Emote t Tell p Party fc Free Company al Alliance l1-8 Linkshell 1-8 新新手網絡 pvpteam PvP Team cwl 跨世界 Linkshell",
     "examples": [],
     "tips": ""
   },
@@ -1887,7 +1887,7 @@
     "categoryName": "系統與設定",
     "name": "/battleeffect 系統與設定指令",
     "syntax": "/bfx [subcommand] [setting]",
-    "description": "Configure battle effects settings.\n>>Subcommands:\nself\nConfigure own battle effects\nsettings.\nparty\nConfigure party members'\nbattle effects settings.\nother\nConfigure other NPCs' battle\nenemypc\nConfigure other Players' battle\neffects settings.\n>>Settings:\nall            Show all effects.\nsimple    Show limited effects.\noff           Hide all effects.\nToggles between all and off when no setting is specified.",
+    "description": "配置戰鬥效果設定。 >>子指令: self 設定自己的戰鬥效果設定。隊伍 配置隊伍成員的戰鬥效果設定。 other 設定其他NPC的戰鬥敵方電腦 設定其他玩家的戰鬥效果設定。 >>設定：全部 顯示所有效果。簡單 顯示效果有限。 off 隱藏所有效果。當未指定設定時，在全部和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1899,7 +1899,7 @@
     "categoryName": "系統與設定",
     "name": "/actionerror 系統與設定指令",
     "syntax": "/actionerror [subcommand]",
-    "description": "Display error messages when actions fail.\n>>Subcommands:\non       Enable messages.\noff       Disable messages.\nToggle between on/off when no subcommand is specified.",
+    "description": "操作失敗時顯示錯誤訊息。 >> 子指令：on 啟用訊息。 off 禁用訊息。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1911,7 +1911,7 @@
     "categoryName": "系統與設定",
     "name": "/recasterror 系統與設定指令",
     "syntax": "/recasterror [subcommand]",
-    "description": "Display recast timer error messages.\n>>Subcommands:\non       Enable messages.\noff       Disable messages.\nToggle between on/off when no subcommand is specified.",
+    "description": "顯示重鑄計時器錯誤訊息。 >> 子指令：on 啟用訊息。 off 禁用訊息。未指定子命令時在開/關之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -1923,7 +1923,7 @@
     "categoryName": "系統與設定",
     "name": "/tiltcamera 系統與設定指令",
     "syntax": "/tiltcamera [subcommand]",
-    "description": "Adjust 3rd person camera angle settings.\n>>Subcommands:\n[angle number]\nSet 3rd person camera angle to the specified setting.\nSettings available: 0-100.",
+    "description": "調整第三人稱相機角度設定。 >>子指令：[角度編號] 將第三人稱攝影機角度設定為指定設定。可用設定：0-100。",
     "examples": [],
     "tips": ""
   },
@@ -1935,7 +1935,7 @@
     "categoryName": "系統與設定",
     "name": "/nameplatedisp 系統與設定指令",
     "syntax": "/nameplatedisp [category] [setting number]",
-    "description": "Change PC display name settings.\n>>Category:\nAll Players\nall\nYour Character\nself\nParty Members\nparty\nAlliance Members\nalliance\nOther PCs\nother\nFriends\nfriend\nFeast Opponents\nfeast\n>>Setting Number\n1: Always\n2: During Battle\n3: When Targeted\n4: Never\n>>Example:\n/nameplatetype all 4\n(Set display names to never\ndisplay for all players.)",
+    "description": "變更 PC 顯示名稱設定。 >>類別：所有玩家 所有您的角色 自己 黨員 黨員 聯盟 成員 聯盟 其他電腦 其他 朋友 朋友 盛宴 對手盛宴 >>設定編號 1：始終 2：戰鬥中 3：目標時 4：從不 >>示例：/nameplatetype all 4 （設定顯示名稱從不對所有玩家顯示。）",
     "examples": [],
     "tips": ""
   },
@@ -1947,7 +1947,7 @@
     "categoryName": "系統與設定",
     "name": "/nameplatetype 系統與設定指令",
     "syntax": "/nameplatetype [category] [setting number]",
-    "description": "Change PC display type settings.\n>>Category:\nAll Players\nall\nYour Character\nself\nParty Members\nparty\nAlliance Members\nalliance\nOther PCs\nother\nFriends\nfriend\nFeast Opponents\nfeast\n>>Setting Number\n1: Full Name\n2: Surname Abbreviated\n3: [Forename] Abbreviated\n4: Initials\n>>Example:\n/nameplatetype all 4\n(Set display names to\ninitials for all players.)",
+    "description": "變更 PC 顯示類型設定。 >>類別：所有玩家 所有角色 自己 黨員 黨員 聯盟 成員 聯盟 其他電腦 其他 朋友 朋友 盛宴 對手盛宴 >>設定編號 1：全名 2：姓氏縮寫 3：[名字] 縮寫 4：姓名縮寫 >>範例：/nameplatetype all 4 （將所有玩家的顯示名稱設為姓名首字母。",
     "examples": [],
     "tips": ""
   },
@@ -1959,7 +1959,7 @@
     "categoryName": "系統與設定",
     "name": "/graphicpresets 系統與設定指令",
     "syntax": "/graphicpresets [preset number]",
-    "description": "Load one of several preset graphics configuration settings.\n>>Preset Configurations:\n1: Standard (Laptop)\n2: Standard (Desktop)\n3: High (Laptop)\n4: High (Desktop)\n5: Maximum\n>>Example:\n/graphicpresets 2\n(Sets graphics settings to preset 2.)",
+    "description": "載入多個預設圖形配置設定之一。 >>預設配置： 1：標準（筆記型電腦） 2：標準（桌上型電腦） 3：高（筆記型電腦） 4：高（桌上型電腦） 5：最大 >>範例：/graphicpresets 2（將圖形設定設為預設 2。）",
     "examples": [],
     "tips": ""
   },
@@ -1971,7 +1971,7 @@
     "categoryName": "系統與設定",
     "name": "/mastervolume 系統與設定指令",
     "syntax": "/mastervolume [subcommand]",
-    "description": "Adjust master volume settings.\n>>Subcommands:\n[volume number]\nSet master volume to the specified volume level.\nLevels available: 0-100.\nToggles mute on and off when no subcommand is specified.",
+    "description": "調整主音量設定。 >>子指令： [音量編號] 將主音量設定為指定的音量等級。可用等級：0-100。當未指定子命令時，開啟和關閉靜音。",
     "examples": [],
     "tips": ""
   },
@@ -1983,7 +1983,7 @@
     "categoryName": "系統與設定",
     "name": "/bgm 系統與設定指令",
     "syntax": "/bgm [subcommand]",
-    "description": "Adjust BGM volume settings.\n>>Subcommands:\n[volume number]\nSet BGM to the specified volume level.\nLevels available: 0-100.\nToggles BGM on and off when no subcommand is specified.",
+    "description": "調整 BGM 音量設定。 >> 子指令： [音量編號] 將 BGM 設定為指定的音量等級。可用等級：0-100。當未指定子命令時，開啟和關閉 BGM。",
     "examples": [],
     "tips": ""
   },
@@ -1995,7 +1995,7 @@
     "categoryName": "系統與設定",
     "name": "/soundeffects 系統與設定指令",
     "syntax": "/soundeffects [subcommand]",
-    "description": "Adjust sound effects volume settings.\n>>Subcommands:\n[volume number]\nSet sound effects to the specified volume level.\nLevels available: 0-100.\nToggles sound effects on and off when no subcommand is specified.",
+    "description": "調整音效音量設定。 >>子指令： [音量編號] 將音效設定為指定的音量等級。可用等級：0-100。當未指定子命令時，開啟和關閉聲音效果。",
     "examples": [],
     "tips": ""
   },
@@ -2007,7 +2007,7 @@
     "categoryName": "系統與設定",
     "name": "/voice 系統與設定指令",
     "syntax": "/voice [subcommand]",
-    "description": "Adjust voice volume settings.\n>>Subcommands:\n[volume number]\nSet voice to the specified volume level.\nLevels available: 0-100.\nToggles voice on and off when no subcommand is specified.",
+    "description": "調整語音音量設定。 >>子指令： [音量編號] 將語音設定為指定的音量等級。可用等級：0-100。未指定子命令時開啟和關閉語音。",
     "examples": [],
     "tips": ""
   },
@@ -2019,7 +2019,7 @@
     "categoryName": "系統與設定",
     "name": "/systemsounds 系統與設定指令",
     "syntax": "/systemsounds [subcommand]",
-    "description": "Adjust system sounds volume settings.\n>>Subcommands:\n[volume number]\nSet system sounds to the specified volume level.\nLevels available: 0-100.\nToggles system sounds on and off when no subcommand is specified.",
+    "description": "調整系統聲音音量設定。 >>子指令： [音量編號] 將系統聲音設定為指定的音量等級。可用等級：0-100。當未指定子命令時，開啟和關閉系統聲音。",
     "examples": [],
     "tips": ""
   },
@@ -2031,7 +2031,7 @@
     "categoryName": "系統與設定",
     "name": "/ambientsounds 系統與設定指令",
     "syntax": "/ambientsounds [subcommand]",
-    "description": "Adjust ambient sounds volume settings.\n>>Subcommands:\n[volume number]\nSet ambient sounds to the specified volume level.\nLevels available: 0-100.\nToggles ambient sounds on and off when no subcommand is specified.",
+    "description": "調整環境聲音音量設定。 >> 子指令： [音量編號] 將環境聲音設定為指定的音量等級。可用等級：0-100。當未指定子命令時，開啟和關閉環境聲音。",
     "examples": [],
     "tips": ""
   },
@@ -2043,7 +2043,7 @@
     "categoryName": "系統與設定",
     "name": "/soundeffectsself 系統與設定指令",
     "syntax": "/soundeffectsself [subcommand]",
-    "description": "Adjust player effects volume settings for self.\n>>Subcommands:\n[volume number]\nSet player effects for self to the specified volume level.\nLevels available: 0-100.",
+    "description": "自行調整播放器效果音量設定。 >>子指令： [音量編號] 將播放器效果設定為指定的音量等級。可用等級：0-100。",
     "examples": [],
     "tips": ""
   },
@@ -2055,7 +2055,7 @@
     "categoryName": "系統與設定",
     "name": "/soundeffectsparty 系統與設定指令",
     "syntax": "/soundeffectsparty [subcommand]",
-    "description": "Adjust player effects volume settings for your party.\n>>Subcommands:\n[volume number]\nSet player effects for your party to the specified volume level.\nLevels available: 0-100.",
+    "description": "為您的隊伍調整播放器效果音量設定。 >>子指令：[音量編號] 將您的隊伍的播放器效果設定為指定的音量等級。可用等級：0-100。",
     "examples": [],
     "tips": ""
   },
@@ -2067,7 +2067,7 @@
     "categoryName": "系統與設定",
     "name": "/soundeffectsother 系統與設定指令",
     "syntax": "/soundeffectsother [subcommand]",
-    "description": "Adjust player effects volume settings for other PCs.\n>>Subcommands:\n[volume number]\nSet player effects for other PCs to the specified volume level.\nLevels available: 0-100.",
+    "description": "調整其他電腦的播放器效果音量設定。 >>子指令： [音量編號] 將其他PC的播放器效果設定為指定的音量等級。可用等級：0-100。",
     "examples": [],
     "tips": ""
   },
@@ -2079,7 +2079,7 @@
     "categoryName": "系統與設定",
     "name": "/performsounds 系統與設定指令",
     "syntax": "/performsounds [subcommand]",
-    "description": "Adjust the volume settings for performance actions.\n>>Subcommands:\n[volume number]\nSet performance actions to the specified volume level.\nLevels available: 0-100.\nToggles system sounds on and off when no subcommand is specified.",
+    "description": "調整性能操作的音量設定。 >> 子指令： [卷號] 將效能操作設定為指定的磁碟區層級。可用等級：0-100。當未指定子命令時，開啟和關閉系統聲音。",
     "examples": [],
     "tips": ""
   },
@@ -2091,7 +2091,7 @@
     "categoryName": "系統與設定",
     "name": "/systemsoundsspeaker 系統與設定指令",
     "syntax": "/systemsoundsspeaker [subcommand]",
-    "description": "Adjust system volume settings for speakers (for PlayStation®4 and Windows)",
+    "description": "調整揚聲器的系統音量設定（適用於 PlayStation®4 和 Windows）",
     "examples": [],
     "tips": ""
   },
@@ -2103,7 +2103,7 @@
     "categoryName": "系統與設定",
     "name": "/mountbgm 系統與設定指令",
     "syntax": "/mountbgm [subcommand]",
-    "description": "Toggle the \"Play music when mounted\" setting on and off.\n>>Subcommands:\non     Turn on music when mounted.\noff     Turn off music when mounted.\nToggle between on and off when no subcommand is specified.",
+    "description": "開啟和關閉「安裝時播放音樂」設定。 >>子指令： on 安裝後開啟音樂。 off 安裝後關閉音樂。當未指定子命令時在開啟和關閉之間切換。",
     "examples": [],
     "tips": ""
   },
@@ -5571,7 +5571,7 @@
     "categoryName": "主選單介面",
     "name": "/actionlist 主選單介面指令",
     "syntax": "/actionlist",
-    "description": "Opens and closes the Actions & Traits interface.",
+    "description": "開啟和關閉“操作和特徵”介面。",
     "examples": [],
     "tips": ""
   },
@@ -5583,7 +5583,7 @@
     "categoryName": "主選單介面",
     "name": "/character 主選單介面指令",
     "syntax": "/character",
-    "description": "Opens and closes the Character interface.",
+    "description": "打開和關閉角色介面。",
     "examples": [],
     "tips": ""
   },
@@ -5595,7 +5595,7 @@
     "categoryName": "主選單介面",
     "name": "/armourychest 主選單介面指令",
     "syntax": "/armourychest",
-    "description": "Opens and closes your Armoury Chest.",
+    "description": "打開和關閉你的軍械庫箱。",
     "examples": [],
     "tips": ""
   },
@@ -5607,7 +5607,7 @@
     "categoryName": "主選單介面",
     "name": "/inventory 主選單介面指令",
     "syntax": "/inventory",
-    "description": "Opens and closes your inventory.",
+    "description": "打開和關閉您的庫存。",
     "examples": [],
     "tips": ""
   },
@@ -5619,7 +5619,7 @@
     "categoryName": "主選單介面",
     "name": "/saddlebag 主選單介面指令",
     "syntax": "/saddlebag",
-    "description": "Opens and closes your chocobo saddlebag.",
+    "description": "開啟和關閉您的陸行鳥鞍包。",
     "examples": [],
     "tips": ""
   },
@@ -5631,7 +5631,7 @@
     "categoryName": "主選單介面",
     "name": "/companion 主選單介面指令",
     "syntax": "/companion",
-    "description": "Opens and closes the Companion interface.",
+    "description": "開啟和關閉 Companion 介面。",
     "examples": [],
     "tips": ""
   },
@@ -5643,7 +5643,7 @@
     "categoryName": "主選單介面",
     "name": "/mountguide 主選單介面指令",
     "syntax": "/mountguide",
-    "description": "Opens and closes the Mount Guide interface.",
+    "description": "開啟和關閉安裝指南介面。",
     "examples": [],
     "tips": ""
   },
@@ -5655,7 +5655,7 @@
     "categoryName": "主選單介面",
     "name": "/minionguide 主選單介面指令",
     "syntax": "/minionguide",
-    "description": "Opens and closes the Minion Guide interface. If the PC is playing Lord of Verminion, the command will open the Battle List.",
+    "description": "開啟和關閉 Minion Guide 介面。如果電腦正在玩《Lord of Verminion》，該指令將開啟戰鬥清單。",
     "examples": [],
     "tips": ""
   },
@@ -5667,7 +5667,7 @@
     "categoryName": "主選單介面",
     "name": "/fashionguide 主選單介面指令",
     "syntax": "/fashionguide",
-    "description": "Opens and closes the Fashion Accessories interface.",
+    "description": "開啟和關閉時尚配件介面。",
     "examples": [],
     "tips": ""
   },
@@ -5679,7 +5679,7 @@
     "categoryName": "主選單介面",
     "name": "/pvpprofile 主選單介面指令",
     "syntax": "/pvpprofile",
-    "description": "Opens and closes the PvP Profile interface.",
+    "description": "開啟和關閉 PvP 檔案介面。",
     "examples": [],
     "tips": ""
   },
@@ -5691,7 +5691,7 @@
     "categoryName": "主選單介面",
     "name": "/goldsaucer 主選單介面指令",
     "syntax": "/goldsaucer",
-    "description": "Opens and closes the Gold Saucer interface.",
+    "description": "開啟和關閉金碟介面。",
     "examples": [],
     "tips": ""
   },
@@ -5703,7 +5703,7 @@
     "categoryName": "主選單介面",
     "name": "/achievements 主選單介面指令",
     "syntax": "/achievements",
-    "description": "Opens the list of in-game FINAL FANTASY XIV achievements.",
+    "description": "打開遊戲中的《最終幻想 XIV》成就清單。",
     "examples": [],
     "tips": ""
   },
@@ -5715,7 +5715,7 @@
     "categoryName": "主選單介面",
     "name": "/currency 主選單介面指令",
     "syntax": "/currency",
-    "description": "Opens and closes the Currency interface.",
+    "description": "開啟和關閉貨幣介面。",
     "examples": [],
     "tips": ""
   },
@@ -5727,7 +5727,7 @@
     "categoryName": "主選單介面",
     "name": "/recommended 主選單介面指令",
     "syntax": "/recommended",
-    "description": "Opens and closes the Recommendations list.",
+    "description": "開啟和關閉推薦清單。",
     "examples": [],
     "tips": ""
   },
@@ -5739,7 +5739,7 @@
     "categoryName": "主選單介面",
     "name": "/collection 主選單介面指令",
     "syntax": "/collection",
-    "description": "Opens and closes the Collection interface.",
+    "description": "開啟和關閉集合介面。",
     "examples": [],
     "tips": ""
   },
@@ -5751,7 +5751,7 @@
     "categoryName": "主選單介面",
     "name": "/keyitem 主選單介面指令",
     "syntax": "/keyitem",
-    "description": "Opens and closes the Key Item interface.",
+    "description": "開啟和關閉關鍵項目介面。",
     "examples": [],
     "tips": ""
   },
@@ -5763,7 +5763,7 @@
     "categoryName": "主選單介面",
     "name": "/journal 主選單介面指令",
     "syntax": "/journal",
-    "description": "Opens and closes the quest journal.",
+    "description": "開啟和關閉任務日誌。",
     "examples": [],
     "tips": ""
   },
@@ -5775,7 +5775,7 @@
     "categoryName": "主選單介面",
     "name": "/dutyfinder 主選單介面指令",
     "syntax": "/dutyfinder",
-    "description": "Opens and closes the Duty Finder.",
+    "description": "開啟和關閉任務查找器。",
     "examples": [],
     "tips": ""
   },
@@ -5787,7 +5787,7 @@
     "categoryName": "主選單介面",
     "name": "/timers 主選單介面指令",
     "syntax": "/timers",
-    "description": "Opens and closes the Timers interface.",
+    "description": "開啟和關閉計時器介面。",
     "examples": [],
     "tips": ""
   },
@@ -5799,7 +5799,7 @@
     "categoryName": "主選單介面",
     "name": "/raidfinder 主選單介面指令",
     "syntax": "/raidfinder",
-    "description": "Opens and closes the Raid Finder interface.",
+    "description": "開啟和關閉 Raid Finder 介面。",
     "examples": [],
     "tips": ""
   },
@@ -5811,7 +5811,7 @@
     "categoryName": "主選單介面",
     "name": "/record 主選單介面指令",
     "syntax": "/record",
-    "description": "Opens and closes the Duty Recorder interface.",
+    "description": "開啟和關閉值班記錄器介面。",
     "examples": [],
     "tips": ""
   },
@@ -5823,7 +5823,7 @@
     "categoryName": "主選單介面",
     "name": "/newgame+ 主選單介面指令",
     "syntax": "/newgame+",
-    "description": "Opens the New Game+ interface.",
+    "description": "開啟新遊戲+介面。",
     "examples": [],
     "tips": ""
   },
@@ -5835,7 +5835,7 @@
     "categoryName": "主選單介面",
     "name": "/generaldutykey 主選單介面指令",
     "syntax": "/generaldutykey",
-    "description": "Activates the General Duty key. When near a FATE, this will level sync the player.",
+    "description": "啟動常規任務鍵。當接近命運時，這將使玩家水平同步。",
     "examples": [],
     "tips": ""
   },
@@ -5847,7 +5847,7 @@
     "categoryName": "主選單介面",
     "name": "/huntinglog 主選單介面指令",
     "syntax": "/huntinglog",
-    "description": "Opens and closes the hunting log.",
+    "description": "開啟和關閉狩獵日誌。",
     "examples": [],
     "tips": ""
   },
@@ -5859,7 +5859,7 @@
     "categoryName": "主選單介面",
     "name": "/sightseeinglog 主選單介面指令",
     "syntax": "/sightseeinglog",
-    "description": "Opens and closes the Sightseeing Log interface.",
+    "description": "開啟和關閉觀光日誌介面。",
     "examples": [],
     "tips": ""
   },
@@ -5871,7 +5871,7 @@
     "categoryName": "主選單介面",
     "name": "/craftinglog 主選單介面指令",
     "syntax": "/craftinglog",
-    "description": "Opens and closes the crafting log.",
+    "description": "開啟和關閉製作日誌。",
     "examples": [],
     "tips": ""
   },
@@ -5883,7 +5883,7 @@
     "categoryName": "主選單介面",
     "name": "/gatheringlog 主選單介面指令",
     "syntax": "/gatheringlog",
-    "description": "Opens and closes the gathering log.",
+    "description": "開啟和關閉收集日誌。",
     "examples": [],
     "tips": ""
   },
@@ -5895,7 +5895,7 @@
     "categoryName": "主選單介面",
     "name": "/fishinglog 主選單介面指令",
     "syntax": "/fishinglog",
-    "description": "Opens and closes the fishing log.",
+    "description": "打開和關閉釣魚日誌。",
     "examples": [],
     "tips": ""
   },
@@ -5907,7 +5907,7 @@
     "categoryName": "主選單介面",
     "name": "/fishguide 主選單介面指令",
     "syntax": "/fishguide",
-    "description": "Opens and closes the Fish Guide interface.",
+    "description": "打開和關閉魚類指南介面。",
     "examples": [],
     "tips": ""
   },
@@ -5919,7 +5919,7 @@
     "categoryName": "主選單介面",
     "name": "/orchestrion 主選單介面指令",
     "syntax": "/orchestrion",
-    "description": "Opens and closes the orchestrion list.",
+    "description": "開啟和關閉編排列表。",
     "examples": [],
     "tips": ""
   },
@@ -5931,7 +5931,7 @@
     "categoryName": "主選單介面",
     "name": "/challengelog 主選單介面指令",
     "syntax": "/challengelog",
-    "description": "Opens and closes the Challenge Log interface.",
+    "description": "開啟和關閉挑戰日誌介面。",
     "examples": [],
     "tips": ""
   },
@@ -5943,7 +5943,7 @@
     "categoryName": "主選單介面",
     "name": "/map 主選單介面指令",
     "syntax": "/map",
-    "description": "Opens and closes the current area map.",
+    "description": "打開和關閉目前區域地圖。",
     "examples": [],
     "tips": ""
   },
@@ -5955,7 +5955,7 @@
     "categoryName": "主選單介面",
     "name": "/teleport 主選單介面指令",
     "syntax": "/teleport",
-    "description": "Opens the Teleport interface.",
+    "description": "打開傳送介面。",
     "examples": [],
     "tips": ""
   },
@@ -5967,7 +5967,7 @@
     "categoryName": "主選單介面",
     "name": "/return 主選單介面指令",
     "syntax": "/return",
-    "description": "Return to your current home point.",
+    "description": "返回當前起始點。",
     "examples": [],
     "tips": ""
   },
@@ -5979,7 +5979,7 @@
     "categoryName": "主選單介面",
     "name": "/aethercurrent 主選單介面指令",
     "syntax": "/aethercurrent",
-    "description": "Opens and closes the Aether Currents interface.",
+    "description": "打開和關閉以太電流介面。",
     "examples": [],
     "tips": ""
   },
@@ -5991,7 +5991,7 @@
     "categoryName": "主選單介面",
     "name": "/mountspeed 主選單介面指令",
     "syntax": "/mountspeed",
-    "description": "Opens and closes the ground mount speed interface.",
+    "description": "開啟和關閉地面安裝速度介面。",
     "examples": [],
     "tips": ""
   },
@@ -6003,7 +6003,7 @@
     "categoryName": "主選單介面",
     "name": "/partyfinder 主選單介面指令",
     "syntax": "/partyfinder",
-    "description": "Opens and closes the Party Finder interface.",
+    "description": "打開和關閉派對查找器介面。",
     "examples": [],
     "tips": ""
   },
@@ -6015,7 +6015,7 @@
     "categoryName": "主選單介面",
     "name": "/fellowshipfinder 主選單介面指令",
     "syntax": "/fellowshipfinder",
-    "description": "Opens and closes the Fellowship Finder interface.",
+    "description": "開啟和關閉 Fellowship Finder 介面。",
     "examples": [],
     "tips": ""
   },
@@ -6027,7 +6027,7 @@
     "categoryName": "主選單介面",
     "name": "/emotelist 主選單介面指令",
     "syntax": "/emotelist",
-    "description": "Opens and closes the list of available emotes.",
+    "description": "開啟和關閉可用表情清單。",
     "examples": [],
     "tips": ""
   },
@@ -6039,7 +6039,7 @@
     "categoryName": "主選單介面",
     "name": "/freecompanycmd 主選單介面指令",
     "syntax": "/freecompanycmd",
-    "description": "Opens and closes the free company interface.",
+    "description": "打開和關閉免費的公司介面。",
     "examples": [],
     "tips": ""
   },
@@ -6051,7 +6051,7 @@
     "categoryName": "主選單介面",
     "name": "/housing 主選單介面指令",
     "syntax": "/housing",
-    "description": "Opens and closes the Housing interface.",
+    "description": "打開和關閉外殼介面。",
     "examples": [],
     "tips": ""
   },
@@ -6063,7 +6063,7 @@
     "categoryName": "主選單介面",
     "name": "/pvpteamcmd 主選單介面指令",
     "syntax": "/pvpteamcmd",
-    "description": "Opens and closes the PvP team menu.",
+    "description": "開啟和關閉 PvP 團隊選單。",
     "examples": [],
     "tips": ""
   },
@@ -6075,7 +6075,7 @@
     "categoryName": "主選單介面",
     "name": "/linkshellcmd 主選單介面指令",
     "syntax": "/linkshellcmd",
-    "description": "Opens and closes the linkshell menu.",
+    "description": "開啟和關閉 linkshell 選單。",
     "examples": [],
     "tips": ""
   },
@@ -6087,7 +6087,7 @@
     "categoryName": "主選單介面",
     "name": "/cwlinkshellcmd 主選單介面指令",
     "syntax": "/cwlinkshellcmd",
-    "description": "Opens and closes the Cross-world Linkshell window.",
+    "description": "開啟和關閉跨世界 Linkshell 視窗。",
     "examples": [],
     "tips": ""
   },
@@ -6099,7 +6099,7 @@
     "categoryName": "主選單介面",
     "name": "/fellowship 主選單介面指令",
     "syntax": "/fellowship",
-    "description": "Opens and closes the Fellowship interface.",
+    "description": "打開和關閉聯誼介面。",
     "examples": [],
     "tips": ""
   },
@@ -6111,7 +6111,7 @@
     "categoryName": "主選單介面",
     "name": "/contactlist 主選單介面指令",
     "syntax": "/contactlist",
-    "description": "Opens and closes the contact list.",
+    "description": "開啟和關閉聯絡人清單。",
     "examples": [],
     "tips": ""
   },
@@ -6123,7 +6123,7 @@
     "categoryName": "主選單介面",
     "name": "/supportdesk 主選單介面指令",
     "syntax": "/supportdesk",
-    "description": "Opens and closes the Support Desk interface.",
+    "description": "開啟和關閉支援台介面。",
     "examples": [],
     "tips": ""
   },
@@ -6135,7 +6135,7 @@
     "categoryName": "主選單介面",
     "name": "/officialsite 主選單介面指令",
     "syntax": "/officialsite",
-    "description": "Opens and closes the Official Sites interface.",
+    "description": "打開和關閉官方網站介面。",
     "examples": [],
     "tips": ""
   },
@@ -6147,7 +6147,7 @@
     "categoryName": "主選單介面",
     "name": "/playguide 主選單介面指令",
     "syntax": "/playguide",
-    "description": "Opens and closes the Playguide interface.",
+    "description": "開啟和關閉播放指南介面。",
     "examples": [],
     "tips": ""
   },
@@ -6159,7 +6159,7 @@
     "categoryName": "主選單介面",
     "name": "/activehelp 主選單介面指令",
     "syntax": "/activehelp",
-    "description": "Opens and closes the Active Help interface.",
+    "description": "開啟和關閉活動幫助介面。",
     "examples": [],
     "tips": ""
   },
@@ -6171,7 +6171,7 @@
     "categoryName": "主選單介面",
     "name": "/characterconfig 主選單介面指令",
     "syntax": "/characterconfig",
-    "description": "Opens and closes the Character Configuration interface.",
+    "description": "打開和關閉角色配置介面。",
     "examples": [],
     "tips": ""
   },
@@ -6183,7 +6183,7 @@
     "categoryName": "主選單介面",
     "name": "/systemconfig 主選單介面指令",
     "syntax": "/systemconfig",
-    "description": "Opens and closes the System Configuration interface.",
+    "description": "開啟和關閉系統設定介面。",
     "examples": [],
     "tips": ""
   },
@@ -6195,7 +6195,7 @@
     "categoryName": "主選單介面",
     "name": "/hudlayout 主選單介面指令",
     "syntax": "/hudlayout [subcommand]",
-    "description": "Opens and closes the HUD layout editor.\n>>Subcommands:\n\"layout number\"\nSwitches to specified layout.\nOpens the HUD layout editor if no subcommand is specified.\n>>Example:\n/hudlayout 3\n(Switches to layout 3.)",
+    "description": "開啟和關閉 HUD 佈局編輯器。 >>子指令：「佈局編號」 切換到指定的佈局。如果未指定子命令，則開啟 HUD 佈局編輯器。 >>範例：/hudlayout 3（切換到佈局 3。）",
     "examples": [],
     "tips": ""
   },
@@ -6207,7 +6207,7 @@
     "categoryName": "主選單介面",
     "name": "/macros 主選單介面指令",
     "syntax": "/macros",
-    "description": "Opens and closes the user macro editor.",
+    "description": "開啟和關閉使用者巨集編輯器。",
     "examples": [],
     "tips": ""
   },
@@ -6219,7 +6219,7 @@
     "categoryName": "主選單介面",
     "name": "/keybind 主選單介面指令",
     "syntax": "/keybind",
-    "description": "Opens and closes the Keybind interface.",
+    "description": "開啟和關閉Keybind 介面。",
     "examples": [],
     "tips": ""
   },
@@ -6231,7 +6231,7 @@
     "categoryName": "主選單介面",
     "name": "/logcolor 主選單介面指令",
     "syntax": "/logcolor",
-    "description": "Opens and closes the Log Text Color interface.",
+    "description": "開啟和關閉日誌文字顏色介面。",
     "examples": [],
     "tips": ""
   },
@@ -6291,7 +6291,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <r>",
     "syntax": "<r>",
-    "description": "Displays the name of the last player to send you a /tell.",
+    "description": "顯示最後向您發送 /tell 的玩家的姓名。",
     "examples": [],
     "tips": ""
   },
@@ -6303,7 +6303,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <1> - <8>",
     "syntax": "<1> - <8>",
-    "description": "Displays Party Member 1-8's name.",
+    "description": "顯示黨員 1-8 的姓名。",
     "examples": [],
     "tips": ""
   },
@@ -6331,7 +6331,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <lt>",
     "syntax": "<lt>",
-    "description": "Displays your last target's name.",
+    "description": "顯示你最後一個目標的名字。",
     "examples": [],
     "tips": ""
   },
@@ -6343,7 +6343,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <le>",
     "syntax": "<le>",
-    "description": "Displays the name of the last enemy you targeted.",
+    "description": "顯示你最後瞄準的敵人的名字。",
     "examples": [],
     "tips": ""
   },
@@ -6355,7 +6355,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <la>",
     "syntax": "<la>",
-    "description": "Displays the name of the last enemy to attack or perform an action on you.",
+    "description": "顯示最後一個攻擊你或對你執行動作的敵人的名字。",
     "examples": [],
     "tips": ""
   },
@@ -6367,7 +6367,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <c>",
     "syntax": "<c>",
-    "description": "Displays your chocobo companion's name.",
+    "description": "顯示你的陸行鳥同伴的名字。",
     "examples": [],
     "tips": ""
   },
@@ -6379,7 +6379,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <pet>",
     "syntax": "<pet>",
-    "description": "Displays your pet's name.",
+    "description": "顯示您寵物的名字。",
     "examples": [],
     "tips": ""
   },
@@ -6391,7 +6391,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <attack1> - <attack5>",
     "syntax": "<attack1> - <attack5>",
-    "description": "Displays Target to Attack 1–5's name.",
+    "description": "顯示攻擊目標 1-5 的名稱。",
     "examples": [],
     "tips": ""
   },
@@ -6403,7 +6403,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <bind1> - <bind3>",
     "syntax": "<bind1> - <bind3>",
-    "description": "Displays Target to Bind 1–3's name.",
+    "description": "顯示要綁定的目標 1–3 的名稱。",
     "examples": [],
     "tips": ""
   },
@@ -6415,7 +6415,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <ignore1> - <ignore2>",
     "syntax": "<ignore1> - <ignore2>",
-    "description": "Displays Target to Ignore 1–2's name.",
+    "description": "顯示要忽略的目標 1–2 的名字。",
     "examples": [],
     "tips": ""
   },
@@ -6427,7 +6427,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <square>",
     "syntax": "<square>",
-    "description": "Displays target marked with a square's name.",
+    "description": "顯示標有方塊名稱的目標。",
     "examples": [],
     "tips": ""
   },
@@ -6439,7 +6439,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <circle>",
     "syntax": "<circle>",
-    "description": "Displays target marked with a circle's name.",
+    "description": "顯示標有圓圈名稱的目標。",
     "examples": [],
     "tips": ""
   },
@@ -6451,7 +6451,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <cross>",
     "syntax": "<cross>",
-    "description": "Displays target marked with a cross's name.",
+    "description": "顯示標有十字名稱的目標。",
     "examples": [],
     "tips": ""
   },
@@ -6463,7 +6463,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <triangle>",
     "syntax": "<triangle>",
-    "description": "Displays target marked with a triangle's name.",
+    "description": "顯示標有三角形名稱的目標。",
     "examples": [],
     "tips": ""
   },
@@ -6491,7 +6491,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <hp>",
     "syntax": "<hp>",
-    "description": "Displays current HP and maximum HP.",
+    "description": "顯示目前HP和最大HP。",
     "examples": [],
     "tips": ""
   },
@@ -6503,7 +6503,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <hpp>",
     "syntax": "<hpp>",
-    "description": "Displays current HP as a percentage.",
+    "description": "以百分比形式顯示目前 HP。",
     "examples": [],
     "tips": ""
   },
@@ -6515,7 +6515,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <mp>",
     "syntax": "<mp>",
-    "description": "Displays current MP and maximum MP.",
+    "description": "顯示目前 MP 和最大 MP。",
     "examples": [],
     "tips": ""
   },
@@ -6527,7 +6527,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <mpp>",
     "syntax": "<mpp>",
-    "description": "Displays current MP as a percentage.",
+    "description": "以百分比顯示目前 MP。",
     "examples": [],
     "tips": ""
   },
@@ -6539,7 +6539,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <tp>",
     "syntax": "<tp>",
-    "description": "Displays current TP.",
+    "description": "顯示目前TP。",
     "examples": [],
     "tips": ""
   },
@@ -6551,7 +6551,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <class>",
     "syntax": "<class>",
-    "description": "Displays current class and level.",
+    "description": "顯示目前班級和級別。",
     "examples": [],
     "tips": ""
   },
@@ -6563,7 +6563,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <pos>",
     "syntax": "<pos>",
-    "description": "Displays coordinates of current location.",
+    "description": "顯示目前位置的座標。",
     "examples": [],
     "tips": ""
   },
@@ -6575,7 +6575,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <se.1> - <se.16>",
     "syntax": "<se.1> - <se.16>",
-    "description": "Plays a sound effect when used in party or alliance chat. Use the /echo command to play a sound effect only you can hear.",
+    "description": "在隊伍或聯盟聊天中使用時播放音效。使用 /echo 指令播放只有您能聽到的聲音效果。",
     "examples": [],
     "tips": ""
   },
@@ -6587,7 +6587,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <comphp>",
     "syntax": "<comphp>",
-    "description": "Displays your chocobo companion's current HP and maximum HP.",
+    "description": "顯示陸行鳥同伴的目前生命值和最大生命值。",
     "examples": [],
     "tips": ""
   },
@@ -6599,7 +6599,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <comphpp>",
     "syntax": "<comphpp>",
-    "description": "Displays your chocobo companion's current HP as a percentage.",
+    "description": "以百分比形式顯示陸行鳥同伴的目前生命值。",
     "examples": [],
     "tips": ""
   },
@@ -6611,7 +6611,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <pethp>",
     "syntax": "<pethp>",
-    "description": "Displays your pet's current HP and maximum HP.",
+    "description": "顯示寵物目前生命值和最大生命值。",
     "examples": [],
     "tips": ""
   },
@@ -6623,7 +6623,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <pethpp>",
     "syntax": "<pethpp>",
-    "description": "Displays your pet's current HP as a percentage.",
+    "description": "以百分比顯示寵物目前的生命值。",
     "examples": [],
     "tips": ""
   },
@@ -6635,7 +6635,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <wait.(wait time)>",
     "syntax": "<wait.(wait time)>",
-    "description": "Adjust the pause between macro commands. Only integers can be used with this command. The maximum wait time allowed is 60. If the wait time amount is over 60, it will be counted as 60.",
+    "description": "調整巨集命令之間的暫停。此指令只能使用整數。允許的最大等待時間為 60。如果等待時間超過 60，則以 60 計算。",
     "examples": [],
     "tips": ""
   },
@@ -6647,7 +6647,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <recast.action name>",
     "syntax": "<recast.action name>",
-    "description": "Displays time remaining until the specified action can be used again.\n*The auto-translate function cannot be used to input action names.",
+    "description": "顯示可以再次使用指定操作之前的剩餘時間。 *自動翻譯功能不能用於輸入動作名稱。",
     "examples": [],
     "tips": ""
   },
@@ -6659,7 +6659,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <targethpp>",
     "syntax": "<targethpp>",
-    "description": "Displays current target's HP as a percentage.",
+    "description": "以百分比顯示目前目標的生命值。",
     "examples": [],
     "tips": ""
   },
@@ -6671,7 +6671,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <focushpp>",
     "syntax": "<focushpp>",
-    "description": "Displays focus target's HP as a percentage.",
+    "description": "以百分比顯示焦點目標的生命值。",
     "examples": [],
     "tips": ""
   },
@@ -6683,7 +6683,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <targetclass>",
     "syntax": "<targetclass>",
-    "description": "Display the class or job name of the selected target.",
+    "description": "顯示所選目標的類別或作業名稱。",
     "examples": [],
     "tips": ""
   },
@@ -6695,7 +6695,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <focusclass>",
     "syntax": "<focusclass>",
-    "description": "Display the class or job name of your focus target.",
+    "description": "顯示您的焦點目標的班級或職位名稱。",
     "examples": [],
     "tips": ""
   },
@@ -6707,7 +6707,7 @@
     "categoryName": "目標代名詞",
     "name": "目標代名詞 <e1>",
     "syntax": "<e1>",
-    "description": "Display the names of the first four players on the enemy party list when participating in the Feast.",
+    "description": "參加盛宴時，顯示敵方名單前四名玩家的名字。",
     "examples": [],
     "tips": ""
   }
