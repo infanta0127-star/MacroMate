@@ -454,8 +454,8 @@ export default function App() {
             onClick={() => setActiveTab('builder')}
             className={`flex items-center gap-2 px-4 py-1.5 rounded-md text-[14px] font-bold transition-all ${
               activeTab === 'builder'
-                ? 'bg-gradient-to-r from-[#3b82f6] to-[#2563eb] text-white shadow-md'
-                : 'text-gray-400 hover:text-white hover:bg-[#1a1a2e]'
+                ? 'bg-gradient-to-r from-[#3b82f6] to-[#2563eb] text-slate-200 shadow-md'
+                : 'text-gray-400 hover:text-slate-200 hover:bg-[#1a1a2e]'
             }`}
           >
             <Wrench className="w-4 h-4" />
@@ -466,8 +466,8 @@ export default function App() {
             onClick={() => setActiveTab('encyclopedia')}
             className={`flex items-center gap-2 px-4 py-1.5 rounded-md text-[14px] font-bold transition-all ${
               activeTab === 'encyclopedia'
-                ? 'bg-gradient-to-r from-[#c5a059] to-[#9a7b3c] text-white shadow-md'
-                : 'text-gray-400 hover:text-white hover:bg-[#1a1a2e]'
+                ? 'bg-gradient-to-r from-[#c5a059] to-[#9a7b3c] text-slate-200 shadow-md'
+                : 'text-gray-400 hover:text-slate-200 hover:bg-[#1a1a2e]'
             }`}
           >
             <BookOpen className="w-4 h-4" />
@@ -530,7 +530,7 @@ export default function App() {
                                   }}
                                   className={`px-4 py-1.5 text-left text-[14px] font-medium transition-colors w-full ${
                                     isSelected
-                                      ? 'bg-[#3b82f6]/20 text-white font-bold border-l-2 border-[#3b82f6]'
+                                      ? 'bg-[#3b82f6]/20 text-slate-200 font-bold border-l-2 border-[#3b82f6]'
                                       : 'text-gray-400 hover:bg-[#1a1a2e] hover:text-gray-200'
                                   }`}
                                 >
@@ -576,9 +576,9 @@ export default function App() {
                   className="flex items-center gap-2 px-2.5 py-1 bg-[#0a0a0f] hover:bg-[#1a1a2e] border border-[#252542] rounded-md transition-all group shrink-0"
                 >
                   <div className={`w-3.5 h-3.5 rounded flex items-center justify-center transition-colors border ${config.useMicon ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
-                    {config.useMicon && <Check className="w-3 h-3 text-white" />}
+                    {config.useMicon && <Check className="w-3 h-3 text-slate-200" />}
                   </div>
-                  <span className="text-gray-300 text-xs font-bold group-hover:text-white transition-colors">`/micon` 圖案</span>
+                  <span className="text-gray-300 text-xs font-bold group-hover:text-slate-200 transition-colors">`/micon` 圖案</span>
                 </button>
 
                 {/* Option 2: Send Chat */}
@@ -588,9 +588,9 @@ export default function App() {
                     className="flex items-center gap-2 px-2.5 py-1 bg-[#0a0a0f] hover:bg-[#1a1a2e] border border-[#252542] rounded-md transition-all group shrink-0"
                   >
                     <div className={`w-3.5 h-3.5 rounded flex items-center justify-center transition-colors border ${config.useChat ? 'bg-[#3b82f6] border-[#3b82f6]' : 'bg-[#1a1a2e] border-gray-600'}`}>
-                      {config.useChat && <Check className="w-3 h-3 text-white" />}
+                      {config.useChat && <Check className="w-3 h-3 text-slate-200" />}
                     </div>
-                    <span className="text-gray-300 text-xs font-bold group-hover:text-white transition-colors">對話框通知</span>
+                    <span className="text-gray-300 text-xs font-bold group-hover:text-slate-200 transition-colors">對話框通知</span>
                   </button>
 
                   {config.useChat && (
@@ -635,7 +635,7 @@ export default function App() {
                         onClick={() => setConfig({...config, template: tpl.id})}
                         className={`text-[13px] py-1 px-3 rounded-md border transition-all font-bold flex items-center gap-1.5 ${
                           isSelected
-                            ? 'bg-[#3b82f6]/20 border-[#3b82f6] text-white shadow-sm'
+                            ? 'bg-[#3b82f6]/20 border-[#3b82f6] text-slate-200 shadow-sm'
                             : 'bg-[#0a0a0f] border-[#252542] text-gray-400 hover:bg-[#1a1a2e] hover:text-gray-200'
                         }`}
                       >
@@ -660,8 +660,8 @@ export default function App() {
                                 }}
                                 className={`w-5 h-5 rounded text-xs font-bold transition-all flex items-center justify-center ${
                                   isNumActive
-                                    ? 'bg-[#3b82f6] text-white shadow-sm'
-                                    : 'text-gray-400 hover:bg-[#1a1a2e] hover:text-white'
+                                    ? 'bg-[#3b82f6] text-slate-200 shadow-sm'
+                                    : 'text-gray-400 hover:bg-[#1a1a2e] hover:text-slate-200'
                                 }`}
                               >
                                 {num}
@@ -702,7 +702,7 @@ export default function App() {
                           handleSkillClick(skillName.trim());
                         }
                       }}
-                      className="px-4 py-2 bg-[#252545] hover:bg-[#3b82f6]/30 border border-[#3b82f6]/50 rounded text-[15px] text-white transition-colors font-bold shrink-0 flex items-center justify-center"
+                      className="px-4 py-2 bg-[#252545] hover:bg-[#3b82f6]/30 border border-[#3b82f6]/50 rounded text-[15px] text-slate-200 transition-colors font-bold shrink-0 flex items-center justify-center"
                       title="加到編輯區"
                     >
                       <Plus className="w-4 h-4" />
@@ -739,7 +739,7 @@ export default function App() {
                       onMouseLeave={handleMouseLeave}
                       className="w-full h-[88px] rounded p-1 cursor-pointer group transition-all border bg-[#1a1a2e] border-[#3b82f6]/20 hover:bg-[#3b82f6]/20 hover:border-[#3b82f6]/40"
                     >
-                      <div className="w-full h-full rounded flex flex-col items-center justify-center p-1 transition-colors bg-[#252545] text-gray-300 group-hover:text-white">
+                      <div className="w-full h-full rounded flex flex-col items-center justify-center p-1 transition-colors bg-[#252545] text-gray-300 group-hover:text-slate-200">
                         {skill.icon && <img src={skill.icon} alt={skill.name} className="w-6 h-6 mb-1 rounded shadow-sm" />}
                         <span className="text-[14px] text-center leading-tight line-clamp-2 w-full">{skill.name}</span>
                       </div>
@@ -792,7 +792,7 @@ export default function App() {
                     </button>
                     <button
                       onClick={handleCopy}
-                      className={`px-3 py-1 rounded text-white font-bold text-[14px] transition-all flex items-center gap-1.5 ${
+                      className={`px-3 py-1 rounded text-slate-200 font-bold text-[14px] transition-all flex items-center gap-1.5 ${
                         copied 
                           ? 'bg-green-600 shadow-[0_2px_8px_rgba(22,163,74,0.3)]' 
                           : 'bg-gradient-to-b from-[#3b82f6] to-[#1d4ed8] shadow-[0_2px_8px_rgba(59,130,246,0.3)] active:translate-y-0.5'
@@ -880,7 +880,7 @@ export default function App() {
 
                       <button 
                         onClick={appendWait}
-                        className="px-3 py-1 rounded text-white font-bold text-[14px] transition-all flex items-center justify-center gap-1.5 bg-gradient-to-b from-[#3b82f6] to-[#1d4ed8] shadow-[0_2px_8px_rgba(59,130,246,0.3)] active:translate-y-0.5"
+                        className="px-3 py-1 rounded text-slate-200 font-bold text-[14px] transition-all flex items-center justify-center gap-1.5 bg-gradient-to-b from-[#3b82f6] to-[#1d4ed8] shadow-[0_2px_8px_rgba(59,130,246,0.3)] active:translate-y-0.5"
                         title="插入延遲到最後一行"
                       >
                         <Plus className="w-3.5 h-3.5" />
@@ -896,10 +896,10 @@ export default function App() {
                       
                       <div className="p-3 bg-[#0a0a0f] border border-[#3b82f6]/10 rounded hover:border-[#3b82f6]/40 transition-colors">
                         <div className="flex justify-between items-center mb-1">
-                          <span className="text-white font-bold text-[14px]">瞬發復活巨集</span>
+                          <span className="text-slate-200 font-bold text-[14px]">瞬發復活巨集</span>
                           <button
                             onClick={() => insertText('/micon "即刻詠唱"\n/merror off\n/ac "即刻詠唱" <me> <wait.1>\n/ac "復活" <t>\n/ac "復活" <2>', true)}
-                            className="text-xs px-2 py-0.5 bg-[#3b82f6]/20 text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white rounded font-bold transition-all"
+                            className="text-xs px-2 py-0.5 bg-[#3b82f6]/20 text-[#3b82f6] hover:bg-[#3b82f6] hover:text-slate-200 rounded font-bold transition-all"
                           >
                             + 插入此巨集
                           </button>
@@ -911,10 +911,10 @@ export default function App() {
                       
                       <div className="p-3 bg-[#0a0a0f] border border-[#3b82f6]/10 rounded hover:border-[#3b82f6]/40 transition-colors">
                         <div className="flex justify-between items-center mb-1">
-                          <span className="text-white font-bold text-[14px]">地面指定技能 (快速施放)</span>
+                          <span className="text-slate-200 font-bold text-[14px]">地面指定技能 (快速施放)</span>
                           <button
                             onClick={() => insertText('/micon "地星"\n/merror off\n/ac "地星" <gtoff>\n/ac "地星" <t>', true)}
-                            className="text-xs px-2 py-0.5 bg-[#3b82f6]/20 text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white rounded font-bold transition-all"
+                            className="text-xs px-2 py-0.5 bg-[#3b82f6]/20 text-[#3b82f6] hover:bg-[#3b82f6] hover:text-slate-200 rounded font-bold transition-all"
                           >
                             + 插入此巨集
                           </button>
@@ -926,10 +926,10 @@ export default function App() {
 
                       <div className="p-3 bg-[#0a0a0f] border border-[#3b82f6]/10 rounded hover:border-[#3b82f6]/40 transition-colors">
                         <div className="flex justify-between items-center mb-1">
-                          <span className="text-white font-bold text-[14px]">坦克退避焦點/副坦</span>
+                          <span className="text-slate-200 font-bold text-[14px]">坦克退避焦點/副坦</span>
                           <button
                             onClick={() => insertText('/micon "退避"\n/merror off\n/ac "退避" <f>\n/ac "退避" <2>', true)}
-                            className="text-xs px-2 py-0.5 bg-[#3b82f6]/20 text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white rounded font-bold transition-all"
+                            className="text-xs px-2 py-0.5 bg-[#3b82f6]/20 text-[#3b82f6] hover:bg-[#3b82f6] hover:text-slate-200 rounded font-bold transition-all"
                           >
                             + 插入此巨集
                           </button>
@@ -964,7 +964,7 @@ export default function App() {
                     />
                   )}
                   <div className="flex flex-col justify-center">
-                    <div className="text-[15px] font-bold text-white leading-tight">{hoveredSkill.name}</div>
+                    <div className="text-[15px] font-bold text-slate-200 leading-tight">{hoveredSkill.name}</div>
                     {hoveredSkill.classification && (
                       <span className="w-max px-1.5 py-0.5 text-[12px] font-bold bg-[#c5a059] text-[#0a0a0f] rounded mt-1">
                         {hoveredSkill.classification}
@@ -1011,7 +1011,7 @@ export default function App() {
                   value={encSearch}
                   onChange={(e) => setEncSearch(e.target.value)}
                   placeholder="搜尋巨集指令 (如 /ac, <mo>, wait)..."
-                  className="w-full bg-[#07070c] border border-[#3b82f6]/30 rounded pl-9 pr-3 py-2 text-[14px] text-white focus:outline-none focus:border-[#c5a059]"
+                  className="w-full bg-[#07070c] border border-[#3b82f6]/30 rounded pl-9 pr-3 py-2 text-[14px] text-slate-200 focus:outline-none focus:border-[#c5a059]"
                 />
               </div>
             </div>
@@ -1025,7 +1025,7 @@ export default function App() {
                   className={`text-xs px-2.5 py-1 rounded font-bold transition-all ${
                     encCategory === cat.id
                       ? 'bg-[#c5a059] text-[#0a0a0f] shadow-md'
-                      : 'bg-[#1a1a2e] text-gray-400 hover:text-white hover:bg-[#252545]'
+                      : 'bg-[#1a1a2e] text-gray-400 hover:text-slate-200 hover:bg-[#252545]'
                   }`}
                 >
                   {cat.name}
@@ -1083,7 +1083,7 @@ export default function App() {
                     {activeCmd.categoryName}
                   </span>
                 </div>
-                <h3 className="text-xl font-bold text-white mt-2">{activeCmd.name}</h3>
+                <h3 className="text-xl font-bold text-slate-200 mt-2">{activeCmd.name}</h3>
               </div>
 
               {/* Syntax & Usage */}
@@ -1124,7 +1124,7 @@ export default function App() {
                           <code className="font-mono text-[14px] text-[#22d3ee]">{ex}</code>
                           <button
                             onClick={() => insertText(ex)}
-                            className="text-xs px-2.5 py-1 bg-[#3b82f6]/20 text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white rounded font-bold transition-all"
+                            className="text-xs px-2.5 py-1 bg-[#3b82f6]/20 text-[#3b82f6] hover:bg-[#3b82f6] hover:text-slate-200 rounded font-bold transition-all"
                           >
                             + 插入到編輯區
                           </button>
@@ -1160,7 +1160,7 @@ export default function App() {
                   insertText(activeCmd.command);
                   setActiveTab('builder');
                 }}
-                className="px-5 py-2 bg-gradient-to-r from-[#3b82f6] to-[#2563eb] hover:from-blue-500 hover:to-blue-700 text-white rounded-lg font-bold text-[14px] shadow-lg flex items-center gap-2 transition-all hover:scale-105"
+                className="px-5 py-2 bg-gradient-to-r from-[#3b82f6] to-[#2563eb] hover:from-blue-500 hover:to-blue-700 text-slate-200 rounded-lg font-bold text-[14px] shadow-lg flex items-center gap-2 transition-all hover:scale-105"
               >
                 <Plus className="w-4 h-4" />
                 <span>插入 `{activeCmd.command}` 到編輯器</span>
@@ -1178,11 +1178,11 @@ export default function App() {
             <div className="flex justify-between items-center mb-4 border-b border-[#1a1a2e] pb-3">
               <div className="flex items-center gap-2">
                 <Sparkles className="w-5 h-5 text-[#c5a059]" />
-                <h3 className="text-lg font-bold text-white">時間軸轉巨集</h3>
+                <h3 className="text-lg font-bold text-slate-200">時間軸轉巨集</h3>
               </div>
               <button 
                 onClick={() => setIsTimelineModalOpen(false)}
-                className="text-gray-400 hover:text-white transition-colors text-xl font-bold font-mono"
+                className="text-gray-400 hover:text-slate-200 transition-colors text-xl font-bold font-mono"
               >
                 &times;
               </button>
@@ -1201,7 +1201,7 @@ export default function App() {
               />
 
               <div className="bg-[#1a1625] p-3 rounded-lg border border-[#c5a059]/30 text-xs text-amber-200/90 leading-relaxed">
-                💡 <b>溫馨提示</b>：轉換時會根據右上角設定的「提早提醒秒數」（目前為 <span className="underline font-bold font-mono text-white">{advanceSec}秒</span>）進行時間偏移對齊。超過 60 秒的等待區間將自動以 60 秒為單位進行分割，並產生 <code className="text-white">x秒後開減傷</code> 的剩餘秒數提醒。
+                💡 <b>溫馨提示</b>：轉換時會根據右上角設定的「提早提醒秒數」（目前為 <span className="underline font-bold font-mono text-slate-200">{advanceSec}秒</span>）進行時間偏移對齊。超過 60 秒的等待區間將自動以 60 秒為單位進行分割，並產生 <code className="text-slate-200">x秒後開減傷</code> 的剩餘秒數提醒。
               </div>
             </div>
 
@@ -1216,7 +1216,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={handleConvertTimeline}
-                className="px-5 py-2 bg-gradient-to-r from-[#3b82f6] to-[#2563eb] hover:from-blue-500 hover:to-blue-700 text-white rounded-lg font-bold text-[14px] shadow-lg transition-all hover:scale-105"
+                className="px-5 py-2 bg-gradient-to-r from-[#3b82f6] to-[#2563eb] hover:from-blue-500 hover:to-blue-700 text-slate-200 rounded-lg font-bold text-[14px] shadow-lg transition-all hover:scale-105"
               >
                 開始轉換
               </button>
