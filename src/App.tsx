@@ -78,6 +78,9 @@ export default function App() {
   const [macroText, setMacroText] = useState("");
   const [copied, setCopied] = useState(false);
   const [waitSec, setWaitSec] = useState(1);
+  const [advanceSec, setAdvanceSec] = useState(5);
+  const [isTimelineModalOpen, setIsTimelineModalOpen] = useState(false);
+  const [timelineText, setTimelineText] = useState("");
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
 
   // Encyclopedia states
@@ -157,6 +160,130 @@ export default function App() {
         textAreaRef.current.focus();
       }
     }, 0);
+  };
+
+  const handleConvertTimeline = () => {
+    const lines = timelineText.split('\n');
+    const events: { time: number; label: string }[] = [];
+    
+    // Matches patterns like "3:12.000 (命運之輪)" or "4:00.000 [太陽星座]"
+    // Support minutes:seconds, optionally with milliseconds
+    const timeRegex = /(?:^|\s)(\d+):(\d{2})(?:\.\d+)?\s+(.*)$/;
+    
+    for (const line of lines) {
+      const match = line.match(timeRegex);
+      if (match) {
+        const minutes = parseInt(match[1], 10);
+        const seconds = parseInt(match[2], 10);
+        const label = match[3].trim();
+        events.push({
+          time: minutes * 60 + seconds,
+          label: label
+        });
+      }
+    }
+    
+    if (events.length === 0) {
+      alert("未偵測到任何有效的時間軸行（格式需包含 分:秒，例如 3:12）！");
+      return;
+    }
+    
+    // Sort events by time
+    events.sort((a, b) => a.time - b.time);
+    
+    const adv = advanceSec;
+    const outputEvents: { time: number; text: string }[] = [];
+    
+    if (events.length > 0) {
+      // First event alert time
+      const firstAlertT = Math.max(0, events[0].time - adv);
+      
+      // Minute boundaries before firstAlertT
+      for (let b = 60; b < firstAlertT; b += 60) {
+        outputEvents.push({
+          time: b - 60,
+          text: `/e 第${b / 60}分鐘`
+        });
+      }
+      
+      // Warning event at last minute boundary before firstAlertT
+      const lastBoundary = Math.floor(firstAlertT / 60) * 60;
+      outputEvents.push({
+        time: lastBoundary,
+        text: "/e 準備減傷"
+      });
+      
+      // First skill event
+      outputEvents.push({
+        time: firstAlertT,
+        text: `/e ${events[0].label}`
+      });
+      
+      // Subsequent events
+      let currentT = firstAlertT;
+      for (let i = 1; i < events.length; i++) {
+        const event = events[i];
+        const alertT = Math.max(0, event.time - adv);
+        const waitNeeded = alertT - currentT;
+        
+        if (waitNeeded <= 60) {
+          outputEvents.push({
+            time: alertT,
+            text: `/e ${event.label}`
+          });
+          currentT = alertT;
+        } else {
+          // Split wait
+          let t = currentT;
+          t += 60;
+          let remaining = waitNeeded - 60;
+          
+          while (remaining > 60) {
+            outputEvents.push({
+              time: t,
+              text: `/e ${remaining}秒後開減傷`
+            });
+            t += 60;
+            remaining -= 60;
+          }
+          
+          if (remaining > 0) {
+            outputEvents.push({
+              time: t,
+              text: `/e ${remaining}秒後開減傷`
+            });
+            t += remaining;
+          }
+          
+          outputEvents.push({
+            time: alertT,
+            text: `/e ${event.label}`
+          });
+          currentT = alertT;
+        }
+      }
+    }
+    
+    const macroLines: string[] = [];
+    
+    for (let i = 0; i < outputEvents.length; i++) {
+      const currentEvent = outputEvents[i];
+      const nextEvent = outputEvents[i + 1];
+      
+      if (nextEvent) {
+        const wait = nextEvent.time - currentEvent.time;
+        if (wait > 0) {
+          macroLines.push(`${currentEvent.text} <wait.${wait}>`);
+        } else {
+          macroLines.push(currentEvent.text);
+        }
+      } else {
+        macroLines.push(currentEvent.text);
+      }
+    }
+    
+    setMacroText(macroLines.join('\n'));
+    setIsTimelineModalOpen(false);
   };
 
   const generateMacroBlock = (skill: string) => {
@@ -650,6 +777,13 @@ export default function App() {
                   </div>
                   <div className="flex items-center gap-2">
                     <button
+                      onClick={() => setIsTimelineModalOpen(true)}
+                      className="px-3 py-1 bg-[#1a1a2e] text-[14px] border border-[#3b82f6]/50 text-[#3b82f6] hover:bg-[#3b82f6]/20 rounded transition-colors font-bold flex items-center gap-1.5"
+                    >
+                      <Sparkles className="w-3.5 h-3.5 text-[#c5a059]" />
+                      時間軸轉巨集
+                    </button>
+                    <button
                       onClick={handleClear}
                       className="px-3 py-1 bg-[#1a1a2e] text-[14px] border border-red-900/50 text-red-400 hover:bg-red-900/20 rounded transition-colors font-bold flex items-center gap-1.5"
                     >
@@ -709,21 +843,41 @@ export default function App() {
               <div className="flex-1 flex flex-col h-full bg-[#121220] border border-[#c5a059]/20 rounded-lg p-5 justify-start overflow-y-auto custom-scrollbar">
                 <div className="space-y-5">
                   
-                  {/* Wait Insertion tool */}
+                  {/* Wait Insertion tool / Advance Alert setting */}
                   <div>
-                    <h3 className="text-[#c5a059] text-[15px] font-bold uppercase tracking-wider mb-2.5">插入延遲指令 (WAIT)</h3>
-                    <div className="flex items-center gap-2 bg-[#1a1a2e] p-2 rounded border border-[#3b82f6]/20 shadow-inner w-max">
-                      <Clock className="w-4 h-4 text-gray-400 ml-2" />
-                      <span className="text-[14px] font-bold text-gray-400 uppercase tracking-wider">Wait</span>
-                      <input 
-                        type="number" 
-                        min="1" 
-                        max="60"
-                        value={waitSec}
-                        onChange={e => setWaitSec(Number(e.target.value))}
-                        className="w-12 bg-transparent text-center text-[15px] text-[#e2e2e2] font-mono focus:outline-none"
-                      />
-                      <span className="text-[14px] text-gray-500 mr-2">sec</span>
+                    <h3 className="text-[#c5a059] text-[15px] font-bold uppercase tracking-wider mb-2.5">
+                      插入延遲指令/提醒巨集提早秒數
+                    </h3>
+                    <div className="flex flex-wrap items-center gap-4 bg-[#1a1a2e] p-2.5 rounded border border-[#3b82f6]/20 shadow-inner w-max">
+                      <div className="flex items-center gap-2">
+                        <Clock className="w-4 h-4 text-gray-400 ml-1" />
+                        <span className="text-[14px] font-bold text-gray-400 uppercase tracking-wider">延遲</span>
+                        <input 
+                          type="number" 
+                          min="1" 
+                          max="60"
+                          value={waitSec}
+                          onChange={e => setWaitSec(Number(e.target.value))}
+                          className="w-12 bg-[#0a0a0f] border border-[#3b82f6]/20 rounded px-1.5 py-0.5 text-center text-[15px] text-[#e2e2e2] font-mono focus:outline-none"
+                        />
+                        <span className="text-[14px] text-gray-500 mr-2">秒</span>
+                      </div>
+
+                      <div className="h-5 w-[1px] bg-[#3b82f6]/20 hidden sm:block"></div>
+
+                      <div className="flex items-center gap-2">
+                        <span className="text-[14px] font-bold text-gray-400 uppercase tracking-wider">提早提醒</span>
+                        <input 
+                          type="number" 
+                          min="0" 
+                          max="60"
+                          value={advanceSec}
+                          onChange={e => setAdvanceSec(Number(e.target.value))}
+                          className="w-12 bg-[#0a0a0f] border border-[#3b82f6]/20 rounded px-1.5 py-0.5 text-center text-[15px] text-[#e2e2e2] font-mono focus:outline-none"
+                        />
+                        <span className="text-[14px] text-gray-500">秒</span>
+                      </div>
+
                       <button 
                         onClick={appendWait}
                         className="px-3 py-1.5 bg-[#3b82f6]/80 hover:bg-blue-400 rounded text-white transition-colors flex items-center justify-center shadow-md border border-blue-400/50 font-bold"
@@ -1014,8 +1168,61 @@ export default function App() {
             </div>
 
           </section>
-
         </main>
+      )}
+
+      {/* Timeline Converter Modal */}
+      {isTimelineModalOpen && (
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 backdrop-blur-sm animate-in fade-in duration-150">
+          <div className="bg-[#121220] border border-[#3b82f6]/40 rounded-xl p-6 w-full max-w-2xl shadow-2xl flex flex-col max-h-[90vh]">
+            <div className="flex justify-between items-center mb-4 border-b border-[#1a1a2e] pb-3">
+              <div className="flex items-center gap-2">
+                <Sparkles className="w-5 h-5 text-[#c5a059]" />
+                <h3 className="text-lg font-bold text-white">時間軸轉巨集</h3>
+              </div>
+              <button 
+                onClick={() => setIsTimelineModalOpen(false)}
+                className="text-gray-400 hover:text-white transition-colors text-xl font-bold font-mono"
+              >
+                &times;
+              </button>
+            </div>
+            
+            <div className="space-y-4 flex-1 flex flex-col min-h-0">
+              <p className="text-[14px] text-gray-300">
+                請貼入 FFXIV 排軸文字（只會辨識包含時間格式 <code className="text-[#22d3ee] font-mono">分:秒</code> 或 <code className="text-[#22d3ee] font-mono">分:秒.毫秒</code> 的行）：
+              </p>
+              
+              <textarea
+                value={timelineText}
+                onChange={(e) => setTimelineText(e.target.value)}
+                placeholder="例如：&#10;=== FFXIV 排軸文字檔 ===&#10;3:12.000  (命運之輪)&#10;4:00.000  (太陽星座)&#10;4:24.000  (太陽星座)"
+                className="flex-1 w-full bg-[#0a0a0f] border border-[#3b82f6]/20 rounded-lg p-4 font-mono text-[14px] text-[#e2e2e2] resize-none focus:outline-none focus:border-[#3b82f6]/60 placeholder:text-gray-600 custom-scrollbar min-h-[200px]"
+              />
+
+              <div className="bg-[#1a1625] p-3 rounded-lg border border-[#c5a059]/30 text-xs text-amber-200/90 leading-relaxed">
+                💡 <b>溫馨提示</b>：轉換時會根據右上角設定的「提早提醒秒數」（目前為 <span className="underline font-bold font-mono text-white">{advanceSec}秒</span>）進行時間偏移對齊。超過 60 秒的等待區間將自動以 60 秒為單位進行分割，並產生 <code className="text-white">x秒後開減傷</code> 的剩餘秒數提醒。
+              </div>
+            </div>
+
+            <div className="flex justify-end gap-3 mt-5 pt-3 border-t border-[#1a1a2e]">
+              <button
+                type="button"
+                onClick={() => setIsTimelineModalOpen(false)}
+                className="px-4 py-2 bg-[#1a1a2e] border border-gray-700 text-gray-300 hover:bg-[#252545] rounded-lg transition-colors font-bold text-[14px]"
+              >
+                取消
+              </button>
+              <button
+                type="button"
+                onClick={handleConvertTimeline}
+                className="px-5 py-2 bg-gradient-to-r from-[#3b82f6] to-[#2563eb] hover:from-blue-500 hover:to-blue-700 text-white rounded-lg font-bold text-[14px] shadow-lg transition-all hover:scale-105"
+              >
+                開始轉換
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
     </div>
