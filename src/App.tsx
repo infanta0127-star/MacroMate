@@ -445,7 +445,7 @@ export default function App() {
               />
             </svg>
           </div>
-          <h1 className="text-lg font-bold tracking-widest text-[#c5a059] uppercase">FF14 MacroMate 巨集大師</h1>
+          <h1 className="text-lg font-bold tracking-widest text-[#c5a059] uppercase">FF14 巨集小幫手</h1>
         </div>
 
         {/* Tab Switcher */}
