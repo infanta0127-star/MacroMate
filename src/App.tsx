@@ -880,10 +880,10 @@ export default function App() {
 
                       <button 
                         onClick={appendWait}
-                        className="px-3 py-1.5 bg-[#3b82f6]/80 hover:bg-blue-400 rounded text-white transition-colors flex items-center justify-center shadow-md border border-blue-400/50 font-bold"
+                        className="px-3 py-1 rounded text-white font-bold text-[14px] transition-all flex items-center justify-center gap-1.5 bg-gradient-to-b from-[#3b82f6] to-[#1d4ed8] shadow-[0_2px_8px_rgba(59,130,246,0.3)] active:translate-y-0.5"
                         title="插入延遲到最後一行"
                       >
-                        <Plus className="w-4 h-4 mr-1" />
+                        <Plus className="w-3.5 h-3.5" />
                         <span>加入 Wait</span>
                       </button>
                     </div>
