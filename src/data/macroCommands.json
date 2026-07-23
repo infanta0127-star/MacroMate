@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ac",
+    "command": "/action",
+    "alias": "/ac",
+    "category": "battle",
+    "categoryName": "戰鬥與技能",
+    "name": "發動技能 / 魔法 / 戰技 (/ac)",
+    "syntax": "/action \"技能名稱\" [目標]  或  /ac \"技能名稱\" [目標]",
+    "description": "發動指定名稱的技能、戰技、魔法或能力。若設定 [目標]，則會優先對該目標施放。",
+    "examples": [
+      "/ac \"即刻詠唱\" <me>",
+      "/ac \"地星\" <gtoff>",
+      "/ac \"天星交錯\" <2>",
+      "/ac \"挑釁\" <t>"
+    ],
+    "tips": "FFXIV 巨集不會排隊等待 GCD 技能。因此連續寫多行 `/ac \"技能\" <t>` 常被用來提高技能判定成功率。"
+  },
+  {
+    "id": "micon",
+    "command": "/macroicon",
+    "alias": "/micon",
+    "category": "macro",
+    "categoryName": "巨集控制",
+    "name": "設定巨集圖示與冷卻狀態 (/micon)",
+    "syntax": "/macroicon \"技能/道具/動作名稱\" [類別]  或  /micon \"技能名稱\"",
+    "description": "將此巨集圖示設定為指定技能、道具或動作的圖示，並同步顯示該技能的冷卻時間與 MP/TP 消耗數值。",
+    "examples": [
+      "/micon \"即刻詠唱\"",
+      "/micon \"地星\"",
+      "/micon \"挑釁\""
+    ],
+    "tips": "必須放在巨集的第一行（或前幾行），才能在技能快捷列上正確顯示冷卻秒數。"
+  },
+  {
+    "id": "merror",
+    "command": "/macroerror",
+    "alias": "/merror, /merror off",
+    "category": "macro",
+    "categoryName": "巨集控制",
+    "name": "切換巨集錯誤訊息顯示 (/merror off)",
+    "syntax": "/macroerror [on|off]  或  /merror [on|off]",
+    "description": "控制當巨集執行失敗（如無效目標、技能還在冷卻中）時，是否要在聊天框與螢幕中央顯示紅字錯誤訊息提醒。常用 `/merror off` 關閉錯誤提醒。",
+    "examples": [
+      "/merror off",
+      "/merror on"
+    ],
+    "tips": "通常放在巨集第 1 或第 2 行，可以防止洗屏與連續多行 `/ac` 嘗試時跳出滿屏紅字與音效提醒。"
+  },
+  {
+    "id": "wait",
+    "command": "/wait",
+    "alias": "<wait.n>, wait",
+    "category": "macro",
+    "categoryName": "巨集控制",
+    "name": "延遲執行秒數 (/wait, <wait.n>)",
+    "syntax": "/wait 秒數  或  /ac \"技能\" <t> <wait.n>",
+    "description": "暫停執行下一行巨集指令指定秒數。也可直接在技能行結尾附加上 `<wait.n>`。",
+    "examples": [
+      "/ac \"即刻詠唱\" <me> <wait.1>",
+      "/ac \"復活\" <t>",
+      "/p 倒數開始！ <wait.3>",
+      "/p 3！ <wait.1>",
+      "/p 2！ <wait.1>",
+      "/p 1！"
+    ],
+    "tips": "FF14 巨集的 wait 秒數在遊戲內會自動無條件進位/四捨五入為整數秒（最小單位 1 秒），寫 `<wait.0.5>` 也會被視為 `<wait.1>`。"
+  },
+  {
+    "id": "macrolock",
+    "command": "/macrolock",
+    "alias": "/mlock",
+    "category": "macro",
+    "categoryName": "巨集控制",
+    "name": "防止巨集被其他巨集中斷 (/macrolock)",
+    "syntax": "/macrolock",
+    "description": "鎖定當前執行的巨集，直到該巨集完全結束前，玩家按下其他巨集都不會打斷目前正在執行的巨集。",
+    "examples": [
+      "/macrolock",
+      "/p 開始執行長時間開場演練巨集...",
+      "/ac \"技能A\" <me> <wait.3>",
+      "/ac \"技能B\" <me>"
+    ],
+    "tips": "適用於長時長的團隊倒數、減傷時間軸提示巨集，防止不小心點到其他巨集導致中斷。"
+  },
+  {
+    "id": "placeholder_t",
+    "command": "<t>",
+    "alias": "<target>, t",
+    "category": "target",
+    "categoryName": "目標代名詞",
+    "name": "當前選取的目標 (<t>)",
+    "syntax": "<t>",
+    "description": "代表玩家當前目標框中選取的敵人或隊友。",
+    "examples": [
+      "/ac \"挑釁\" <t>",
+      "/ac \"單體治療\" <t>",
+      "/p 已對 <t> 使用減傷技能！"
+    ],
+    "tips": "如果當前沒有選取任何目標，該行指令會執行失敗。"
+  },
+  {
+    "id": "placeholder_mo",
+    "command": "<mo>",
+    "alias": "mo, mouseover",
+    "category": "target",
+    "categoryName": "目標代名詞",
+    "name": "滑鼠游標指向目標 (<mo>)",
+    "syntax": "<mo>",
+    "description": "代表玩家滑鼠游標當前浮動指向的角色（可直接指向 3D 畫面中的角色、隊列表名單或焦點目標）。",
+    "examples": [
+      "/ac \"拯救\" <mo>",
+      "/ac \"天星交錯\" <mo>",
+      "/ac \"挑釁\" <mo>"
+    ],
+    "tips": "常配合多行巨集：第一行 `<mo>` 沒指到人時自動流到第二行 `<t>`。"
+  },
+  {
+    "id": "placeholder_me",
+    "command": "<me>",
+    "alias": "me, myself",
+    "category": "target",
+    "categoryName": "目標代名詞",
+    "name": "自己 (<me>)",
+    "syntax": "<me>",
+    "description": "代表玩家自己。",
+    "examples": [
+      "/ac \"即刻詠唱\" <me>",
+      "/ac \"庇護所\" <me>",
+      "/ac \"鐵壁\" <me>"
+    ],
+    "tips": "用於自我強化技能或以自己為中心的地面技能。"
+  },
+  {
+    "id": "placeholder_f",
+    "command": "<f>",
+    "alias": "<focus>, f, focus",
+    "category": "target",
+    "categoryName": "目標代名詞",
+    "name": "焦點目標 (<f>)",
+    "syntax": "<f>",
+    "description": "代表玩家設置的焦點目標（例如主坦或王）。",
+    "examples": [
+      "/ac \"退避\" <f>",
+      "/ac \"沉默\" <f>",
+      "/ac \"天星交錯\" <f>"
+    ],
+    "tips": "副坦可以使用 `<f>` 快速退避給主坦，或是對焦點敵人斷招。"
+  },
+  {
+    "id": "placeholder_tt",
+    "command": "<tt>",
+    "alias": "tt",
+    "category": "target",
+    "categoryName": "目標代名詞",
+    "name": "目標的目標 (<tt>)",
+    "syntax": "<tt>",
+    "description": "代表您當前目標所選取的目標（例如：當您選取 BOSS 時，`<tt>` 即為 BOSS 當前仇恨最高的主坦）。",
+    "examples": [
+      "/ac \"天星交錯\" <tt>",
+      "/ac \"單體護盾\" <tt>",
+      "/ac \"攻擊技能\" <tt>"
+    ],
+    "tips": "補職不用切換目標即可直接幫正在坦王的主坦補血或給予減傷。"
+  },
+  {
+    "id": "placeholder_gtoff",
+    "command": "<gtoff>",
+    "alias": "gtoff, ground",
+    "category": "target",
+    "categoryName": "目標代名詞",
+    "name": "指定地面 (<gtoff>)",
+    "syntax": "<gtoff>",
+    "description": "地面指定技能專用代名詞。會直接在滑鼠游標的位置瞬間施放地面技能，不需手動點擊確認圓圈。",
+    "examples": [
+      "/ac \"地星\" <gtoff>",
+      "/ac \"庇護所\" <gtoff>",
+      "/ac \"野戰治療陣\" <gtoff>"
+    ],
+    "tips": "配合 `/ac \"技能\" <gtoff>` 與 `/ac \"技能\" <t>` 雙行寫法，能大幅提升下圈速度與流暢度。"
+  },
+  {
+    "id": "placeholder_party_num",
+    "command": "<1> ~ <8>",
+    "alias": "<1>, <2>, <3>, <4>, <5>, <6>, <7>, <8>",
+    "category": "target",
+    "categoryName": "目標代名詞",
+    "name": "隊伍成員編號 (<1> ~ <8>)",
+    "syntax": "<1>, <2>, <3>, <4>, <5>, <6>, <7>, <8>",
+    "description": "代表隊員列表中的第 1 到第 8 位隊友。<1> 為自己，<2> 通常預設為另位坦克或副坦/補職。",
+    "examples": [
+      "/ac \"復活\" <2>",
+      "/ac \"退避\" <2>",
+      "/ac \"拯救\" <3>"
+    ],
+    "tips": "高難度副本中常用固定隊員編號快速給予單體減傷或支援技能。"
+  },
+  {
+    "id": "party_chat",
+    "command": "/party",
+    "alias": "/p",
+    "category": "chat",
+    "categoryName": "隊伍與對話",
+    "name": "隊伍頻道發言 (/p)",
+    "syntax": "/party 訊息文字  或  /p 訊息文字",
+    "description": "將訊息發送到當前小隊頻道（Party Chat）。",
+    "examples": [
+      "/p 已對 <t> 使用無敵技能！ <se.1>",
+      "/p 15 秒後爆破，請注意減傷！ <se.6>"
+    ],
+    "tips": "可在訊息末尾加上 `<se.1>` ~ `<se.16>` 發送提示音效給隊友。"
+  },
+  {
+    "id": "echo_chat",
+    "command": "/echo",
+    "alias": "/e",
+    "category": "chat",
+    "categoryName": "隊伍與對話",
+    "name": "默語（僅自己可見） (/e)",
+    "syntax": "/echo 訊息文字  或  /e 訊息文字",
+    "description": "僅在自己的對話框中顯示提示訊息，其他玩家完全看不到。",
+    "examples": [
+      "/e 巨集冷卻倒數完成！",
+      "/e [提醒] 記得補吃食物！ <se.1>"
+    ],
+    "tips": "非常適合用在個人開場冷卻計時、減傷時間軸自我提醒或個人筆記巨集。"
+  },
+  {
+    "id": "alliance_chat",
+    "command": "/alliance",
+    "alias": "/a",
+    "category": "chat",
+    "categoryName": "隊伍與對話",
+    "name": "團隊頻道發言 (/a)",
+    "syntax": "/alliance 訊息文字  或  /a 訊息文字",
+    "description": "將訊息發送到 24 人大型團隊頻道（Alliance Chat）。",
+    "examples": [
+      "/a B 隊坦克負責抓左側小怪！"
+    ],
+    "tips": "僅在 24 人團隊副本中有效。"
+  },
+  {
+    "id": "sound_effect",
+    "command": "<se.1> ~ <se.16>",
+    "alias": "se, sound, <se.1>",
+    "category": "marking_sound",
+    "categoryName": "標記與音效",
+    "name": "對話提示音效 (<se.1> ~ <se.16>)",
+    "syntax": "<se.1> 至 <se.16>",
+    "description": "在隊伍、團隊或默語對話訊息中附帶系統提示音，共有 16 種不同音效。",
+    "examples": [
+      "/p 復活 <t> 中！ <se.1>",
+      "/p 注意爆破機制！ <se.6>"
+    ],
+    "tips": "<se.1> 是最經典的叮叮聲，<se.6> 為警報音。"
+  },
+  {
+    "id": "marking",
+    "command": "/marking",
+    "alias": "/mk",
+    "category": "marking_sound",
+    "categoryName": "標記與音效",
+    "name": "標記目標 (/mk)",
+    "syntax": "/marking 標記名稱 [目標]  或  /mk attack1 <t>",
+    "description": "在指定目標頭頂放置目標標記（如：attack1, attack2, bind1, stop1, square, circle 等）。",
+    "examples": [
+      "/mk attack1 <t>",
+      "/mk stop1 <mo>",
+      "/mk off <t>"
+    ],
+    "tips": "可用 `/mk off <t>` 清除目標頭頂的標記。"
+  },
+  {
+    "id": "fieldmarker",
+    "command": "/fieldmarker",
+    "alias": "/waymark",
+    "category": "marking_sound",
+    "categoryName": "標記與音效",
+    "name": "放置/清除場地標記 (/waymark)",
+    "syntax": "/fieldmarker [A|B|C|D|1|2|3|4|clear]",
+    "description": "快速在場地上放置或清除 A, B, C, D 標記點。",
+    "examples": [
+      "/fieldmarker A",
+      "/fieldmarker clear"
+    ],
+    "tips": "在高難度副本前可用巨集自動切換佈置場地標記。"
+  },
+  {
+    "id": "statusoff",
+    "command": "/statusoff",
+    "alias": "statusoff",
+    "category": "battle",
+    "categoryName": "戰鬥與技能",
+    "name": "點掉/取消自身的增益 Buff (/statusoff)",
+    "syntax": "/statusoff \"Buff名稱\"",
+    "description": "強制手動手主動取消自己身上的某個 Buff 狀態（等同於用滑鼠右鍵點掉狀態欄上的 Buff）。",
+    "examples": [
+      "/statusoff \"超死界\""
+    ],
+    "tips": "常用於暗黑騎士無敵技能「超死界」或點掉變身狀態。"
+  },
+  {
+    "id": "hotbar_copy",
+    "command": "/hotbar copy",
+    "alias": "hotbar",
+    "category": "ui_hotbar",
+    "categoryName": "快捷列與 UI",
+    "name": "複製快捷列版型 (/hotbar copy)",
+    "syntax": "/hotbar copy 職業1 快捷列號 職業2 快捷列號",
+    "description": "將一個職業的快捷列配置完整複製到另一個職業或基礎類別快捷列中。",
+    "examples": [
+      "/hotbar copy 劍術師 1 聖騎士 1",
+      "/hotbar copy 秘術師 1 學者 1"
+    ],
+    "tips": "常用於製作強大的「切換式選單巨集」與 UI 收納盒。"
+  },
+  {
+    "id": "hud",
+    "command": "/hud",
+    "alias": "hud",
+    "category": "ui_hotbar",
+    "categoryName": "快捷列與 UI",
+    "name": "開關 UI 介面元件 (/hud)",
+    "syntax": "/hud 元件名稱 [on|off]",
+    "description": "顯示或隱藏特定的 HUD 介面元素（如小地圖、任務列表、隊員列表等）。",
+    "examples": [
+      "/hud dutyfinder off",
+      "/hud minimap toggle"
+    ],
+    "tips": "適合沉浸式拍攝拍照或簡化戰鬥介面。"
+  }
+]
