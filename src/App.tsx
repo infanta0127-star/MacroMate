@@ -850,6 +850,21 @@ export default function App() {
                     </h3>
                     <div className="flex flex-wrap items-center gap-4 bg-[#1a1a2e] p-2.5 rounded border border-[#3b82f6]/20 shadow-inner w-max">
                       <div className="flex items-center gap-2">
+                        <span className="text-[14px] font-bold text-gray-400 uppercase tracking-wider">提早提醒</span>
+                        <input 
+                          type="number" 
+                          min="0" 
+                          max="60"
+                          value={advanceSec}
+                          onChange={e => setAdvanceSec(Number(e.target.value))}
+                          className="w-12 bg-[#0a0a0f] border border-[#3b82f6]/20 rounded px-1.5 py-0.5 text-center text-[15px] text-[#e2e2e2] font-mono focus:outline-none"
+                        />
+                        <span className="text-[14px] text-gray-500">秒</span>
+                      </div>
+
+                      <div className="h-5 w-[1px] bg-[#3b82f6]/20 hidden sm:block"></div>
+
+                      <div className="flex items-center gap-2">
                         <Clock className="w-4 h-4 text-gray-400 ml-1" />
                         <span className="text-[14px] font-bold text-gray-400 uppercase tracking-wider">延遲</span>
                         <input 
@@ -861,21 +876,6 @@ export default function App() {
                           className="w-12 bg-[#0a0a0f] border border-[#3b82f6]/20 rounded px-1.5 py-0.5 text-center text-[15px] text-[#e2e2e2] font-mono focus:outline-none"
                         />
                         <span className="text-[14px] text-gray-500 mr-2">秒</span>
-                      </div>
-
-                      <div className="h-5 w-[1px] bg-[#3b82f6]/20 hidden sm:block"></div>
-
-                      <div className="flex items-center gap-2">
-                        <span className="text-[14px] font-bold text-gray-400 uppercase tracking-wider">提早提醒</span>
-                        <input 
-                          type="number" 
-                          min="0" 
-                          max="60"
-                          value={advanceSec}
-                          onChange={e => setAdvanceSec(Number(e.target.value))}
-                          className="w-12 bg-[#0a0a0f] border border-[#3b82f6]/20 rounded px-1.5 py-0.5 text-center text-[15px] text-[#e2e2e2] font-mono focus:outline-none"
-                        />
-                        <span className="text-[14px] text-gray-500">秒</span>
                       </div>
 
                       <button 
