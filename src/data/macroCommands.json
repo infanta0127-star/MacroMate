@@ -130,11 +130,14 @@
     "alias": "/cwlinkshell, /cwl",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell 聊天與頻道指令",
-    "syntax": "/cwlinkshell [message]",
-    "description": "向活躍的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不帶訊息地鍵入 /cwlinkshell 或 /cwl 會將預設聊天模式切換到活動的跨世界 Linkshell 頻道。",
-    "examples": [],
-    "tips": ""
+    "name": "跨服通訊貝頻道發言 (/cwl)",
+    "syntax": "/cwlinkshell [訊息]  或  /cwl [訊息]",
+    "description": "向當前啟用的跨服通訊貝（CWLS）所有成員發送訊息，無論成員位於何處。若僅輸入 /cwlinkshell 或 /cwl（不後接訊息），則會將當前預設對話頻道切換為該跨服通訊貝頻道。",
+    "examples": [
+      "/cwl 大家好！",
+      "/cwlinkshell 今日狩獵組隊中！"
+    ],
+    "tips": "CWLS（Cross-World Linkshell，跨服通訊貝）允許跨伺服器玩家進行即時頻道對話。"
   },
   {
     "id": "cwlinkshell1",
@@ -142,10 +145,12 @@
     "alias": "/cwlinkshell1, /cwl1",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell1 聊天與頻道指令",
-    "syntax": "/cwlinkshell1 [message]",
-    "description": "向您在跨世界 Linkshell 插槽 1 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不帶任何訊息輸入 /cwlinkshell1 或 /cwl1 會將預設聊天模式切換為 [Cross-world Linkshell 1]。",
-    "examples": [],
+    "name": "跨服通訊貝 1 頻道發言 (/cwl1)",
+    "syntax": "/cwlinkshell1 [訊息]  或  /cwl1 [訊息]",
+    "description": "向登記於跨服通訊貝（CWLS）欄位 1 的所有成員發送訊息。若僅輸入 /cwlinkshell1 或 /cwl1（不後接訊息），則會將預設對話頻道切換為跨服通訊貝 1 頻道。",
+    "examples": [
+      "/cwl1 隊友們好！"
+    ],
     "tips": ""
   },
   {
@@ -154,9 +159,9 @@
     "alias": "/cwlinkshell2, /cwl2",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell2 聊天與頻道指令",
-    "syntax": "/cwlinkshell2 [message]",
-    "description": "向您在跨世界 Linkshell 插槽 2 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell2 或 /cwl2 會將預設聊天模式切換為 [Cross-world Linkshell 2]。",
+    "name": "跨服通訊貝 2 頻道發言 (/cwl2)",
+    "syntax": "/cwlinkshell2 [訊息]  或  /cwl2 [訊息]",
+    "description": "向登記於跨服通訊貝（CWLS）欄位 2 的所有成員發送訊息。若僅輸入 /cwlinkshell2 或 /cwl2（不後接訊息），則會將預設對話頻道切換為跨服通訊貝 2 頻道。",
     "examples": [],
     "tips": ""
   },
@@ -166,9 +171,9 @@
     "alias": "/cwlinkshell3, /cwl3",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell3 聊天與頻道指令",
-    "syntax": "/cwlinkshell3 [message]",
-    "description": "向您在跨世界 Linkshell 插槽 3 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不帶任何訊息輸入 /cwlinkshell3 或 /cwl3 會將預設聊天模式切換為 [Cross-world Linkshell 3]。",
+    "name": "跨服通訊貝 3 頻道發言 (/cwl3)",
+    "syntax": "/cwlinkshell3 [訊息]  或  /cwl3 [訊息]",
+    "description": "向登記於跨服通訊貝（CWLS）欄位 3 的所有成員發送訊息。若僅輸入 /cwlinkshell3 或 /cwl3（不後接訊息），則會將預設對話頻道切換為跨服通訊貝 3 頻道。",
     "examples": [],
     "tips": ""
   },
@@ -178,9 +183,9 @@
     "alias": "/cwlinkshell4, /cwl4",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell4 聊天與頻道指令",
-    "syntax": "/cwlinkshell4 [message]",
-    "description": "向您在跨世界 Linkshell 插槽 4 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell4 或 /cwl4 會將預設聊天模式切換為 [Cross-world Linkshell 4]。",
+    "name": "跨服通訊貝 4 頻道發言 (/cwl4)",
+    "syntax": "/cwlinkshell4 [訊息]  或  /cwl4 [訊息]",
+    "description": "向登記於跨服通訊貝（CWLS）欄位 4 的所有成員發送訊息。若僅輸入 /cwlinkshell4 或 /cwl4（不後接訊息），則會將預設對話頻道切換為跨服通訊貝 4 頻道。",
     "examples": [],
     "tips": ""
   },
@@ -190,9 +195,9 @@
     "alias": "/cwlinkshell5, /cwl5",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell5 聊天與頻道指令",
-    "syntax": "/cwlinkshell5 [message]",
-    "description": "向您在跨世界 Linkshell 插槽 5 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell5 或 /cwl5 會將預設聊天模式切換為 [Cross-world Linkshell 5]。",
+    "name": "跨服通訊貝 5 頻道發言 (/cwl5)",
+    "syntax": "/cwlinkshell5 [訊息]  或  /cwl5 [訊息]",
+    "description": "向登記於跨服通訊貝（CWLS）欄位 5 的所有成員發送訊息。若僅輸入 /cwlinkshell5 或 /cwl5（不後接訊息），則會將預設對話頻道切換為跨服通訊貝 5 頻道。",
     "examples": [],
     "tips": ""
   },
@@ -202,9 +207,9 @@
     "alias": "/cwlinkshell6, /cwl6",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell6 聊天與頻道指令",
-    "syntax": "/cwlinkshell6 [message]",
-    "description": "向您在跨世界 Linkshell 插槽 6 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell6 或 /cwl6 會將預設聊天模式切換為 [Cross-world Linkshell 6]。",
+    "name": "跨服通訊貝 6 頻道發言 (/cwl6)",
+    "syntax": "/cwlinkshell6 [訊息]  或  /cwl6 [訊息]",
+    "description": "向登記於跨服通訊貝（CWLS）欄位 6 的所有成員發送訊息。若僅輸入 /cwlinkshell6 或 /cwl6（不後接訊息），則會將預設對話頻道切換為跨服通訊貝 6 頻道。",
     "examples": [],
     "tips": ""
   },
@@ -214,9 +219,9 @@
     "alias": "/cwlinkshell7, /cwl7",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell7 聊天與頻道指令",
-    "syntax": "/cwlinkshell7 [message]",
-    "description": "向您在跨世界 Linkshell 插槽 7 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell7 或 /cwl7 會將預設聊天模式切換為 [Cross-world Linkshell 7]。",
+    "name": "跨服通訊貝 7 頻道發言 (/cwl7)",
+    "syntax": "/cwlinkshell7 [訊息]  或  /cwl7 [訊息]",
+    "description": "向登記於跨服通訊貝（CWLS）欄位 7 的所有成員發送訊息。若僅輸入 /cwlinkshell7 或 /cwl7（不後接訊息），則會將預設對話頻道切換為跨服通訊貝 7 頻道。",
     "examples": [],
     "tips": ""
   },
@@ -226,9 +231,9 @@
     "alias": "/cwlinkshell8, /cwl8",
     "category": "chat",
     "categoryName": "聊天與頻道",
-    "name": "/cwlinkshell8 聊天與頻道指令",
-    "syntax": "/cwlinkshell8 [message]",
-    "description": "向您在跨世界 Linkshell 插槽 8 中註冊的跨世界 Linkshell 的所有成員發送訊息，無論他們位於何處。不含訊息輸入 /cwlinkshell8 或 /cwl8 會將預設聊天模式切換為 [Cross-world Linkshell 8]。",
+    "name": "跨服通訊貝 8 頻道發言 (/cwl8)",
+    "syntax": "/cwlinkshell8 [訊息]  或  /cwl8 [訊息]",
+    "description": "向登記於跨服通訊貝（CWLS）欄位 8 的所有成員發送訊息。若僅輸入 /cwlinkshell8 或 /cwl8（不後接訊息），則會將預設對話頻道切換為跨服通訊貝 8 頻道。",
     "examples": [],
     "tips": ""
   },
@@ -702,11 +707,14 @@
     "alias": "/companionaction, /cac",
     "category": "hotbar",
     "categoryName": "快捷列與熱鍵",
-    "name": "/companionaction 快捷列與熱鍵指令",
-    "syntax": "/cac \"companion action name\"",
-    "description": "使用伴隨動作。無法指定伴隨操作的目標。這不能與您尚未學會的同伴動作一起使用，或當受到其他因素限制時。 >>範例：/cac「自由姿態」（同伴將進入自由姿態。）",
-    "examples": [],
-    "tips": ""
+    "name": "搭檔技能 (/companionaction, /cac)",
+    "syntax": "/companionaction \"搭檔技能名稱\"  或  /cac \"搭檔技能名稱\"",
+    "description": "命令搭檔（陸行鳥夥伴）發動指定的搭檔技能。不需指定目標。若身處無法使用技能的環境、指定了搭檔技能以外的招式、或是尚未學會該搭檔技能，則命令無效。",
+    "examples": [
+      "/companionaction \"自由戰術\"",
+      "/cac \"防禦戰術\""
+    ],
+    "tips": "常用於陸行鳥夥伴的戰術模式切換，例如「自由戰術」、「攻擊戰術」、「防禦戰術」、「回復戰術」。"
   },
   {
     "id": "petaction",
