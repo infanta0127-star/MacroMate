@@ -757,7 +757,7 @@ export default function App() {
                 <div className="flex justify-between items-center mb-3">
                   <div>
                     <div className="flex items-center gap-1.5 relative">
-                      <h2 className="text-[#c5a059] text-[15px] font-bold uppercase tracking-tighter">Macro Editor (巨集編輯器)</h2>
+                      <h2 className="text-[#c5a059] text-[15px] font-bold uppercase tracking-tighter">巨集編輯器</h2>
                       <div className="relative group">
                         <button
                           type="button"
